@@ -1,0 +1,11 @@
+{
+  "text": "今天看，vivo X五百。它想做的很直接，把电影感，放进我们每天的生活。",
+  "voice": "zh-CN-YunxiNeural",
+  "generic": true,
+  "impersonation": false,
+  "rate": 20,
+  "pitch": "-2Hz",
+  "boundary": "WordBoundary",
+  "sha256": "2e0cfdb9e84fc487e3406e68eb52743d66fe41be5474e1eaff11b5ee14c9827c",
+  "srtSha256": "b5b44c4e5006a25fcd95190eb393642195e5368eb52c6fbb583fc8321381807d"
+}

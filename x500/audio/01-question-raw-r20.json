@@ -1,0 +1,11 @@
+{
+  "text": "朋友们，买手机，难道就是买一张参数表吗？",
+  "voice": "zh-CN-YunxiNeural",
+  "generic": true,
+  "impersonation": false,
+  "rate": 20,
+  "pitch": "-2Hz",
+  "boundary": "WordBoundary",
+  "sha256": "0ccd13fda84c3fbcea71eaf5a84d74b03bc3d8d1b8667fc9c429899750d1ad70",
+  "srtSha256": "952141f54577be6c46c4c4988cb0ad54738426f65001d71a76547a576450ab09"
+}

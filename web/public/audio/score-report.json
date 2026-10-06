@@ -1,0 +1,217 @@
+{
+  "title": "一念 / Genesis",
+  "bpm": 128,
+  "beatSeconds": 0.46875,
+  "duration": 30,
+  "sampleRate": 48000,
+  "composition": {
+    "seed": 1196379204,
+    "events": {
+      "kick": 46,
+      "snare": 29,
+      "hat": 167,
+      "bass": 53,
+      "pad": 51,
+      "pluck": 122,
+      "impact": 3
+    },
+    "preGainPeak": 1.4160456482247363,
+    "synthesisGain": 0.6073250541592089,
+    "source": "All instruments, percussion, impacts, and ambience synthesized in Node DSP; no samples.",
+    "arrangement": [
+      {
+        "beats": [
+          0,
+          8
+        ],
+        "role": "D-minor drone, sparse glass motif"
+      },
+      {
+        "beats": [
+          8,
+          16
+        ],
+        "role": "Accelerating hats, snare roll, noise/pitch riser"
+      },
+      {
+        "beats": [
+          16,
+          32
+        ],
+        "role": "Syncopated drop: Dm(add9), Bbmaj7, Fmaj9, C/D"
+      },
+      {
+        "beats": [
+          32,
+          48
+        ],
+        "role": "Second drop: denser sixteenth arp, upper motif, fuller chords"
+      },
+      {
+        "beats": [
+          48,
+          50
+        ],
+        "role": "Short cinematic decay, then silence; no new notes"
+      },
+      {
+        "beats": [
+          50,
+          64
+        ],
+        "role": "Final impact, Dm–Bb–F–C/D–Dm cadence; fade 29.6–30s"
+      }
+    ]
+  },
+  "voices": [
+    {
+      "at": 0.65,
+      "end": 3.4,
+      "text": "起初，什么也没有。",
+      "file": "voice-01.mp3",
+      "voice": "zh-CN-YunxiNeural (edge-tts; rate=-12%; pitch=-12Hz)",
+      "tempo": 1,
+      "duration": 1.752,
+      "audibleEndUpperBound": 2.515,
+      "offsetSamples": 31200,
+      "bytes": 35564,
+      "sha256": "0e67bb077be444f6552ee3886790f321bfdc62018cb2fa02a2a635174bd65031"
+    },
+    {
+      "at": 4.1,
+      "end": 7.1,
+      "text": "直到，一个念头。",
+      "file": "voice-02.mp3",
+      "voice": "zh-CN-YunxiNeural (edge-tts; rate=-12%; pitch=-12Hz)",
+      "tempo": 1,
+      "duration": 1.8,
+      "audibleEndUpperBound": 6.013,
+      "offsetSamples": 196800,
+      "bytes": 36524,
+      "sha256": "c1c6cfb59f09f94cdd4f44f6288b0aeaef2f7bda552b8130a8e0b4c1a3e7aa50"
+    },
+    {
+      "at": 11.4,
+      "end": 13.6,
+      "text": "打破规则。",
+      "file": "voice-03.mp3",
+      "voice": "zh-CN-YunxiNeural (edge-tts; rate=-12%; pitch=-12Hz)",
+      "tempo": 1,
+      "duration": 1.104,
+      "audibleEndUpperBound": 12.617,
+      "offsetSamples": 547200,
+      "bytes": 22604,
+      "sha256": "043ef017aa7efb1085b7ad17314365f7b8b14b5a9eb14de19412b2c0528ae504"
+    },
+    {
+      "at": 19.7,
+      "end": 21.9,
+      "text": "越过想象。",
+      "file": "voice-04.mp3",
+      "voice": "zh-CN-YunxiNeural (edge-tts; rate=-12%; pitch=-12Hz)",
+      "tempo": 1,
+      "duration": 0.864,
+      "audibleEndUpperBound": 20.677,
+      "offsetSamples": 945600,
+      "bytes": 17804,
+      "sha256": "9069a652ed35fd1199745bc71229ade397356ab4cd9ab18d059df8b2558812f4"
+    },
+    {
+      "at": 26.15,
+      "end": 29.15,
+      "text": "一念，万物。",
+      "file": "voice-05.mp3",
+      "voice": "zh-CN-YunxiNeural (edge-tts; rate=-12%; pitch=-12Hz)",
+      "tempo": 1,
+      "duration": 1.608,
+      "audibleEndUpperBound": 27.871,
+      "offsetSamples": 1255200,
+      "bytes": 32684,
+      "sha256": "f2a92e1a187b26eb16996d21cef7eb6b5f1743321116f68ff07f47d0130a2730"
+    }
+  ],
+  "voiceVerification": [
+    {
+      "file": "voice-01.mp3",
+      "duration": 1.752,
+      "peakDb": -4.883564839300208,
+      "rmsDb": -19.366621151266113,
+      "endMargin": 0.885
+    },
+    {
+      "file": "voice-02.mp3",
+      "duration": 1.8,
+      "peakDb": -3.4467468410160924,
+      "rmsDb": -20.51613758492621,
+      "endMargin": 1.087
+    },
+    {
+      "file": "voice-03.mp3",
+      "duration": 1.104,
+      "peakDb": -3.4448962095174274,
+      "rmsDb": -20.13880070330726,
+      "endMargin": 0.9829999999999992
+    },
+    {
+      "file": "voice-04.mp3",
+      "duration": 0.864,
+      "peakDb": -4.406787178694302,
+      "rmsDb": -17.259962536244252,
+      "endMargin": 1.2229999999999994
+    },
+    {
+      "file": "voice-05.mp3",
+      "duration": 1.608,
+      "peakDb": -3.4465412813633045,
+      "rmsDb": -19.082043308710798,
+      "endMargin": 1.279
+    }
+  ],
+  "master": {
+    "codec_name": "pcm_s24le",
+    "sample_rate": "48000",
+    "channels": 2,
+    "bits_per_sample": 24,
+    "duration": 30,
+    "bytes": 8640102,
+    "integratedLUFS": -15.21,
+    "truePeakDbTP": -1.52,
+    "loudnessRangeLU": 5.5,
+    "frames": 1440000,
+    "peakDb": -1.5918501978076232,
+    "rmsDb": -16.826943769913775,
+    "clipped": 0,
+    "nonfinite": 0,
+    "dc": -0.0000657823180158933,
+    "correlation": 0.965833283928013,
+    "sideRmsDb": -34.4910243558961,
+    "gap": {
+      "rmsDb": -240,
+      "peakDb": -240
+    },
+    "firstDrop": {
+      "rmsDb": -12.43863906340225,
+      "peakDb": -1.6870330822456285
+    },
+    "secondDrop": {
+      "rmsDb": -12.32795676120644,
+      "peakDb": -1.7307750812785585
+    },
+    "finalImpact": {
+      "rmsDb": -13.81091433731549,
+      "peakDb": -1.737989066781469
+    },
+    "finalFade": {
+      "rmsDb": -143.1910602337609,
+      "peakDb": -138.47379800543135
+    },
+    "intro": {
+      "rmsDb": -25.351766755391203,
+      "peakDb": -15.996614980274359
+    }
+  },
+  "masterSha256": "91ad303d41c301690338d956a880dd5dea0af73675d24215b38480a647358e69",
+  "narrationProcessing": "75 Hz high-pass, 8.5 kHz low-pass, 2.7:1 compression, -18 LUFS clips; subtle 37/71/113 ms room in master.",
+  "musicProcessing": "Kick sidechain, stereo damped delay/reverb; speech-window duck -6.7 to -9.4 dB; two-pass loudness normalization.",
+  "masterProcessing": "Gentle parallel bus compression; two-pass -15 LUFS / -1.6 dBTP target; 24-bit stereo PCM, final fade."
+}

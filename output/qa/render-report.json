@@ -1,0 +1,157 @@
+{
+  "browser": "154.0.8037.97",
+  "errors": [],
+  "noOverflow": true,
+  "frames": [
+    {
+      "time": 1.5,
+      "filename": "frame-1-5.png",
+      "state": {
+        "time": 1.5,
+        "playing": false,
+        "audioDuration": 30,
+        "audioState": "running",
+        "renderMs": 27.100000023841858,
+        "frames": 2,
+        "width": 1920,
+        "height": 1080,
+        "mode": "live"
+      }
+    },
+    {
+      "time": 5.25,
+      "filename": "frame-5-25.png",
+      "state": {
+        "time": 5.25,
+        "playing": false,
+        "audioDuration": 30,
+        "audioState": "running",
+        "renderMs": 14.100000023841858,
+        "frames": 3,
+        "width": 1920,
+        "height": 1080,
+        "mode": "live"
+      }
+    },
+    {
+      "time": 8.5,
+      "filename": "frame-8-5.png",
+      "state": {
+        "time": 8.5,
+        "playing": false,
+        "audioDuration": 30,
+        "audioState": "running",
+        "renderMs": 149.10000002384186,
+        "frames": 4,
+        "width": 1920,
+        "height": 1080,
+        "mode": "live"
+      }
+    },
+    {
+      "time": 12.5,
+      "filename": "frame-12-5.png",
+      "state": {
+        "time": 12.5,
+        "playing": false,
+        "audioDuration": 30,
+        "audioState": "running",
+        "renderMs": 40.69999998807907,
+        "frames": 5,
+        "width": 1920,
+        "height": 1080,
+        "mode": "live"
+      }
+    },
+    {
+      "time": 16.5,
+      "filename": "frame-16-5.png",
+      "state": {
+        "time": 16.5,
+        "playing": false,
+        "audioDuration": 30,
+        "audioState": "running",
+        "renderMs": 9.800000011920929,
+        "frames": 6,
+        "width": 1920,
+        "height": 1080,
+        "mode": "live"
+      }
+    },
+    {
+      "time": 20.25,
+      "filename": "frame-20-25.png",
+      "state": {
+        "time": 20.25,
+        "playing": false,
+        "audioDuration": 30,
+        "audioState": "running",
+        "renderMs": 5.699999988079071,
+        "frames": 7,
+        "width": 1920,
+        "height": 1080,
+        "mode": "live"
+      }
+    },
+    {
+      "time": 23,
+      "filename": "frame-23.png",
+      "state": {
+        "time": 23,
+        "playing": false,
+        "audioDuration": 30,
+        "audioState": "running",
+        "renderMs": 3.399999976158142,
+        "frames": 8,
+        "width": 1920,
+        "height": 1080,
+        "mode": "live"
+      }
+    },
+    {
+      "time": 24.5,
+      "filename": "frame-24-5.png",
+      "state": {
+        "time": 24.5,
+        "playing": false,
+        "audioDuration": 30,
+        "audioState": "running",
+        "renderMs": 8.900000035762787,
+        "frames": 9,
+        "width": 1920,
+        "height": 1080,
+        "mode": "live"
+      }
+    },
+    {
+      "time": 27.5,
+      "filename": "frame-27-5.png",
+      "state": {
+        "time": 27.5,
+        "playing": false,
+        "audioDuration": 30,
+        "audioState": "running",
+        "renderMs": 4.300000011920929,
+        "frames": 10,
+        "width": 1920,
+        "height": 1080,
+        "mode": "live"
+      }
+    },
+    {
+      "time": 29.8,
+      "filename": "frame-29-8.png",
+      "state": {
+        "time": 29.8,
+        "playing": false,
+        "audioDuration": 30,
+        "audioState": "running",
+        "renderMs": 2.5,
+        "frames": 11,
+        "width": 1920,
+        "height": 1080,
+        "mode": "live"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "result": "PASS",
+  "browser": "154.0.8037.97",
+  "initial": {
+    "time": 0,
+    "playing": false,
+    "audioDuration": 30,
+    "audioState": "suspended",
+    "renderMs": 0,
+    "frames": 0,
+    "width": 1920,
+    "height": 1080,
+    "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver) / Canvas 2D vector path",
+    "elapsedMs": 0,
+    "fps": 0
+  },
+  "fullscreen": {
+    "width": 1440,
+    "height": 810,
+    "ratio": 1.7777777777777777,
+    "controls": "hidden"
+  },
+  "playback": {
+    "time": 30,
+    "playing": false,
+    "audioDuration": 30,
+    "audioState": "running",
+    "renderMs": 2.699999988079071,
+    "frames": 590,
+    "width": 1920,
+    "height": 1080,
+    "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver) / Canvas 2D vector path",
+    "elapsedMs": 30004.5,
+    "fps": 19.6637171091003
+  },
+  "checks": [
+    "30-second complete playback",
+    "no recorded video element",
+    "no export button",
+    "pause clock freezes",
+    "chapter seek",
+    "mute toggle",
+    "range keyboard end/home",
+    "native fullscreen",
+    "16:9 composition",
+    "controls auto-hide",
+    "replay after exact end",
+    "credits dialog",
+    "mobile no overflow",
+    "cinema window",
+    "all-local assets"
+  ],
+  "errors": [],
+  "externalRequests": []
+}

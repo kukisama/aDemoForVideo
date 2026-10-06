@@ -1,0 +1,11 @@
+{
+  "text": "五千万主摄，六千四百万蔡司APO长焦，再加三点一倍光学变焦。远处的风景，不必留在远处。",
+  "voice": "zh-CN-YunxiNeural",
+  "generic": true,
+  "impersonation": false,
+  "rate": 20,
+  "pitch": "-2Hz",
+  "boundary": "WordBoundary",
+  "sha256": "9826d9f2148b3269742e6c4e87f908944c7c4b502c5e3afddb8e2dd765091be9",
+  "srtSha256": "f48f5fd5d7144a6ab72350bdddc97b3a85e3d7985945ac0793712f2f7b46a128"
+}

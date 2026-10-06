@@ -1,0 +1,11 @@
+{
+  "text": "六点五九英寸屏幕，冷雕玻璃，航空铝中框。你看，质感，不一定要靠张扬。",
+  "voice": "zh-CN-YunxiNeural",
+  "generic": true,
+  "impersonation": false,
+  "rate": 20,
+  "pitch": "-2Hz",
+  "boundary": "WordBoundary",
+  "sha256": "0ea5a5cecf4775d3f69d59662a9b16f226c13bb45ccfaeed775213285f0811af",
+  "srtSha256": "4592f4f95e8e3a6af2aa7090c0576a063ac72b1954ca756e5e88f5e3180ed6ab"
+}

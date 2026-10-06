@@ -1,0 +1,11 @@
+{
+  "text": "七千五百毫安时，九十瓦有线，四十瓦无线。出去拍照，别让电量，抢了风景的戏。",
+  "voice": "zh-CN-YunxiNeural",
+  "generic": true,
+  "impersonation": false,
+  "rate": 20,
+  "pitch": "-2Hz",
+  "boundary": "WordBoundary",
+  "sha256": "0f3c64d82481543416011823361720b06126e248413f7b044f0d3864febff293",
+  "srtSha256": "9d663785cb8cecacc4fe137f32eafb40196b0c77bffbed68dd43e01d7379a22e"
+}

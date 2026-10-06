@@ -1,0 +1,11 @@
+{
+  "text": "不止照片。四K，一百二十帧慢动作。普通的一瞬间，换个速度，就有了电影的味道。",
+  "voice": "zh-CN-YunxiNeural",
+  "generic": true,
+  "impersonation": false,
+  "rate": 20,
+  "pitch": "-2Hz",
+  "boundary": "WordBoundary",
+  "sha256": "f3e89c9c4b16b9bf4594014992203bc09920d45e66094773683ab8c76243253d",
+  "srtSha256": "aced6a23994e17f2d2983aca51e5882e4a6819b7eaaf3ec5042b50492487cc83"
+}

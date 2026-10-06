@@ -1,0 +1,51 @@
+.intro-actions{display:flex;align-items:center;gap:24px}
+.cinema-button{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 20px;background:var(--orange);color:#18130f;border-radius:3px;font-size:12px;font-weight:500;white-space:nowrap}
+.cinema-button:hover:not(:disabled){background:#ffad6b}
+.intro-actions .about-button{padding-left:0}
+.listening-note{font-size:10px;letter-spacing:1px;color:var(--muted)}
+.below-player .engine-state{text-align:left}
+.transport .fullscreen-button{width:auto;gap:8px;padding:0 3px;flex-shrink:0;font-size:10px;white-space:nowrap}
+.transport .secondary{display:inline-flex}
+.timeline-wrap{min-width:30px}
+
+/* Both native-resolution text and the GPU image share one 16:9 display area.
+	 !important overrides Three.js' inline canvas size, not its render resolution. */
+.player .screen{position:relative;aspect-ratio:16/9;isolation:isolate;background:#030405;overflow:hidden}
+.player .screen canvas{position:absolute;inset:0;display:block;width:100%!important;height:100%!important;max-width:none;max-height:none;object-fit:contain;pointer-events:none}
+.player .screen canvas.gpu-film{z-index:0}
+.player .screen canvas#film{z-index:1;background:transparent}
+.screen-badge{z-index:2;pointer-events:none}
+.start-overlay{z-index:3}
+.player.has-started .screen-badge{display:none}
+.screen-error{position:absolute;z-index:4;inset:12% 8% auto;margin:0;padding:16px 20px;border:1px solid #ff943f66;background:#100d0bed;color:#ffd4b2;font-size:12px;line-height:1.8;overflow-wrap:anywhere;max-height:45%;overflow:auto}
+
+/* ?cinema keeps the same composition inside a normal browser window. */
+.cinema body{background:#000;overflow:hidden}
+.cinema .studio{max-width:none;width:100%;height:100vh;height:100dvh;margin:0;padding:0}
+.cinema .masthead,.cinema .intro,.cinema .below-player,.cinema footer{display:none}
+.player:fullscreen,.cinema .player{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:100vh;height:100dvh;margin:0;padding:0;border:0;border-radius:0;background:#000;box-shadow:none;overflow:hidden}
+.player:fullscreen::backdrop{background:#000}
+.player:fullscreen .screen,.cinema .player .screen{flex:0 0 auto;width:min(100vw,177.777778vh);width:min(100vw,177.777778dvh);height:auto;max-width:none;max-height:none;aspect-ratio:16/9;margin:0}
+.player:fullscreen .screen canvas,.cinema .player .screen canvas{inset:0;width:100%!important;height:100%!important;object-fit:contain}
+.player:fullscreen .chapters,.cinema .player .chapters,.player:fullscreen .screen-badge,.cinema .player .screen-badge{display:none}
+.player:fullscreen .transport,.cinema .player .transport{position:absolute;z-index:5;left:50%;bottom:max(18px,env(safe-area-inset-bottom));transform:translateX(-50%);display:flex;width:min(880px,calc(100% - 32px));height:64px;padding:0 22px;gap:16px;border:1px solid #ffffff24;border-radius:12px;background:#0b0d0de8;backdrop-filter:blur(12px);box-shadow:0 10px 40px #0005;opacity:1;visibility:visible;transition:opacity .2s ease,visibility .2s ease}
+.player:fullscreen.controls-hidden,.cinema .player.controls-hidden{cursor:none}
+.player:fullscreen.controls-hidden .transport,.cinema .player.controls-hidden .transport{opacity:0;visibility:hidden;pointer-events:none}
+
+@media(max-width:1000px){
+	.intro-actions{gap:16px}
+	.cinema-button{padding:12px 15px}
+}
+@media(max-width:640px){
+	.intro-actions{flex-direction:column;align-items:flex-end;gap:9px}
+	.cinema-button{padding:9px 11px;font-size:10px;gap:7px}
+	.cinema-button svg{width:14px;height:14px}
+	.intro-actions .about-button{padding-top:0}
+	.transport .fullscreen-button{font-size:8px;gap:4px}
+	.listening-note{font-size:8px}
+	.screen-error{padding:8px 10px;font-size:10px}
+	.player:fullscreen .transport,.cinema .player .transport{height:54px;width:calc(100% - 20px);padding:0 12px;gap:9px;bottom:max(10px,env(safe-area-inset-bottom))}
+}
+@media(prefers-reduced-motion:reduce){
+	.player:fullscreen .transport,.cinema .player .transport{transition:none}
+}

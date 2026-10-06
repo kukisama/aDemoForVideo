@@ -1,0 +1,29 @@
+{
+  "name": "genesis-code-cinema",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/timeline.test.mjs",
+    "test:web": "node scripts/web-test.mjs --standalone",
+    "test:audio": "node scripts/audio-test.mjs",
+    "score": "node scripts/score.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/three": "^0.186.0",
+    "ffprobe-static": "^3.1.0",
+    "playwright": "^1.63.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "@fontsource/anton": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/space-grotesk": "^5.3.0",
+    "three": "^0.186.1"
+  }
+}

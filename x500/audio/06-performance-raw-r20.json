@@ -1,0 +1,11 @@
+{
+  "text": "再看底子，三纳米天玑九千六百M，搭配OriginOS七。把复杂交给技术，把顺手留给日常。",
+  "voice": "zh-CN-YunxiNeural",
+  "generic": true,
+  "impersonation": false,
+  "rate": 20,
+  "pitch": "-2Hz",
+  "boundary": "WordBoundary",
+  "sha256": "84fade1bd930672a90712bdb493b4e22957b61c301d27b259f0f66fab87f3f6c",
+  "srtSha256": "513b229b02c5dcee92dc81f07ad3c0928113549e950d082859f0213a9848fa2d"
+}

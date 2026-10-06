@@ -1,0 +1,563 @@
+{
+  "cues": [
+    {
+      "start": 0.46,
+      "end": 4.064,
+      "text": "朋友们，买手机，难道就是买一张参数表吗？"
+    },
+    {
+      "start": 6.21,
+      "end": 9.028021,
+      "text": "今天看，vivo X五百。它想做的很直接，"
+    },
+    {
+      "start": 9.208021,
+      "end": 11.096021,
+      "text": "把电影感，放进我们每天的生活。"
+    },
+    {
+      "start": 13.16,
+      "end": 14.598,
+      "text": "六点五九英寸屏幕，"
+    },
+    {
+      "start": 14.778,
+      "end": 16.478,
+      "text": "冷雕玻璃，航空铝中框。"
+    },
+    {
+      "start": 16.658021,
+      "end": 18.590021,
+      "text": "你看，质感，不一定要靠张扬。"
+    },
+    {
+      "start": 20.16,
+      "end": 23.108,
+      "text": "五千万主摄，六千四百万蔡司APO长焦，"
+    },
+    {
+      "start": 23.288,
+      "end": 25.028,
+      "text": "再加三点一倍光学变焦。"
+    },
+    {
+      "start": 25.208,
+      "end": 27.065,
+      "text": "远处的风景，不必留在远处。"
+    },
+    {
+      "start": 29.16,
+      "end": 31.800042,
+      "text": "不止照片。四K，一百二十帧慢动作。"
+    },
+    {
+      "start": 31.980042,
+      "end": 33.709042,
+      "text": "普通的一瞬间，换个速度，"
+    },
+    {
+      "start": 33.845042,
+      "end": 34.741042,
+      "text": "就有了电影的味道。"
+    },
+    {
+      "start": 37.16,
+      "end": 41.059,
+      "text": "再看底子，三纳米天玑九千六百M，搭配OriginOS七。"
+    },
+    {
+      "start": 41.239,
+      "end": 43.659,
+      "text": "把复杂交给技术，把顺手留给日常。"
+    },
+    {
+      "start": 45.16,
+      "end": 47.191,
+      "text": "七千五百毫安时，九十瓦有线，"
+    },
+    {
+      "start": 47.371,
+      "end": 48.998,
+      "text": "四十瓦无线。出去拍照，"
+    },
+    {
+      "start": 49.207,
+      "end": 50.769,
+      "text": "别让电量，抢了风景的戏。"
+    },
+    {
+      "start": 52.156921,
+      "end": 54.471698,
+      "text": "最后看价格。十二加二百五十六G，"
+    },
+    {
+      "start": 54.659536,
+      "end": 56.71817,
+      "text": "官方建议价，五千四百九十九元。"
+    },
+    {
+      "start": 56.888932,
+      "end": 59.529106,
+      "text": "vivo X五百，让日常，自带电影感。"
+    }
+  ],
+  "voices": [
+    {
+      "at": 0.4,
+      "end": 5.7,
+      "text": "朋友们，买手机，难道就是买一张参数表吗？",
+      "file": "01-question.mp3",
+      "voice": "zh-CN-YunxiNeural",
+      "generic": true,
+      "impersonation": false,
+      "rate": "+20%",
+      "pitch": "-2Hz",
+      "tempo": 1,
+      "chineseCharacters": 17,
+      "textCharacters": 20,
+      "decodedDuration": 3.742,
+      "audibleEnd": 4.142,
+      "endMargin": 1.558,
+      "chineseCharactersPerSecond": 4.543025,
+      "source": "01-question-raw-r20.mp3",
+      "srt": "01-question-raw-r20.srt",
+      "sourceDecodedDuration": 4.416,
+      "removedSilence": 0.672,
+      "cuts": [
+        {
+          "start": 0,
+          "end": 0.031,
+          "removed": 0.031
+        },
+        {
+          "start": 3.775,
+          "end": 4.416,
+          "removed": 0.641
+        }
+      ],
+      "timingSource": "edge-tts WordBoundary SRT; exact silence-deletion map, then divide by atempo; no equal interpolation",
+      "sha256": "d5687b4f0f5266dcef959b9254a2142ae2984ff60c3af23fca894876bc100294",
+      "sourceSha256": "0ccd13fda84c3fbcea71eaf5a84d74b03bc3d8d1b8667fc9c429899750d1ad70",
+      "srtSha256": "952141f54577be6c46c4c4988cb0ad54738426f65001d71a76547a576450ab09",
+      "peakDbFS": -3.8545916844383115,
+      "rmsDbFS": -19.522652463943256,
+      "clipped": 0,
+      "nonfinite": 0
+    },
+    {
+      "at": 6.15,
+      "end": 12.7,
+      "text": "今天看，vivo X五百。它想做的很直接，把电影感，放进我们每天的生活。",
+      "file": "02-reveal.mp3",
+      "voice": "zh-CN-YunxiNeural",
+      "generic": true,
+      "impersonation": false,
+      "rate": "+20%",
+      "pitch": "-2Hz",
+      "tempo": 1,
+      "chineseCharacters": 25,
+      "textCharacters": 36,
+      "decodedDuration": 5.024979,
+      "audibleEnd": 11.174979,
+      "endMargin": 1.525021,
+      "chineseCharactersPerSecond": 4.975145,
+      "source": "02-reveal-raw-r20.mp3",
+      "srt": "02-reveal-raw-r20.srt",
+      "sourceDecodedDuration": 6.36,
+      "removedSilence": 1.333979,
+      "cuts": [
+        {
+          "start": 0,
+          "end": 0.031,
+          "removed": 0.031
+        },
+        {
+          "start": 0.6710208333333333,
+          "end": 0.793,
+          "removed": 0.12197916666666667
+        },
+        {
+          "start": 1.994,
+          "end": 2.285,
+          "removed": 0.291
+        },
+        {
+          "start": 3.412,
+          "end": 3.493,
+          "removed": 0.081
+        },
+        {
+          "start": 4.267,
+          "end": 4.41,
+          "removed": 0.143
+        },
+        {
+          "start": 5.694,
+          "end": 6.36,
+          "removed": 0.666
+        }
+      ],
+      "timingSource": "edge-tts WordBoundary SRT; exact silence-deletion map, then divide by atempo; no equal interpolation",
+      "sha256": "79ed119cfad324174caa4fe43b6b42da63d3c7f76a27a5e1d7c9cee4d56f30cf",
+      "sourceSha256": "2e0cfdb9e84fc487e3406e68eb52743d66fe41be5474e1eaff11b5ee14c9827c",
+      "srtSha256": "b5b44c4e5006a25fcd95190eb393642195e5368eb52c6fbb583fc8321381807d",
+      "peakDbFS": -3.9236332778299943,
+      "rmsDbFS": -19.422993060239676,
+      "clipped": 0,
+      "nonfinite": 0
+    },
+    {
+      "at": 13.1,
+      "end": 19.7,
+      "text": "六点五九英寸屏幕，冷雕玻璃，航空铝中框。你看，质感，不一定要靠张扬。",
+      "file": "03-design.mp3",
+      "voice": "zh-CN-YunxiNeural",
+      "generic": true,
+      "impersonation": false,
+      "rate": "+20%",
+      "pitch": "-2Hz",
+      "tempo": 1,
+      "chineseCharacters": 28,
+      "textCharacters": 34,
+      "decodedDuration": 5.568,
+      "audibleEnd": 18.668,
+      "endMargin": 1.032,
+      "chineseCharactersPerSecond": 5.028736,
+      "source": "03-design-raw-r20.mp3",
+      "srt": "03-design-raw-r20.srt",
+      "sourceDecodedDuration": 7.152,
+      "removedSilence": 1.581979,
+      "cuts": [
+        {
+          "start": 0,
+          "end": 0.031,
+          "removed": 0.031
+        },
+        {
+          "start": 1.619,
+          "end": 1.71,
+          "removed": 0.091
+        },
+        {
+          "start": 2.535,
+          "end": 2.605,
+          "removed": 0.07
+        },
+        {
+          "start": 3.66,
+          "end": 3.9409791666666667,
+          "removed": 0.28097916666666667
+        },
+        {
+          "start": 4.506,
+          "end": 4.66,
+          "removed": 0.154
+        },
+        {
+          "start": 5.215,
+          "end": 5.493,
+          "removed": 0.278
+        },
+        {
+          "start": 6.475,
+          "end": 7.152,
+          "removed": 0.677
+        }
+      ],
+      "timingSource": "edge-tts WordBoundary SRT; exact silence-deletion map, then divide by atempo; no equal interpolation",
+      "sha256": "6d03d5a1bf8fb927c58b1169e1dc858675e5c745e4300751da1c16ec604e139d",
+      "sourceSha256": "0ea5a5cecf4775d3f69d59662a9b16f226c13bb45ccfaeed775213285f0811af",
+      "srtSha256": "4592f4f95e8e3a6af2aa7090c0576a063ac72b1954ca756e5e88f5e3180ed6ab",
+      "peakDbFS": -3.9551686258876644,
+      "rmsDbFS": -18.734531002208385,
+      "clipped": 0,
+      "nonfinite": 0
+    },
+    {
+      "at": 20.1,
+      "end": 28.65,
+      "text": "五千万主摄，六千四百万蔡司APO长焦，再加三点一倍光学变焦。远处的风景，不必留在远处。",
+      "file": "04-camera.mp3",
+      "voice": "zh-CN-YunxiNeural",
+      "generic": true,
+      "impersonation": false,
+      "rate": "+20%",
+      "pitch": "-2Hz",
+      "tempo": 1,
+      "chineseCharacters": 35,
+      "textCharacters": 43,
+      "decodedDuration": 7.041458,
+      "audibleEnd": 27.141458,
+      "endMargin": 1.508542,
+      "chineseCharactersPerSecond": 4.970561,
+      "source": "04-camera-raw-r20.mp3",
+      "srt": "04-camera-raw-r20.srt",
+      "sourceDecodedDuration": 8.208,
+      "removedSilence": 1.163,
+      "cuts": [
+        {
+          "start": 0,
+          "end": 0.031,
+          "removed": 0.031
+        },
+        {
+          "start": 3.129,
+          "end": 3.23,
+          "removed": 0.101
+        },
+        {
+          "start": 5.15,
+          "end": 5.43,
+          "removed": 0.28
+        },
+        {
+          "start": 6.433,
+          "end": 6.514,
+          "removed": 0.081
+        },
+        {
+          "start": 7.538,
+          "end": 8.208,
+          "removed": 0.67
+        }
+      ],
+      "timingSource": "edge-tts WordBoundary SRT; exact silence-deletion map, then divide by atempo; no equal interpolation",
+      "sha256": "7d5fe432238168558d14e7eb4c2e217acf68d3d22cce0e872a3e23ce934fdf7c",
+      "sourceSha256": "9826d9f2148b3269742e6c4e87f908944c7c4b502c5e3afddb8e2dd765091be9",
+      "srtSha256": "f48f5fd5d7144a6ab72350bdddc97b3a85e3d7985945ac0793712f2f7b46a128",
+      "peakDbFS": -3.9353859616376496,
+      "rmsDbFS": -19.00486388865247,
+      "clipped": 0,
+      "nonfinite": 0
+    },
+    {
+      "at": 29.1,
+      "end": 36.65,
+      "text": "不止照片。四K，一百二十帧慢动作。普通的一瞬间，换个速度，就有了电影的味道。",
+      "file": "05-display.mp3",
+      "voice": "zh-CN-YunxiNeural",
+      "generic": true,
+      "impersonation": false,
+      "rate": "+20%",
+      "pitch": "-2Hz",
+      "tempo": 1,
+      "chineseCharacters": 31,
+      "textCharacters": 38,
+      "decodedDuration": 5.716292,
+      "audibleEnd": 34.816292,
+      "endMargin": 1.833708,
+      "chineseCharactersPerSecond": 5.423096,
+      "source": "05-display-raw-r20.mp3",
+      "srt": "05-display-raw-r20.srt",
+      "sourceDecodedDuration": 7.104,
+      "removedSilence": 1.382958,
+      "cuts": [
+        {
+          "start": 0,
+          "end": 0.031,
+          "removed": 0.031
+        },
+        {
+          "start": 0.962,
+          "end": 1.2429791666666667,
+          "removed": 0.28097916666666667
+        },
+        {
+          "start": 1.9640208333333333,
+          "end": 2.076,
+          "removed": 0.11197916666666667
+        },
+        {
+          "start": 3.214,
+          "end": 3.503,
+          "removed": 0.289
+        },
+        {
+          "start": 6.434,
+          "end": 7.104,
+          "removed": 0.67
+        }
+      ],
+      "timingSource": "edge-tts WordBoundary SRT; exact silence-deletion map, then divide by atempo; no equal interpolation",
+      "sha256": "89e35eca7825f24a0955f8dedfa0f508d6698173852fab02f0d395d8f4ac6ce9",
+      "sourceSha256": "f3e89c9c4b16b9bf4594014992203bc09920d45e66094773683ab8c76243253d",
+      "srtSha256": "aced6a23994e17f2d2983aca51e5882e4a6819b7eaaf3ec5042b50492487cc83",
+      "peakDbFS": -3.932607507270548,
+      "rmsDbFS": -18.773142309420837,
+      "clipped": 0,
+      "nonfinite": 0
+    },
+    {
+      "at": 37.1,
+      "end": 44.65,
+      "text": "再看底子，三纳米天玑九千六百M，搭配OriginOS七。把复杂交给技术，把顺手留给日常。",
+      "file": "06-performance.mp3",
+      "voice": "zh-CN-YunxiNeural",
+      "generic": true,
+      "impersonation": false,
+      "rate": "+20%",
+      "pitch": "-2Hz",
+      "tempo": 1,
+      "chineseCharacters": 30,
+      "textCharacters": 44,
+      "decodedDuration": 6.628396,
+      "audibleEnd": 43.728396,
+      "endMargin": 0.921604,
+      "chineseCharactersPerSecond": 4.525982,
+      "source": "06-performance-raw-r20.mp3",
+      "srt": "06-performance-raw-r20.srt",
+      "sourceDecodedDuration": 7.776,
+      "removedSilence": 1.137,
+      "cuts": [
+        {
+          "start": 0,
+          "end": 0.031,
+          "removed": 0.031
+        },
+        {
+          "start": 0.837,
+          "end": 0.928,
+          "removed": 0.091
+        },
+        {
+          "start": 4.171,
+          "end": 4.451,
+          "removed": 0.28
+        },
+        {
+          "start": 5.725,
+          "end": 5.805,
+          "removed": 0.08
+        },
+        {
+          "start": 7.121,
+          "end": 7.776,
+          "removed": 0.655
+        }
+      ],
+      "timingSource": "edge-tts WordBoundary SRT; exact silence-deletion map, then divide by atempo; no equal interpolation",
+      "sha256": "ebd13ac601f727404e0276b14cd6c5718dcf84c87c942568ca4af59b5217a90a",
+      "sourceSha256": "84fade1bd930672a90712bdb493b4e22957b61c301d27b259f0f66fab87f3f6c",
+      "srtSha256": "513b229b02c5dcee92dc81f07ad3c0928113549e950d082859f0213a9848fa2d",
+      "peakDbFS": -3.9423180562444413,
+      "rmsDbFS": -18.587539965715138,
+      "clipped": 0,
+      "nonfinite": 0
+    },
+    {
+      "at": 45.1,
+      "end": 51.7,
+      "text": "七千五百毫安时，九十瓦有线，四十瓦无线。出去拍照，别让电量，抢了风景的戏。",
+      "file": "07-battery.mp3",
+      "voice": "zh-CN-YunxiNeural",
+      "generic": true,
+      "impersonation": false,
+      "rate": "+20%",
+      "pitch": "-2Hz",
+      "tempo": 1,
+      "chineseCharacters": 31,
+      "textCharacters": 37,
+      "decodedDuration": 5.744958,
+      "audibleEnd": 50.844958,
+      "endMargin": 0.855042,
+      "chineseCharactersPerSecond": 5.396036,
+      "source": "07-battery-raw-r20.mp3",
+      "srt": "07-battery-raw-r20.srt",
+      "sourceDecodedDuration": 6.768,
+      "removedSilence": 1.019,
+      "cuts": [
+        {
+          "start": 0,
+          "end": 0.031,
+          "removed": 0.031
+        },
+        {
+          "start": 2.212,
+          "end": 2.262,
+          "removed": 0.05
+        },
+        {
+          "start": 3.223,
+          "end": 3.514,
+          "removed": 0.291
+        },
+        {
+          "start": 6.121,
+          "end": 6.768,
+          "removed": 0.647
+        }
+      ],
+      "timingSource": "edge-tts WordBoundary SRT; exact silence-deletion map, then divide by atempo; no equal interpolation",
+      "sha256": "7947ac046298ce63d92c3784b209f7f687920013c375b21b48aca325ce8df72e",
+      "sourceSha256": "0f3c64d82481543416011823361720b06126e248413f7b044f0d3864febff293",
+      "srtSha256": "9d663785cb8cecacc4fe137f32eafb40196b0c77bffbed68dd43e01d7379a22e",
+      "peakDbFS": -3.9402137257803616,
+      "rmsDbFS": -19.160785889534086,
+      "clipped": 0,
+      "nonfinite": 0
+    },
+    {
+      "at": 52.1,
+      "end": 59.7,
+      "text": "最后看价格。十二加二百五十六G，官方建议价，五千四百九十九元。vivo X五百，让日常，自带电影感。",
+      "file": "08-finale.mp3",
+      "voice": "zh-CN-YunxiNeural",
+      "generic": true,
+      "impersonation": false,
+      "rate": "+20%",
+      "pitch": "-2Hz",
+      "tempo": 1.054097,
+      "chineseCharacters": 36,
+      "textCharacters": 50,
+      "decodedDuration": 7.508125,
+      "audibleEnd": 59.608125,
+      "endMargin": 0.091875,
+      "chineseCharactersPerSecond": 4.794806,
+      "source": "08-finale-raw-r20.mp3",
+      "srt": "08-finale-raw-r20.srt",
+      "sourceDecodedDuration": 9.336,
+      "removedSilence": 1.425,
+      "cuts": [
+        {
+          "start": 0,
+          "end": 0.031,
+          "removed": 0.031
+        },
+        {
+          "start": 1.087,
+          "end": 1.378,
+          "removed": 0.291
+        },
+        {
+          "start": 3.944,
+          "end": 4.045,
+          "removed": 0.101
+        },
+        {
+          "start": 5.381,
+          "end": 5.67,
+          "removed": 0.289
+        },
+        {
+          "start": 6.912,
+          "end": 6.962,
+          "removed": 0.05
+        },
+        {
+          "start": 8.673,
+          "end": 9.336,
+          "removed": 0.663
+        }
+      ],
+      "timingSource": "edge-tts WordBoundary SRT; exact silence-deletion map, then divide by atempo; no equal interpolation",
+      "sha256": "bcab9be6d5a38412d821ade1435863f2f095faaaba5d2b2884f756276ad789f6",
+      "sourceSha256": "c9239b454426be251b50013c83505b5286018c59b475a29dc3ad7ab1076529ca",
+      "srtSha256": "a1bf7f84e8c4f2003f082f79a6b7817f8566f8b5077dfa3660f126b1cda70c1e",
+      "peakDbFS": -3.93869895605256,
+      "rmsDbFS": -19.614206212317317,
+      "clipped": 0,
+      "nonfinite": 0
+    }
+  ],
+  "duration": 60
+}
