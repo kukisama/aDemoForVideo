@@ -1,0 +1,50 @@
+# Dependencies, build caches and disposable test output (all projects)
+node_modules/
+dist/
+dist-ssr/
+coverage/
+.cache/
+.vite/
+*.tsbuildinfo
+/output/
+test-results/
+playwright-report/
+blob-report/
+
+# Audio synthesis staging directories and independent QA reports
+.stage-*/
+.work-*/
+.score-work-*/
+/feynman/audio/test-report.json
+/x500/audio/signal-report.json
+/x500/audio/playback-report.json
+# Keep masters, source audio/SRT, captions and build-required provenance reports.
+# Keep the standalone HTML films and portable viewing packages, including ZIPs.
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# OS and editor-local state
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
