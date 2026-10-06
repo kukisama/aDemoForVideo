@@ -7,7 +7,8 @@ import { resolve } from 'node:path';
 import { DURATION,BPM,BEAT,TOTAL_BEATS,CHAPTERS,CAPTIONS,CUTS } from './story.mjs';
 const require=createRequire(new URL('../web/package.json',import.meta.url));
 const {chromium}=require('playwright');
-const root=fileURLToPath(new URL('../',import.meta.url)),qa=resolve(root,'output/feynman-qa');
+const root=fileURLToPath(new URL('../',import.meta.url)),qa=resolve(root,'feynman/output/feynman-qa');
+const entry=resolve(root,'export/知识之塔/开始观看.html');
 await mkdir(qa,{recursive:true});
 const channel=process.argv.includes('--edge')?'msedge':'chrome',full=process.argv.includes('--full');
 const browser=await chromium.launch({channel,headless:!full});
@@ -18,12 +19,12 @@ page.on('request',r=>{if(/^https?:/.test(r.url()))requests.push(r.url());});
 const check=(condition,label)=>{assert.ok(condition,label);checks.push(label);};
 const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
 try{
-  const html=await readFile(resolve(root,'FEYNMAN.html'),'utf8');
+  const html=await readFile(entry,'utf8');
   check(DURATION<60&&Math.round(DURATION/BEAT)===TOTAL_BEATS,'Under one minute and exactly 144 beats');
   check(BPM===150&&CUTS.length===36,'150 BPM, 36 bar cuts');
   check(!/speechSynthesis|SpeechSynthesisUtterance|rotate[XY]\(|perspective\(/.test(html),'No voice synthesizer or 3D transformations');
   for(const cut of CUTS)check(Math.abs(cut/BEAT-Math.round(cut/BEAT))<1e-7,`Cut ${cut.toFixed(1)} falls on a beat`);
-  await page.goto(pathToFileURL(resolve(root,'FEYNMAN.html')).href,{waitUntil:'load'});
+  await page.goto(pathToFileURL(entry).href,{waitUntil:'load'});
   await page.waitForFunction(()=>window.__FEYNMAN__?.ready,null,{timeout:30000});
   const initial=await page.evaluate(()=>window.__FEYNMAN__.state);console.log('READY',JSON.stringify(initial));
   check(Math.abs(initial.audioDuration-DURATION)<.065,'Local soundtrack duration matches story');
@@ -74,10 +75,10 @@ try{
   }
   await page.setViewportSize({width:390,height:844});await page.evaluate(()=>window.__FEYNMAN__.render(41.8));
   await page.screenshot({path:resolve(qa,`${channel}-mobile.png`)});check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'No mobile horizontal overflow');
-  await page.goto(pathToFileURL(resolve(root,'知识之塔-观看包/开始观看.html')).href,{waitUntil:'load'});await page.waitForFunction(()=>window.__FEYNMAN__?.ready,null,{timeout:30000});
+  await page.goto(pathToFileURL(entry).href,{waitUntil:'load'});await page.waitForFunction(()=>window.__FEYNMAN__?.ready,null,{timeout:30000});
   check((await page.evaluate(()=>window.__FEYNMAN__.state.source)).endsWith('/audio/master.mp3'),'Portable folder finds relative audio');
   check(requests.length===0,'No network access required');check(errors.length===0,'No browser or resource errors');
-  const result={result:'PASS',browser:await browser.version(),channel,full,checks,frames,fullPlayback,errors,requests};
+  const result={result:'PASS',entry,browser:await browser.version(),channel,full,checks,frames,fullPlayback,errors,requests};
   await writeFile(resolve(qa,`${channel}-${full?'full-':''}report.json`),JSON.stringify(result,null,2));
   console.log('PASS',JSON.stringify({checks:checks.length,channel,full,fullPlayback}));
 }finally{await browser.close();}

@@ -1,0 +1,1509 @@
+{
+  "title": "Before Tomorrow / 明天以西·风里的承诺",
+  "duration": 180,
+  "bpm": 80,
+  "beats": 240,
+  "sampleRate": 48000,
+  "storysha256": "574a23dc84ec1db7b8fd8955baf4f3fe9bafa2b1a86acd863537b5fc03504339",
+  "mastersha256": "5096b36979a75356b49ae8a4158270d2d4d3026bbfa2103165b4417fa71e14b8",
+  "clock": "Use decoded audio.currentTime; do not resnap unquantized whistle onsets. Some visual reactions intentionally precede music.",
+  "cues": [
+    {
+      "time": 0,
+      "id": "wind",
+      "kind": "ambience",
+      "sample": 0,
+      "beat": 0,
+      "exactOnsets": [
+        {
+          "id": "e000",
+          "kind": "wind",
+          "midi": 0
+        },
+        {
+          "id": "e001",
+          "kind": "wind",
+          "midi": 0
+        }
+      ],
+      "note": "0秒起只有风；到7.15秒才出现主旋律。"
+    },
+    {
+      "time": 12,
+      "id": "hoof",
+      "kind": "soft-foley",
+      "sample": 576000,
+      "beat": 16,
+      "exactOnsets": [
+        {
+          "id": "e005",
+          "kind": "hoof",
+          "midi": 0
+        }
+      ],
+      "note": "双蹄间距220ms，非循环马蹄节拍。"
+    },
+    {
+      "time": 23,
+      "id": "plan-one",
+      "kind": "motif",
+      "sample": 1104000,
+      "beat": 30.666667,
+      "exactOnsets": [
+        {
+          "id": "e016",
+          "kind": "whistle",
+          "midi": 76
+        }
+      ],
+      "note": "23秒E5开句，五音动机；34.05秒开始可信任的回答。"
+    },
+    {
+      "time": 39,
+      "id": "paper-accept",
+      "kind": "soft-foley",
+      "sample": 1872000,
+      "beat": 52,
+      "exactOnsets": [
+        {
+          "id": "e027",
+          "kind": "paper",
+          "midi": 0
+        }
+      ],
+      "note": "39秒纸张摩擦声，旋律已收口。"
+    },
+    {
+      "time": 59,
+      "id": "wheel",
+      "kind": "soft-foley",
+      "sample": 2832000,
+      "beat": 78.666667,
+      "exactOnsets": [
+        {
+          "id": "e057",
+          "kind": "wheel",
+          "midi": 0
+        }
+      ],
+      "note": "59秒木轮轻撞/吱响，音景而非音乐重击。"
+    },
+    {
+      "time": 66,
+      "id": "effort",
+      "kind": "pulse",
+      "sample": 3168000,
+      "beat": 88,
+      "exactOnsets": [
+        {
+          "id": "e060",
+          "kind": "step",
+          "midi": 0
+        },
+        {
+          "id": "e061",
+          "kind": "bass",
+          "midi": 40
+        }
+      ],
+      "note": "66秒脚步落地与低音；不改变80BPM。"
+    },
+    {
+      "time": 75,
+      "id": "release",
+      "kind": "release",
+      "sample": 3600000,
+      "beat": 100,
+      "exactOnsets": [
+        {
+          "id": "e069",
+          "kind": "wheel",
+          "midi": 0
+        }
+      ],
+      "note": "75秒木轮轻松动，停止脚步；75.5–79.35秒无新乐音。"
+    },
+    {
+      "time": 87,
+      "id": "plan-two",
+      "kind": "motif",
+      "sample": 4176000,
+      "beat": 116,
+      "exactOnsets": [
+        {
+          "id": "e074",
+          "kind": "whistle",
+          "midi": 76
+        }
+      ],
+      "note": "87秒同一开句，只有五音且更远离，省去回答。"
+    },
+    {
+      "time": 106,
+      "id": "unanswered",
+      "kind": "silence",
+      "sample": 5088000,
+      "beat": 141.333333,
+      "exactOnsets": [],
+      "note": "106秒不加事件：104–114秒干音乐总线为零，只保留风和尾音。"
+    },
+    {
+      "time": 114,
+      "id": "river",
+      "kind": "ambience",
+      "sample": 5472000,
+      "beat": 152,
+      "exactOnsets": [
+        {
+          "id": "e083",
+          "kind": "water",
+          "midi": 0
+        },
+        {
+          "id": "e084",
+          "kind": "water",
+          "midi": 0
+        }
+      ],
+      "note": "114秒宽幅流水淡入，不用噪声上升器。"
+    },
+    {
+      "time": 130,
+      "id": "turn-back",
+      "kind": "choice",
+      "sample": 6240000,
+      "beat": 173.333333,
+      "exactOnsets": [
+        {
+          "id": "e092",
+          "kind": "whistle",
+          "midi": 76
+        },
+        {
+          "id": "e096",
+          "kind": "bass",
+          "midi": 33
+        },
+        {
+          "id": "e098",
+          "kind": "pluck",
+          "midi": 64
+        },
+        {
+          "id": "e103",
+          "kind": "chip",
+          "midi": 47
+        },
+        {
+          "id": "e105",
+          "kind": "water",
+          "midi": 0
+        }
+      ],
+      "note": "画面129秒转身；音乐延后至130秒字幕/决定落地，短暂扩编到137秒。"
+    },
+    {
+      "time": 137,
+      "id": "hand",
+      "kind": "release",
+      "sample": 6576000,
+      "beat": 182.666667,
+      "exactOnsets": [
+        {
+          "id": "e106",
+          "kind": "water",
+          "midi": 0
+        }
+      ],
+      "note": "137秒微小水声，撤掉脉冲与较重低音。"
+    },
+    {
+      "time": 147,
+      "id": "plan-three",
+      "kind": "motif",
+      "sample": 7056000,
+      "beat": 196,
+      "exactOnsets": [
+        {
+          "id": "e109",
+          "kind": "whistle",
+          "midi": 76
+        }
+      ],
+      "note": "147秒E5、148.16秒B4、149.12秒F#5；150.6–168秒不回应。"
+    },
+    {
+      "time": 161,
+      "id": "paper-fold",
+      "kind": "soft-foley",
+      "sample": 7728000,
+      "beat": 214.666667,
+      "exactOnsets": [
+        {
+          "id": "e112",
+          "kind": "paper",
+          "midi": 0
+        }
+      ],
+      "note": "161秒折纸是动作声，不是和声回答。"
+    },
+    {
+      "time": 168,
+      "id": "lone-theme",
+      "kind": "motif",
+      "sample": 8064000,
+      "beat": 224,
+      "exactOnsets": [
+        {
+          "id": "e113",
+          "kind": "bass",
+          "midi": 40
+        },
+        {
+          "id": "e114",
+          "kind": "pluck",
+          "midi": 64
+        },
+        {
+          "id": "e115",
+          "kind": "whistle",
+          "midi": 76
+        }
+      ],
+      "note": "168秒主题孤独返场；只有一枚低音和干弦，最终停F#。"
+    },
+    {
+      "time": 178.5,
+      "id": "fade",
+      "kind": "fade",
+      "sample": 8568000,
+      "beat": 238,
+      "exactOnsets": [],
+      "note": "178.5–180秒包括环境/尾音在内统一淡出，保持180秒解码长度。"
+    }
+  ],
+  "shots": [
+    {
+      "index": 1,
+      "start": 0,
+      "end": 6,
+      "scene": "valley",
+      "view": "wide",
+      "action": "arrival",
+      "startSample": 0,
+      "endSample": 288000,
+      "cues": [
+        "wind"
+      ],
+      "whistleOnsets": [],
+      "restRanges": [
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "start": 6,
+      "end": 12,
+      "scene": "valley",
+      "view": "arthur-close",
+      "action": "listen",
+      "startSample": 288000,
+      "endSample": 576000,
+      "cues": [],
+      "whistleOnsets": [
+        7.15,
+        9.64,
+        11.22
+      ],
+      "restRanges": [
+        [
+          6,
+          6.8
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "start": 12,
+      "end": 21,
+      "scene": "valley",
+      "view": "rider",
+      "action": "ride",
+      "startSample": 576000,
+      "endSample": 1008000,
+      "cues": [
+        "hoof"
+      ],
+      "whistleOnsets": [],
+      "restRanges": [
+        [
+          14.5,
+          21
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "start": 21,
+      "end": 30,
+      "scene": "camp-warm",
+      "view": "dutch-medium",
+      "action": "plan-one",
+      "startSample": 1008000,
+      "endSample": 1440000,
+      "cues": [
+        "plan-one"
+      ],
+      "whistleOnsets": [
+        23,
+        25.62,
+        26.61,
+        28.94
+      ],
+      "restRanges": []
+    },
+    {
+      "index": 5,
+      "start": 30,
+      "end": 37,
+      "scene": "camp-warm",
+      "view": "arthur-medium",
+      "action": "trust",
+      "startSample": 1440000,
+      "endSample": 1776000,
+      "cues": [],
+      "whistleOnsets": [
+        30.61,
+        34.05,
+        35.52,
+        36.84
+      ],
+      "restRanges": []
+    },
+    {
+      "index": 6,
+      "start": 37,
+      "end": 43,
+      "scene": "camp-warm",
+      "view": "map",
+      "action": "accept",
+      "startSample": 1776000,
+      "endSample": 2064000,
+      "cues": [
+        "paper-accept"
+      ],
+      "whistleOnsets": [
+        42.12
+      ],
+      "restRanges": []
+    },
+    {
+      "index": 7,
+      "start": 43,
+      "end": 51,
+      "scene": "camp-warm",
+      "view": "wide",
+      "action": "together",
+      "startSample": 2064000,
+      "endSample": 2448000,
+      "cues": [],
+      "whistleOnsets": [
+        43.88,
+        45.1,
+        48.18
+      ],
+      "restRanges": []
+    },
+    {
+      "index": 8,
+      "start": 51,
+      "end": 59,
+      "scene": "trail",
+      "view": "wide",
+      "action": "convoy",
+      "startSample": 2448000,
+      "endSample": 2832000,
+      "cues": [],
+      "whistleOnsets": [
+        54.35,
+        56.29,
+        57.46
+      ],
+      "restRanges": []
+    },
+    {
+      "index": 9,
+      "start": 59,
+      "end": 66,
+      "scene": "trail",
+      "view": "wagon",
+      "action": "stuck",
+      "startSample": 2832000,
+      "endSample": 3168000,
+      "cues": [
+        "wheel"
+      ],
+      "whistleOnsets": [
+        63.28,
+        64.89
+      ],
+      "restRanges": []
+    },
+    {
+      "index": 10,
+      "start": 66,
+      "end": 75,
+      "scene": "trail",
+      "view": "arthur-medium",
+      "action": "push",
+      "startSample": 3168000,
+      "endSample": 3600000,
+      "cues": [
+        "effort"
+      ],
+      "whistleOnsets": [
+        69.24,
+        71.39,
+        72.64
+      ],
+      "restRanges": []
+    },
+    {
+      "index": 11,
+      "start": 75,
+      "end": 84,
+      "scene": "trail",
+      "view": "wide",
+      "action": "release",
+      "startSample": 3600000,
+      "endSample": 4032000,
+      "cues": [
+        "release"
+      ],
+      "whistleOnsets": [
+        79.45,
+        81.51
+      ],
+      "restRanges": [
+        [
+          75.5,
+          79.35
+        ]
+      ]
+    },
+    {
+      "index": 12,
+      "start": 84,
+      "end": 93,
+      "scene": "camp-cold",
+      "view": "dutch-medium",
+      "action": "plan-two",
+      "startSample": 4032000,
+      "endSample": 4464000,
+      "cues": [
+        "plan-two"
+      ],
+      "whistleOnsets": [
+        87,
+        89.17,
+        92.72
+      ],
+      "restRanges": []
+    },
+    {
+      "index": 13,
+      "start": 93,
+      "end": 100,
+      "scene": "camp-cold",
+      "view": "map",
+      "action": "offer",
+      "startSample": 4464000,
+      "endSample": 4800000,
+      "cues": [],
+      "whistleOnsets": [
+        97.86
+      ],
+      "restRanges": []
+    },
+    {
+      "index": 14,
+      "start": 100,
+      "end": 106,
+      "scene": "camp-cold",
+      "view": "arthur-close",
+      "action": "doubt",
+      "startSample": 4800000,
+      "endSample": 5088000,
+      "cues": [],
+      "whistleOnsets": [
+        100.13
+      ],
+      "restRanges": [
+        [
+          104,
+          106
+        ]
+      ]
+    },
+    {
+      "index": 15,
+      "start": 106,
+      "end": 114,
+      "scene": "camp-cold",
+      "view": "two-shot",
+      "action": "not-taking",
+      "startSample": 5088000,
+      "endSample": 5472000,
+      "cues": [
+        "unanswered"
+      ],
+      "whistleOnsets": [],
+      "restRanges": [
+        [
+          106,
+          114
+        ]
+      ]
+    },
+    {
+      "index": 16,
+      "start": 114,
+      "end": 122,
+      "scene": "crossing",
+      "view": "wide",
+      "action": "water",
+      "startSample": 5472000,
+      "endSample": 5856000,
+      "cues": [
+        "river"
+      ],
+      "whistleOnsets": [
+        117.35,
+        119.21
+      ],
+      "restRanges": []
+    },
+    {
+      "index": 17,
+      "start": 122,
+      "end": 129,
+      "scene": "crossing",
+      "view": "dutch-medium",
+      "action": "go-ahead",
+      "startSample": 5856000,
+      "endSample": 6192000,
+      "cues": [],
+      "whistleOnsets": [
+        124.24
+      ],
+      "restRanges": []
+    },
+    {
+      "index": 18,
+      "start": 129,
+      "end": 137,
+      "scene": "crossing",
+      "view": "arthur-medium",
+      "action": "turn-back",
+      "startSample": 6192000,
+      "endSample": 6576000,
+      "cues": [
+        "turn-back"
+      ],
+      "whistleOnsets": [
+        130,
+        131.77,
+        133.09,
+        134.68
+      ],
+      "restRanges": []
+    },
+    {
+      "index": 19,
+      "start": 137,
+      "end": 144,
+      "scene": "crossing",
+      "view": "wide",
+      "action": "help",
+      "startSample": 6576000,
+      "endSample": 6912000,
+      "cues": [
+        "hand"
+      ],
+      "whistleOnsets": [
+        138.18
+      ],
+      "restRanges": [
+        [
+          140.5,
+          144
+        ]
+      ]
+    },
+    {
+      "index": 20,
+      "start": 144,
+      "end": 153,
+      "scene": "camp-night",
+      "view": "dutch-close",
+      "action": "plan-three",
+      "startSample": 6912000,
+      "endSample": 7344000,
+      "cues": [
+        "plan-three"
+      ],
+      "whistleOnsets": [
+        147,
+        148.16,
+        149.12
+      ],
+      "restRanges": [
+        [
+          144,
+          147
+        ],
+        [
+          150.6,
+          153
+        ]
+      ]
+    },
+    {
+      "index": 21,
+      "start": 153,
+      "end": 161,
+      "scene": "camp-night",
+      "view": "arthur-close",
+      "action": "answer",
+      "startSample": 7344000,
+      "endSample": 7728000,
+      "cues": [],
+      "whistleOnsets": [],
+      "restRanges": [
+        [
+          153,
+          161
+        ]
+      ]
+    },
+    {
+      "index": 22,
+      "start": 161,
+      "end": 168,
+      "scene": "camp-night",
+      "view": "two-shot",
+      "action": "fold-map",
+      "startSample": 7728000,
+      "endSample": 8064000,
+      "cues": [
+        "paper-fold"
+      ],
+      "whistleOnsets": [],
+      "restRanges": [
+        [
+          161,
+          168
+        ]
+      ]
+    },
+    {
+      "index": 23,
+      "start": 168,
+      "end": 174,
+      "scene": "valley-dawn",
+      "view": "wide",
+      "action": "leave",
+      "startSample": 8064000,
+      "endSample": 8352000,
+      "cues": [
+        "lone-theme"
+      ],
+      "whistleOnsets": [
+        168,
+        170.72,
+        172.07
+      ],
+      "restRanges": []
+    },
+    {
+      "index": 24,
+      "start": 174,
+      "end": 180,
+      "scene": "valley-dawn",
+      "view": "title",
+      "action": "coda",
+      "startSample": 8352000,
+      "endSample": 8640000,
+      "cues": [
+        "fade"
+      ],
+      "whistleOnsets": [
+        175.12
+      ],
+      "restRanges": []
+    }
+  ],
+  "spaces": [
+    {
+      "id": "first-horizon",
+      "start": 0,
+      "end": 6.8,
+      "intent": "开头只有风；不以低音/和弦偷偷铺满。"
+    },
+    {
+      "id": "before-trust",
+      "start": 14.5,
+      "end": 21,
+      "intent": "马蹄进入远景，旋律让出地平线。"
+    },
+    {
+      "id": "wheel-released",
+      "start": 75.5,
+      "end": 79.35,
+      "intent": "推车松动后不做鼓花，只留下地面与余音。"
+    },
+    {
+      "id": "hand-not-taken",
+      "start": 104,
+      "end": 114,
+      "intent": "106秒无人接图：不新增音符，不做紧张上升音。"
+    },
+    {
+      "id": "before-third-plan",
+      "start": 140.5,
+      "end": 147,
+      "intent": "救人动作之后收回，不持续扩编。"
+    },
+    {
+      "id": "no-musical-answer",
+      "start": 150.6,
+      "end": 168,
+      "intent": "第三次plan的问句结束；155秒对白下无旋律回答，161秒只有折纸与风。"
+    }
+  ],
+  "sourceOnsets": [
+    {
+      "id": "e000",
+      "kind": "wind",
+      "scheduledSample": 0,
+      "firstNonzeroSample": 1
+    },
+    {
+      "id": "e001",
+      "kind": "wind",
+      "scheduledSample": 0,
+      "firstNonzeroSample": 1
+    },
+    {
+      "id": "e002",
+      "kind": "whistle",
+      "scheduledSample": 343200,
+      "firstNonzeroSample": 343201
+    },
+    {
+      "id": "e003",
+      "kind": "whistle",
+      "scheduledSample": 462720,
+      "firstNonzeroSample": 462721
+    },
+    {
+      "id": "e004",
+      "kind": "whistle",
+      "scheduledSample": 538560,
+      "firstNonzeroSample": 538561
+    },
+    {
+      "id": "e005",
+      "kind": "hoof",
+      "scheduledSample": 576000,
+      "firstNonzeroSample": 576001
+    },
+    {
+      "id": "e006",
+      "kind": "hoof",
+      "scheduledSample": 586560,
+      "firstNonzeroSample": 586561
+    },
+    {
+      "id": "e007",
+      "kind": "hoof",
+      "scheduledSample": 648000,
+      "firstNonzeroSample": 648001
+    },
+    {
+      "id": "e008",
+      "kind": "hoof",
+      "scheduledSample": 659520,
+      "firstNonzeroSample": 659521
+    },
+    {
+      "id": "e009",
+      "kind": "hoof",
+      "scheduledSample": 724800,
+      "firstNonzeroSample": 724801
+    },
+    {
+      "id": "e010",
+      "kind": "hoof",
+      "scheduledSample": 736320,
+      "firstNonzeroSample": 736321
+    },
+    {
+      "id": "e011",
+      "kind": "hoof",
+      "scheduledSample": 809280,
+      "firstNonzeroSample": 809281
+    },
+    {
+      "id": "e012",
+      "kind": "hoof",
+      "scheduledSample": 821760,
+      "firstNonzeroSample": 821761
+    },
+    {
+      "id": "e013",
+      "kind": "bass",
+      "scheduledSample": 1008000,
+      "firstNonzeroSample": 1008001
+    },
+    {
+      "id": "e014",
+      "kind": "pluck",
+      "scheduledSample": 1034400,
+      "firstNonzeroSample": 1034401
+    },
+    {
+      "id": "e016",
+      "kind": "whistle",
+      "scheduledSample": 1104000,
+      "firstNonzeroSample": 1104001
+    },
+    {
+      "id": "e017",
+      "kind": "whistle",
+      "scheduledSample": 1229760,
+      "firstNonzeroSample": 1229761
+    },
+    {
+      "id": "e018",
+      "kind": "whistle",
+      "scheduledSample": 1277280,
+      "firstNonzeroSample": 1277281
+    },
+    {
+      "id": "e015",
+      "kind": "pluck",
+      "scheduledSample": 1316160,
+      "firstNonzeroSample": 1316161
+    },
+    {
+      "id": "e019",
+      "kind": "whistle",
+      "scheduledSample": 1389120,
+      "firstNonzeroSample": 1389121
+    },
+    {
+      "id": "e021",
+      "kind": "bass",
+      "scheduledSample": 1443840,
+      "firstNonzeroSample": 1443841
+    },
+    {
+      "id": "e020",
+      "kind": "whistle",
+      "scheduledSample": 1469280,
+      "firstNonzeroSample": 1469281
+    },
+    {
+      "id": "e022",
+      "kind": "pluck",
+      "scheduledSample": 1589280,
+      "firstNonzeroSample": 1589281
+    },
+    {
+      "id": "e023",
+      "kind": "whistle",
+      "scheduledSample": 1634400,
+      "firstNonzeroSample": 1634401
+    },
+    {
+      "id": "e024",
+      "kind": "whistle",
+      "scheduledSample": 1704960,
+      "firstNonzeroSample": 1704961
+    },
+    {
+      "id": "e025",
+      "kind": "whistle",
+      "scheduledSample": 1768320,
+      "firstNonzeroSample": 1768321
+    },
+    {
+      "id": "e026",
+      "kind": "bass",
+      "scheduledSample": 1862400,
+      "firstNonzeroSample": 1862401
+    },
+    {
+      "id": "e027",
+      "kind": "paper",
+      "scheduledSample": 1872000,
+      "firstNonzeroSample": 1872001
+    },
+    {
+      "id": "e028",
+      "kind": "pluck",
+      "scheduledSample": 1929600,
+      "firstNonzeroSample": 1929601
+    },
+    {
+      "id": "e031",
+      "kind": "whistle",
+      "scheduledSample": 2021760,
+      "firstNonzeroSample": 2021761
+    },
+    {
+      "id": "e032",
+      "kind": "whistle",
+      "scheduledSample": 2106240,
+      "firstNonzeroSample": 2106241
+    },
+    {
+      "id": "e029",
+      "kind": "bass",
+      "scheduledSample": 2140800,
+      "firstNonzeroSample": 2140801
+    },
+    {
+      "id": "e033",
+      "kind": "whistle",
+      "scheduledSample": 2164800,
+      "firstNonzeroSample": 2164801
+    },
+    {
+      "id": "e030",
+      "kind": "pluck",
+      "scheduledSample": 2243520,
+      "firstNonzeroSample": 2243521
+    },
+    {
+      "id": "e034",
+      "kind": "whistle",
+      "scheduledSample": 2312640,
+      "firstNonzeroSample": 2312641
+    },
+    {
+      "id": "e035",
+      "kind": "bass",
+      "scheduledSample": 2448000,
+      "firstNonzeroSample": 2448001
+    },
+    {
+      "id": "e036",
+      "kind": "pluck",
+      "scheduledSample": 2471520,
+      "firstNonzeroSample": 2471521
+    },
+    {
+      "id": "e040",
+      "kind": "step",
+      "scheduledSample": 2515200,
+      "firstNonzeroSample": 2515201
+    },
+    {
+      "id": "e041",
+      "kind": "step",
+      "scheduledSample": 2589264,
+      "firstNonzeroSample": 2589265
+    },
+    {
+      "id": "e037",
+      "kind": "whistle",
+      "scheduledSample": 2608800,
+      "firstNonzeroSample": 2608801
+    },
+    {
+      "id": "e042",
+      "kind": "step",
+      "scheduledSample": 2658432,
+      "firstNonzeroSample": 2658433
+    },
+    {
+      "id": "e038",
+      "kind": "whistle",
+      "scheduledSample": 2701920,
+      "firstNonzeroSample": 2701921
+    },
+    {
+      "id": "e055",
+      "kind": "bass",
+      "scheduledSample": 2726400,
+      "firstNonzeroSample": 2726401
+    },
+    {
+      "id": "e043",
+      "kind": "step",
+      "scheduledSample": 2732496,
+      "firstNonzeroSample": 2732497
+    },
+    {
+      "id": "e039",
+      "kind": "whistle",
+      "scheduledSample": 2758080,
+      "firstNonzeroSample": 2758081
+    },
+    {
+      "id": "e056",
+      "kind": "pluck",
+      "scheduledSample": 2784960,
+      "firstNonzeroSample": 2784961
+    },
+    {
+      "id": "e044",
+      "kind": "step",
+      "scheduledSample": 2803200,
+      "firstNonzeroSample": 2803201
+    },
+    {
+      "id": "e057",
+      "kind": "wheel",
+      "scheduledSample": 2832000,
+      "firstNonzeroSample": 2832001
+    },
+    {
+      "id": "e045",
+      "kind": "step",
+      "scheduledSample": 2877264,
+      "firstNonzeroSample": 2877265
+    },
+    {
+      "id": "e046",
+      "kind": "step",
+      "scheduledSample": 2946432,
+      "firstNonzeroSample": 2946433
+    },
+    {
+      "id": "e047",
+      "kind": "step",
+      "scheduledSample": 3020496,
+      "firstNonzeroSample": 3020497
+    },
+    {
+      "id": "e058",
+      "kind": "whistle",
+      "scheduledSample": 3037440,
+      "firstNonzeroSample": 3037441
+    },
+    {
+      "id": "e048",
+      "kind": "step",
+      "scheduledSample": 3091200,
+      "firstNonzeroSample": 3091201
+    },
+    {
+      "id": "e059",
+      "kind": "whistle",
+      "scheduledSample": 3114720,
+      "firstNonzeroSample": 3114721
+    },
+    {
+      "id": "e049",
+      "kind": "step",
+      "scheduledSample": 3165264,
+      "firstNonzeroSample": 3165265
+    },
+    {
+      "id": "e060",
+      "kind": "step",
+      "scheduledSample": 3168000,
+      "firstNonzeroSample": 3168001
+    },
+    {
+      "id": "e061",
+      "kind": "bass",
+      "scheduledSample": 3168000,
+      "firstNonzeroSample": 3168001
+    },
+    {
+      "id": "e062",
+      "kind": "pluck",
+      "scheduledSample": 3177120,
+      "firstNonzeroSample": 3177121
+    },
+    {
+      "id": "e050",
+      "kind": "step",
+      "scheduledSample": 3234432,
+      "firstNonzeroSample": 3234433
+    },
+    {
+      "id": "e051",
+      "kind": "step",
+      "scheduledSample": 3308496,
+      "firstNonzeroSample": 3308497
+    },
+    {
+      "id": "e063",
+      "kind": "bass",
+      "scheduledSample": 3316800,
+      "firstNonzeroSample": 3316801
+    },
+    {
+      "id": "e065",
+      "kind": "whistle",
+      "scheduledSample": 3323520,
+      "firstNonzeroSample": 3323521
+    },
+    {
+      "id": "e064",
+      "kind": "pluck",
+      "scheduledSample": 3372480,
+      "firstNonzeroSample": 3372481
+    },
+    {
+      "id": "e052",
+      "kind": "step",
+      "scheduledSample": 3379200,
+      "firstNonzeroSample": 3379201
+    },
+    {
+      "id": "e066",
+      "kind": "whistle",
+      "scheduledSample": 3426720,
+      "firstNonzeroSample": 3426721
+    },
+    {
+      "id": "e053",
+      "kind": "step",
+      "scheduledSample": 3453264,
+      "firstNonzeroSample": 3453265
+    },
+    {
+      "id": "e068",
+      "kind": "bass",
+      "scheduledSample": 3477600,
+      "firstNonzeroSample": 3477601
+    },
+    {
+      "id": "e067",
+      "kind": "whistle",
+      "scheduledSample": 3486720,
+      "firstNonzeroSample": 3486721
+    },
+    {
+      "id": "e054",
+      "kind": "step",
+      "scheduledSample": 3522432,
+      "firstNonzeroSample": 3522433
+    },
+    {
+      "id": "e069",
+      "kind": "wheel",
+      "scheduledSample": 3600000,
+      "firstNonzeroSample": 3600001
+    },
+    {
+      "id": "e070",
+      "kind": "whistle",
+      "scheduledSample": 3813600,
+      "firstNonzeroSample": 3813601
+    },
+    {
+      "id": "e071",
+      "kind": "whistle",
+      "scheduledSample": 3912480,
+      "firstNonzeroSample": 3912481
+    },
+    {
+      "id": "e072",
+      "kind": "bass",
+      "scheduledSample": 4040640,
+      "firstNonzeroSample": 4040641
+    },
+    {
+      "id": "e073",
+      "kind": "pluck",
+      "scheduledSample": 4054080,
+      "firstNonzeroSample": 4054081
+    },
+    {
+      "id": "e074",
+      "kind": "whistle",
+      "scheduledSample": 4176000,
+      "firstNonzeroSample": 4176001
+    },
+    {
+      "id": "e075",
+      "kind": "whistle",
+      "scheduledSample": 4280160,
+      "firstNonzeroSample": 4280161
+    },
+    {
+      "id": "e076",
+      "kind": "whistle",
+      "scheduledSample": 4450560,
+      "firstNonzeroSample": 4450561
+    },
+    {
+      "id": "e079",
+      "kind": "paper",
+      "scheduledSample": 4464000,
+      "firstNonzeroSample": 4464001
+    },
+    {
+      "id": "e080",
+      "kind": "pluck",
+      "scheduledSample": 4496640,
+      "firstNonzeroSample": 4496641
+    },
+    {
+      "id": "e081",
+      "kind": "bass",
+      "scheduledSample": 4533120,
+      "firstNonzeroSample": 4533121
+    },
+    {
+      "id": "e077",
+      "kind": "whistle",
+      "scheduledSample": 4697280,
+      "firstNonzeroSample": 4697281
+    },
+    {
+      "id": "e082",
+      "kind": "pluck",
+      "scheduledSample": 4751040,
+      "firstNonzeroSample": 4751041
+    },
+    {
+      "id": "e078",
+      "kind": "whistle",
+      "scheduledSample": 4806240,
+      "firstNonzeroSample": 4806241
+    },
+    {
+      "id": "e083",
+      "kind": "water",
+      "scheduledSample": 5472000,
+      "firstNonzeroSample": 5472001
+    },
+    {
+      "id": "e084",
+      "kind": "water",
+      "scheduledSample": 5472000,
+      "firstNonzeroSample": 5472001
+    },
+    {
+      "id": "e085",
+      "kind": "bass",
+      "scheduledSample": 5477760,
+      "firstNonzeroSample": 5477761
+    },
+    {
+      "id": "e086",
+      "kind": "pluck",
+      "scheduledSample": 5490720,
+      "firstNonzeroSample": 5490721
+    },
+    {
+      "id": "e087",
+      "kind": "whistle",
+      "scheduledSample": 5632800,
+      "firstNonzeroSample": 5632801
+    },
+    {
+      "id": "e088",
+      "kind": "whistle",
+      "scheduledSample": 5722080,
+      "firstNonzeroSample": 5722081
+    },
+    {
+      "id": "e090",
+      "kind": "pluck",
+      "scheduledSample": 5885280,
+      "firstNonzeroSample": 5885281
+    },
+    {
+      "id": "e091",
+      "kind": "bass",
+      "scheduledSample": 5908800,
+      "firstNonzeroSample": 5908801
+    },
+    {
+      "id": "e089",
+      "kind": "whistle",
+      "scheduledSample": 5963520,
+      "firstNonzeroSample": 5963521
+    },
+    {
+      "id": "e092",
+      "kind": "whistle",
+      "scheduledSample": 6240000,
+      "firstNonzeroSample": 6240001
+    },
+    {
+      "id": "e096",
+      "kind": "bass",
+      "scheduledSample": 6240000,
+      "firstNonzeroSample": 6240001
+    },
+    {
+      "id": "e098",
+      "kind": "pluck",
+      "scheduledSample": 6240000,
+      "firstNonzeroSample": 6240001
+    },
+    {
+      "id": "e103",
+      "kind": "chip",
+      "scheduledSample": 6240000,
+      "firstNonzeroSample": 6240001
+    },
+    {
+      "id": "e105",
+      "kind": "water",
+      "scheduledSample": 6240000,
+      "firstNonzeroSample": 6240001
+    },
+    {
+      "id": "e099",
+      "kind": "pluck",
+      "scheduledSample": 6243360,
+      "firstNonzeroSample": 6243361
+    },
+    {
+      "id": "e093",
+      "kind": "whistle",
+      "scheduledSample": 6324960,
+      "firstNonzeroSample": 6324961
+    },
+    {
+      "id": "e100",
+      "kind": "pluck",
+      "scheduledSample": 6349920,
+      "firstNonzeroSample": 6349921
+    },
+    {
+      "id": "e104",
+      "kind": "chip",
+      "scheduledSample": 6384000,
+      "firstNonzeroSample": 6384001
+    },
+    {
+      "id": "e094",
+      "kind": "whistle",
+      "scheduledSample": 6388320,
+      "firstNonzeroSample": 6388321
+    },
+    {
+      "id": "e097",
+      "kind": "bass",
+      "scheduledSample": 6393600,
+      "firstNonzeroSample": 6393601
+    },
+    {
+      "id": "e101",
+      "kind": "pluck",
+      "scheduledSample": 6437760,
+      "firstNonzeroSample": 6437761
+    },
+    {
+      "id": "e095",
+      "kind": "whistle",
+      "scheduledSample": 6464640,
+      "firstNonzeroSample": 6464641
+    },
+    {
+      "id": "e102",
+      "kind": "pluck",
+      "scheduledSample": 6510720,
+      "firstNonzeroSample": 6510721
+    },
+    {
+      "id": "e106",
+      "kind": "water",
+      "scheduledSample": 6576000,
+      "firstNonzeroSample": 6576001
+    },
+    {
+      "id": "e107",
+      "kind": "pluck",
+      "scheduledSample": 6579840,
+      "firstNonzeroSample": 6579841
+    },
+    {
+      "id": "e108",
+      "kind": "whistle",
+      "scheduledSample": 6632640,
+      "firstNonzeroSample": 6632641
+    },
+    {
+      "id": "e109",
+      "kind": "whistle",
+      "scheduledSample": 7056000,
+      "firstNonzeroSample": 7056001
+    },
+    {
+      "id": "e110",
+      "kind": "whistle",
+      "scheduledSample": 7111680,
+      "firstNonzeroSample": 7111681
+    },
+    {
+      "id": "e111",
+      "kind": "whistle",
+      "scheduledSample": 7157760,
+      "firstNonzeroSample": 7157761
+    },
+    {
+      "id": "e112",
+      "kind": "paper",
+      "scheduledSample": 7728000,
+      "firstNonzeroSample": 7728001
+    },
+    {
+      "id": "e113",
+      "kind": "bass",
+      "scheduledSample": 8064000,
+      "firstNonzeroSample": 8064001
+    },
+    {
+      "id": "e114",
+      "kind": "pluck",
+      "scheduledSample": 8064000,
+      "firstNonzeroSample": 8064001
+    },
+    {
+      "id": "e115",
+      "kind": "whistle",
+      "scheduledSample": 8064000,
+      "firstNonzeroSample": 8064001
+    },
+    {
+      "id": "e116",
+      "kind": "whistle",
+      "scheduledSample": 8194560,
+      "firstNonzeroSample": 8194561
+    },
+    {
+      "id": "e117",
+      "kind": "whistle",
+      "scheduledSample": 8259360,
+      "firstNonzeroSample": 8259361
+    },
+    {
+      "id": "e119",
+      "kind": "pluck",
+      "scheduledSample": 8387040,
+      "firstNonzeroSample": 8387041
+    },
+    {
+      "id": "e118",
+      "kind": "whistle",
+      "scheduledSample": 8405760,
+      "firstNonzeroSample": 8405761
+    }
+  ]
+}

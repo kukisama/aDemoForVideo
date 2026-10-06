@@ -36,13 +36,13 @@ let html = read('index.template.html')
   .replace('/*__JS__*/', read('film.js').replaceAll('</script', '<\\/script'));
 assert.ok(!html.includes('/*__'), 'Unexpanded template placeholder');
 assert.ok(!/<(?:img|canvas|video)\b/i.test(html), 'The film must be actual HTML/CSS/SVG, not imagery or rendered footage.');
-const prior = resolve(root, 'GENESIS.html');
+const prior = resolve(root, 'export/一念万物/GENESIS.html');
 const priorHash = existsSync(prior) ? hash(prior) : null;
-writeFileSync(resolve(root, 'X500.html'), html);
-const collection = resolve(root, 'X500-观看包');
+writeFileSync(resolve(directory, 'X500.html'), html.replace('src="x500/audio/master.mp3"', 'src="audio/master.mp3"'));
+const collection = resolve(root, 'export/X500');
 mkdirSync(resolve(collection, 'audio'), { recursive: true });
 writeFileSync(resolve(collection, '开始观看.html'), html.replace('src="x500/audio/master.mp3"', 'src="audio/master.mp3"'));
 copyFileSync(resolve(directory, 'audio/master.mp3'), resolve(collection, 'audio/master.mp3'));
 writeFileSync(resolve(collection, '使用说明.txt'), '双击「开始观看.html」，点击「全屏 · 开始」。\n请保留 audio 文件夹。无需联网、服务器或安装依赖。\n空格暂停，左右键跳转，R重播，F全屏，M静音。\n介绍vivo X500标准版的非官方创意演绎，参数与条件可点击播放器「资料」查看。\n');
 if (priorHash) assert.equal(hash(prior), priorHash, 'The previous film must remain untouched.');
-console.log(JSON.stringify({ result: 'PASS', output: resolve(root, 'X500.html'), bytes: Buffer.byteLength(html), collection, duration: DURATION, subtitles: captions.cues.length, voices: VOICE_CUES.length, claims: FACTS, previousFilmPreserved: true }, null, 2));
+console.log(JSON.stringify({ result: 'PASS', output: resolve(collection, '开始观看.html'), bytes: Buffer.byteLength(html), collection, duration: DURATION, subtitles: captions.cues.length, voices: VOICE_CUES.length, claims: FACTS, previousFilmPreserved: true }, null, 2));

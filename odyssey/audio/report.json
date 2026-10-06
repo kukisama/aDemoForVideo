@@ -1,0 +1,4142 @@
+{
+  "title": "The Name That Returns / 奥德赛·归来之名",
+  "film": "奥德赛 · 无人之名",
+  "duration": 180,
+  "bpm": 144,
+  "beats": 432,
+  "bars": 108,
+  "shots": 54,
+  "noVoice": true,
+  "sampleRate": 48000,
+  "storysha256": "e6ad8822a4745666627eaa1287efc57c9af0258ece21567acbe3bee10c14daad",
+  "generatorSha256": "18e98ea6b86497ba455d478f9bfdfb16beed0a99aa21f79d9c1c147ef3c0f900",
+  "mastersha256": "e0f9c039a70b7147072429ca64edb98f402711ac9f4e4e181ce6402a9c295e45",
+  "archiveSha256": "28905301b8f02da83d36a23a5caacf5172bcc8051dca99787b4e91e7f28ff397",
+  "eventsSha256": "a7900870f18c07339c3c58ae443dd98d82ad54dc4cc7954b24e7c35c8b71dcb0",
+  "music": {
+    "original": true,
+    "noVoice": true,
+    "seed": 1230260289,
+    "expedition": {
+      "key": "A Dorian",
+      "bars": 8,
+      "notes": [
+        [
+          [
+            0,
+            69,
+            1
+          ],
+          [
+            1.5,
+            72,
+            0.5
+          ],
+          [
+            2,
+            74,
+            1.5
+          ]
+        ],
+        [
+          [
+            0,
+            76,
+            1.5
+          ],
+          [
+            2,
+            74,
+            0.5
+          ],
+          [
+            3,
+            71,
+            0.75
+          ]
+        ],
+        [
+          [
+            0,
+            69,
+            0.75
+          ],
+          [
+            1,
+            74,
+            0.75
+          ],
+          [
+            2,
+            78,
+            1.5
+          ]
+        ],
+        [
+          [
+            0,
+            76,
+            1
+          ],
+          [
+            1.5,
+            74,
+            0.5
+          ],
+          [
+            2.5,
+            72,
+            0.5
+          ],
+          [
+            3.25,
+            71,
+            0.5
+          ]
+        ],
+        [
+          [
+            0,
+            69,
+            1.5
+          ],
+          [
+            2,
+            76,
+            0.75
+          ],
+          [
+            3,
+            79,
+            0.75
+          ]
+        ],
+        [
+          [
+            0,
+            78,
+            1
+          ],
+          [
+            1.5,
+            76,
+            1
+          ],
+          [
+            3,
+            74,
+            0.75
+          ]
+        ],
+        [
+          [
+            0,
+            72,
+            0.75
+          ],
+          [
+            1,
+            71,
+            0.75
+          ],
+          [
+            2,
+            67,
+            1
+          ],
+          [
+            3.25,
+            71,
+            0.5
+          ]
+        ],
+        [
+          [
+            0,
+            74,
+            1
+          ],
+          [
+            1.5,
+            71,
+            0.5
+          ],
+          [
+            2.5,
+            69,
+            1.25
+          ]
+        ]
+      ]
+    },
+    "home": {
+      "key": "A minor → A major",
+      "bars": 4,
+      "notes": [
+        [
+          [
+            0,
+            69,
+            1
+          ],
+          [
+            1.5,
+            76,
+            0.75
+          ],
+          [
+            2.5,
+            74,
+            0.5
+          ],
+          [
+            3.25,
+            72,
+            0.5
+          ]
+        ],
+        [
+          [
+            0,
+            71,
+            1.5
+          ],
+          [
+            2,
+            67,
+            0.75
+          ],
+          [
+            3,
+            69,
+            0.75
+          ]
+        ],
+        [
+          [
+            0,
+            72,
+            0.75
+          ],
+          [
+            1,
+            74,
+            0.75
+          ],
+          [
+            2,
+            76,
+            1
+          ],
+          [
+            3.25,
+            79,
+            0.5
+          ]
+        ],
+        [
+          [
+            0,
+            76,
+            1
+          ],
+          [
+            1.5,
+            71,
+            0.75
+          ],
+          [
+            2.75,
+            69,
+            1
+          ]
+        ]
+      ]
+    },
+    "sections": [
+      {
+        "id": "threshold",
+        "key": "A suspended / incomplete home",
+        "chords": [
+          "A5",
+          "Am9",
+          "A5",
+          "Esus"
+        ],
+        "instruments": [
+          "lyra",
+          "bass",
+          "wind"
+        ],
+        "rhythm": "Isolated two-note domestic question; no drums",
+        "development": "门前留白：归家主题只说前两个音。",
+        "start": 0,
+        "end": 6.666666666666667,
+        "bars": 4,
+        "startBeat": 0,
+        "eventCounts": {
+          "bass": 4,
+          "lyra": 6,
+          "wind": 4
+        },
+        "musicEvents": 14,
+        "structureSha256": "185b4b31e59775ca88c5b078f623dbf47b0dc8ab9c5b6e753fa7e5c6469b43ac"
+      },
+      {
+        "id": "troy",
+        "key": "A Aeolian → Dorian",
+        "chords": [
+          "Am",
+          "F",
+          "C",
+          "G",
+          "Am",
+          "D",
+          "Esus",
+          "Am"
+        ],
+        "instruments": [
+          "brass",
+          "war",
+          "frame",
+          "metal",
+          "bass",
+          "strings",
+          "pulse"
+        ],
+        "rhythm": "Bronze drum phalanx: 0, 1.5, 2.75; alternating shield replies",
+        "development": "青铜低鼓与错位帧鼓，短铜管宣叙；不是EDM四踩。",
+        "start": 6.666666666666667,
+        "end": 20,
+        "bars": 8,
+        "startBeat": 16,
+        "eventCounts": {
+          "bass": 16,
+          "brass": 37,
+          "strings": 32,
+          "war": 24,
+          "frame": 24,
+          "metal": 4,
+          "pulse": 13
+        },
+        "musicEvents": 150,
+        "structureSha256": "d18f56c23709382f78c464fbdc9799bccdee2a9f26ec463d4064818abc6d4930"
+      },
+      {
+        "id": "fleet",
+        "key": "A Dorian",
+        "chords": [
+          "Am9",
+          "G",
+          "D",
+          "Em",
+          "Am",
+          "D"
+        ],
+        "instruments": [
+          "pulse",
+          "lyra",
+          "strings",
+          "brass",
+          "bass",
+          "frame"
+        ],
+        "rhythm": "Broad theme over rowing half-notes and flowing lyra",
+        "development": "旋律舒展，F#点亮Dorian；里拉琴左右应答。",
+        "start": 20,
+        "end": 30,
+        "bars": 6,
+        "startBeat": 48,
+        "eventCounts": {
+          "bass": 6,
+          "frame": 12,
+          "lyra": 36,
+          "pulse": 19,
+          "strings": 24,
+          "brass": 3
+        },
+        "musicEvents": 100,
+        "structureSha256": "ecc545503ca5e9eeec1f46a7e6d05c6ff4366c610504ef91ea192b40098f9033"
+      },
+      {
+        "id": "cave",
+        "key": "A Phrygian / chromatic floor",
+        "chords": [
+          "Am",
+          "Bb",
+          "Am",
+          "Ab",
+          "Gm",
+          "Eflat",
+          "Esus",
+          "E"
+        ],
+        "instruments": [
+          "bass",
+          "war",
+          "pulse",
+          "wind",
+          "lyra"
+        ],
+        "rhythm": "Uneven low strikes: 0 / 1.75 / 3.25, every other bar incomplete",
+        "development": "半音地板、窄脉冲与不对称低鼓；大空间中仍有空隙。",
+        "start": 30,
+        "end": 43.333333333333336,
+        "bars": 8,
+        "startBeat": 72,
+        "eventCounts": {
+          "bass": 8,
+          "war": 12,
+          "wind": 8,
+          "pulse": 8,
+          "lyra": 4
+        },
+        "musicEvents": 40,
+        "structureSha256": "4032908c35fcfa0b9869dc1617bba4ce669f83bbef901ee7dcbf6f82686023e4"
+      },
+      {
+        "id": "cyclops",
+        "key": "A minor → Dorian escape",
+        "chords": [
+          "Am9",
+          "Esus",
+          "Am",
+          "F",
+          "Dm",
+          "Esus",
+          "Am",
+          "F",
+          "E",
+          "Am",
+          "G",
+          "D"
+        ],
+        "instruments": [
+          "lyra",
+          "frame",
+          "bass",
+          "war",
+          "strings",
+          "brass",
+          "pulse",
+          "metal"
+        ],
+        "rhythm": "12 bars: wine/probe 3 → charge 3 → impact 3 → escape 3",
+        "development": "先拨弦试探，再震音聚力，铜管重击，最后半拍脉冲脱离。",
+        "start": 43.333333333333336,
+        "end": 63.333333333333336,
+        "bars": 12,
+        "startBeat": 104,
+        "eventCounts": {
+          "bass": 21,
+          "lyra": 36,
+          "frame": 36,
+          "strings": 36,
+          "war": 30,
+          "metal": 9,
+          "pulse": 20,
+          "brass": 9
+        },
+        "musicEvents": 197,
+        "structureSha256": "f60b33d573906d787f3a2705379960fc68d736ae4a3ad383462cc9100acd7706"
+      },
+      {
+        "id": "hubris",
+        "key": "False A major → chromatic collapse",
+        "chords": [
+          "A",
+          "D",
+          "A9",
+          "Ab",
+          "Gm",
+          "E"
+        ],
+        "instruments": [
+          "pulse",
+          "brass",
+          "metal",
+          "bass",
+          "war",
+          "wind",
+          "strings"
+        ],
+        "rhythm": "Triumphal dotted calls fracture into falling chromatic stabs",
+        "development": "前三小节虚假大调胜利；随后移调崩落，不用同伴奏只降音量。",
+        "start": 63.333333333333336,
+        "end": 73.33333333333334,
+        "bars": 6,
+        "startBeat": 152,
+        "eventCounts": {
+          "bass": 6,
+          "brass": 21,
+          "metal": 3,
+          "pulse": 10,
+          "war": 12,
+          "strings": 12,
+          "wind": 3
+        },
+        "musicEvents": 67,
+        "structureSha256": "53412fe6ffde22d7132fb2751ef1d67c0863ade64568af9e92bc2d05705f0b7b"
+      },
+      {
+        "id": "sirens",
+        "key": "E Dorian",
+        "chords": [
+          "Em9",
+          "A",
+          "Bm",
+          "D",
+          "Em9",
+          "A9",
+          "Bm",
+          "Esus"
+        ],
+        "instruments": [
+          "bell",
+          "pulse",
+          "lyra",
+          "bass",
+          "frame",
+          "wind"
+        ],
+        "rhythm": "3+3+2 eighth-note accents with two independent interlocking lines",
+        "development": "通透FM铃与脉冲复调；节拍仍为144，错觉来自重音而非改速。",
+        "start": 73.33333333333334,
+        "end": 86.66666666666667,
+        "bars": 8,
+        "startBeat": 176,
+        "eventCounts": {
+          "bass": 8,
+          "bell": 26,
+          "frame": 24,
+          "pulse": 24,
+          "wind": 8,
+          "lyra": 24
+        },
+        "musicEvents": 114,
+        "structureSha256": "854dd78568366ec1db089ba4680bb8b2cbfecf5e4753e8a6b9d2148d0531821b"
+      },
+      {
+        "id": "strait",
+        "key": "B Phrygian / B minor tension",
+        "chords": [
+          "Bm",
+          "C",
+          "Bm",
+          "Am",
+          "Bm",
+          "C",
+          "G",
+          "Fs",
+          "Bm",
+          "C",
+          "E",
+          "B5"
+        ],
+        "instruments": [
+          "pulse",
+          "brass",
+          "strings",
+          "war",
+          "frame",
+          "metal",
+          "bass",
+          "lyra"
+        ],
+        "rhythm": "Six-register calls against 3+2+3 low drums and oar ostinato",
+        "development": "六个声部按不同音区和声像探下；损失一刻抽掉领奏，鼓阵仍逼迫向前。",
+        "start": 86.66666666666667,
+        "end": 106.66666666666667,
+        "bars": 12,
+        "startBeat": 208,
+        "eventCounts": {
+          "bass": 36,
+          "pulse": 69,
+          "strings": 48,
+          "war": 36,
+          "brass": 38,
+          "lyra": 48,
+          "frame": 36,
+          "metal": 36
+        },
+        "musicEvents": 347,
+        "structureSha256": "c0e6d2895b671dc284894d6480eb1b13a15119cfda28b2914c58835f85a24722"
+      },
+      {
+        "id": "storm",
+        "key": "D minor / descending sea",
+        "chords": [
+          "Dm9",
+          "Bb",
+          "Gm",
+          "Dm",
+          "Eflat",
+          "Bb",
+          "Gm",
+          "E",
+          "Dm",
+          "A5"
+        ],
+        "instruments": [
+          "strings",
+          "wind",
+          "bass",
+          "brass",
+          "war",
+          "metal",
+          "lyra"
+        ],
+        "rhythm": "Rotating tremolo, displaced thunder and widening surf; then subtraction",
+        "development": "危机靠音区、海浪滤波、错位低鼓与撤去领奏建立，不只是加响。",
+        "start": 106.66666666666667,
+        "end": 123.33333333333334,
+        "bars": 10,
+        "startBeat": 256,
+        "eventCounts": {
+          "bass": 10,
+          "brass": 12,
+          "strings": 36,
+          "war": 27,
+          "wind": 10,
+          "metal": 4,
+          "lyra": 17
+        },
+        "musicEvents": 116,
+        "structureSha256": "618a68db22aaf23d9ff7bd60632b7443e2404196c03f80982d5365e8f90bc618"
+      },
+      {
+        "id": "drift",
+        "key": "A minor, open ninth",
+        "chords": [
+          "A5",
+          "Am9",
+          "C",
+          "G",
+          "Am9",
+          "Esus"
+        ],
+        "instruments": [
+          "lyra",
+          "bass",
+          "wind"
+        ],
+        "rhythm": "Exposed solo with long unaccompanied gaps over a quiet sustained floor",
+        "development": "独奏拨弦拾起归家动机；没有鼓和合奏垫底。",
+        "start": 123.33333333333334,
+        "end": 133.33333333333334,
+        "bars": 6,
+        "startBeat": 296,
+        "eventCounts": {
+          "bass": 6,
+          "lyra": 11,
+          "wind": 6
+        },
+        "musicEvents": 23,
+        "structureSha256": "5fae17c0f00435563f78aeaf2c0ab3ef7533b6e907982ce745b215114848434e"
+      },
+      {
+        "id": "ithaca",
+        "key": "A major / warm borrowed C",
+        "chords": [
+          "A9",
+          "D",
+          "Fs",
+          "A"
+        ],
+        "instruments": [
+          "lyra",
+          "strings",
+          "bass",
+          "bell"
+        ],
+        "rhythm": "Complete home melody, soft inner-voice suspensions; no percussion",
+        "development": "归家主题第一次完整暖色呈现。",
+        "start": 133.33333333333334,
+        "end": 140,
+        "bars": 4,
+        "startBeat": 320,
+        "eventCounts": {
+          "bass": 4,
+          "lyra": 14,
+          "strings": 16,
+          "bell": 2
+        },
+        "musicEvents": 36,
+        "structureSha256": "422de86c1fc68046b8010e65188a705f64f920a2f66b13dc92a25ec7593b8168"
+      },
+      {
+        "id": "bow",
+        "key": "A suspended → E tension",
+        "chords": [
+          "A5",
+          "Esus",
+          "Am9",
+          "Esus",
+          "E",
+          "A5"
+        ],
+        "instruments": [
+          "lyra",
+          "tension",
+          "bass"
+        ],
+        "rhythm": "Plucks contract; continuous ten-beat draw ends exactly at release",
+        "development": "从稀疏拨弦收缩到弦张力升音；放箭与斧孔声由共享动作点触发。",
+        "start": 140,
+        "end": 150,
+        "bars": 6,
+        "startBeat": 336,
+        "eventCounts": {
+          "bass": 6,
+          "lyra": 12,
+          "tension": 1
+        },
+        "musicEvents": 19,
+        "structureSha256": "994a59273d4892442115c87d23e30342e36bfc2b26d4f043c6825e25abcd3780"
+      },
+      {
+        "id": "hall",
+        "key": "A Dorian; two themes in counterpoint",
+        "chords": [
+          "Am",
+          "G",
+          "D",
+          "Em",
+          "Am9",
+          "D",
+          "Esus",
+          "Am"
+        ],
+        "instruments": [
+          "pulse",
+          "lyra",
+          "brass",
+          "strings",
+          "bass",
+          "war",
+          "frame",
+          "metal"
+        ],
+        "rhythm": "Full eight-bar expedition above independent four-bar home twice",
+        "development": "双主题八小节交织；结尾按字幕逐层撤军鼓，为识认留出空间。",
+        "start": 150,
+        "end": 163.33333333333334,
+        "bars": 8,
+        "startBeat": 360,
+        "eventCounts": {
+          "bass": 16,
+          "lyra": 28,
+          "pulse": 26,
+          "strings": 32,
+          "war": 28,
+          "brass": 24,
+          "frame": 29,
+          "metal": 21
+        },
+        "musicEvents": 204,
+        "structureSha256": "0c675fa34201acd1f09e4e89e758e7fedb4555aebb2b13c22651b3ee3f089618"
+      },
+      {
+        "id": "root",
+        "key": "A open ninth → warm major",
+        "chords": [
+          "A5",
+          "Am9",
+          "D",
+          "A9",
+          "D",
+          "A5"
+        ],
+        "instruments": [
+          "lyra",
+          "bass",
+          "bell"
+        ],
+        "rhythm": "No drums or inherited drum reverberation; sparse intimate replies",
+        "development": "真正退出鼓阵，168.333秒只用柔和铃声确认识认。",
+        "start": 163.33333333333334,
+        "end": 173.33333333333334,
+        "bars": 6,
+        "startBeat": 392,
+        "eventCounts": {
+          "bass": 6,
+          "lyra": 8
+        },
+        "musicEvents": 14,
+        "structureSha256": "0051687c27af39e83cab01db63e8f1d5f8e5b94b39a46c62024829ccf4178830"
+      },
+      {
+        "id": "home",
+        "key": "A major",
+        "chords": [
+          "A9",
+          "D",
+          "Esus",
+          "A"
+        ],
+        "instruments": [
+          "lyra",
+          "pulse",
+          "strings",
+          "bass"
+        ],
+        "rhythm": "Home reprise with augmented expedition fragments; drum-free cadence",
+        "development": "归家旋律明亮而克制，远征只作长音回应；末1.5秒完整淡出。",
+        "start": 173.33333333333334,
+        "end": 180,
+        "bars": 4,
+        "startBeat": 416,
+        "eventCounts": {
+          "bass": 4,
+          "lyra": 15,
+          "pulse": 6,
+          "strings": 16
+        },
+        "musicEvents": 41,
+        "structureSha256": "00d01be5ef1bf4b8e099b586451cc0666b8327d241b097e20956f6c389f6127a"
+      }
+    ],
+    "bars": [
+      {
+        "bar": 0,
+        "beat": 0,
+        "time": 0,
+        "sample": 0,
+        "section": "threshold",
+        "chord": "A5",
+        "rootMidi": 33
+      },
+      {
+        "bar": 1,
+        "beat": 4,
+        "time": 1.6666666666666667,
+        "sample": 80000,
+        "section": "threshold",
+        "chord": "Am9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 2,
+        "beat": 8,
+        "time": 3.3333333333333335,
+        "sample": 160000,
+        "section": "threshold",
+        "chord": "A5",
+        "rootMidi": 33
+      },
+      {
+        "bar": 3,
+        "beat": 12,
+        "time": 5,
+        "sample": 240000,
+        "section": "threshold",
+        "chord": "Esus",
+        "rootMidi": 40
+      },
+      {
+        "bar": 4,
+        "beat": 16,
+        "time": 6.666666666666667,
+        "sample": 320000,
+        "section": "troy",
+        "chord": "Am",
+        "rootMidi": 33
+      },
+      {
+        "bar": 5,
+        "beat": 20,
+        "time": 8.333333333333334,
+        "sample": 400000,
+        "section": "troy",
+        "chord": "F",
+        "rootMidi": 29
+      },
+      {
+        "bar": 6,
+        "beat": 24,
+        "time": 10,
+        "sample": 480000,
+        "section": "troy",
+        "chord": "C",
+        "rootMidi": 36
+      },
+      {
+        "bar": 7,
+        "beat": 28,
+        "time": 11.666666666666668,
+        "sample": 560000,
+        "section": "troy",
+        "chord": "G",
+        "rootMidi": 31
+      },
+      {
+        "bar": 8,
+        "beat": 32,
+        "time": 13.333333333333334,
+        "sample": 640000,
+        "section": "troy",
+        "chord": "Am",
+        "rootMidi": 33
+      },
+      {
+        "bar": 9,
+        "beat": 36,
+        "time": 15,
+        "sample": 720000,
+        "section": "troy",
+        "chord": "D",
+        "rootMidi": 38
+      },
+      {
+        "bar": 10,
+        "beat": 40,
+        "time": 16.666666666666668,
+        "sample": 800000,
+        "section": "troy",
+        "chord": "Esus",
+        "rootMidi": 40
+      },
+      {
+        "bar": 11,
+        "beat": 44,
+        "time": 18.333333333333336,
+        "sample": 880000,
+        "section": "troy",
+        "chord": "Am",
+        "rootMidi": 33
+      },
+      {
+        "bar": 12,
+        "beat": 48,
+        "time": 20,
+        "sample": 960000,
+        "section": "fleet",
+        "chord": "Am9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 13,
+        "beat": 52,
+        "time": 21.666666666666668,
+        "sample": 1040000,
+        "section": "fleet",
+        "chord": "G",
+        "rootMidi": 31
+      },
+      {
+        "bar": 14,
+        "beat": 56,
+        "time": 23.333333333333336,
+        "sample": 1120000,
+        "section": "fleet",
+        "chord": "D",
+        "rootMidi": 38
+      },
+      {
+        "bar": 15,
+        "beat": 60,
+        "time": 25,
+        "sample": 1200000,
+        "section": "fleet",
+        "chord": "Em",
+        "rootMidi": 40
+      },
+      {
+        "bar": 16,
+        "beat": 64,
+        "time": 26.666666666666668,
+        "sample": 1280000,
+        "section": "fleet",
+        "chord": "Am",
+        "rootMidi": 33
+      },
+      {
+        "bar": 17,
+        "beat": 68,
+        "time": 28.333333333333336,
+        "sample": 1360000,
+        "section": "fleet",
+        "chord": "D",
+        "rootMidi": 38
+      },
+      {
+        "bar": 18,
+        "beat": 72,
+        "time": 30,
+        "sample": 1440000,
+        "section": "cave",
+        "chord": "Am",
+        "rootMidi": 33
+      },
+      {
+        "bar": 19,
+        "beat": 76,
+        "time": 31.666666666666668,
+        "sample": 1520000,
+        "section": "cave",
+        "chord": "Bb",
+        "rootMidi": 34
+      },
+      {
+        "bar": 20,
+        "beat": 80,
+        "time": 33.333333333333336,
+        "sample": 1600000,
+        "section": "cave",
+        "chord": "Am",
+        "rootMidi": 33
+      },
+      {
+        "bar": 21,
+        "beat": 84,
+        "time": 35,
+        "sample": 1680000,
+        "section": "cave",
+        "chord": "Ab",
+        "rootMidi": 32
+      },
+      {
+        "bar": 22,
+        "beat": 88,
+        "time": 36.66666666666667,
+        "sample": 1760000,
+        "section": "cave",
+        "chord": "Gm",
+        "rootMidi": 31
+      },
+      {
+        "bar": 23,
+        "beat": 92,
+        "time": 38.333333333333336,
+        "sample": 1840000,
+        "section": "cave",
+        "chord": "Eflat",
+        "rootMidi": 39
+      },
+      {
+        "bar": 24,
+        "beat": 96,
+        "time": 40,
+        "sample": 1920000,
+        "section": "cave",
+        "chord": "Esus",
+        "rootMidi": 40
+      },
+      {
+        "bar": 25,
+        "beat": 100,
+        "time": 41.66666666666667,
+        "sample": 2000000,
+        "section": "cave",
+        "chord": "E",
+        "rootMidi": 40
+      },
+      {
+        "bar": 26,
+        "beat": 104,
+        "time": 43.333333333333336,
+        "sample": 2080000,
+        "section": "cyclops",
+        "chord": "Am9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 27,
+        "beat": 108,
+        "time": 45,
+        "sample": 2160000,
+        "section": "cyclops",
+        "chord": "Esus",
+        "rootMidi": 40
+      },
+      {
+        "bar": 28,
+        "beat": 112,
+        "time": 46.66666666666667,
+        "sample": 2240000,
+        "section": "cyclops",
+        "chord": "Am",
+        "rootMidi": 33
+      },
+      {
+        "bar": 29,
+        "beat": 116,
+        "time": 48.333333333333336,
+        "sample": 2320000,
+        "section": "cyclops",
+        "chord": "F",
+        "rootMidi": 29
+      },
+      {
+        "bar": 30,
+        "beat": 120,
+        "time": 50,
+        "sample": 2400000,
+        "section": "cyclops",
+        "chord": "Dm",
+        "rootMidi": 38
+      },
+      {
+        "bar": 31,
+        "beat": 124,
+        "time": 51.66666666666667,
+        "sample": 2480000,
+        "section": "cyclops",
+        "chord": "Esus",
+        "rootMidi": 40
+      },
+      {
+        "bar": 32,
+        "beat": 128,
+        "time": 53.333333333333336,
+        "sample": 2560000,
+        "section": "cyclops",
+        "chord": "Am",
+        "rootMidi": 33
+      },
+      {
+        "bar": 33,
+        "beat": 132,
+        "time": 55,
+        "sample": 2640000,
+        "section": "cyclops",
+        "chord": "F",
+        "rootMidi": 29
+      },
+      {
+        "bar": 34,
+        "beat": 136,
+        "time": 56.66666666666667,
+        "sample": 2720000,
+        "section": "cyclops",
+        "chord": "E",
+        "rootMidi": 40
+      },
+      {
+        "bar": 35,
+        "beat": 140,
+        "time": 58.333333333333336,
+        "sample": 2800000,
+        "section": "cyclops",
+        "chord": "Am",
+        "rootMidi": 33
+      },
+      {
+        "bar": 36,
+        "beat": 144,
+        "time": 60,
+        "sample": 2880000,
+        "section": "cyclops",
+        "chord": "G",
+        "rootMidi": 31
+      },
+      {
+        "bar": 37,
+        "beat": 148,
+        "time": 61.66666666666667,
+        "sample": 2960000,
+        "section": "cyclops",
+        "chord": "D",
+        "rootMidi": 38
+      },
+      {
+        "bar": 38,
+        "beat": 152,
+        "time": 63.333333333333336,
+        "sample": 3040000,
+        "section": "hubris",
+        "chord": "A",
+        "rootMidi": 33
+      },
+      {
+        "bar": 39,
+        "beat": 156,
+        "time": 65,
+        "sample": 3120000,
+        "section": "hubris",
+        "chord": "D",
+        "rootMidi": 38
+      },
+      {
+        "bar": 40,
+        "beat": 160,
+        "time": 66.66666666666667,
+        "sample": 3200000,
+        "section": "hubris",
+        "chord": "A9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 41,
+        "beat": 164,
+        "time": 68.33333333333334,
+        "sample": 3280000,
+        "section": "hubris",
+        "chord": "Ab",
+        "rootMidi": 32
+      },
+      {
+        "bar": 42,
+        "beat": 168,
+        "time": 70,
+        "sample": 3360000,
+        "section": "hubris",
+        "chord": "Gm",
+        "rootMidi": 31
+      },
+      {
+        "bar": 43,
+        "beat": 172,
+        "time": 71.66666666666667,
+        "sample": 3440000,
+        "section": "hubris",
+        "chord": "E",
+        "rootMidi": 40
+      },
+      {
+        "bar": 44,
+        "beat": 176,
+        "time": 73.33333333333334,
+        "sample": 3520000,
+        "section": "sirens",
+        "chord": "Em9",
+        "rootMidi": 40
+      },
+      {
+        "bar": 45,
+        "beat": 180,
+        "time": 75,
+        "sample": 3600000,
+        "section": "sirens",
+        "chord": "A",
+        "rootMidi": 33
+      },
+      {
+        "bar": 46,
+        "beat": 184,
+        "time": 76.66666666666667,
+        "sample": 3680000,
+        "section": "sirens",
+        "chord": "Bm",
+        "rootMidi": 35
+      },
+      {
+        "bar": 47,
+        "beat": 188,
+        "time": 78.33333333333334,
+        "sample": 3760000,
+        "section": "sirens",
+        "chord": "D",
+        "rootMidi": 38
+      },
+      {
+        "bar": 48,
+        "beat": 192,
+        "time": 80,
+        "sample": 3840000,
+        "section": "sirens",
+        "chord": "Em9",
+        "rootMidi": 40
+      },
+      {
+        "bar": 49,
+        "beat": 196,
+        "time": 81.66666666666667,
+        "sample": 3920000,
+        "section": "sirens",
+        "chord": "A9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 50,
+        "beat": 200,
+        "time": 83.33333333333334,
+        "sample": 4000000,
+        "section": "sirens",
+        "chord": "Bm",
+        "rootMidi": 35
+      },
+      {
+        "bar": 51,
+        "beat": 204,
+        "time": 85,
+        "sample": 4080000,
+        "section": "sirens",
+        "chord": "Esus",
+        "rootMidi": 40
+      },
+      {
+        "bar": 52,
+        "beat": 208,
+        "time": 86.66666666666667,
+        "sample": 4160000,
+        "section": "strait",
+        "chord": "Bm",
+        "rootMidi": 35
+      },
+      {
+        "bar": 53,
+        "beat": 212,
+        "time": 88.33333333333334,
+        "sample": 4240000,
+        "section": "strait",
+        "chord": "C",
+        "rootMidi": 36
+      },
+      {
+        "bar": 54,
+        "beat": 216,
+        "time": 90,
+        "sample": 4320000,
+        "section": "strait",
+        "chord": "Bm",
+        "rootMidi": 35
+      },
+      {
+        "bar": 55,
+        "beat": 220,
+        "time": 91.66666666666667,
+        "sample": 4400000,
+        "section": "strait",
+        "chord": "Am",
+        "rootMidi": 33
+      },
+      {
+        "bar": 56,
+        "beat": 224,
+        "time": 93.33333333333334,
+        "sample": 4480000,
+        "section": "strait",
+        "chord": "Bm",
+        "rootMidi": 35
+      },
+      {
+        "bar": 57,
+        "beat": 228,
+        "time": 95,
+        "sample": 4560000,
+        "section": "strait",
+        "chord": "C",
+        "rootMidi": 36
+      },
+      {
+        "bar": 58,
+        "beat": 232,
+        "time": 96.66666666666667,
+        "sample": 4640000,
+        "section": "strait",
+        "chord": "G",
+        "rootMidi": 31
+      },
+      {
+        "bar": 59,
+        "beat": 236,
+        "time": 98.33333333333334,
+        "sample": 4720000,
+        "section": "strait",
+        "chord": "Fs",
+        "rootMidi": 30
+      },
+      {
+        "bar": 60,
+        "beat": 240,
+        "time": 100,
+        "sample": 4800000,
+        "section": "strait",
+        "chord": "Bm",
+        "rootMidi": 35
+      },
+      {
+        "bar": 61,
+        "beat": 244,
+        "time": 101.66666666666667,
+        "sample": 4880000,
+        "section": "strait",
+        "chord": "C",
+        "rootMidi": 36
+      },
+      {
+        "bar": 62,
+        "beat": 248,
+        "time": 103.33333333333334,
+        "sample": 4960000,
+        "section": "strait",
+        "chord": "E",
+        "rootMidi": 40
+      },
+      {
+        "bar": 63,
+        "beat": 252,
+        "time": 105,
+        "sample": 5040000,
+        "section": "strait",
+        "chord": "B5",
+        "rootMidi": 35
+      },
+      {
+        "bar": 64,
+        "beat": 256,
+        "time": 106.66666666666667,
+        "sample": 5120000,
+        "section": "storm",
+        "chord": "Dm9",
+        "rootMidi": 38
+      },
+      {
+        "bar": 65,
+        "beat": 260,
+        "time": 108.33333333333334,
+        "sample": 5200000,
+        "section": "storm",
+        "chord": "Bb",
+        "rootMidi": 34
+      },
+      {
+        "bar": 66,
+        "beat": 264,
+        "time": 110,
+        "sample": 5280000,
+        "section": "storm",
+        "chord": "Gm",
+        "rootMidi": 31
+      },
+      {
+        "bar": 67,
+        "beat": 268,
+        "time": 111.66666666666667,
+        "sample": 5360000,
+        "section": "storm",
+        "chord": "Dm",
+        "rootMidi": 38
+      },
+      {
+        "bar": 68,
+        "beat": 272,
+        "time": 113.33333333333334,
+        "sample": 5440000,
+        "section": "storm",
+        "chord": "Eflat",
+        "rootMidi": 39
+      },
+      {
+        "bar": 69,
+        "beat": 276,
+        "time": 115,
+        "sample": 5520000,
+        "section": "storm",
+        "chord": "Bb",
+        "rootMidi": 34
+      },
+      {
+        "bar": 70,
+        "beat": 280,
+        "time": 116.66666666666667,
+        "sample": 5600000,
+        "section": "storm",
+        "chord": "Gm",
+        "rootMidi": 31
+      },
+      {
+        "bar": 71,
+        "beat": 284,
+        "time": 118.33333333333334,
+        "sample": 5680000,
+        "section": "storm",
+        "chord": "E",
+        "rootMidi": 40
+      },
+      {
+        "bar": 72,
+        "beat": 288,
+        "time": 120,
+        "sample": 5760000,
+        "section": "storm",
+        "chord": "Dm",
+        "rootMidi": 38
+      },
+      {
+        "bar": 73,
+        "beat": 292,
+        "time": 121.66666666666667,
+        "sample": 5840000,
+        "section": "storm",
+        "chord": "A5",
+        "rootMidi": 33
+      },
+      {
+        "bar": 74,
+        "beat": 296,
+        "time": 123.33333333333334,
+        "sample": 5920000,
+        "section": "drift",
+        "chord": "A5",
+        "rootMidi": 33
+      },
+      {
+        "bar": 75,
+        "beat": 300,
+        "time": 125,
+        "sample": 6000000,
+        "section": "drift",
+        "chord": "Am9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 76,
+        "beat": 304,
+        "time": 126.66666666666667,
+        "sample": 6080000,
+        "section": "drift",
+        "chord": "C",
+        "rootMidi": 36
+      },
+      {
+        "bar": 77,
+        "beat": 308,
+        "time": 128.33333333333334,
+        "sample": 6160000,
+        "section": "drift",
+        "chord": "G",
+        "rootMidi": 31
+      },
+      {
+        "bar": 78,
+        "beat": 312,
+        "time": 130,
+        "sample": 6240000,
+        "section": "drift",
+        "chord": "Am9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 79,
+        "beat": 316,
+        "time": 131.66666666666669,
+        "sample": 6320000,
+        "section": "drift",
+        "chord": "Esus",
+        "rootMidi": 40
+      },
+      {
+        "bar": 80,
+        "beat": 320,
+        "time": 133.33333333333334,
+        "sample": 6400000,
+        "section": "ithaca",
+        "chord": "A9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 81,
+        "beat": 324,
+        "time": 135,
+        "sample": 6480000,
+        "section": "ithaca",
+        "chord": "D",
+        "rootMidi": 38
+      },
+      {
+        "bar": 82,
+        "beat": 328,
+        "time": 136.66666666666669,
+        "sample": 6560000,
+        "section": "ithaca",
+        "chord": "Fs",
+        "rootMidi": 30
+      },
+      {
+        "bar": 83,
+        "beat": 332,
+        "time": 138.33333333333334,
+        "sample": 6640000,
+        "section": "ithaca",
+        "chord": "A",
+        "rootMidi": 33
+      },
+      {
+        "bar": 84,
+        "beat": 336,
+        "time": 140,
+        "sample": 6720000,
+        "section": "bow",
+        "chord": "A5",
+        "rootMidi": 33
+      },
+      {
+        "bar": 85,
+        "beat": 340,
+        "time": 141.66666666666669,
+        "sample": 6800000,
+        "section": "bow",
+        "chord": "Esus",
+        "rootMidi": 40
+      },
+      {
+        "bar": 86,
+        "beat": 344,
+        "time": 143.33333333333334,
+        "sample": 6880000,
+        "section": "bow",
+        "chord": "Am9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 87,
+        "beat": 348,
+        "time": 145,
+        "sample": 6960000,
+        "section": "bow",
+        "chord": "Esus",
+        "rootMidi": 40
+      },
+      {
+        "bar": 88,
+        "beat": 352,
+        "time": 146.66666666666669,
+        "sample": 7040000,
+        "section": "bow",
+        "chord": "E",
+        "rootMidi": 40
+      },
+      {
+        "bar": 89,
+        "beat": 356,
+        "time": 148.33333333333334,
+        "sample": 7120000,
+        "section": "bow",
+        "chord": "A5",
+        "rootMidi": 33
+      },
+      {
+        "bar": 90,
+        "beat": 360,
+        "time": 150,
+        "sample": 7200000,
+        "section": "hall",
+        "chord": "Am",
+        "rootMidi": 33
+      },
+      {
+        "bar": 91,
+        "beat": 364,
+        "time": 151.66666666666669,
+        "sample": 7280000,
+        "section": "hall",
+        "chord": "G",
+        "rootMidi": 31
+      },
+      {
+        "bar": 92,
+        "beat": 368,
+        "time": 153.33333333333334,
+        "sample": 7360000,
+        "section": "hall",
+        "chord": "D",
+        "rootMidi": 38
+      },
+      {
+        "bar": 93,
+        "beat": 372,
+        "time": 155,
+        "sample": 7440000,
+        "section": "hall",
+        "chord": "Em",
+        "rootMidi": 40
+      },
+      {
+        "bar": 94,
+        "beat": 376,
+        "time": 156.66666666666669,
+        "sample": 7520000,
+        "section": "hall",
+        "chord": "Am9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 95,
+        "beat": 380,
+        "time": 158.33333333333334,
+        "sample": 7600000,
+        "section": "hall",
+        "chord": "D",
+        "rootMidi": 38
+      },
+      {
+        "bar": 96,
+        "beat": 384,
+        "time": 160,
+        "sample": 7680000,
+        "section": "hall",
+        "chord": "Esus",
+        "rootMidi": 40
+      },
+      {
+        "bar": 97,
+        "beat": 388,
+        "time": 161.66666666666669,
+        "sample": 7760000,
+        "section": "hall",
+        "chord": "Am",
+        "rootMidi": 33
+      },
+      {
+        "bar": 98,
+        "beat": 392,
+        "time": 163.33333333333334,
+        "sample": 7840000,
+        "section": "root",
+        "chord": "A5",
+        "rootMidi": 33
+      },
+      {
+        "bar": 99,
+        "beat": 396,
+        "time": 165,
+        "sample": 7920000,
+        "section": "root",
+        "chord": "Am9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 100,
+        "beat": 400,
+        "time": 166.66666666666669,
+        "sample": 8000000,
+        "section": "root",
+        "chord": "D",
+        "rootMidi": 38
+      },
+      {
+        "bar": 101,
+        "beat": 404,
+        "time": 168.33333333333334,
+        "sample": 8080000,
+        "section": "root",
+        "chord": "A9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 102,
+        "beat": 408,
+        "time": 170,
+        "sample": 8160000,
+        "section": "root",
+        "chord": "D",
+        "rootMidi": 38
+      },
+      {
+        "bar": 103,
+        "beat": 412,
+        "time": 171.66666666666669,
+        "sample": 8240000,
+        "section": "root",
+        "chord": "A5",
+        "rootMidi": 33
+      },
+      {
+        "bar": 104,
+        "beat": 416,
+        "time": 173.33333333333334,
+        "sample": 8320000,
+        "section": "home",
+        "chord": "A9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 105,
+        "beat": 420,
+        "time": 175,
+        "sample": 8400000,
+        "section": "home",
+        "chord": "D",
+        "rootMidi": 38
+      },
+      {
+        "bar": 106,
+        "beat": 424,
+        "time": 176.66666666666669,
+        "sample": 8480000,
+        "section": "home",
+        "chord": "Esus",
+        "rootMidi": 40
+      },
+      {
+        "bar": 107,
+        "beat": 428,
+        "time": 178.33333333333334,
+        "sample": 8560000,
+        "section": "home",
+        "chord": "A",
+        "rootMidi": 33
+      }
+    ],
+    "cues": [
+      {
+        "id": "shield-meet",
+        "chapter": "troy",
+        "beat": 26,
+        "time": 10.833333333333334,
+        "kind": "shield",
+        "intensity": 0.75,
+        "source": "story.ACTION_CUES",
+        "sample": 520000
+      },
+      {
+        "id": "bronze-parry",
+        "chapter": "troy",
+        "beat": 34,
+        "time": 14.166666666666668,
+        "kind": "clash",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 680000
+      },
+      {
+        "id": "troy-counter",
+        "chapter": "troy",
+        "beat": 38,
+        "time": 15.833333333333334,
+        "kind": "slash",
+        "intensity": 0.7,
+        "source": "story.ACTION_CUES",
+        "sample": 760000
+      },
+      {
+        "id": "eye-opens",
+        "chapter": "cave",
+        "beat": 84,
+        "time": 35,
+        "kind": "reveal",
+        "intensity": 0.7,
+        "source": "story.ACTION_CUES",
+        "sample": 1680000
+      },
+      {
+        "id": "stone-seals",
+        "chapter": "cave",
+        "beat": 92,
+        "time": 38.333333333333336,
+        "kind": "stone",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 1840000
+      },
+      {
+        "id": "club-falls",
+        "chapter": "cyclops",
+        "beat": 114,
+        "time": 47.5,
+        "kind": "stone",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 2280000
+      },
+      {
+        "id": "roll-clear",
+        "chapter": "cyclops",
+        "beat": 122,
+        "time": 50.833333333333336,
+        "kind": "whoosh",
+        "intensity": 0.7,
+        "source": "story.ACTION_CUES",
+        "sample": 2440000
+      },
+      {
+        "id": "stake-lift",
+        "chapter": "cyclops",
+        "beat": 130,
+        "time": 54.16666666666667,
+        "kind": "rise",
+        "intensity": 0.6,
+        "source": "story.ACTION_CUES",
+        "sample": 2600000
+      },
+      {
+        "id": "cave-impact",
+        "chapter": "cyclops",
+        "beat": 137,
+        "time": 57.083333333333336,
+        "kind": "impact",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 2740000
+      },
+      {
+        "id": "cave-opens",
+        "chapter": "cyclops",
+        "beat": 145,
+        "time": 60.41666666666667,
+        "kind": "stone",
+        "intensity": 0.7,
+        "source": "story.ACTION_CUES",
+        "sample": 2900000
+      },
+      {
+        "id": "boulder-sea",
+        "chapter": "hubris",
+        "beat": 170,
+        "time": 70.83333333333334,
+        "kind": "splash",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 3400000
+      },
+      {
+        "id": "rope-tight",
+        "chapter": "sirens",
+        "beat": 196,
+        "time": 81.66666666666667,
+        "kind": "pluck",
+        "intensity": 0.5,
+        "source": "story.ACTION_CUES",
+        "sample": 3920000
+      },
+      {
+        "id": "six-heads",
+        "chapter": "strait",
+        "beat": 226,
+        "time": 94.16666666666667,
+        "kind": "reveal",
+        "intensity": 0.8,
+        "source": "story.ACTION_CUES",
+        "sample": 4520000
+      },
+      {
+        "id": "first-block",
+        "chapter": "strait",
+        "beat": 233,
+        "time": 97.08333333333334,
+        "kind": "shield",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 4660000
+      },
+      {
+        "id": "spear-turn",
+        "chapter": "strait",
+        "beat": 237,
+        "time": 98.75,
+        "kind": "clash",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 4740000
+      },
+      {
+        "id": "second-block",
+        "chapter": "strait",
+        "beat": 241,
+        "time": 100.41666666666667,
+        "kind": "shield",
+        "intensity": 0.85,
+        "source": "story.ACTION_CUES",
+        "sample": 4820000
+      },
+      {
+        "id": "empty-oar",
+        "chapter": "strait",
+        "beat": 247,
+        "time": 102.91666666666667,
+        "kind": "impact",
+        "intensity": 0.65,
+        "source": "story.ACTION_CUES",
+        "sample": 4940000
+      },
+      {
+        "id": "wave-wall",
+        "chapter": "storm",
+        "beat": 266,
+        "time": 110.83333333333334,
+        "kind": "rise",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 5320000
+      },
+      {
+        "id": "deck-hit",
+        "chapter": "storm",
+        "beat": 273,
+        "time": 113.75,
+        "kind": "splash",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 5460000
+      },
+      {
+        "id": "mast-break",
+        "chapter": "storm",
+        "beat": 282,
+        "time": 117.5,
+        "kind": "crack",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 5640000
+      },
+      {
+        "id": "underwater-fall",
+        "chapter": "storm",
+        "beat": 289,
+        "time": 120.41666666666667,
+        "kind": "sub",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 5780000
+      },
+      {
+        "id": "wood-grip",
+        "chapter": "drift",
+        "beat": 305,
+        "time": 127.08333333333334,
+        "kind": "wood",
+        "intensity": 0.45,
+        "source": "story.ACTION_CUES",
+        "sample": 6100000
+      },
+      {
+        "id": "arrow-release",
+        "chapter": "bow",
+        "beat": 354,
+        "time": 147.5,
+        "kind": "arrow",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 7080000
+      },
+      {
+        "id": "twelve-axes",
+        "chapter": "bow",
+        "beat": 355,
+        "time": 147.91666666666669,
+        "kind": "metal",
+        "intensity": 0.7,
+        "source": "story.ACTION_CUES",
+        "sample": 7100000
+      },
+      {
+        "id": "father-son-guard",
+        "chapter": "hall",
+        "beat": 364,
+        "time": 151.66666666666669,
+        "kind": "shield",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 7280000
+      },
+      {
+        "id": "hall-volley",
+        "chapter": "hall",
+        "beat": 370,
+        "time": 154.16666666666669,
+        "kind": "whoosh",
+        "intensity": 0.8,
+        "source": "story.ACTION_CUES",
+        "sample": 7400000
+      },
+      {
+        "id": "hall-parry",
+        "chapter": "hall",
+        "beat": 374,
+        "time": 155.83333333333334,
+        "kind": "clash",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 7480000
+      },
+      {
+        "id": "hall-counter",
+        "chapter": "hall",
+        "beat": 378,
+        "time": 157.5,
+        "kind": "slash",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 7560000
+      },
+      {
+        "id": "last-shield",
+        "chapter": "hall",
+        "beat": 382,
+        "time": 159.16666666666669,
+        "kind": "shield",
+        "intensity": 1,
+        "source": "story.ACTION_CUES",
+        "sample": 7640000
+      },
+      {
+        "id": "root-recognized",
+        "chapter": "root",
+        "beat": 404,
+        "time": 168.33333333333334,
+        "kind": "bell",
+        "intensity": 0.45,
+        "source": "story.ACTION_CUES",
+        "sample": 8080000
+      },
+      {
+        "id": "beneath-the-wave",
+        "start": 122.5,
+        "end": 122.91666666666667,
+        "reason": "落水后缺掉一拍，随即回到孤独拨弦；不是时间轴暂停。",
+        "source": "story.HOLDS",
+        "startSample": 5880000,
+        "endSample": 5900000,
+        "edgeRampMs": 8,
+        "allBusesMuted": true
+      },
+      {
+        "id": "bow-draw",
+        "start": 143.33333333333334,
+        "end": 147.5,
+        "source": "original arrangement, ending at arrow-release"
+      },
+      {
+        "id": "drums-exit",
+        "start": 163.33333333333334,
+        "source": "story.CHAPTERS.root; all FX memory cleared"
+      },
+      {
+        "id": "terminal-fade",
+        "start": 178.5,
+        "end": 180,
+        "source": "original master envelope"
+      }
+    ],
+    "eventSha256": "61c2d693b969f49403a0bb90c4333e5c9ad825fc83edcc16b7ef217f3a5c1a98",
+    "eventCount": 1512,
+    "render": {
+      "frames": 8640000,
+      "blockFrames": 80000,
+      "allocatedMixBufferBytes": 2560000,
+      "maxVoices": 38,
+      "rawPeak": 1.059821,
+      "renderedEvents": 1512,
+      "maxOnsetErrorSamples": 1,
+      "cueProof": [
+        {
+          "id": "shield-meet",
+          "kind": "shield",
+          "sample": 520000,
+          "frames": 14400,
+          "firstNonzeroSample": 520001,
+          "scheduledTime": 10.833333333333334,
+          "firstNonzeroTime": 10.833354166666666,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -43.434394,
+          "peakDbFS": -24.752358,
+          "musicRmsDbFS": -28.511248,
+          "sfxOverMusicDb": -14.923146
+        },
+        {
+          "id": "bronze-parry",
+          "kind": "clash",
+          "sample": 680000,
+          "frames": 13440,
+          "firstNonzeroSample": 680001,
+          "scheduledTime": 14.166666666666666,
+          "firstNonzeroTime": 14.1666875,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -40.584887,
+          "peakDbFS": -23.726793,
+          "musicRmsDbFS": -18.478623,
+          "sfxOverMusicDb": -22.106264
+        },
+        {
+          "id": "troy-counter",
+          "kind": "slash",
+          "sample": 760000,
+          "frames": 12000,
+          "firstNonzeroSample": 760001,
+          "scheduledTime": 15.833333333333334,
+          "firstNonzeroTime": 15.833354166666666,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -43.25823,
+          "peakDbFS": -25.510359,
+          "musicRmsDbFS": -19.115506,
+          "sfxOverMusicDb": -24.142724
+        },
+        {
+          "id": "eye-opens",
+          "kind": "reveal",
+          "sample": 1680000,
+          "frames": 33600,
+          "firstNonzeroSample": 1680001,
+          "scheduledTime": 35,
+          "firstNonzeroTime": 35.00002083333333,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -39.263369,
+          "peakDbFS": -24.581334,
+          "musicRmsDbFS": -23.12957,
+          "sfxOverMusicDb": -16.1338
+        },
+        {
+          "id": "stone-seals",
+          "kind": "stone",
+          "sample": 1840000,
+          "frames": 26400,
+          "firstNonzeroSample": 1840001,
+          "scheduledTime": 38.333333333333336,
+          "firstNonzeroTime": 38.333354166666666,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -49.409645,
+          "peakDbFS": -30.182528,
+          "musicRmsDbFS": -23.294059,
+          "sfxOverMusicDb": -26.115586
+        },
+        {
+          "id": "club-falls",
+          "kind": "stone",
+          "sample": 2280000,
+          "frames": 26400,
+          "firstNonzeroSample": 2280001,
+          "scheduledTime": 47.5,
+          "firstNonzeroTime": 47.50002083333333,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -49.257493,
+          "peakDbFS": -28.673677,
+          "musicRmsDbFS": -21.141,
+          "sfxOverMusicDb": -28.116492
+        },
+        {
+          "id": "roll-clear",
+          "kind": "whoosh",
+          "sample": 2440000,
+          "frames": 14400,
+          "firstNonzeroSample": 2440001,
+          "scheduledTime": 50.833333333333336,
+          "firstNonzeroTime": 50.833354166666666,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -43.174852,
+          "peakDbFS": -26.150836,
+          "musicRmsDbFS": -17.589686,
+          "sfxOverMusicDb": -25.585166
+        },
+        {
+          "id": "stake-lift",
+          "kind": "rise",
+          "sample": 2600000,
+          "frames": 50400,
+          "firstNonzeroSample": 2600001,
+          "scheduledTime": 54.166666666666664,
+          "firstNonzeroTime": 54.1666875,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -44.016473,
+          "peakDbFS": -32.460701,
+          "musicRmsDbFS": -14.745962,
+          "sfxOverMusicDb": -29.270512
+        },
+        {
+          "id": "cave-impact",
+          "kind": "impact",
+          "sample": 2740000,
+          "frames": 26400,
+          "firstNonzeroSample": 2740001,
+          "scheduledTime": 57.083333333333336,
+          "firstNonzeroTime": 57.083354166666666,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -35.08685,
+          "peakDbFS": -20.134472,
+          "musicRmsDbFS": -16.525608,
+          "sfxOverMusicDb": -18.561242
+        },
+        {
+          "id": "cave-opens",
+          "kind": "stone",
+          "sample": 2900000,
+          "frames": 26400,
+          "firstNonzeroSample": 2900001,
+          "scheduledTime": 60.416666666666664,
+          "firstNonzeroTime": 60.4166875,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -52.147398,
+          "peakDbFS": -28.864703,
+          "musicRmsDbFS": -15.349937,
+          "sfxOverMusicDb": -36.797461
+        },
+        {
+          "id": "boulder-sea",
+          "kind": "splash",
+          "sample": 3400000,
+          "frames": 33600,
+          "firstNonzeroSample": 3400001,
+          "scheduledTime": 70.83333333333333,
+          "firstNonzeroTime": 70.83335416666667,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -45.789032,
+          "peakDbFS": -29.055809,
+          "musicRmsDbFS": -23.271003,
+          "sfxOverMusicDb": -22.518029
+        },
+        {
+          "id": "rope-tight",
+          "kind": "pluck",
+          "sample": 3920000,
+          "frames": 14400,
+          "firstNonzeroSample": 3920001,
+          "scheduledTime": 81.66666666666667,
+          "firstNonzeroTime": 81.6666875,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -46.561071,
+          "peakDbFS": -29.369953,
+          "musicRmsDbFS": -20.974135,
+          "sfxOverMusicDb": -25.586936
+        },
+        {
+          "id": "six-heads",
+          "kind": "reveal",
+          "sample": 4520000,
+          "frames": 33600,
+          "firstNonzeroSample": 4520001,
+          "scheduledTime": 94.16666666666667,
+          "firstNonzeroTime": 94.1666875,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -38.103626,
+          "peakDbFS": -23.418063,
+          "musicRmsDbFS": -15.359095,
+          "sfxOverMusicDb": -22.744531
+        },
+        {
+          "id": "first-block",
+          "kind": "shield",
+          "sample": 4660000,
+          "frames": 14400,
+          "firstNonzeroSample": 4660001,
+          "scheduledTime": 97.08333333333333,
+          "firstNonzeroTime": 97.08335416666667,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -40.935619,
+          "peakDbFS": -24.079152,
+          "musicRmsDbFS": -14.9886,
+          "sfxOverMusicDb": -25.947019
+        },
+        {
+          "id": "spear-turn",
+          "kind": "clash",
+          "sample": 4740000,
+          "frames": 13440,
+          "firstNonzeroSample": 4740001,
+          "scheduledTime": 98.75,
+          "firstNonzeroTime": 98.75002083333334,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -40.584887,
+          "peakDbFS": -21.901224,
+          "musicRmsDbFS": -16.716702,
+          "sfxOverMusicDb": -23.868185
+        },
+        {
+          "id": "second-block",
+          "kind": "shield",
+          "sample": 4820000,
+          "frames": 14400,
+          "firstNonzeroSample": 4820001,
+          "scheduledTime": 100.41666666666667,
+          "firstNonzeroTime": 100.4166875,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -42.347241,
+          "peakDbFS": -23.665205,
+          "musicRmsDbFS": -18.157212,
+          "sfxOverMusicDb": -24.190029
+        },
+        {
+          "id": "empty-oar",
+          "kind": "impact",
+          "sample": 4940000,
+          "frames": 26400,
+          "firstNonzeroSample": 4940001,
+          "scheduledTime": 102.91666666666667,
+          "firstNonzeroTime": 102.9166875,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -38.803182,
+          "peakDbFS": -25.980956,
+          "musicRmsDbFS": -15.808023,
+          "sfxOverMusicDb": -22.995159
+        },
+        {
+          "id": "wave-wall",
+          "kind": "rise",
+          "sample": 5320000,
+          "frames": 50400,
+          "firstNonzeroSample": 5320001,
+          "scheduledTime": 110.83333333333333,
+          "firstNonzeroTime": 110.83335416666667,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -39.599593,
+          "peakDbFS": -26.018779,
+          "musicRmsDbFS": -16.615567,
+          "sfxOverMusicDb": -22.984026
+        },
+        {
+          "id": "deck-hit",
+          "kind": "splash",
+          "sample": 5460000,
+          "frames": 33600,
+          "firstNonzeroSample": 5460001,
+          "scheduledTime": 113.75,
+          "firstNonzeroTime": 113.75002083333334,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -46.171395,
+          "peakDbFS": -26.305065,
+          "musicRmsDbFS": -16.511573,
+          "sfxOverMusicDb": -29.659822
+        },
+        {
+          "id": "mast-break",
+          "kind": "crack",
+          "sample": 5640000,
+          "frames": 17280,
+          "firstNonzeroSample": 5640001,
+          "scheduledTime": 117.5,
+          "firstNonzeroTime": 117.50002083333334,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -38.307024,
+          "peakDbFS": -18.887003,
+          "musicRmsDbFS": -16.293619,
+          "sfxOverMusicDb": -22.013406
+        },
+        {
+          "id": "underwater-fall",
+          "kind": "sub",
+          "sample": 5780000,
+          "frames": 31200,
+          "firstNonzeroSample": 5780001,
+          "scheduledTime": 120.41666666666667,
+          "firstNonzeroTime": 120.4166875,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -38.482806,
+          "peakDbFS": -24.110878,
+          "musicRmsDbFS": -17.549963,
+          "sfxOverMusicDb": -20.932843
+        },
+        {
+          "id": "wood-grip",
+          "kind": "wood",
+          "sample": 6100000,
+          "frames": 8640,
+          "firstNonzeroSample": 6100001,
+          "scheduledTime": 127.08333333333333,
+          "firstNonzeroTime": 127.08335416666667,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -45.365128,
+          "peakDbFS": -29.065967,
+          "musicRmsDbFS": -31.679461,
+          "sfxOverMusicDb": -13.685667
+        },
+        {
+          "id": "arrow-release",
+          "kind": "arrow",
+          "sample": 7080000,
+          "frames": 7680,
+          "firstNonzeroSample": 7080001,
+          "scheduledTime": 147.5,
+          "firstNonzeroTime": 147.50002083333334,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -40.413781,
+          "peakDbFS": -23.938944,
+          "musicRmsDbFS": -31.806213,
+          "sfxOverMusicDb": -8.607568
+        },
+        {
+          "id": "twelve-axes",
+          "kind": "metal",
+          "sample": 7100000,
+          "frames": 20160,
+          "firstNonzeroSample": 7100001,
+          "scheduledTime": 147.91666666666666,
+          "firstNonzeroTime": 147.9166875,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -41.814328,
+          "peakDbFS": -24.72897,
+          "musicRmsDbFS": -32.447068,
+          "sfxOverMusicDb": -9.36726
+        },
+        {
+          "id": "father-son-guard",
+          "kind": "shield",
+          "sample": 7280000,
+          "frames": 14400,
+          "firstNonzeroSample": 7280001,
+          "scheduledTime": 151.66666666666666,
+          "firstNonzeroTime": 151.6666875,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -40.935619,
+          "peakDbFS": -22.253583,
+          "musicRmsDbFS": -11.737954,
+          "sfxOverMusicDb": -29.197665
+        },
+        {
+          "id": "hall-volley",
+          "kind": "whoosh",
+          "sample": 7400000,
+          "frames": 14400,
+          "firstNonzeroSample": 7400001,
+          "scheduledTime": 154.16666666666666,
+          "firstNonzeroTime": 154.1666875,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -42.104275,
+          "peakDbFS": -27.708595,
+          "musicRmsDbFS": -12.822092,
+          "sfxOverMusicDb": -29.282183
+        },
+        {
+          "id": "hall-parry",
+          "kind": "clash",
+          "sample": 7480000,
+          "frames": 13440,
+          "firstNonzeroSample": 7480001,
+          "scheduledTime": 155.83333333333334,
+          "firstNonzeroTime": 155.83335416666668,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -40.584887,
+          "peakDbFS": -21.901224,
+          "musicRmsDbFS": -15.354218,
+          "sfxOverMusicDb": -25.230669
+        },
+        {
+          "id": "hall-counter",
+          "kind": "slash",
+          "sample": 7560000,
+          "frames": 12000,
+          "firstNonzeroSample": 7560001,
+          "scheduledTime": 157.5,
+          "firstNonzeroTime": 157.50002083333334,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -40.158692,
+          "peakDbFS": -23.868528,
+          "musicRmsDbFS": -13.020771,
+          "sfxOverMusicDb": -27.137921
+        },
+        {
+          "id": "last-shield",
+          "kind": "shield",
+          "sample": 7640000,
+          "frames": 14400,
+          "firstNonzeroSample": 7640001,
+          "scheduledTime": 159.16666666666666,
+          "firstNonzeroTime": 159.1666875,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -40.935619,
+          "peakDbFS": -24.079152,
+          "musicRmsDbFS": -13.011987,
+          "sfxOverMusicDb": -27.923632
+        },
+        {
+          "id": "root-recognized",
+          "kind": "bell",
+          "sample": 8080000,
+          "frames": 40800,
+          "firstNonzeroSample": 8080001,
+          "scheduledTime": 168.33333333333334,
+          "firstNonzeroTime": 168.33335416666668,
+          "onsetErrorSamples": 1,
+          "rmsDbFS": -49.06079,
+          "peakDbFS": -36.887499,
+          "musicRmsDbFS": -33.580019,
+          "sfxOverMusicDb": -15.480772
+        }
+      ],
+      "chapterOnsets": [
+        {
+          "id": "threshold",
+          "scheduledSample": 0,
+          "firstDrySample": 1
+        },
+        {
+          "id": "troy",
+          "scheduledSample": 320000,
+          "firstDrySample": 320001
+        },
+        {
+          "id": "fleet",
+          "scheduledSample": 960000,
+          "firstDrySample": 960001
+        },
+        {
+          "id": "cave",
+          "scheduledSample": 1440000,
+          "firstDrySample": 1440001
+        },
+        {
+          "id": "cyclops",
+          "scheduledSample": 2080000,
+          "firstDrySample": 2080001
+        },
+        {
+          "id": "hubris",
+          "scheduledSample": 3040000,
+          "firstDrySample": 3040001
+        },
+        {
+          "id": "sirens",
+          "scheduledSample": 3520000,
+          "firstDrySample": 3520001
+        },
+        {
+          "id": "strait",
+          "scheduledSample": 4160000,
+          "firstDrySample": 4160001
+        },
+        {
+          "id": "storm",
+          "scheduledSample": 5120000,
+          "firstDrySample": 5120001
+        },
+        {
+          "id": "drift",
+          "scheduledSample": 5920000,
+          "firstDrySample": 5920001
+        },
+        {
+          "id": "ithaca",
+          "scheduledSample": 6400000,
+          "firstDrySample": 6400001
+        },
+        {
+          "id": "bow",
+          "scheduledSample": 6720000,
+          "firstDrySample": 6720001
+        },
+        {
+          "id": "hall",
+          "scheduledSample": 7200000,
+          "firstDrySample": 7200001
+        },
+        {
+          "id": "root",
+          "scheduledSample": 7840000,
+          "firstDrySample": 7840001
+        },
+        {
+          "id": "home",
+          "scheduledSample": 8320000,
+          "firstDrySample": 8320001
+        }
+      ],
+      "sfxProofScope": "Actual isolated dry DSP onset and energy against simultaneous music before mastering; encoded onset localization cannot isolate a sound inside a composite mix."
+    },
+    "synthesis": "Deterministic polyBLEP pulse, additive triangle, fractional-delay digital lyra, detuned low brass and tremolo strings, FM bells, mathematical drum/metal/noise/SFX. No borrowed musical material.",
+    "eventsFile": "events.json"
+  },
+  "processing": {
+    "externalSamples": false,
+    "TTS": false,
+    "masterBitReduction": false,
+    "adaptiveLoudnessGain": false,
+    "drumSidechain": false,
+    "targetLUFS": -12.2,
+    "allowedLUFS": [
+      -13,
+      -11.5
+    ],
+    "encodedPeakLimitDbTP": -1.5,
+    "fixedGainDb": 4.51,
+    "sourceMeasure": {
+      "LUFS": -16.14,
+      "truePeakDbTP": 0.49,
+      "loudnessRangeLU": 18.2
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "target": -12.08,
+        "ceiling": -2.4,
+        "fixedGainDb": 4.06,
+        "LUFS": -12.65,
+        "truePeakDbTP": -1.89,
+        "loudnessRangeLU": 16.7
+      },
+      {
+        "attempt": 2,
+        "target": -11.63,
+        "ceiling": -2.4,
+        "fixedGainDb": 4.51,
+        "LUFS": -12.35,
+        "truePeakDbTP": -1.95,
+        "loudnessRangeLU": 16.4
+      }
+    ],
+    "signalChain": "Bar-streamed float32 -> 27Hz HP/16.5kHz LP -> measured FIXED gain -> stereo-linked 192kHz limiter (level=false, latency=true) -> 48kHz -> sample-exact full-bus hold -> 24bit WAV -> 256k gapless MP3",
+    "limiter": {
+      "oversampling": 4,
+      "attackMs": 3,
+      "releaseMs": 80,
+      "latencyCompensated": true,
+      "level": false,
+      "stereoLinked": true
+    },
+    "fade": {
+      "start": 178.5,
+      "end": 180
+    },
+    "hold": {
+      "source": "story.HOLDS",
+      "edgeRampMs": 8
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-06T10:55:30.510Z",
+    "sources": "Only score.mjs mathematics and story.mjs shared markers; no network, samples, narration, voice clone, film score recording or transcription.",
+    "engineering": "Streaming PCM, fractional delay and fixed-gain measurement techniques adapted from local rdr2 DSP; all pitches, motifs, rhythmic forms and section arrangements newly authored."
+  },
+  "delivery": {
+    "file": "master.mp3",
+    "relativeURL": "audio/master.mp3",
+    "archive": "master.wav",
+    "archiveExported": false,
+    "playback": "Standard gapless MP3 for native audio playback; no generated video or HTML."
+  },
+  "master": {
+    "decodedFrames": 8640000,
+    "decodedDuration": 180,
+    "frames": 8640000,
+    "rmsDbFS": -14.53614,
+    "leftRmsDbFS": -14.316303,
+    "rightRmsDbFS": -14.767702,
+    "peakDbFS": -2.027865,
+    "clipping": 0,
+    "nonfinite": 0,
+    "nonzeroFrames": 8622238,
+    "correlation": 0.958093,
+    "sideRmsDbFS": -31.191666,
+    "sceneEnergy": [
+      {
+        "id": "threshold",
+        "start": 0,
+        "end": 6.666666666666667,
+        "frames": 320000,
+        "rmsDbFS": -28.540205,
+        "leftRmsDbFS": -28.527285,
+        "rightRmsDbFS": -28.553164,
+        "peakDbFS": -12.980638,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 320000,
+        "correlation": 0.984438,
+        "sideRmsDbFS": -49.628587,
+        "opening160msRmsDbFS": -26.6945,
+        "pcmSha256": "16008685a3ba022aacb77bb39aa153d3f3b5e501827722f791bfa5bc95783dbb"
+      },
+      {
+        "id": "troy",
+        "start": 6.666666666666667,
+        "end": 20,
+        "frames": 640000,
+        "rmsDbFS": -14.492226,
+        "leftRmsDbFS": -14.125117,
+        "rightRmsDbFS": -14.893256,
+        "peakDbFS": -2.372015,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 640000,
+        "correlation": 0.974596,
+        "sideRmsDbFS": -32.848234,
+        "opening160msRmsDbFS": -11.761618,
+        "pcmSha256": "ce8b1d039b1f43d2cd435d26301922ddd40509bebf7473cc7d688f53ee50a4ca"
+      },
+      {
+        "id": "fleet",
+        "start": 20,
+        "end": 30,
+        "frames": 480000,
+        "rmsDbFS": -11.864907,
+        "leftRmsDbFS": -11.5842,
+        "rightRmsDbFS": -12.165018,
+        "peakDbFS": -2.172247,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 480000,
+        "correlation": 0.975792,
+        "sideRmsDbFS": -30.661466,
+        "opening160msRmsDbFS": -10.947738,
+        "pcmSha256": "50b25bd12c9d263436ff231cb8a9179388ffadef4580ef8916ea34416d3f4ea8"
+      },
+      {
+        "id": "cave",
+        "start": 30,
+        "end": 43.333333333333336,
+        "frames": 640000,
+        "rmsDbFS": -18.773526,
+        "leftRmsDbFS": -18.803301,
+        "rightRmsDbFS": -18.743955,
+        "peakDbFS": -7.002808,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 640000,
+        "correlation": 0.986046,
+        "sideRmsDbFS": -40.3297,
+        "opening160msRmsDbFS": -16.514215,
+        "pcmSha256": "5cd58058f9757fda2ad28976d7b0407fd049a3ac44ea66dbd3489b473cc8ec69"
+      },
+      {
+        "id": "cyclops",
+        "start": 43.333333333333336,
+        "end": 63.333333333333336,
+        "frames": 960000,
+        "rmsDbFS": -13.006176,
+        "leftRmsDbFS": -12.710231,
+        "rightRmsDbFS": -13.323771,
+        "peakDbFS": -2.262722,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 960000,
+        "correlation": 0.977253,
+        "sideRmsDbFS": -32.005916,
+        "opening160msRmsDbFS": -16.489727,
+        "pcmSha256": "a6ca53c07201e19af72e76e548e73ae5c48cfd7b7f0a836b080cbd5c1207e3bb"
+      },
+      {
+        "id": "hubris",
+        "start": 63.333333333333336,
+        "end": 73.33333333333334,
+        "frames": 480000,
+        "rmsDbFS": -14.229066,
+        "leftRmsDbFS": -14.02698,
+        "rightRmsDbFS": -14.441016,
+        "peakDbFS": -3.110769,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 480000,
+        "correlation": 0.978325,
+        "sideRmsDbFS": -33.662759,
+        "opening160msRmsDbFS": -11.264635,
+        "pcmSha256": "e922d484fa9cf4c02bab5692f3d7d52aafea74127e32d827a99be7177a92bf68"
+      },
+      {
+        "id": "sirens",
+        "start": 73.33333333333334,
+        "end": 86.66666666666667,
+        "frames": 640000,
+        "rmsDbFS": -17.826672,
+        "leftRmsDbFS": -18.263782,
+        "rightRmsDbFS": -17.429561,
+        "peakDbFS": -5.768629,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 640000,
+        "correlation": 0.889438,
+        "sideRmsDbFS": -30.243292,
+        "opening160msRmsDbFS": -15.98019,
+        "pcmSha256": "6e4b94c9bfa0d4d3035d6dd1c14bfabd14a1b0ce696cecd10b05a124134de921"
+      },
+      {
+        "id": "strait",
+        "start": 86.66666666666667,
+        "end": 106.66666666666667,
+        "frames": 960000,
+        "rmsDbFS": -11.875908,
+        "leftRmsDbFS": -11.587311,
+        "rightRmsDbFS": -12.185057,
+        "peakDbFS": -2.247921,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 960000,
+        "correlation": 0.956201,
+        "sideRmsDbFS": -28.253053,
+        "opening160msRmsDbFS": -9.908191,
+        "pcmSha256": "672449df968e5fb929945ef09368ef722795f14eaf22585b2e174d23b985f952"
+      },
+      {
+        "id": "storm",
+        "start": 106.66666666666667,
+        "end": 123.33333333333334,
+        "frames": 800000,
+        "rmsDbFS": -12.92633,
+        "leftRmsDbFS": -12.834805,
+        "rightRmsDbFS": -13.019825,
+        "peakDbFS": -2.309761,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 782238,
+        "correlation": 0.928505,
+        "sideRmsDbFS": -27.381125,
+        "opening160msRmsDbFS": -11.371596,
+        "pcmSha256": "835676a85ff257cd7647f016c3e2c4ecc2feb937a2c0e1e4641129162223db36"
+      },
+      {
+        "id": "drift",
+        "start": 123.33333333333334,
+        "end": 133.33333333333334,
+        "frames": 480000,
+        "rmsDbFS": -26.574932,
+        "leftRmsDbFS": -26.104911,
+        "rightRmsDbFS": -27.102065,
+        "peakDbFS": -10.24233,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 480000,
+        "correlation": 0.981473,
+        "sideRmsDbFS": -45.612884,
+        "opening160msRmsDbFS": -24.043551,
+        "pcmSha256": "35058846cf1f4b81398d50911aa31262448dd9b65714f7686ac6bff6f90e9abc"
+      },
+      {
+        "id": "ithaca",
+        "start": 133.33333333333334,
+        "end": 140,
+        "frames": 320000,
+        "rmsDbFS": -21.287854,
+        "leftRmsDbFS": -20.88211,
+        "rightRmsDbFS": -21.735449,
+        "peakDbFS": -5.860127,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 320000,
+        "correlation": 0.960935,
+        "sideRmsDbFS": -37.894979,
+        "opening160msRmsDbFS": -19.06989,
+        "pcmSha256": "414bc2c693d50797a51a7f23d247f1f1e130c4924139fdd63e5f99a2e057177a"
+      },
+      {
+        "id": "bow",
+        "start": 140,
+        "end": 150,
+        "frames": 480000,
+        "rmsDbFS": -26.482226,
+        "leftRmsDbFS": -26.174808,
+        "rightRmsDbFS": -26.813073,
+        "peakDbFS": -9.854659,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 480000,
+        "correlation": 0.949797,
+        "sideRmsDbFS": -42.269312,
+        "opening160msRmsDbFS": -24.519992,
+        "pcmSha256": "30ebd291fdac96b58046275e7e3622b736b892622d990f444cc8c3dbd6f13590"
+      },
+      {
+        "id": "hall",
+        "start": 150,
+        "end": 163.33333333333334,
+        "frames": 640000,
+        "rmsDbFS": -10.830636,
+        "leftRmsDbFS": -10.602277,
+        "rightRmsDbFS": -11.071672,
+        "peakDbFS": -2.027865,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 640000,
+        "correlation": 0.955108,
+        "sideRmsDbFS": -27.186493,
+        "opening160msRmsDbFS": -10.316939,
+        "pcmSha256": "ea0fcadfa248937e9fbbb8fd9c969dd9d2b9c16341d17684627344f70280cb53"
+      },
+      {
+        "id": "root",
+        "start": 163.33333333333334,
+        "end": 173.33333333333334,
+        "frames": 480000,
+        "rmsDbFS": -29.336353,
+        "leftRmsDbFS": -29.382704,
+        "rightRmsDbFS": -29.290491,
+        "peakDbFS": -12.610429,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 480000,
+        "correlation": 0.975807,
+        "sideRmsDbFS": -48.499825,
+        "opening160msRmsDbFS": -26.744669,
+        "pcmSha256": "4daf6b5c388cdcbbe4037adc90dba54bbaa3ab51a15f7a9f79d582d0f56909a8"
+      },
+      {
+        "id": "home",
+        "start": 173.33333333333334,
+        "end": 180,
+        "frames": 320000,
+        "rmsDbFS": -19.839253,
+        "leftRmsDbFS": -19.739841,
+        "rightRmsDbFS": -19.940993,
+        "peakDbFS": -4.893372,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 320000,
+        "correlation": 0.92687,
+        "sideRmsDbFS": -34.193851,
+        "opening160msRmsDbFS": -17.871365,
+        "pcmSha256": "64ea2649631796763abe524cdc8a6a1b1403bad57e36b9fef893f55ff99bcce3"
+      }
+    ],
+    "windows": {
+      "holdFull": {
+        "frames": 20000,
+        "rmsDbFS": -97.915063,
+        "leftRmsDbFS": -98.034101,
+        "rightRmsDbFS": -97.799201,
+        "peakDbFS": -64.202301,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 2238,
+        "correlation": -0.226573,
+        "sideRmsDbFS": -100.038724
+      },
+      "holdCore": {
+        "frames": 17600,
+        "rmsDbFS": -207.811973,
+        "leftRmsDbFS": -207.915555,
+        "rightRmsDbFS": -207.710804,
+        "peakDbFS": -177.857264,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 287,
+        "correlation": 0.999469,
+        "sideRmsDbFS": -240
+      },
+      "holdResume": {
+        "frames": 9600,
+        "rmsDbFS": -21.816869,
+        "leftRmsDbFS": -19.977695,
+        "rightRmsDbFS": -25.070788,
+        "peakDbFS": -9.615239,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 9600,
+        "correlation": 0.994954,
+        "sideRmsDbFS": -32.935272
+      },
+      "fadeStart": {
+        "frames": 4800,
+        "rmsDbFS": -20.522315,
+        "leftRmsDbFS": -21.049147,
+        "rightRmsDbFS": -20.052533,
+        "peakDbFS": -13.298209,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 4800,
+        "correlation": 0.952329,
+        "sideRmsDbFS": -36.216239
+      },
+      "fadeTail": {
+        "frames": 240,
+        "rmsDbFS": -120.277108,
+        "leftRmsDbFS": -120.699884,
+        "rightRmsDbFS": -119.891861,
+        "peakDbFS": -117.814561,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 240,
+        "correlation": 0.996775,
+        "sideRmsDbFS": -144.523888
+      },
+      "shield-meet": {
+        "frames": 7680,
+        "rmsDbFS": -23.032637,
+        "leftRmsDbFS": -23.445873,
+        "rightRmsDbFS": -22.655327,
+        "peakDbFS": -9.774453,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.856965,
+        "sideRmsDbFS": -34.382406
+      },
+      "bronze-parry": {
+        "frames": 7680,
+        "rmsDbFS": -13.904966,
+        "leftRmsDbFS": -13.419309,
+        "rightRmsDbFS": -14.451851,
+        "peakDbFS": -6.606192,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.980003,
+        "sideRmsDbFS": -32.620785
+      },
+      "troy-counter": {
+        "frames": 7680,
+        "rmsDbFS": -13.831804,
+        "leftRmsDbFS": -13.661813,
+        "rightRmsDbFS": -14.00872,
+        "peakDbFS": -5.386958,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.980434,
+        "sideRmsDbFS": -33.756914
+      },
+      "eye-opens": {
+        "frames": 7680,
+        "rmsDbFS": -18.885962,
+        "leftRmsDbFS": -18.440503,
+        "rightRmsDbFS": -19.382391,
+        "peakDbFS": -13.228082,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.988841,
+        "sideRmsDbFS": -39.606082
+      },
+      "stone-seals": {
+        "frames": 7680,
+        "rmsDbFS": -19.77925,
+        "leftRmsDbFS": -19.812449,
+        "rightRmsDbFS": -19.746303,
+        "peakDbFS": -14.884477,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.998667,
+        "sideRmsDbFS": -51.447745
+      },
+      "club-falls": {
+        "frames": 7680,
+        "rmsDbFS": -17.053968,
+        "leftRmsDbFS": -17.101521,
+        "rightRmsDbFS": -17.00693,
+        "peakDbFS": -10.200891,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.991821,
+        "sideRmsDbFS": -40.906341
+      },
+      "roll-clear": {
+        "frames": 7680,
+        "rmsDbFS": -12.410258,
+        "leftRmsDbFS": -12.017509,
+        "rightRmsDbFS": -12.842088,
+        "peakDbFS": -2.344546,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.985843,
+        "sideRmsDbFS": -32.729463
+      },
+      "stake-lift": {
+        "frames": 7680,
+        "rmsDbFS": -10.691167,
+        "leftRmsDbFS": -10.205394,
+        "rightRmsDbFS": -11.238198,
+        "peakDbFS": -2.379565,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.975246,
+        "sideRmsDbFS": -28.703546
+      },
+      "cave-impact": {
+        "frames": 7680,
+        "rmsDbFS": -10.481585,
+        "leftRmsDbFS": -10.24465,
+        "rightRmsDbFS": -10.732195,
+        "peakDbFS": -2.390945,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.962007,
+        "sideRmsDbFS": -27.525163
+      },
+      "cave-opens": {
+        "frames": 7680,
+        "rmsDbFS": -10.01258,
+        "leftRmsDbFS": -9.808147,
+        "rightRmsDbFS": -10.227114,
+        "peakDbFS": -2.408104,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.984681,
+        "sideRmsDbFS": -30.857679
+      },
+      "boulder-sea": {
+        "frames": 7680,
+        "rmsDbFS": -15.19929,
+        "leftRmsDbFS": -15.286258,
+        "rightRmsDbFS": -15.114029,
+        "peakDbFS": -9.416372,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.981593,
+        "sideRmsDbFS": -35.514546
+      },
+      "rope-tight": {
+        "frames": 7680,
+        "rmsDbFS": -16.160119,
+        "leftRmsDbFS": -16.693227,
+        "rightRmsDbFS": -15.685355,
+        "peakDbFS": -6.916037,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.862076,
+        "sideRmsDbFS": -27.595986
+      },
+      "six-heads": {
+        "frames": 7680,
+        "rmsDbFS": -11.505139,
+        "leftRmsDbFS": -11.619112,
+        "rightRmsDbFS": -11.394082,
+        "peakDbFS": -2.312512,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.896979,
+        "sideRmsDbFS": -24.373512
+      },
+      "first-block": {
+        "frames": 7680,
+        "rmsDbFS": -11.542796,
+        "leftRmsDbFS": -10.917532,
+        "rightRmsDbFS": -12.273469,
+        "peakDbFS": -2.328854,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.974313,
+        "sideRmsDbFS": -28.819778
+      },
+      "spear-turn": {
+        "frames": 7680,
+        "rmsDbFS": -14.714235,
+        "leftRmsDbFS": -14.625073,
+        "rightRmsDbFS": -14.805265,
+        "peakDbFS": -3.256921,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.959573,
+        "sideRmsDbFS": -31.635703
+      },
+      "second-block": {
+        "frames": 7680,
+        "rmsDbFS": -13.730334,
+        "leftRmsDbFS": -13.643831,
+        "rightRmsDbFS": -13.818596,
+        "peakDbFS": -3.869814,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.977696,
+        "sideRmsDbFS": -33.218369
+      },
+      "empty-oar": {
+        "frames": 7680,
+        "rmsDbFS": -12.945175,
+        "leftRmsDbFS": -13.171656,
+        "rightRmsDbFS": -12.729921,
+        "peakDbFS": -3.843185,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.963106,
+        "sideRmsDbFS": -30.14188
+      },
+      "wave-wall": {
+        "frames": 7680,
+        "rmsDbFS": -11.657929,
+        "leftRmsDbFS": -12.560694,
+        "rightRmsDbFS": -10.910909,
+        "peakDbFS": -2.383065,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.908524,
+        "sideRmsDbFS": -24.349232
+      },
+      "deck-hit": {
+        "frames": 7680,
+        "rmsDbFS": -12.773826,
+        "leftRmsDbFS": -12.414796,
+        "rightRmsDbFS": -13.165235,
+        "peakDbFS": -4.454042,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.938214,
+        "sideRmsDbFS": -27.63654
+      },
+      "mast-break": {
+        "frames": 7680,
+        "rmsDbFS": -12.054609,
+        "leftRmsDbFS": -12.594756,
+        "rightRmsDbFS": -11.574272,
+        "peakDbFS": -2.41163,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.883957,
+        "sideRmsDbFS": -24.197424
+      },
+      "underwater-fall": {
+        "frames": 7680,
+        "rmsDbFS": -12.952898,
+        "leftRmsDbFS": -12.810723,
+        "rightRmsDbFS": -13.099886,
+        "peakDbFS": -4.383104,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.945017,
+        "sideRmsDbFS": -28.51976
+      },
+      "wood-grip": {
+        "frames": 7680,
+        "rmsDbFS": -27.050714,
+        "leftRmsDbFS": -26.837467,
+        "rightRmsDbFS": -27.274975,
+        "peakDbFS": -18.10141,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.988154,
+        "sideRmsDbFS": -48.88894
+      },
+      "arrow-release": {
+        "frames": 7680,
+        "rmsDbFS": -26.903124,
+        "leftRmsDbFS": -26.743336,
+        "rightRmsDbFS": -27.069016,
+        "peakDbFS": -15.535716,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.995775,
+        "sideRmsDbFS": -52.990094
+      },
+      "twelve-axes": {
+        "frames": 7680,
+        "rmsDbFS": -26.537365,
+        "leftRmsDbFS": -26.985775,
+        "rightRmsDbFS": -26.130951,
+        "peakDbFS": -16.071472,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.980179,
+        "sideRmsDbFS": -45.647362
+      },
+      "father-son-guard": {
+        "frames": 7680,
+        "rmsDbFS": -10.446261,
+        "leftRmsDbFS": -10.092523,
+        "rightRmsDbFS": -10.831387,
+        "peakDbFS": -2.350944,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.962666,
+        "sideRmsDbFS": -27.349227
+      },
+      "hall-volley": {
+        "frames": 7680,
+        "rmsDbFS": -10.218166,
+        "leftRmsDbFS": -9.897303,
+        "rightRmsDbFS": -10.564639,
+        "peakDbFS": -2.340748,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.944884,
+        "sideRmsDbFS": -25.601812
+      },
+      "hall-parry": {
+        "frames": 7680,
+        "rmsDbFS": -12.879727,
+        "leftRmsDbFS": -12.973331,
+        "rightRmsDbFS": -12.788097,
+        "peakDbFS": -2.520069,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.940856,
+        "sideRmsDbFS": -28.155254
+      },
+      "hall-counter": {
+        "frames": 7680,
+        "rmsDbFS": -10.280454,
+        "leftRmsDbFS": -9.663431,
+        "rightRmsDbFS": -10.999893,
+        "peakDbFS": -2.410845,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.971149,
+        "sideRmsDbFS": -27.244808
+      },
+      "last-shield": {
+        "frames": 7680,
+        "rmsDbFS": -10.654712,
+        "leftRmsDbFS": -10.582837,
+        "rightRmsDbFS": -10.727796,
+        "peakDbFS": -2.186486,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.95738,
+        "sideRmsDbFS": -27.355341
+      },
+      "root-recognized": {
+        "frames": 7680,
+        "rmsDbFS": -27.476267,
+        "leftRmsDbFS": -28.728239,
+        "rightRmsDbFS": -26.505617,
+        "peakDbFS": -13.023561,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.952444,
+        "sideRmsDbFS": -41.570621
+      }
+    },
+    "quietRuns": [
+      {
+        "start": 122.5,
+        "end": 122.91
+      },
+      {
+        "start": 179.9,
+        "end": 180
+      }
+    ],
+    "LUFS": -12.35,
+    "truePeakDbTP": -1.95,
+    "loudnessRangeLU": 16.4,
+    "quietLoudContrastDb": 18.505717,
+    "hallOverRootDb": 18.505717,
+    "straitOverDriftDb": 14.699024,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitrate": 256000,
+    "metadataDuration": 180.024,
+    "metadataPaddingSeconds": 0.024,
+    "eventGrid": {
+      "samplesPerBeat": 20000,
+      "samplesPerBar": 80000,
+      "bars": 108,
+      "beats": 432,
+      "shots": 54,
+      "actions": 30,
+      "events": 1512,
+      "offGridEvents": 0
+    }
+  },
+  "archive": {
+    "decodedFrames": 8640000,
+    "decodedDuration": 180,
+    "frames": 8640000,
+    "rmsDbFS": -14.535674,
+    "leftRmsDbFS": -14.315589,
+    "rightRmsDbFS": -14.767509,
+    "peakDbFS": -2.387383,
+    "clipping": 0,
+    "nonfinite": 0,
+    "nonzeroFrames": 8619985,
+    "correlation": 0.958163,
+    "sideRmsDbFS": -31.197956,
+    "sceneEnergy": [
+      {
+        "id": "threshold",
+        "start": 0,
+        "end": 6.666666666666667,
+        "frames": 320000,
+        "rmsDbFS": -28.540151,
+        "leftRmsDbFS": -28.527305,
+        "rightRmsDbFS": -28.553034,
+        "peakDbFS": -13.007516,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 319996,
+        "correlation": 0.984476,
+        "sideRmsDbFS": -49.639095,
+        "opening160msRmsDbFS": -26.694413,
+        "pcmSha256": "b8657cfdc0ea1f580ade81520170b901ff296f0d4b134576c7ed8670b7367065"
+      },
+      {
+        "id": "troy",
+        "start": 6.666666666666667,
+        "end": 20,
+        "frames": 640000,
+        "rmsDbFS": -14.491873,
+        "leftRmsDbFS": -14.1246,
+        "rightRmsDbFS": -14.8931,
+        "peakDbFS": -2.399717,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 640000,
+        "correlation": 0.974648,
+        "sideRmsDbFS": -32.855078,
+        "opening160msRmsDbFS": -11.763125,
+        "pcmSha256": "7ef9568aeadd36ac736d7f173286b0f7db7c02e82f1e1998b680ca49af1aa6e2"
+      },
+      {
+        "id": "fleet",
+        "start": 20,
+        "end": 30,
+        "frames": 480000,
+        "rmsDbFS": -11.864595,
+        "leftRmsDbFS": -11.583668,
+        "rightRmsDbFS": -12.164959,
+        "peakDbFS": -2.398875,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 480000,
+        "correlation": 0.975842,
+        "sideRmsDbFS": -30.668793,
+        "opening160msRmsDbFS": -10.936635,
+        "pcmSha256": "1e8618cdb009bd582d8fd15ad74434da46e4411b3015b411830a45c63b7c3920"
+      },
+      {
+        "id": "cave",
+        "start": 30,
+        "end": 43.333333333333336,
+        "frames": 640000,
+        "rmsDbFS": -18.772932,
+        "leftRmsDbFS": -18.80237,
+        "rightRmsDbFS": -18.743693,
+        "peakDbFS": -7.013398,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 640000,
+        "correlation": 0.986048,
+        "sideRmsDbFS": -40.32978,
+        "opening160msRmsDbFS": -16.520253,
+        "pcmSha256": "87456a1a68104958de7885e760c15892a193667a7f9c872cb999bfd62f71c4db"
+      },
+      {
+        "id": "cyclops",
+        "start": 43.333333333333336,
+        "end": 63.333333333333336,
+        "frames": 960000,
+        "rmsDbFS": -13.005622,
+        "leftRmsDbFS": -12.709271,
+        "rightRmsDbFS": -13.323687,
+        "peakDbFS": -2.396198,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 960000,
+        "correlation": 0.97733,
+        "sideRmsDbFS": -32.017441,
+        "opening160msRmsDbFS": -16.490553,
+        "pcmSha256": "e592b87a83a9e56c76b62f88311a937049499febe6acc77a01af06089bba40be"
+      },
+      {
+        "id": "hubris",
+        "start": 63.333333333333336,
+        "end": 73.33333333333334,
+        "frames": 480000,
+        "rmsDbFS": -14.2288,
+        "leftRmsDbFS": -14.026487,
+        "rightRmsDbFS": -14.441,
+        "peakDbFS": -3.115051,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 480000,
+        "correlation": 0.978375,
+        "sideRmsDbFS": -33.67161,
+        "opening160msRmsDbFS": -11.26431,
+        "pcmSha256": "79c595177bdbfad72b1159386cb833973e80a66d6422c57c25478f7f652e1ad3"
+      },
+      {
+        "id": "sirens",
+        "start": 73.33333333333334,
+        "end": 86.66666666666667,
+        "frames": 640000,
+        "rmsDbFS": -17.826442,
+        "leftRmsDbFS": -18.263655,
+        "rightRmsDbFS": -17.429246,
+        "peakDbFS": -5.758644,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 640000,
+        "correlation": 0.889485,
+        "sideRmsDbFS": -30.244741,
+        "opening160msRmsDbFS": -15.978278,
+        "pcmSha256": "06ba50cdbb3c905801c25dd60a43b83043fbacda4de63887cb44410de91ea735"
+      },
+      {
+        "id": "strait",
+        "start": 86.66666666666667,
+        "end": 106.66666666666667,
+        "frames": 960000,
+        "rmsDbFS": -11.875514,
+        "leftRmsDbFS": -11.586628,
+        "rightRmsDbFS": -12.184994,
+        "peakDbFS": -2.396886,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 960000,
+        "correlation": 0.956285,
+        "sideRmsDbFS": -28.260138,
+        "opening160msRmsDbFS": -9.910247,
+        "pcmSha256": "53ae16b173126d617c1ab11dd16dc8b2506fa7952fa05436cbd684cdef75d196"
+      },
+      {
+        "id": "storm",
+        "start": 106.66666666666667,
+        "end": 123.33333333333334,
+        "frames": 800000,
+        "rmsDbFS": -12.92557,
+        "leftRmsDbFS": -12.833601,
+        "rightRmsDbFS": -13.019528,
+        "peakDbFS": -2.398548,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 779989,
+        "correlation": 0.928563,
+        "sideRmsDbFS": -27.383717,
+        "opening160msRmsDbFS": -11.361707,
+        "pcmSha256": "f65fc2f3ba4f6654fa3e49c95c806ccd25e246b6047cfb95c0822e85e4d3dbc2"
+      },
+      {
+        "id": "drift",
+        "start": 123.33333333333334,
+        "end": 133.33333333333334,
+        "frames": 480000,
+        "rmsDbFS": -26.574782,
+        "leftRmsDbFS": -26.104669,
+        "rightRmsDbFS": -27.102032,
+        "peakDbFS": -10.253374,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 480000,
+        "correlation": 0.981587,
+        "sideRmsDbFS": -45.632111,
+        "opening160msRmsDbFS": -24.040649,
+        "pcmSha256": "084010ffdc3e7979df72f7a8ccbe457ab128430ba08c5a302d86ba98ac34df87"
+      },
+      {
+        "id": "ithaca",
+        "start": 133.33333333333334,
+        "end": 140,
+        "frames": 320000,
+        "rmsDbFS": -21.286483,
+        "leftRmsDbFS": -20.880781,
+        "rightRmsDbFS": -21.734027,
+        "peakDbFS": -5.886995,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 320000,
+        "correlation": 0.960989,
+        "sideRmsDbFS": -37.89904,
+        "opening160msRmsDbFS": -19.073515,
+        "pcmSha256": "c64960289979d12ceb6e651e4dc869c645bb862ffd72abddf0ad8b5b53430365"
+      },
+      {
+        "id": "bow",
+        "start": 140,
+        "end": 150,
+        "frames": 480000,
+        "rmsDbFS": -26.482135,
+        "leftRmsDbFS": -26.174842,
+        "rightRmsDbFS": -26.812839,
+        "peakDbFS": -9.884179,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 480000,
+        "correlation": 0.949933,
+        "sideRmsDbFS": -42.280631,
+        "opening160msRmsDbFS": -24.52429,
+        "pcmSha256": "81db3759b27218d77421aaea532494b54e9659d5997a925628daac991b097d88"
+      },
+      {
+        "id": "hall",
+        "start": 150,
+        "end": 163.33333333333334,
+        "frames": 640000,
+        "rmsDbFS": -10.830133,
+        "leftRmsDbFS": -10.601784,
+        "rightRmsDbFS": -11.071158,
+        "peakDbFS": -2.387383,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 640000,
+        "correlation": 0.955207,
+        "sideRmsDbFS": -27.195331,
+        "opening160msRmsDbFS": -10.318903,
+        "pcmSha256": "3e78d9d5fe0913ee143e31a83372bf2b1a6e0f822273419b1a7968653b1da1e6"
+      },
+      {
+        "id": "root",
+        "start": 163.33333333333334,
+        "end": 173.33333333333334,
+        "frames": 480000,
+        "rmsDbFS": -29.335364,
+        "leftRmsDbFS": -29.381866,
+        "rightRmsDbFS": -29.289355,
+        "peakDbFS": -12.767113,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 480000,
+        "correlation": 0.975875,
+        "sideRmsDbFS": -48.511102,
+        "opening160msRmsDbFS": -26.73645,
+        "pcmSha256": "fc961b873d4085bf91bf3777badaff6a205b28e1c5ceee1145874f36454a50ff"
+      },
+      {
+        "id": "home",
+        "start": 173.33333333333334,
+        "end": 180,
+        "frames": 320000,
+        "rmsDbFS": -19.839602,
+        "leftRmsDbFS": -19.739124,
+        "rightRmsDbFS": -19.942459,
+        "peakDbFS": -4.928335,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 320000,
+        "correlation": 0.926962,
+        "sideRmsDbFS": -34.199349,
+        "opening160msRmsDbFS": -17.873177,
+        "pcmSha256": "5986d8e764b9988d92b6904eca12c0d51fdf098b4ee05f76fc77d171356bae96"
+      }
+    ],
+    "windows": {
+      "holdFull": {
+        "frames": 20000,
+        "rmsDbFS": -240,
+        "leftRmsDbFS": -240,
+        "rightRmsDbFS": -240,
+        "peakDbFS": -240,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 0,
+        "correlation": 0,
+        "sideRmsDbFS": -240
+      },
+      "holdCore": {
+        "frames": 17600,
+        "rmsDbFS": -240,
+        "leftRmsDbFS": -240,
+        "rightRmsDbFS": -240,
+        "peakDbFS": -240,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 0,
+        "correlation": 0,
+        "sideRmsDbFS": -240
+      },
+      "holdResume": {
+        "frames": 9600,
+        "rmsDbFS": -21.808966,
+        "leftRmsDbFS": -19.969884,
+        "rightRmsDbFS": -25.062585,
+        "peakDbFS": -9.626022,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 9590,
+        "correlation": 0.994937,
+        "sideRmsDbFS": -32.927525
+      },
+      "fadeStart": {
+        "frames": 4800,
+        "rmsDbFS": -20.523702,
+        "leftRmsDbFS": -21.048925,
+        "rightRmsDbFS": -20.0552,
+        "peakDbFS": -13.331631,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 4800,
+        "correlation": 0.951864,
+        "sideRmsDbFS": -36.183444
+      },
+      "fadeTail": {
+        "frames": 240,
+        "rmsDbFS": -120.252253,
+        "leftRmsDbFS": -120.68415,
+        "rightRmsDbFS": -119.85945,
+        "peakDbFS": -118.473798,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 240,
+        "correlation": 0.996789,
+        "sideRmsDbFS": -144.404849
+      },
+      "shield-meet": {
+        "frames": 7680,
+        "rmsDbFS": -23.038886,
+        "leftRmsDbFS": -23.450773,
+        "rightRmsDbFS": -22.6627,
+        "peakDbFS": -9.950521,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.858001,
+        "sideRmsDbFS": -34.42002
+      },
+      "bronze-parry": {
+        "frames": 7680,
+        "rmsDbFS": -13.904581,
+        "leftRmsDbFS": -13.420266,
+        "rightRmsDbFS": -14.449765,
+        "peakDbFS": -6.593084,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.980078,
+        "sideRmsDbFS": -32.638976
+      },
+      "troy-counter": {
+        "frames": 7680,
+        "rmsDbFS": -13.821823,
+        "leftRmsDbFS": -13.636511,
+        "rightRmsDbFS": -14.015396,
+        "peakDbFS": -5.381132,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.980623,
+        "sideRmsDbFS": -33.755236
+      },
+      "eye-opens": {
+        "frames": 7680,
+        "rmsDbFS": -18.885338,
+        "leftRmsDbFS": -18.438811,
+        "rightRmsDbFS": -19.383094,
+        "peakDbFS": -13.227895,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.988793,
+        "sideRmsDbFS": -39.585752
+      },
+      "stone-seals": {
+        "frames": 7680,
+        "rmsDbFS": -19.779416,
+        "leftRmsDbFS": -19.81186,
+        "rightRmsDbFS": -19.747214,
+        "peakDbFS": -14.915044,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.998683,
+        "sideRmsDbFS": -51.504059
+      },
+      "club-falls": {
+        "frames": 7680,
+        "rmsDbFS": -17.044253,
+        "leftRmsDbFS": -17.093448,
+        "rightRmsDbFS": -16.995608,
+        "peakDbFS": -10.369508,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.992084,
+        "sideRmsDbFS": -41.03528
+      },
+      "roll-clear": {
+        "frames": 7680,
+        "rmsDbFS": -12.381914,
+        "leftRmsDbFS": -11.99566,
+        "rightRmsDbFS": -12.805905,
+        "peakDbFS": -2.399824,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.985937,
+        "sideRmsDbFS": -32.758883
+      },
+      "stake-lift": {
+        "frames": 7680,
+        "rmsDbFS": -10.695503,
+        "leftRmsDbFS": -10.207474,
+        "rightRmsDbFS": -11.245398,
+        "peakDbFS": -2.399031,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.975661,
+        "sideRmsDbFS": -28.75543
+      },
+      "cave-impact": {
+        "frames": 7680,
+        "rmsDbFS": -10.483458,
+        "leftRmsDbFS": -10.24462,
+        "rightRmsDbFS": -10.736198,
+        "peakDbFS": -2.399623,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.962049,
+        "sideRmsDbFS": -27.52887
+      },
+      "cave-opens": {
+        "frames": 7680,
+        "rmsDbFS": -10.014648,
+        "leftRmsDbFS": -9.807305,
+        "rightRmsDbFS": -10.232389,
+        "peakDbFS": -2.4084,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.98426,
+        "sideRmsDbFS": -30.741491
+      },
+      "boulder-sea": {
+        "frames": 7680,
+        "rmsDbFS": -15.199206,
+        "leftRmsDbFS": -15.278786,
+        "rightRmsDbFS": -15.121058,
+        "peakDbFS": -9.505302,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.98164,
+        "sideRmsDbFS": -35.532654
+      },
+      "rope-tight": {
+        "frames": 7680,
+        "rmsDbFS": -16.152705,
+        "leftRmsDbFS": -16.695191,
+        "rightRmsDbFS": -15.67052,
+        "peakDbFS": -6.876762,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.861309,
+        "sideRmsDbFS": -27.559824
+      },
+      "six-heads": {
+        "frames": 7680,
+        "rmsDbFS": -11.503128,
+        "leftRmsDbFS": -11.61632,
+        "rightRmsDbFS": -11.392812,
+        "peakDbFS": -2.399083,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.896809,
+        "sideRmsDbFS": -24.36455
+      },
+      "first-block": {
+        "frames": 7680,
+        "rmsDbFS": -11.540904,
+        "leftRmsDbFS": -10.918218,
+        "rightRmsDbFS": -12.268058,
+        "peakDbFS": -2.41339,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.974604,
+        "sideRmsDbFS": -28.86365
+      },
+      "spear-turn": {
+        "frames": 7680,
+        "rmsDbFS": -14.715849,
+        "leftRmsDbFS": -14.637902,
+        "rightRmsDbFS": -14.795221,
+        "peakDbFS": -3.305893,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.959741,
+        "sideRmsDbFS": -31.660553
+      },
+      "second-block": {
+        "frames": 7680,
+        "rmsDbFS": -13.724746,
+        "leftRmsDbFS": -13.625789,
+        "rightRmsDbFS": -13.82601,
+        "peakDbFS": -3.857328,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.978132,
+        "sideRmsDbFS": -33.285675
+      },
+      "empty-oar": {
+        "frames": 7680,
+        "rmsDbFS": -12.947669,
+        "leftRmsDbFS": -13.1762,
+        "rightRmsDbFS": -12.730565,
+        "peakDbFS": -3.879676,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.963161,
+        "sideRmsDbFS": -30.148145
+      },
+      "wave-wall": {
+        "frames": 7680,
+        "rmsDbFS": -11.659192,
+        "leftRmsDbFS": -12.566224,
+        "rightRmsDbFS": -10.909256,
+        "peakDbFS": -2.40153,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.908951,
+        "sideRmsDbFS": -24.361828
+      },
+      "deck-hit": {
+        "frames": 7680,
+        "rmsDbFS": -12.777237,
+        "leftRmsDbFS": -12.417309,
+        "rightRmsDbFS": -13.169711,
+        "peakDbFS": -4.399175,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.938816,
+        "sideRmsDbFS": -27.678813
+      },
+      "mast-break": {
+        "frames": 7680,
+        "rmsDbFS": -12.04929,
+        "leftRmsDbFS": -12.615504,
+        "rightRmsDbFS": -11.548454,
+        "peakDbFS": -2.413186,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.884677,
+        "sideRmsDbFS": -24.197516
+      },
+      "underwater-fall": {
+        "frames": 7680,
+        "rmsDbFS": -12.945743,
+        "leftRmsDbFS": -12.792916,
+        "rightRmsDbFS": -13.104145,
+        "peakDbFS": -4.270736,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.945489,
+        "sideRmsDbFS": -28.543106
+      },
+      "wood-grip": {
+        "frames": 7680,
+        "rmsDbFS": -27.051735,
+        "leftRmsDbFS": -26.83907,
+        "rightRmsDbFS": -27.275351,
+        "peakDbFS": -18.111619,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.988197,
+        "sideRmsDbFS": -48.906494
+      },
+      "arrow-release": {
+        "frames": 7680,
+        "rmsDbFS": -26.910996,
+        "leftRmsDbFS": -26.751654,
+        "rightRmsDbFS": -27.076407,
+        "peakDbFS": -15.944825,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.996405,
+        "sideRmsDbFS": -53.596101
+      },
+      "twelve-axes": {
+        "frames": 7680,
+        "rmsDbFS": -26.536722,
+        "leftRmsDbFS": -26.985027,
+        "rightRmsDbFS": -26.130394,
+        "peakDbFS": -16.071365,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.980183,
+        "sideRmsDbFS": -45.647801
+      },
+      "father-son-guard": {
+        "frames": 7680,
+        "rmsDbFS": -10.451498,
+        "leftRmsDbFS": -10.090999,
+        "rightRmsDbFS": -10.844653,
+        "peakDbFS": -2.399612,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.962532,
+        "sideRmsDbFS": -27.325484
+      },
+      "hall-volley": {
+        "frames": 7680,
+        "rmsDbFS": -10.222015,
+        "leftRmsDbFS": -9.903533,
+        "rightRmsDbFS": -10.565714,
+        "peakDbFS": -2.399626,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.944968,
+        "sideRmsDbFS": -25.615219
+      },
+      "hall-parry": {
+        "frames": 7680,
+        "rmsDbFS": -12.881241,
+        "leftRmsDbFS": -12.972826,
+        "rightRmsDbFS": -12.791547,
+        "peakDbFS": -2.537114,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.941897,
+        "sideRmsDbFS": -28.234223
+      },
+      "hall-counter": {
+        "frames": 7680,
+        "rmsDbFS": -10.279003,
+        "leftRmsDbFS": -9.656931,
+        "rightRmsDbFS": -11.005319,
+        "peakDbFS": -2.398097,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.971391,
+        "sideRmsDbFS": -27.247316
+      },
+      "last-shield": {
+        "frames": 7680,
+        "rmsDbFS": -10.648474,
+        "leftRmsDbFS": -10.571861,
+        "rightRmsDbFS": -10.726463,
+        "peakDbFS": -2.401121,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.957392,
+        "sideRmsDbFS": -27.348481
+      },
+      "root-recognized": {
+        "frames": 7680,
+        "rmsDbFS": -27.470886,
+        "leftRmsDbFS": -28.732969,
+        "rightRmsDbFS": -26.494186,
+        "peakDbFS": -13.009544,
+        "clipping": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 7680,
+        "correlation": 0.952764,
+        "sideRmsDbFS": -41.558483
+      }
+    },
+    "quietRuns": [
+      {
+        "start": 122.5,
+        "end": 122.91
+      },
+      {
+        "start": 179.9,
+        "end": 180
+      }
+    ],
+    "LUFS": -12.35,
+    "truePeakDbTP": -2.39,
+    "loudnessRangeLU": 16.4,
+    "quietLoudContrastDb": 18.505231,
+    "hallOverRootDb": 18.505231,
+    "straitOverDriftDb": 14.699268
+  },
+  "validation": {
+    "passed": true,
+    "stagedBeforePublication": true,
+    "checkedAt": "2026-10-06T10:55:46.882Z",
+    "checks": [
+      "180s full MP3 and 24bit WAV decode",
+      "8,640,000 stereo frames",
+      "fresh EBU R128 / oversampled true peak for both files",
+      "zero clipping/nonfinite",
+      "stereo width",
+      "15 unique musical structure hashes excluding gain",
+      "15 unique decoded chapter hashes",
+      "all 30 action cue DSP onsets within 8 samples",
+      "all local SFX at least 6dB below concurrent dry music",
+      "exact 20,000 zero stereo frames in archive hold",
+      "MP3 hold core below -85dBFS, full beat below -60dBFS",
+      "no unintended >=100ms silence",
+      ">=6dB act and climax/quiet contrast",
+      "no drum voices or room memory at root",
+      "tail peak below -70dBFS",
+      "story/generator/events/archive/master hashes"
+    ],
+    "scope": "Computed signal and provenance verification, NOT a claim of listening or artistic approval."
+  }
+}

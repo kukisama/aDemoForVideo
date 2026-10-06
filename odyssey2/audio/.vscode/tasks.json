@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "odyssey2-audio-generate-isolated",
+			"type": "shell",
+			"command": "node",
+			"args": [
+				"c:\\Users\\kukisama\\Downloads\\Scripts\\ademoforvideo\\odyssey2\\score.mjs"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

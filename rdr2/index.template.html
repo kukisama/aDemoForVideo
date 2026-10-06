@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#181b1d"><title>西部余烬 · 一匹马，载不走一个时代</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23181b1d' d='M0 0h32v32H0z'/%3E%3Cpath fill='%23bf6850' d='M7 8h18v12H7z'/%3E%3Cpath fill='%23efd19b' d='M5 19h22v4H5zM10 13h12v6H10z'/%3E%3C/svg%3E"><style>/*__STYLE__*/</style></head>
+<body><main id="cinema" tabindex="-1" aria-label="三分钟西部像素史诗">
+  <div id="viewport"><div id="stage">
+    <canvas id="world" width="640" height="360" aria-label="原创像素化的西部场景与人物"></canvas>
+    <div class="scanline" aria-hidden="true"></div><div class="vignette" aria-hidden="true"></div>
+    <section id="poster"><header class="poster-meta"><span>FRAME / 04</span><span>AN ORIGINAL 8-BIT WESTERN</span></header><div class="poster-copy"><p class="eyebrow">ONE MORE HORIZON</p><h1>西部<span>余烬</span><i></i></h1><p class="tagline">一匹马，载不走一个时代。</p><div class="divider"></div><p class="poster-intro">有人许诺明天。<br>有人，必须扛着今天往前。</p><div class="poster-actions"><button id="start" disabled><span>▶</span><b id="start-label">准备启程…</b></button><button id="start-fullscreen" class="secondary" disabled>全屏启程 ↗</button></div><div class="poster-stats"><span>03:00</span><i></i><span>13 CHAPTERS</span><i></i><span>ORIGINAL SCORE</span></div></div><div class="poster-border"></div><p class="poster-footnote">非官方像素创意介绍 · 原创改写对白 · 无主要结局剧透</p><p class="sound-note">字幕 + 音乐 / 建议戴上耳机</p></section>
+    <header id="hud" hidden><span class="hud-mark">WESTERN <b>EMBERS</b></span><span id="chapter-tag">ONE MORE TOMORROW</span><span class="hud-stamp">1899</span></header>
+    <div id="chapter-card" hidden><span id="chapter-number">01</span><b id="chapter-name"></b><i></i></div>
+    <div id="caption-box" hidden><span id="speaker"></span><p id="caption"></p></div>
+    <footer id="film-footer" hidden><span>ORIGINAL PIXEL INTERPRETATION · NOT GAME FOOTAGE</span><span id="time-code">00:00 / 03:00</span></footer>
+    <div id="reveal-mark" hidden><span>一个时代的尽头，一段关于人的故事。</span><i></i></div>
+  </div></div>
+  <nav id="controls" aria-label="播放控制"><button id="toggle" aria-label="播放" disabled>▶</button><button id="replay" aria-label="从头播放" disabled>↺</button><span id="time">00:00 / 03:00</span><input id="timeline" type="range" min="0" max="180" step="0.01" value="0" aria-label="播放进度" disabled><button id="mute" aria-label="静音" aria-pressed="false">♪</button><button id="fullscreen" aria-label="全屏">⛶</button><button id="about" aria-label="资料与创作说明" class="about-button">资料</button></nav>
+  <p id="status" role="status">正在准备西部世界与原创芯片配乐…</p><button id="end-replay" hidden>↺ 再走一遍这条路</button>
+  <audio id="music" src="audio/master.mp3" preload="auto"></audio>
+  <dialog id="about-dialog"><div class="dialog-top"><span>THE STORY BEHIND THE STORY</span><button id="close-about" aria-label="关闭说明">×</button></div><h2>关于《西部余烬》</h2>
+    <p>这是一部介绍《荒野大镖客 2》的非官方像素创意短片。时长三分钟，纯字幕与音乐，人物对白均为本片原创改写，<strong>不是游戏原台词</strong>，也不是新增正史剧情。</p>
+    <h3>事实与剧情边界</h3><p><a href="https://www.playstation.com/en-us/games/red-dead-redemption-2/" target="_blank" rel="noopener">官方故事简介</a>确认：1899 年美国、黑水镇行动失败后的逃亡、亚瑟·摩根与范德林德帮、外部追踪和内部分歧，以及个人理想与帮派忠诚的冲突。我们仅使用这一层级的开篇设定，不泄露关键人物后续命运或主要结局。</p>
+    <p>雪山、营地、河谷、铁路与城市镜头是原创像素化蒙太奇，不是游戏截图，不声称精确重现某个任务或地理位置。<a href="https://blog.playstation.com/2018/08/09/watch-the-red-dead-redemption-2-official-gameplay-video/" target="_blank" rel="noopener">官方实机演示出处</a>可供了解真实游戏画面。游戏及角色权利归 Rockstar Games 等相应权利人所有；本片与官方无关联、无背书。</p>
+    <h3>原创声音</h3><p>128 BPM、384 拍、96 小节。13 段围绕一个原创旋律动机展开，包含芯片口哨感主奏、数字拨弦、簧片音色、马蹄式节奏与合成弦乐。没有使用、采样或改编游戏原声，没有语音。</p>
+    <label class="motion-switch"><input id="gentle" type="checkbox"> 柔和动效（减少镜头冲击、切片和天气密度）</label><p class="shortcuts">空格暂停，← → 跳转一小节，R 重播，F 全屏，M 静音。鼠标静止自动隐藏控件。音乐较强，请先调整音量。</p>
+  </dialog>
+</main><script id="film-data" type="application/json">/*__DATA__*/</script><script>/*__SCRIPT__*/</script></body></html>

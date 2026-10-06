@@ -9,7 +9,8 @@ import { DURATION, CHAPTERS, VOICE_CUES, FACTS } from './story.mjs';
 const require = createRequire(new URL('../web/package.json', import.meta.url));
 const { chromium } = require('playwright');
 const root = fileURLToPath(new URL('../', import.meta.url));
-const qa = resolve(root, 'output/x500-qa');
+const qa = resolve(root, 'x500/output/x500-qa');
+const entry = resolve(root, 'export/X500/开始观看.html');
 await mkdir(qa, { recursive: true });
 const full = process.argv.includes('--full');
 const channel = process.argv.includes('--edge') ? 'msedge' : 'chrome';
@@ -20,7 +21,7 @@ const errors = [], network = [], checks = [];
 page.on('pageerror', error => errors.push(error.message));
 page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
 page.on('request', request => { if (/^https?:/.test(request.url())) network.push(request.url()); });
-const url = pathToFileURL(resolve(root, 'X500.html')).href;
+const url = pathToFileURL(entry).href;
 const check = (condition, message) => { assert.ok(condition, message); checks.push(message); };
 try {
   await page.goto(url, { waitUntil: 'load' });
@@ -98,13 +99,13 @@ try {
   await page.evaluate(() => window.__X500__.render(8.2));
   await page.screenshot({ path: resolve(qa, `${channel}-mobile.png`) });
   check(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'Mobile layout has no horizontal overflow');
-  const collectionPath = resolve(root, 'X500-观看包/开始观看.html');
+  const collectionPath = entry;
   await page.goto(pathToFileURL(collectionPath).href, { waitUntil: 'load' });
   await page.waitForFunction(() => window.__X500__?.ready, null, { timeout: 30000 });
   check((await page.evaluate(() => window.__X500__.state.currentSource)).endsWith('/audio/master.mp3'), 'Portable collection resolves its own relative audio');
   check(network.length === 0, 'Offline file playback makes zero network requests');
   check(errors.length === 0, 'No browser script/resource errors');
-  const report = { result: 'PASS', browser: await browser.version(), channel, full, checks, frames, fullPlayback, errors, network, htmlBytes: (await stat(resolve(root, 'X500.html'))).size, masterSha256: createHash('sha256').update(await readFile(resolve(root, 'x500/audio/master.mp3'))).digest('hex') };
+  const report = { result: 'PASS', entry, browser: await browser.version(), channel, full, checks, frames, fullPlayback, errors, network, htmlBytes: (await stat(entry)).size, masterSha256: createHash('sha256').update(await readFile(resolve(root, 'x500/audio/master.mp3'))).digest('hex') };
   await writeFile(resolve(qa, `${channel}-${full ? 'full-' : ''}report.json`), JSON.stringify(report, null, 2));
   console.log('PASS', JSON.stringify({ checks: checks.length, browser: report.browser, channel, full, fullPlayback }));
 } finally { await browser.close(); }

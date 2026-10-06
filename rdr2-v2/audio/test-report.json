@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "structuralOnly": false,
+  "tests": 12,
+  "checks": [
+    {
+      "name": "exact locked story: 180s, 80 BPM, 240 beats, seven chapters, 24 shots, 16 cues",
+      "passed": true
+    },
+    {
+      "name": "deterministic newly composed five-note cell and different chapter programs",
+      "passed": true
+    },
+    {
+      "name": "source whitelist and sample bounds; no hats, brass, speech, dense sequences",
+      "passed": true
+    },
+    {
+      "name": "whistle breath gaps / nonmechanical phrasing / no oscillator overlap",
+      "passed": true
+    },
+    {
+      "name": "at least three multi-second real arrangement rests, no concealed bass/pad",
+      "passed": true
+    },
+    {
+      "name": "promise has real warm answer; burden steps; fraying deletes answers",
+      "passed": true
+    },
+    {
+      "name": "choice expands only 130–137, third plan really unanswered until 168",
+      "passed": true
+    },
+    {
+      "name": "cue anchors and all shot mappings retain exact sample times (no beat snapping)",
+      "passed": true
+    },
+    {
+      "name": "isolated whistle measured as sine-led, with actual breath attack, pitch drift, decaying tail",
+      "passed": true
+    },
+    {
+      "name": "published compact report, real rest-bus evidence and explicit no-listening disclosure",
+      "passed": true
+    },
+    {
+      "name": "stale story, edited WAV/MP3 and incorrect cue metadata rejected before decode",
+      "passed": true
+    },
+    {
+      "name": "both final masters fully redecoded and freshly measured, not trusted report numbers",
+      "passed": true
+    }
+  ],
+  "evidence": {
+    "phrasing": {
+      "whistleNotes": 45,
+      "restsOver450ms": 26,
+      "offSixteenthGrid": 42
+    },
+    "whistle": {
+      "fundamentalShare": 0.9981495847760872,
+      "secondToFundamentalPower": 0.0017746096033383904,
+      "airOnsetRmsDbFS": -39.32959120204736,
+      "bodyRmsDbFS": -3.1272721653619175,
+      "tailRmsDbFS": -64.5886452359286,
+      "pitchWindowCents": [
+        1.9547292088040114,
+        0.7968362243714237,
+        0.15720312379323187,
+        -2.976760345395127
+      ],
+      "pitchRangeCents": 4.931489554199138
+    },
+    "master": {
+      "LUFS": -16.02,
+      "truePeakDbTP": -7.85,
+      "LRA": 19.7,
+      "chapterContrastDb": 9.904063
+    }
+  },
+  "storysha256": "574a23dc84ec1db7b8fd8955baf4f3fe9bafa2b1a86acd863537b5fc03504339",
+  "generatorSha256": "0c008e58873bc183d2228d44a2f7f22d8b6b8cfdb53d1e96ca4ce9e1ec9d9402",
+  "testSha256": "f8dbdc021e7f91b1327c4633967f0e8bb709682cd4ef3c455ce61d23cae61ed4",
+  "humanListeningPerformed": false,
+  "browserPlaybackTested": false,
+  "checkedAt": "2026-10-06T12:57:30.570Z",
+  "mastersha256": "5096b36979a75356b49ae8a4158270d2d4d3026bbfa2103165b4417fa71e14b8",
+  "archiveSha256": "0eff9726ef6773cf2891a415dfca6fa140278df692ae10feb43a76b12ead9165"
+}

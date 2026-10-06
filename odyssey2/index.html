@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#091723">
+  <title>奥德赛 II · 空弦 / HD-2D 动作演示</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23091723' d='M0 0h32v32H0z'/%3E%3Cpath d='M10 4q21 12 0 24M10 4v24' stroke='%23e8c783' stroke-width='2' fill='none'/%3E%3C/svg%3E">
+  <!--__FONTS__-->
+</head>
+<body>
+<main id="cinema" tabindex="-1" class="cover-visible" aria-label="奥德赛2空弦，30秒HD2D动作演示">
+  <div id="viewport"><div id="stage">
+    <canvas id="world" width="1280" height="720" aria-label="真实立体殿堂中的原创像素格斗演出"></canvas>
+    <div class="frame-edge" aria-hidden="true"></div>
+    <section id="poster" aria-labelledby="title">
+      <header class="poster-header"><span>ODYSSEY <b>II</b></span><span>MOTION STUDY / 01</span></header>
+      <div class="cover-copy">
+        <p class="eyebrow">THE EMPTY STRING</p>
+        <h1 id="title">空<span>弦</span></h1>
+        <p class="subtitle">一瞬，足以唤醒整座殿堂。</p>
+        <div class="cover-line"></div>
+        <p class="cover-detail">像素角色 × 立体舞台<br>一场交锋。三十秒。没有多余的解释。</p>
+        <div class="cover-actions"><button id="start" disabled><span>▶</span><b id="start-label">点亮殿堂…</b></button><button id="start-full" disabled>全屏观看 ↗</button></div>
+        <div class="cover-tags"><span>00:30</span><i></i><span>HD—2D</span><i></i><span>24 FPS CHARACTER ART</span></div>
+      </div>
+      <div class="cover-bottom"><p id="cover-sound">♪ 原创演示底轨 · 未含电影主题</p><button id="poster-settings">配乐与观看设置 <span>↗</span></button></div>
+      <span class="vertical-label" aria-hidden="true">LIGHT / DEPTH / IMPACT</span>
+    </section>
+    <div id="ending" hidden><p>ODYSSEY II</p><b>空弦</b><span>THE EMPTY STRING</span></div>
+    <aside id="diagnostics" hidden aria-label="技术诊断叠层"><b>HD—2D / LIVE RENDER</b><pre id="diagnostic-text"></pre></aside>
+  </div></div>
+  <div id="loader"><span></span><p id="loader-text">建立光影与像素舞台…</p><small>WebGL2 · 正在准备首帧</small></div>
+  <nav id="controls" aria-label="播放控制">
+    <button id="toggle" aria-label="播放" disabled>▶</button><button id="replay" aria-label="重播" disabled>↺</button>
+    <span id="time">00:00 / 00:30</span><input id="timeline" type="range" min="0" max="30" step="0.01" value="0" aria-label="进度" disabled>
+    <button id="mute" aria-label="静音" aria-pressed="false">♪</button><input id="volume" type="range" min="0" max="1" value="0.72" step="0.02" aria-label="音量">
+    <button id="fullscreen" aria-label="全屏">⛶</button><button id="settings" class="word-button" aria-label="配乐与观看设置">设置</button>
+  </nav>
+  <p id="status" role="status" aria-live="polite"></p>
+  <button id="end-replay" hidden>↺ 再看一次</button>
+  <audio id="master" src="audio/master.mp3" preload="auto"></audio>
+  <audio id="effects" src="audio/sfx.mp3" preload="auto"></audio>
+  <audio id="local-music" preload="auto"></audio>
+  <dialog id="settings-dialog" aria-labelledby="settings-title">
+    <div class="dialog-heading"><span>THE CONTROL ROOM</span><button id="close-settings" aria-label="关闭设置">×</button></div>
+    <h2 id="settings-title">配乐与观看设置</h2>
+    <section class="setting-group">
+      <h3>音乐</h3>
+      <p class="music-notice">本次没有取得原片音频，<strong>尚未完成可辨认的电影主题变奏</strong>。当前底轨仅演示声音层次与动作同步，不冒充官方主题。</p>
+      <label class="field">播放音轨<select id="sound-mode"><option value="demo">原创演示底轨 + 动作音效</option><option value="sfx">只听动作音效</option><option value="local" disabled>本地配乐 + 动作音效</option></select></label>
+      <label class="file-pick" for="music-file"><span>＋ 选择本地配乐</span><small>仅使用你有权用于本次演示的音频；不上传、不联网</small></label>
+      <input id="music-file" type="file" accept="audio/*,.mp3,.wav,.m4a,.ogg,.flac">
+      <p id="music-file-status">未选择音频。需要至少 30 秒可播放内容。</p>
+      <div class="two-fields"><label class="field">片段起点（秒）<input id="music-offset" type="number" min="0" step="0.1" value="0" disabled></label><label class="field">本地音频处理<select id="music-treatment" disabled><option value="original">原音 · 保留旋律</option><option value="space">空间回声 · 保留音高</option></select></label></div>
+      <p class="hint">本地接入与回声是混音工具，不等同于已经完成电影主题编曲。音效仍跟随演示的固定落点。</p>
+    </section>
+    <section class="setting-group">
+      <h3>画面</h3>
+      <label class="field">渲染档位<select id="quality"><option value="cinematic">电影档 · 1280×720 / 完整后期</option><option value="balanced">均衡档 · 960×540 / 完整后期</option></select></label>
+      <p class="hint">默认面向正常显卡，不自动降级。像素人物保持原生硬边，场景使用真实透视、深度景深与HDR灯光。</p>
+      <label class="switch"><input id="gentle" type="checkbox"> 柔和冲击 · 关闭镜头震动和闪光，减少粒子</label>
+      <label class="switch"><input id="show-info" type="checkbox"> 显示技术诊断叠层</label>
+      <p id="gpu-info" class="hint"></p>
+    </section>
+    <details><summary>演示范围与素材说明</summary><p>这是独立的30秒《奥德赛》题材动作实验，不是电影镜头复刻。招式、弓弦光波、人物、殿堂与临时配乐均为本次原创；借鉴的是像素格斗的动作节奏和HD-2D的画面组织，没有使用《八方旅人》或其他游戏的资产。</p><p>电影配乐片段尚待提供。若加载自己的音频，文件只驻留当前浏览器，不被复制到交付目录。此功能不会自动把私人音源分发出去。</p></details>
+    <p class="keys"><kbd>空格</kbd> 暂停　<kbd>← →</kbd> 逐秒跳转　<kbd>R</kbd> 重播　<kbd>F</kbd> 全屏　<kbd>M</kbd> 静音</p>
+  </dialog>
+</main>
+<script type="module" src="./player.mjs"></script>
+</body>
+</html>

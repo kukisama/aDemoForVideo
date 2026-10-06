@@ -1,0 +1,4221 @@
+{
+  "title": "空弦 / Empty String — Original Demonstration",
+  "film": "奥德赛 II · 空弦",
+  "notice": "原创演示底轨 + SFX；未提供原片音源，电影主题变奏尚未制作。不声称官方配乐或可辨认的电影主题。",
+  "soundMode": "original-demo-not-film-theme",
+  "themeAdaptation": false,
+  "externalSamples": false,
+  "originalThemeMissing": true,
+  "originalThemeStatus": "Not produced: no film source supplied; no download, melody transcription or invented claim of film-theme recognition.",
+  "duration": 30,
+  "bpm": 128,
+  "beats": 64,
+  "bars": 16,
+  "sampleRate": 48000,
+  "channels": 2,
+  "frames": 1440000,
+  "timelineSha256": "59889d6cd3c980217a8615b1ec490bb4b1200e3a39b245f0d78382a3a12b3b27",
+  "storysha256": "59889d6cd3c980217a8615b1ec490bb4b1200e3a39b245f0d78382a3a12b3b27",
+  "generatorSha256": "78e595d5d14514cd4649be2b1b90eac854fb4b98d72dc1809bfec9d6aa8d42ae",
+  "storyHashMeaning": "This project has no separate story.mjs. storysha256 is explicitly an alias of the authoritative timeline.mjs SHA256.",
+  "mastersha256": "4749dc6f5f453b726d807f54a32b5e23016e7fc05fffa57123d9133df94d6f0c",
+  "files": {
+    "demo": {
+      "path": "demo.mp3",
+      "role": "demo",
+      "sha256": "65a2afd9be0f6c432ed785e5120913614d859aeaf3752f26240cb71a97593343",
+      "bytes": 962147,
+      "reference": "proof/demo.wav",
+      "referenceSha256": "cdfe8adf74a62cb25a936a810aff18d7f0f272b1d69c0d62e147d6d35baea19a",
+      "duration": 30,
+      "frames": 1440000,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitrate": 256000,
+      "timelineSha256": "59889d6cd3c980217a8615b1ec490bb4b1200e3a39b245f0d78382a3a12b3b27",
+      "storysha256": "59889d6cd3c980217a8615b1ec490bb4b1200e3a39b245f0d78382a3a12b3b27",
+      "generatorSha256": "78e595d5d14514cd4649be2b1b90eac854fb4b98d72dc1809bfec9d6aa8d42ae",
+      "soundMode": "original-demo-not-film-theme",
+      "themeAdaptation": false,
+      "externalSamples": false
+    },
+    "sfx": {
+      "path": "sfx.mp3",
+      "role": "sfx",
+      "sha256": "fb18d609ec138caa176d1d32a102c59ce44c2635087e3bb6f3930e6981be1282",
+      "bytes": 962145,
+      "reference": "proof/sfx.wav",
+      "referenceSha256": "fbe38c66e5edc50542e05f135dbc6c88c2f4e64935a73e84b90090dd127117db",
+      "duration": 30,
+      "frames": 1440000,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitrate": 256000,
+      "timelineSha256": "59889d6cd3c980217a8615b1ec490bb4b1200e3a39b245f0d78382a3a12b3b27",
+      "storysha256": "59889d6cd3c980217a8615b1ec490bb4b1200e3a39b245f0d78382a3a12b3b27",
+      "generatorSha256": "78e595d5d14514cd4649be2b1b90eac854fb4b98d72dc1809bfec9d6aa8d42ae",
+      "soundMode": "original-demo-not-film-theme",
+      "themeAdaptation": false,
+      "externalSamples": false
+    },
+    "master": {
+      "path": "master.mp3",
+      "role": "master",
+      "sha256": "4749dc6f5f453b726d807f54a32b5e23016e7fc05fffa57123d9133df94d6f0c",
+      "bytes": 962151,
+      "reference": "proof/master.wav",
+      "referenceSha256": "9667018310cee6eeaf5ce8e17927463733daf4a083789d0dc829b74c450c6f78",
+      "duration": 30,
+      "frames": 1440000,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitrate": 256000,
+      "timelineSha256": "59889d6cd3c980217a8615b1ec490bb4b1200e3a39b245f0d78382a3a12b3b27",
+      "storysha256": "59889d6cd3c980217a8615b1ec490bb4b1200e3a39b245f0d78382a3a12b3b27",
+      "generatorSha256": "78e595d5d14514cd4649be2b1b90eac854fb4b98d72dc1809bfec9d6aa8d42ae",
+      "soundMode": "original-demo-not-film-theme",
+      "themeAdaptation": false,
+      "externalSamples": false
+    }
+  },
+  "sourcePcmSha256": {
+    "demo": "9c35ce2e641d51e6658568af42055d74c4327cb61a85e02635826e82bc8f1de0",
+    "sfx": "f80b9f022dc423a7e196c836c7190f57a936bf124e25e835bde95a65cb7b9fd0",
+    "master": "010371eaf1632056cad52e1e9148833294968d6b0f236b0783935eff673df39f"
+  },
+  "music": {
+    "original": true,
+    "themes": [
+      {
+        "id": "question",
+        "startBeat": 0,
+        "notes": [
+          [
+            0,
+            62,
+            2.7
+          ],
+          [
+            1.5,
+            69,
+            2.2
+          ],
+          [
+            3,
+            65,
+            2.6
+          ],
+          [
+            5,
+            64,
+            2.8
+          ],
+          [
+            7,
+            62,
+            2.3
+          ]
+        ]
+      },
+      {
+        "id": "answer",
+        "startBeat": 32,
+        "notes": [
+          [
+            0,
+            74,
+            1.8
+          ],
+          [
+            2,
+            69,
+            1.5
+          ],
+          [
+            3.5,
+            72,
+            1.7
+          ],
+          [
+            5,
+            70,
+            1.8
+          ],
+          [
+            7,
+            69,
+            2.2
+          ]
+        ]
+      }
+    ],
+    "bars": [
+      {
+        "bar": 1,
+        "startBeat": 0,
+        "endBeat": 4,
+        "start": 0,
+        "end": 1.875,
+        "harmony": "D minor / open fifth",
+        "development": "Exposed lyra question; overlapping natural decays, no bed",
+        "drumAccents": []
+      },
+      {
+        "bar": 2,
+        "startBeat": 4,
+        "endBeat": 8,
+        "start": 1.875,
+        "end": 3.75,
+        "harmony": "D–A–E",
+        "development": "Last two solo notes and open-string overtones; no percussion",
+        "drumAccents": []
+      },
+      {
+        "bar": 3,
+        "startBeat": 8,
+        "endBeat": 12,
+        "start": 3.75,
+        "end": 5.625,
+        "harmony": "D5",
+        "development": "Low strings enter under skin drum 3+3+2; no chip lead",
+        "drumAccents": [
+          8,
+          9.5,
+          11
+        ]
+      },
+      {
+        "bar": 4,
+        "startBeat": 12,
+        "endBeat": 16,
+        "start": 5.625,
+        "end": 7.5,
+        "harmony": "Bb/D",
+        "development": "Viola suspension, darker bass and a wood-frame reply",
+        "drumAccents": [
+          12,
+          13.5,
+          15
+        ]
+      },
+      {
+        "bar": 5,
+        "startBeat": 16,
+        "endBeat": 20,
+        "start": 7.5,
+        "end": 9.375,
+        "harmony": "Dm(add9)",
+        "development": "Brief pulse shards and low orchestral stabs answer the dash",
+        "drumAccents": [
+          16,
+          17.5,
+          19
+        ]
+      },
+      {
+        "bar": 6,
+        "startBeat": 20,
+        "endBeat": 24,
+        "start": 9.375,
+        "end": 11.25,
+        "harmony": "C(sus2)",
+        "development": "Fewer drums; mid-register response, not a repeated lead",
+        "drumAccents": [
+          20,
+          23
+        ]
+      },
+      {
+        "bar": 7,
+        "startBeat": 24,
+        "endBeat": 28,
+        "start": 11.25,
+        "end": 13.125,
+        "harmony": "Bb/D",
+        "development": "Missing downbeat; skin/body impacts and descending inner strings",
+        "drumAccents": [
+          25.5,
+          27
+        ]
+      },
+      {
+        "bar": 8,
+        "startBeat": 28,
+        "endBeat": 32,
+        "start": 13.125,
+        "end": 15,
+        "harmony": "A(sus4)",
+        "development": "Offbeat frame taps, held tension and a breath before lift",
+        "drumAccents": [
+          28.5,
+          30.5
+        ]
+      },
+      {
+        "bar": 9,
+        "startBeat": 32,
+        "endBeat": 36,
+        "start": 15,
+        "end": 16.875,
+        "harmony": "Dm",
+        "development": "Second short melody, higher lyra and low strings, rising action accents",
+        "drumAccents": [
+          32,
+          33.5,
+          35
+        ]
+      },
+      {
+        "bar": 10,
+        "startBeat": 36,
+        "endBeat": 40,
+        "start": 16.875,
+        "end": 18.75,
+        "harmony": "F6/9",
+        "development": "Melody falls through Bb to A; airy upper strings, shorter drum tail",
+        "drumAccents": [
+          36,
+          37.5,
+          39
+        ]
+      },
+      {
+        "bar": 11,
+        "startBeat": 40,
+        "endBeat": 44,
+        "start": 18.75,
+        "end": 20.625,
+        "harmony": "Bb/A",
+        "development": "Turning stabs, sparse pulse, asymmetrical skin/wood replies",
+        "drumAccents": [
+          40,
+          41.75,
+          43
+        ]
+      },
+      {
+        "bar": 12,
+        "startBeat": 44,
+        "endBeat": 48,
+        "start": 20.625,
+        "end": 22.5,
+        "harmony": "D5",
+        "development": "Single low accent, then sustained strings; percussion removed at 22.5s",
+        "drumAccents": [
+          44
+        ]
+      },
+      {
+        "bar": 13,
+        "startBeat": 48,
+        "endBeat": 52,
+        "start": 22.5,
+        "end": 24.375,
+        "harmony": "D/Eb tension",
+        "development": "Very quiet bowed-string tension; no drum, pulse or orchestral strike",
+        "drumAccents": []
+      },
+      {
+        "bar": 14,
+        "startBeat": 52,
+        "endBeat": 56,
+        "start": 24.375,
+        "end": 26.25,
+        "harmony": "D/A open",
+        "development": "Tension until beat 54; open-string plucks and sympathetic resonance",
+        "drumAccents": []
+      },
+      {
+        "bar": 15,
+        "startBeat": 56,
+        "endBeat": 60,
+        "start": 26.25,
+        "end": 28.125,
+        "harmony": "D/A/E harmonics",
+        "development": "Far string harmonics, low-pitched spatial resonance, no melody loop",
+        "drumAccents": []
+      },
+      {
+        "bar": 16,
+        "startBeat": 60,
+        "endBeat": 64,
+        "start": 28.125,
+        "end": 30,
+        "harmony": "D5 with ninth",
+        "development": "Unanswered open fifth; broad stereo decay with terminal fade",
+        "drumAccents": []
+      }
+    ],
+    "stages": [
+      {
+        "id": "string",
+        "start": 0,
+        "end": 3.75,
+        "label": "试弦",
+        "camera": "macro",
+        "bars": [
+          1,
+          2
+        ],
+        "notes": "里拉琴独奏，以真实计算的延迟弦与空弦泛音留出间隙；没有铺底与鼓。",
+        "eventCounts": {
+          "lyra": 5,
+          "harmonic": 1
+        },
+        "sustainedInstruments": [
+          "lyra",
+          "harmonic"
+        ],
+        "structureSha256": "cc87239023adde0c578b5eab82c5c05f8bb10e991e573f5d58782879f8d27101"
+      },
+      {
+        "id": "guard",
+        "start": 3.75,
+        "end": 7.5,
+        "label": "迎击",
+        "camera": "duel",
+        "bars": [
+          3,
+          4
+        ],
+        "notes": "低弦进入，皮膜古战鼓以八分音符3+3+2重音，木框答句。",
+        "eventCounts": {
+          "low-string": 2,
+          "strings": 6,
+          "war": 6,
+          "frame": 4
+        },
+        "sustainedInstruments": [
+          "lyra",
+          "harmonic",
+          "low-string",
+          "strings",
+          "war",
+          "frame"
+        ],
+        "structureSha256": "6d5139a6b5b8a7a68a6c8394521bbfbb32f03e6e50ca116a28ca6378cda630ee"
+      },
+      {
+        "id": "counter",
+        "start": 7.5,
+        "end": 11.25,
+        "label": "破势",
+        "camera": "track",
+        "bars": [
+          5,
+          6
+        ],
+        "notes": "短pulse碎片与低铜管/弦乐冲击；没有连续芯片主题循环。",
+        "eventCounts": {
+          "low-string": 2,
+          "strings": 15,
+          "war": 5,
+          "pulse": 4,
+          "frame": 4,
+          "brass": 9
+        },
+        "sustainedInstruments": [
+          "low-string",
+          "strings",
+          "war",
+          "pulse",
+          "frame",
+          "brass"
+        ],
+        "structureSha256": "2d729af15dda7644bfec2f5613e98a358eafd8b0cc3635d09e9a407cc05ad658"
+      },
+      {
+        "id": "evade",
+        "start": 11.25,
+        "end": 15,
+        "label": "闪避",
+        "camera": "low",
+        "bars": [
+          7,
+          8
+        ],
+        "notes": "抽掉强拍，低弦下行、木框错位与衣物/土层声音分开。",
+        "eventCounts": {
+          "low-string": 2,
+          "strings": 9,
+          "frame": 4,
+          "war": 4,
+          "pulse": 2,
+          "brass": 3
+        },
+        "sustainedInstruments": [
+          "low-string",
+          "strings",
+          "war",
+          "frame",
+          "pulse",
+          "brass"
+        ],
+        "structureSha256": "c44766250ea0ece1e72ca739073eafed440fbb98c0861ca656aaab585ce132dc"
+      },
+      {
+        "id": "rise",
+        "start": 15,
+        "end": 18.75,
+        "label": "腾空",
+        "camera": "rise",
+        "bars": [
+          9,
+          10
+        ],
+        "notes": "第二次短旋律提高音区，泛音与弦乐呼应腾空；不是第一段换音量。",
+        "eventCounts": {
+          "lyra": 5,
+          "low-string": 2,
+          "strings": 12,
+          "war": 6,
+          "frame": 4,
+          "pulse": 4,
+          "brass": 6,
+          "harmonic": 2
+        },
+        "sustainedInstruments": [
+          "low-string",
+          "strings",
+          "frame",
+          "lyra",
+          "war",
+          "pulse",
+          "brass",
+          "harmonic"
+        ],
+        "structureSha256": "12e066737769f85cf5e39c6455b31d931017dd8241b99afc13a528e39a714dec"
+      },
+      {
+        "id": "land",
+        "start": 18.75,
+        "end": 22.5,
+        "label": "回身",
+        "camera": "wide",
+        "bars": [
+          11,
+          12
+        ],
+        "notes": "回身用短合奏回应，末小节减法撤鼓，所有鼓和鼓混响止于22.5秒。",
+        "eventCounts": {
+          "low-string": 2,
+          "strings": 12,
+          "war": 4,
+          "frame": 2,
+          "brass": 6,
+          "pulse": 3,
+          "lyra": 1
+        },
+        "sustainedInstruments": [
+          "low-string",
+          "strings",
+          "lyra",
+          "war",
+          "frame",
+          "brass",
+          "pulse"
+        ],
+        "structureSha256": "e6f0eda37492e06d513112be99d3425564eee0fb9b3a62cd9b4acabc0ec6cbb6"
+      },
+      {
+        "id": "draw",
+        "start": 22.5,
+        "end": 26.25,
+        "label": "空弦",
+        "camera": "bow",
+        "bars": [
+          13,
+          14
+        ],
+        "notes": "22.5至25.3125秒极轻弦张力；放弦后由空弦与低脉冲接住，不用激光扫频。",
+        "eventCounts": {
+          "tension": 3,
+          "open-string": 4,
+          "low-resonance": 1
+        },
+        "sustainedInstruments": [
+          "strings",
+          "lyra",
+          "tension",
+          "open-string",
+          "low-resonance"
+        ],
+        "structureSha256": "6a43276b7e8ca15ba2170dc4d4d25312166efb460c0b3476c8d957e364ba401d"
+      },
+      {
+        "id": "release",
+        "start": 26.25,
+        "end": 30,
+        "label": "余响",
+        "camera": "pullback",
+        "bars": [
+          15,
+          16
+        ],
+        "notes": "相隔的弦模态泛音、宽立体声尾音；不再恢复鼓阵与旋律循环。",
+        "eventCounts": {
+          "harmonic": 3
+        },
+        "sustainedInstruments": [
+          "open-string",
+          "low-resonance",
+          "harmonic"
+        ],
+        "structureSha256": "bb28bd2ed59c37e6b1c2d1df73be695d1af6b1fddee5440375cc7e4b6c382579"
+      }
+    ],
+    "eventSha256": "704fb368f55cce4daf741ec35b1b9acd90369c16ef5fee103c16251d7f121170",
+    "musicEventCount": 169,
+    "musicEvents": [
+      {
+        "id": "music-001",
+        "kind": "lyra",
+        "beat": 0,
+        "sample": 0,
+        "midi": 62,
+        "frames": 75375,
+        "gain": 0.33,
+        "pan": -0.18,
+        "theme": "question"
+      },
+      {
+        "id": "music-002",
+        "kind": "lyra",
+        "beat": 1.5,
+        "sample": 33750,
+        "midi": 69,
+        "frames": 64125,
+        "gain": 0.33,
+        "pan": -0.18,
+        "theme": "question"
+      },
+      {
+        "id": "music-003",
+        "kind": "lyra",
+        "beat": 3,
+        "sample": 67500,
+        "midi": 65,
+        "frames": 73125,
+        "gain": 0.33,
+        "pan": -0.18,
+        "theme": "question"
+      },
+      {
+        "id": "music-004",
+        "kind": "lyra",
+        "beat": 5,
+        "sample": 112500,
+        "midi": 64,
+        "frames": 77625,
+        "gain": 0.33,
+        "pan": -0.18,
+        "theme": "question"
+      },
+      {
+        "id": "music-011",
+        "kind": "harmonic",
+        "beat": 6.5,
+        "sample": 146250,
+        "midi": 57,
+        "frames": 72000,
+        "gain": 0.033,
+        "pan": 0.5
+      },
+      {
+        "id": "music-005",
+        "kind": "lyra",
+        "beat": 7,
+        "sample": 157500,
+        "midi": 62,
+        "frames": 66375,
+        "gain": 0.33,
+        "pan": -0.18,
+        "theme": "question"
+      },
+      {
+        "id": "music-012",
+        "kind": "low-string",
+        "beat": 8,
+        "sample": 180000,
+        "midi": 38,
+        "frames": 103500,
+        "gain": 0.22,
+        "pan": -0.16,
+        "section": "low-arc"
+      },
+      {
+        "id": "music-013",
+        "kind": "strings",
+        "beat": 8,
+        "sample": 180000,
+        "midi": 50,
+        "frames": 101250,
+        "gain": 0.074,
+        "pan": -0.65,
+        "tremolo": false
+      },
+      {
+        "id": "music-014",
+        "kind": "strings",
+        "beat": 8,
+        "sample": 180000,
+        "midi": 57,
+        "frames": 101250,
+        "gain": 0.074,
+        "pan": 0,
+        "tremolo": false
+      },
+      {
+        "id": "music-015",
+        "kind": "strings",
+        "beat": 8,
+        "sample": 180000,
+        "midi": 62,
+        "frames": 101250,
+        "gain": 0.074,
+        "pan": 0.65,
+        "tremolo": false
+      },
+      {
+        "id": "music-052",
+        "kind": "war",
+        "beat": 8,
+        "sample": 180000,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.34,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "3+3+2"
+      },
+      {
+        "id": "music-055",
+        "kind": "frame",
+        "beat": 9,
+        "sample": 202500,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": -0.55,
+        "bus": "drums"
+      },
+      {
+        "id": "music-053",
+        "kind": "war",
+        "beat": 9.5,
+        "sample": 213750,
+        "midi": 40,
+        "frames": 31500,
+        "gain": 0.25,
+        "pan": 0.25,
+        "bus": "drums",
+        "accentPattern": "3+3+2"
+      },
+      {
+        "id": "music-056",
+        "kind": "frame",
+        "beat": 10.75,
+        "sample": 241875,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": 0.48,
+        "bus": "drums"
+      },
+      {
+        "id": "music-054",
+        "kind": "war",
+        "beat": 11,
+        "sample": 247500,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.25,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "3+3+2"
+      },
+      {
+        "id": "music-016",
+        "kind": "low-string",
+        "beat": 12,
+        "sample": 270000,
+        "midi": 34,
+        "frames": 103500,
+        "gain": 0.25,
+        "pan": -0.16,
+        "section": "low-arc"
+      },
+      {
+        "id": "music-057",
+        "kind": "war",
+        "beat": 12,
+        "sample": 270000,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.34,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "3+3+2"
+      },
+      {
+        "id": "music-017",
+        "kind": "strings",
+        "beat": 12.5,
+        "sample": 281250,
+        "midi": 50,
+        "frames": 101250,
+        "gain": 0.074,
+        "pan": -0.65,
+        "tremolo": false
+      },
+      {
+        "id": "music-018",
+        "kind": "strings",
+        "beat": 12.5,
+        "sample": 281250,
+        "midi": 58,
+        "frames": 101250,
+        "gain": 0.074,
+        "pan": 0,
+        "tremolo": false
+      },
+      {
+        "id": "music-019",
+        "kind": "strings",
+        "beat": 12.5,
+        "sample": 281250,
+        "midi": 65,
+        "frames": 101250,
+        "gain": 0.074,
+        "pan": 0.65,
+        "tremolo": false
+      },
+      {
+        "id": "music-060",
+        "kind": "frame",
+        "beat": 12.75,
+        "sample": 286875,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": -0.55,
+        "bus": "drums"
+      },
+      {
+        "id": "music-058",
+        "kind": "war",
+        "beat": 13.5,
+        "sample": 303750,
+        "midi": 40,
+        "frames": 31500,
+        "gain": 0.25,
+        "pan": 0.25,
+        "bus": "drums",
+        "accentPattern": "3+3+2"
+      },
+      {
+        "id": "music-061",
+        "kind": "frame",
+        "beat": 14.5,
+        "sample": 326250,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": 0.48,
+        "bus": "drums"
+      },
+      {
+        "id": "music-059",
+        "kind": "war",
+        "beat": 15,
+        "sample": 337500,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.25,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "3+3+2"
+      },
+      {
+        "id": "music-020",
+        "kind": "low-string",
+        "beat": 16,
+        "sample": 360000,
+        "midi": 38,
+        "frames": 103500,
+        "gain": 0.25,
+        "pan": -0.16,
+        "section": "low-arc"
+      },
+      {
+        "id": "music-021",
+        "kind": "strings",
+        "beat": 16,
+        "sample": 360000,
+        "midi": 50,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": -0.65,
+        "tremolo": true
+      },
+      {
+        "id": "music-022",
+        "kind": "strings",
+        "beat": 16,
+        "sample": 360000,
+        "midi": 57,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": 0,
+        "tremolo": true
+      },
+      {
+        "id": "music-023",
+        "kind": "strings",
+        "beat": 16,
+        "sample": 360000,
+        "midi": 64,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": 0.65,
+        "tremolo": true
+      },
+      {
+        "id": "music-062",
+        "kind": "war",
+        "beat": 16,
+        "sample": 360000,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.34,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-095",
+        "kind": "pulse",
+        "beat": 16,
+        "sample": 360000,
+        "midi": 62,
+        "frames": 7875,
+        "gain": 0.087,
+        "pan": -0.4
+      },
+      {
+        "id": "music-065",
+        "kind": "frame",
+        "beat": 17,
+        "sample": 382500,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": -0.55,
+        "bus": "drums"
+      },
+      {
+        "id": "music-108",
+        "kind": "brass",
+        "beat": 17,
+        "sample": 382500,
+        "midi": 38,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": -0.65
+      },
+      {
+        "id": "music-109",
+        "kind": "brass",
+        "beat": 17,
+        "sample": 382500,
+        "midi": 50,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0
+      },
+      {
+        "id": "music-110",
+        "kind": "brass",
+        "beat": 17,
+        "sample": 382500,
+        "midi": 57,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0.65
+      },
+      {
+        "id": "music-111",
+        "kind": "strings",
+        "beat": 17,
+        "sample": 382500,
+        "midi": 50,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": -0.65,
+        "short": true
+      },
+      {
+        "id": "music-112",
+        "kind": "strings",
+        "beat": 17,
+        "sample": 382500,
+        "midi": 62,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0,
+        "short": true
+      },
+      {
+        "id": "music-113",
+        "kind": "strings",
+        "beat": 17,
+        "sample": 382500,
+        "midi": 69,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0.65,
+        "short": true
+      },
+      {
+        "id": "music-063",
+        "kind": "war",
+        "beat": 17.5,
+        "sample": 393750,
+        "midi": 40,
+        "frames": 31500,
+        "gain": 0.25,
+        "pan": 0.25,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-096",
+        "kind": "pulse",
+        "beat": 17.5,
+        "sample": 393750,
+        "midi": 69,
+        "frames": 7875,
+        "gain": 0.087,
+        "pan": 0.4
+      },
+      {
+        "id": "music-066",
+        "kind": "frame",
+        "beat": 18.75,
+        "sample": 421875,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": 0.48,
+        "bus": "drums"
+      },
+      {
+        "id": "music-064",
+        "kind": "war",
+        "beat": 19,
+        "sample": 427500,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.25,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-097",
+        "kind": "pulse",
+        "beat": 19,
+        "sample": 427500,
+        "midi": 65,
+        "frames": 7875,
+        "gain": 0.087,
+        "pan": -0.3
+      },
+      {
+        "id": "music-114",
+        "kind": "brass",
+        "beat": 19,
+        "sample": 427500,
+        "midi": 38,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": -0.65
+      },
+      {
+        "id": "music-115",
+        "kind": "brass",
+        "beat": 19,
+        "sample": 427500,
+        "midi": 53,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0
+      },
+      {
+        "id": "music-116",
+        "kind": "brass",
+        "beat": 19,
+        "sample": 427500,
+        "midi": 62,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0.65
+      },
+      {
+        "id": "music-117",
+        "kind": "strings",
+        "beat": 19,
+        "sample": 427500,
+        "midi": 50,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": -0.65,
+        "short": true
+      },
+      {
+        "id": "music-118",
+        "kind": "strings",
+        "beat": 19,
+        "sample": 427500,
+        "midi": 65,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0,
+        "short": true
+      },
+      {
+        "id": "music-119",
+        "kind": "strings",
+        "beat": 19,
+        "sample": 427500,
+        "midi": 74,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0.65,
+        "short": true
+      },
+      {
+        "id": "music-024",
+        "kind": "low-string",
+        "beat": 20,
+        "sample": 450000,
+        "midi": 36,
+        "frames": 103500,
+        "gain": 0.25,
+        "pan": -0.16,
+        "section": "low-arc"
+      },
+      {
+        "id": "music-025",
+        "kind": "strings",
+        "beat": 20,
+        "sample": 450000,
+        "midi": 48,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": -0.65,
+        "tremolo": true
+      },
+      {
+        "id": "music-026",
+        "kind": "strings",
+        "beat": 20,
+        "sample": 450000,
+        "midi": 55,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": 0,
+        "tremolo": true
+      },
+      {
+        "id": "music-027",
+        "kind": "strings",
+        "beat": 20,
+        "sample": 450000,
+        "midi": 62,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": 0.65,
+        "tremolo": true
+      },
+      {
+        "id": "music-067",
+        "kind": "war",
+        "beat": 20,
+        "sample": 450000,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.34,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-069",
+        "kind": "frame",
+        "beat": 20.75,
+        "sample": 466875,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": -0.55,
+        "bus": "drums"
+      },
+      {
+        "id": "music-098",
+        "kind": "pulse",
+        "beat": 20.75,
+        "sample": 466875,
+        "midi": 64,
+        "frames": 7875,
+        "gain": 0.087,
+        "pan": 0.4
+      },
+      {
+        "id": "music-120",
+        "kind": "brass",
+        "beat": 21,
+        "sample": 472500,
+        "midi": 36,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": -0.65
+      },
+      {
+        "id": "music-121",
+        "kind": "brass",
+        "beat": 21,
+        "sample": 472500,
+        "midi": 55,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0
+      },
+      {
+        "id": "music-122",
+        "kind": "brass",
+        "beat": 21,
+        "sample": 472500,
+        "midi": 62,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0.65
+      },
+      {
+        "id": "music-123",
+        "kind": "strings",
+        "beat": 21,
+        "sample": 472500,
+        "midi": 48,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": -0.65,
+        "short": true
+      },
+      {
+        "id": "music-124",
+        "kind": "strings",
+        "beat": 21,
+        "sample": 472500,
+        "midi": 67,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0,
+        "short": true
+      },
+      {
+        "id": "music-125",
+        "kind": "strings",
+        "beat": 21,
+        "sample": 472500,
+        "midi": 74,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0.65,
+        "short": true
+      },
+      {
+        "id": "music-070",
+        "kind": "frame",
+        "beat": 22.5,
+        "sample": 506250,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": 0.48,
+        "bus": "drums"
+      },
+      {
+        "id": "music-068",
+        "kind": "war",
+        "beat": 23,
+        "sample": 517500,
+        "midi": 40,
+        "frames": 31500,
+        "gain": 0.25,
+        "pan": 0.25,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-028",
+        "kind": "low-string",
+        "beat": 24,
+        "sample": 540000,
+        "midi": 34,
+        "frames": 103500,
+        "gain": 0.25,
+        "pan": -0.16,
+        "section": "low-arc"
+      },
+      {
+        "id": "music-029",
+        "kind": "strings",
+        "beat": 24.5,
+        "sample": 551250,
+        "midi": 46,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": -0.65,
+        "tremolo": true
+      },
+      {
+        "id": "music-030",
+        "kind": "strings",
+        "beat": 24.5,
+        "sample": 551250,
+        "midi": 53,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": 0,
+        "tremolo": true
+      },
+      {
+        "id": "music-031",
+        "kind": "strings",
+        "beat": 24.5,
+        "sample": 551250,
+        "midi": 62,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": 0.65,
+        "tremolo": true
+      },
+      {
+        "id": "music-073",
+        "kind": "frame",
+        "beat": 25,
+        "sample": 562500,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": -0.55,
+        "bus": "drums"
+      },
+      {
+        "id": "music-071",
+        "kind": "war",
+        "beat": 25.5,
+        "sample": 573750,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.34,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-099",
+        "kind": "pulse",
+        "beat": 26.5,
+        "sample": 596250,
+        "midi": 58,
+        "frames": 7875,
+        "gain": 0.087,
+        "pan": -0.4
+      },
+      {
+        "id": "music-074",
+        "kind": "frame",
+        "beat": 26.75,
+        "sample": 601875,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": 0.48,
+        "bus": "drums"
+      },
+      {
+        "id": "music-072",
+        "kind": "war",
+        "beat": 27,
+        "sample": 607500,
+        "midi": 40,
+        "frames": 31500,
+        "gain": 0.25,
+        "pan": 0.25,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-126",
+        "kind": "brass",
+        "beat": 27,
+        "sample": 607500,
+        "midi": 34,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": -0.65
+      },
+      {
+        "id": "music-127",
+        "kind": "brass",
+        "beat": 27,
+        "sample": 607500,
+        "midi": 50,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0
+      },
+      {
+        "id": "music-128",
+        "kind": "brass",
+        "beat": 27,
+        "sample": 607500,
+        "midi": 58,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0.65
+      },
+      {
+        "id": "music-129",
+        "kind": "strings",
+        "beat": 27,
+        "sample": 607500,
+        "midi": 46,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": -0.65,
+        "short": true
+      },
+      {
+        "id": "music-130",
+        "kind": "strings",
+        "beat": 27,
+        "sample": 607500,
+        "midi": 62,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0,
+        "short": true
+      },
+      {
+        "id": "music-131",
+        "kind": "strings",
+        "beat": 27,
+        "sample": 607500,
+        "midi": 70,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0.65,
+        "short": true
+      },
+      {
+        "id": "music-032",
+        "kind": "low-string",
+        "beat": 28,
+        "sample": 630000,
+        "midi": 33,
+        "frames": 103500,
+        "gain": 0.25,
+        "pan": -0.16,
+        "section": "low-arc"
+      },
+      {
+        "id": "music-033",
+        "kind": "strings",
+        "beat": 28,
+        "sample": 630000,
+        "midi": 45,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": -0.65,
+        "tremolo": true
+      },
+      {
+        "id": "music-034",
+        "kind": "strings",
+        "beat": 28,
+        "sample": 630000,
+        "midi": 57,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": 0,
+        "tremolo": true
+      },
+      {
+        "id": "music-035",
+        "kind": "strings",
+        "beat": 28,
+        "sample": 630000,
+        "midi": 62,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": 0.65,
+        "tremolo": true
+      },
+      {
+        "id": "music-100",
+        "kind": "pulse",
+        "beat": 28,
+        "sample": 630000,
+        "midi": 57,
+        "frames": 7875,
+        "gain": 0.087,
+        "pan": 0.3
+      },
+      {
+        "id": "music-075",
+        "kind": "war",
+        "beat": 28.5,
+        "sample": 641250,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.34,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-077",
+        "kind": "frame",
+        "beat": 29.25,
+        "sample": 658125,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": -0.55,
+        "bus": "drums"
+      },
+      {
+        "id": "music-076",
+        "kind": "war",
+        "beat": 30.5,
+        "sample": 686250,
+        "midi": 40,
+        "frames": 31500,
+        "gain": 0.25,
+        "pan": 0.25,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-078",
+        "kind": "frame",
+        "beat": 31.5,
+        "sample": 708750,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": 0.48,
+        "bus": "drums"
+      },
+      {
+        "id": "music-006",
+        "kind": "lyra",
+        "beat": 32,
+        "sample": 720000,
+        "midi": 74,
+        "frames": 55125,
+        "gain": 0.28,
+        "pan": 0.18,
+        "theme": "answer"
+      },
+      {
+        "id": "music-036",
+        "kind": "low-string",
+        "beat": 32,
+        "sample": 720000,
+        "midi": 38,
+        "frames": 103500,
+        "gain": 0.25,
+        "pan": -0.16,
+        "section": "low-arc"
+      },
+      {
+        "id": "music-037",
+        "kind": "strings",
+        "beat": 32,
+        "sample": 720000,
+        "midi": 50,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": -0.65,
+        "tremolo": true
+      },
+      {
+        "id": "music-038",
+        "kind": "strings",
+        "beat": 32,
+        "sample": 720000,
+        "midi": 57,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": 0,
+        "tremolo": true
+      },
+      {
+        "id": "music-039",
+        "kind": "strings",
+        "beat": 32,
+        "sample": 720000,
+        "midi": 65,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": 0.65,
+        "tremolo": true
+      },
+      {
+        "id": "music-079",
+        "kind": "war",
+        "beat": 32,
+        "sample": 720000,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.34,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-082",
+        "kind": "frame",
+        "beat": 33,
+        "sample": 742500,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": -0.55,
+        "bus": "drums"
+      },
+      {
+        "id": "music-101",
+        "kind": "pulse",
+        "beat": 33,
+        "sample": 742500,
+        "midi": 74,
+        "frames": 7875,
+        "gain": 0.087,
+        "pan": -0.4
+      },
+      {
+        "id": "music-080",
+        "kind": "war",
+        "beat": 33.5,
+        "sample": 753750,
+        "midi": 40,
+        "frames": 31500,
+        "gain": 0.25,
+        "pan": 0.25,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-007",
+        "kind": "lyra",
+        "beat": 34,
+        "sample": 765000,
+        "midi": 69,
+        "frames": 48375,
+        "gain": 0.28,
+        "pan": 0.18,
+        "theme": "answer"
+      },
+      {
+        "id": "music-132",
+        "kind": "brass",
+        "beat": 34,
+        "sample": 765000,
+        "midi": 38,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": -0.65
+      },
+      {
+        "id": "music-133",
+        "kind": "brass",
+        "beat": 34,
+        "sample": 765000,
+        "midi": 57,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0
+      },
+      {
+        "id": "music-134",
+        "kind": "brass",
+        "beat": 34,
+        "sample": 765000,
+        "midi": 65,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0.65
+      },
+      {
+        "id": "music-135",
+        "kind": "strings",
+        "beat": 34,
+        "sample": 765000,
+        "midi": 50,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": -0.65,
+        "short": true
+      },
+      {
+        "id": "music-136",
+        "kind": "strings",
+        "beat": 34,
+        "sample": 765000,
+        "midi": 69,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0,
+        "short": true
+      },
+      {
+        "id": "music-137",
+        "kind": "strings",
+        "beat": 34,
+        "sample": 765000,
+        "midi": 77,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0.65,
+        "short": true
+      },
+      {
+        "id": "music-102",
+        "kind": "pulse",
+        "beat": 34.5,
+        "sample": 776250,
+        "midi": 69,
+        "frames": 7875,
+        "gain": 0.087,
+        "pan": 0.4
+      },
+      {
+        "id": "music-083",
+        "kind": "frame",
+        "beat": 34.75,
+        "sample": 781875,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": 0.48,
+        "bus": "drums"
+      },
+      {
+        "id": "music-081",
+        "kind": "war",
+        "beat": 35,
+        "sample": 787500,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.25,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-156",
+        "kind": "harmonic",
+        "beat": 35,
+        "sample": 787500,
+        "midi": 62,
+        "frames": 112500,
+        "gain": 0.056,
+        "pan": -0.65
+      },
+      {
+        "id": "music-157",
+        "kind": "harmonic",
+        "beat": 35,
+        "sample": 787500,
+        "midi": 69,
+        "frames": 112500,
+        "gain": 0.056,
+        "pan": 0.65
+      },
+      {
+        "id": "music-008",
+        "kind": "lyra",
+        "beat": 35.5,
+        "sample": 798750,
+        "midi": 72,
+        "frames": 52875,
+        "gain": 0.28,
+        "pan": 0.18,
+        "theme": "answer"
+      },
+      {
+        "id": "music-040",
+        "kind": "low-string",
+        "beat": 36,
+        "sample": 810000,
+        "midi": 41,
+        "frames": 103500,
+        "gain": 0.25,
+        "pan": -0.16,
+        "section": "low-arc"
+      },
+      {
+        "id": "music-084",
+        "kind": "war",
+        "beat": 36,
+        "sample": 810000,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.34,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-103",
+        "kind": "pulse",
+        "beat": 36,
+        "sample": 810000,
+        "midi": 72,
+        "frames": 7875,
+        "gain": 0.087,
+        "pan": -0.3
+      },
+      {
+        "id": "music-138",
+        "kind": "brass",
+        "beat": 36,
+        "sample": 810000,
+        "midi": 41,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": -0.65
+      },
+      {
+        "id": "music-139",
+        "kind": "brass",
+        "beat": 36,
+        "sample": 810000,
+        "midi": 60,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0
+      },
+      {
+        "id": "music-140",
+        "kind": "brass",
+        "beat": 36,
+        "sample": 810000,
+        "midi": 67,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0.65
+      },
+      {
+        "id": "music-141",
+        "kind": "strings",
+        "beat": 36,
+        "sample": 810000,
+        "midi": 53,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": -0.65,
+        "short": true
+      },
+      {
+        "id": "music-142",
+        "kind": "strings",
+        "beat": 36,
+        "sample": 810000,
+        "midi": 72,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0,
+        "short": true
+      },
+      {
+        "id": "music-143",
+        "kind": "strings",
+        "beat": 36,
+        "sample": 810000,
+        "midi": 79,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0.65,
+        "short": true
+      },
+      {
+        "id": "music-041",
+        "kind": "strings",
+        "beat": 36.5,
+        "sample": 821250,
+        "midi": 53,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": -0.65,
+        "tremolo": true
+      },
+      {
+        "id": "music-042",
+        "kind": "strings",
+        "beat": 36.5,
+        "sample": 821250,
+        "midi": 60,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": 0,
+        "tremolo": true
+      },
+      {
+        "id": "music-043",
+        "kind": "strings",
+        "beat": 36.5,
+        "sample": 821250,
+        "midi": 67,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": 0.65,
+        "tremolo": true
+      },
+      {
+        "id": "music-087",
+        "kind": "frame",
+        "beat": 36.75,
+        "sample": 826875,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": -0.55,
+        "bus": "drums"
+      },
+      {
+        "id": "music-009",
+        "kind": "lyra",
+        "beat": 37,
+        "sample": 832500,
+        "midi": 70,
+        "frames": 55125,
+        "gain": 0.28,
+        "pan": 0.18,
+        "theme": "answer"
+      },
+      {
+        "id": "music-085",
+        "kind": "war",
+        "beat": 37.5,
+        "sample": 843750,
+        "midi": 40,
+        "frames": 31500,
+        "gain": 0.25,
+        "pan": 0.25,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-104",
+        "kind": "pulse",
+        "beat": 38,
+        "sample": 855000,
+        "midi": 70,
+        "frames": 7875,
+        "gain": 0.087,
+        "pan": 0.3
+      },
+      {
+        "id": "music-088",
+        "kind": "frame",
+        "beat": 38.5,
+        "sample": 866250,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": 0.48,
+        "bus": "drums"
+      },
+      {
+        "id": "music-010",
+        "kind": "lyra",
+        "beat": 39,
+        "sample": 877500,
+        "midi": 69,
+        "frames": 64125,
+        "gain": 0.28,
+        "pan": 0.18,
+        "theme": "answer"
+      },
+      {
+        "id": "music-086",
+        "kind": "war",
+        "beat": 39,
+        "sample": 877500,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.25,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-044",
+        "kind": "low-string",
+        "beat": 40,
+        "sample": 900000,
+        "midi": 33,
+        "frames": 103500,
+        "gain": 0.25,
+        "pan": -0.16,
+        "section": "low-arc"
+      },
+      {
+        "id": "music-045",
+        "kind": "strings",
+        "beat": 40,
+        "sample": 900000,
+        "midi": 45,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": -0.65,
+        "tremolo": false
+      },
+      {
+        "id": "music-046",
+        "kind": "strings",
+        "beat": 40,
+        "sample": 900000,
+        "midi": 58,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": 0,
+        "tremolo": false
+      },
+      {
+        "id": "music-047",
+        "kind": "strings",
+        "beat": 40,
+        "sample": 900000,
+        "midi": 64,
+        "frames": 101250,
+        "gain": 0.086,
+        "pan": 0.65,
+        "tremolo": false
+      },
+      {
+        "id": "music-089",
+        "kind": "war",
+        "beat": 40,
+        "sample": 900000,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.34,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-092",
+        "kind": "frame",
+        "beat": 41,
+        "sample": 922500,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": -0.55,
+        "bus": "drums"
+      },
+      {
+        "id": "music-144",
+        "kind": "brass",
+        "beat": 41,
+        "sample": 922500,
+        "midi": 33,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": -0.65
+      },
+      {
+        "id": "music-145",
+        "kind": "brass",
+        "beat": 41,
+        "sample": 922500,
+        "midi": 57,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0
+      },
+      {
+        "id": "music-146",
+        "kind": "brass",
+        "beat": 41,
+        "sample": 922500,
+        "midi": 64,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0.65
+      },
+      {
+        "id": "music-147",
+        "kind": "strings",
+        "beat": 41,
+        "sample": 922500,
+        "midi": 45,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": -0.65,
+        "short": true
+      },
+      {
+        "id": "music-148",
+        "kind": "strings",
+        "beat": 41,
+        "sample": 922500,
+        "midi": 69,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0,
+        "short": true
+      },
+      {
+        "id": "music-149",
+        "kind": "strings",
+        "beat": 41,
+        "sample": 922500,
+        "midi": 76,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0.65,
+        "short": true
+      },
+      {
+        "id": "music-090",
+        "kind": "war",
+        "beat": 41.75,
+        "sample": 939375,
+        "midi": 40,
+        "frames": 31500,
+        "gain": 0.25,
+        "pan": 0.25,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-105",
+        "kind": "pulse",
+        "beat": 42,
+        "sample": 945000,
+        "midi": 65,
+        "frames": 7875,
+        "gain": 0.087,
+        "pan": -0.4
+      },
+      {
+        "id": "music-093",
+        "kind": "frame",
+        "beat": 42.75,
+        "sample": 961875,
+        "midi": 55,
+        "frames": 12375,
+        "gain": 0.12,
+        "pan": 0.48,
+        "bus": "drums"
+      },
+      {
+        "id": "music-091",
+        "kind": "war",
+        "beat": 43,
+        "sample": 967500,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.25,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-150",
+        "kind": "brass",
+        "beat": 43,
+        "sample": 967500,
+        "midi": 38,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": -0.65
+      },
+      {
+        "id": "music-151",
+        "kind": "brass",
+        "beat": 43,
+        "sample": 967500,
+        "midi": 58,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0
+      },
+      {
+        "id": "music-152",
+        "kind": "brass",
+        "beat": 43,
+        "sample": 967500,
+        "midi": 65,
+        "frames": 16200,
+        "gain": 0.105,
+        "pan": 0.65
+      },
+      {
+        "id": "music-153",
+        "kind": "strings",
+        "beat": 43,
+        "sample": 967500,
+        "midi": 50,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": -0.65,
+        "short": true
+      },
+      {
+        "id": "music-154",
+        "kind": "strings",
+        "beat": 43,
+        "sample": 967500,
+        "midi": 70,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0,
+        "short": true
+      },
+      {
+        "id": "music-155",
+        "kind": "strings",
+        "beat": 43,
+        "sample": 967500,
+        "midi": 77,
+        "frames": 21375,
+        "gain": 0.064,
+        "pan": 0.65,
+        "short": true
+      },
+      {
+        "id": "music-106",
+        "kind": "pulse",
+        "beat": 43.5,
+        "sample": 978750,
+        "midi": 64,
+        "frames": 7875,
+        "gain": 0.087,
+        "pan": 0.4
+      },
+      {
+        "id": "music-048",
+        "kind": "low-string",
+        "beat": 44,
+        "sample": 990000,
+        "midi": 38,
+        "frames": 90000,
+        "gain": 0.25,
+        "pan": -0.16,
+        "section": "low-arc"
+      },
+      {
+        "id": "music-049",
+        "kind": "strings",
+        "beat": 44,
+        "sample": 990000,
+        "midi": 50,
+        "frames": 99000,
+        "gain": 0.086,
+        "pan": -0.65,
+        "tremolo": false
+      },
+      {
+        "id": "music-050",
+        "kind": "strings",
+        "beat": 44,
+        "sample": 990000,
+        "midi": 57,
+        "frames": 99000,
+        "gain": 0.086,
+        "pan": 0,
+        "tremolo": false
+      },
+      {
+        "id": "music-051",
+        "kind": "strings",
+        "beat": 44,
+        "sample": 990000,
+        "midi": 62,
+        "frames": 99000,
+        "gain": 0.086,
+        "pan": 0.65,
+        "tremolo": false
+      },
+      {
+        "id": "music-094",
+        "kind": "war",
+        "beat": 44,
+        "sample": 990000,
+        "midi": 35,
+        "frames": 31500,
+        "gain": 0.238,
+        "pan": -0.2,
+        "bus": "drums",
+        "accentPattern": "developed"
+      },
+      {
+        "id": "music-158",
+        "kind": "lyra",
+        "beat": 45,
+        "sample": 1012500,
+        "midi": 50,
+        "frames": 69750,
+        "gain": 0.11,
+        "pan": -0.45
+      },
+      {
+        "id": "music-107",
+        "kind": "pulse",
+        "beat": 46,
+        "sample": 1035000,
+        "midi": 62,
+        "frames": 7875,
+        "gain": 0.087,
+        "pan": -0.2
+      },
+      {
+        "id": "music-159",
+        "kind": "tension",
+        "beat": 48,
+        "sample": 1080000,
+        "midi": 50,
+        "frames": 135000,
+        "gain": 0.01,
+        "pan": -0.65,
+        "section": "draw"
+      },
+      {
+        "id": "music-160",
+        "kind": "tension",
+        "beat": 48,
+        "sample": 1080000,
+        "midi": 51,
+        "frames": 135000,
+        "gain": 0.01,
+        "pan": 0,
+        "section": "draw"
+      },
+      {
+        "id": "music-161",
+        "kind": "tension",
+        "beat": 48,
+        "sample": 1080000,
+        "midi": 57,
+        "frames": 135000,
+        "gain": 0.01,
+        "pan": 0.65,
+        "section": "draw"
+      },
+      {
+        "id": "music-162",
+        "kind": "open-string",
+        "beat": 54,
+        "sample": 1215000,
+        "midi": 38,
+        "frames": 220500,
+        "gain": 0.098,
+        "pan": -0.65,
+        "section": "release"
+      },
+      {
+        "id": "music-163",
+        "kind": "open-string",
+        "beat": 54,
+        "sample": 1215000,
+        "midi": 50,
+        "frames": 220500,
+        "gain": 0.098,
+        "pan": -0.21666666666666667,
+        "section": "release"
+      },
+      {
+        "id": "music-164",
+        "kind": "open-string",
+        "beat": 54,
+        "sample": 1215000,
+        "midi": 57,
+        "frames": 220500,
+        "gain": 0.098,
+        "pan": 0.21666666666666667,
+        "section": "release"
+      },
+      {
+        "id": "music-165",
+        "kind": "open-string",
+        "beat": 54,
+        "sample": 1215000,
+        "midi": 62,
+        "frames": 220500,
+        "gain": 0.098,
+        "pan": 0.65,
+        "section": "release"
+      },
+      {
+        "id": "music-166",
+        "kind": "low-resonance",
+        "beat": 54,
+        "sample": 1215000,
+        "midi": 38,
+        "frames": 135000,
+        "gain": 0.078,
+        "pan": 0
+      },
+      {
+        "id": "music-167",
+        "kind": "harmonic",
+        "beat": 56,
+        "sample": 1260000,
+        "midi": 62,
+        "frames": 180000,
+        "gain": 0.047,
+        "pan": -0.65,
+        "section": "release"
+      },
+      {
+        "id": "music-168",
+        "kind": "harmonic",
+        "beat": 56,
+        "sample": 1260000,
+        "midi": 69,
+        "frames": 180000,
+        "gain": 0.047,
+        "pan": 0,
+        "section": "release"
+      },
+      {
+        "id": "music-169",
+        "kind": "harmonic",
+        "beat": 56,
+        "sample": 1260000,
+        "midi": 74,
+        "frames": 180000,
+        "gain": 0.047,
+        "pan": 0.65,
+        "section": "release"
+      }
+    ]
+  },
+  "sfx": {
+    "count": 14,
+    "source": "timeline.EVENTS",
+    "events": [
+      {
+        "id": "first-string",
+        "beat": 6,
+        "time": 2.8125,
+        "kind": "pluck",
+        "material": "bow string / wood bridge",
+        "synthesis": "bow-pluck",
+        "source": "timeline.EVENTS",
+        "scheduledSample": 135000,
+        "firstNonzeroSample": 135001,
+        "onsetErrorSamples": 1,
+        "dryOnsetErrorSamples": 1,
+        "frames": 86400,
+        "gain": 0.173029,
+        "isolatedSourceSha256": "e9c121cafd2a3681a867b861283ddd540039330a992019d1708f092cf0db2f50",
+        "monoSha256": "e6cfd451a6f1261dcfa689a5046bcb1e792305f270316b964952db1c65f95263",
+        "rmsDbFS": -37.104208,
+        "peakDbFS": -18.178191,
+        "musicRmsDbFS": -24.415996,
+        "sfxOverMusicDb": -12.688212,
+        "maxLocal60msOverMusicDb": 2
+      },
+      {
+        "id": "first-parry",
+        "beat": 12,
+        "time": 5.625,
+        "kind": "parry",
+        "material": "bronze edge / steel response",
+        "synthesis": "bronze",
+        "source": "timeline.EVENTS",
+        "scheduledSample": 270000,
+        "firstNonzeroSample": 270001,
+        "onsetErrorSamples": 1,
+        "dryOnsetErrorSamples": 1,
+        "frames": 63360,
+        "gain": 0.323,
+        "isolatedSourceSha256": "0635833ee3341207308bd47547c671ea76e1841e873991afcb871a08ed39e9a2",
+        "monoSha256": "0e32d0790ea91930683b4c54a6e142363317e692636b88031f87db72eac0f7eb",
+        "rmsDbFS": -35.177966,
+        "peakDbFS": -13.497494,
+        "musicRmsDbFS": -21.640597,
+        "sfxOverMusicDb": -13.537369,
+        "maxLocal60msOverMusicDb": -4.24494
+      },
+      {
+        "id": "dash-launch",
+        "beat": 17,
+        "time": 7.96875,
+        "kind": "dash",
+        "material": "cloth / low air / earth",
+        "synthesis": "cloth-dash",
+        "source": "timeline.EVENTS",
+        "scheduledSample": 382500,
+        "firstNonzeroSample": 382501,
+        "onsetErrorSamples": 1,
+        "dryOnsetErrorSamples": 1,
+        "frames": 56640,
+        "gain": 0.195,
+        "isolatedSourceSha256": "871b23e5cbca41f408acdf6a86342c150b53f5f1cc408d34b4d3084fd18aec7c",
+        "monoSha256": "e54b745c44c9887c4e6f8e97ba9c2e11d836716e193cde5d553325723cc1cdff",
+        "rmsDbFS": -39.84027,
+        "peakDbFS": -16.825201,
+        "musicRmsDbFS": -21.816731,
+        "sfxOverMusicDb": -18.023539,
+        "maxLocal60msOverMusicDb": -7.83955
+      },
+      {
+        "id": "counter-cut",
+        "beat": 19,
+        "time": 8.90625,
+        "kind": "slash",
+        "material": "cloth / short bronze contact",
+        "synthesis": "cloth-cut",
+        "source": "timeline.EVENTS",
+        "scheduledSample": 427500,
+        "firstNonzeroSample": 427501,
+        "onsetErrorSamples": 1,
+        "dryOnsetErrorSamples": 1,
+        "frames": 55680,
+        "gain": 0.272,
+        "isolatedSourceSha256": "10c3a9852d0c70f620e410d5648dba1798007db9c49aa320f780ecdabcc72379",
+        "monoSha256": "5a718a2d8e9906f82abcaa1385b6d6f3f40b62e6921c2e32143b69f40e2aac5e",
+        "rmsDbFS": -37.519469,
+        "peakDbFS": -15.625912,
+        "musicRmsDbFS": -20.525279,
+        "sfxOverMusicDb": -16.99419,
+        "maxLocal60msOverMusicDb": -7.497504
+      },
+      {
+        "id": "second-parry",
+        "beat": 21,
+        "time": 9.84375,
+        "kind": "parry",
+        "material": "iron blade, shorter/darker body",
+        "synthesis": "iron",
+        "source": "timeline.EVENTS",
+        "scheduledSample": 472500,
+        "firstNonzeroSample": 472501,
+        "onsetErrorSamples": 1,
+        "dryOnsetErrorSamples": 1,
+        "frames": 57600,
+        "gain": 0.224,
+        "isolatedSourceSha256": "4c5b6d97b315d57cea6a69e81faf17286301933768d0ad9614a80227f719e921",
+        "monoSha256": "faaad09b1d6f62a5f6f149c3328d2cace86d394c76a53fac969127dd3dc5c00b",
+        "rmsDbFS": -39.926799,
+        "peakDbFS": -16.317924,
+        "musicRmsDbFS": -21.018912,
+        "sfxOverMusicDb": -18.907887,
+        "maxLocal60msOverMusicDb": -6.429383
+      },
+      {
+        "id": "heavy-ground",
+        "beat": 27,
+        "time": 12.65625,
+        "kind": "ground",
+        "material": "wood / compact soil / low body",
+        "synthesis": "earth-heavy",
+        "source": "timeline.EVENTS",
+        "scheduledSample": 607500,
+        "firstNonzeroSample": 607501,
+        "onsetErrorSamples": 1,
+        "dryOnsetErrorSamples": 1,
+        "frames": 72000,
+        "gain": 0.4,
+        "isolatedSourceSha256": "d50ee4de62878a27d22e837bf6f7d8f72bcaa58829f9a9d006b80e8809bc21f8",
+        "monoSha256": "040c250a66a587314a98ef4567c7ba2bbd660242af8ca981a7886eefe0c28908",
+        "rmsDbFS": -33.916322,
+        "peakDbFS": -12.161398,
+        "musicRmsDbFS": -20.815642,
+        "sfxOverMusicDb": -13.10068,
+        "maxLocal60msOverMusicDb": -2.525032
+      },
+      {
+        "id": "slide-turn",
+        "beat": 30,
+        "time": 14.0625,
+        "kind": "slide",
+        "material": "leather / grit / cloth",
+        "synthesis": "grit-slide",
+        "source": "timeline.EVENTS",
+        "scheduledSample": 675000,
+        "firstNonzeroSample": 675001,
+        "onsetErrorSamples": 1,
+        "dryOnsetErrorSamples": 1,
+        "frames": 65760,
+        "gain": 0.1408,
+        "isolatedSourceSha256": "5192f87e58c629780c314498ec54a60295123eb5fc990ff2ee6c8f43f99e133d",
+        "monoSha256": "336a6742cedfc25e3dcf613fb78aa2694a76a1fa993dfd61c80352a8d11300ac",
+        "rmsDbFS": -41.047148,
+        "peakDbFS": -20.150878,
+        "musicRmsDbFS": -20.889418,
+        "sfxOverMusicDb": -20.15773,
+        "maxLocal60msOverMusicDb": -12.46779
+      },
+      {
+        "id": "rising-cut",
+        "beat": 34,
+        "time": 15.9375,
+        "kind": "launch",
+        "material": "cloth lift / wood grip / blade",
+        "synthesis": "cloth-rise",
+        "source": "timeline.EVENTS",
+        "scheduledSample": 765000,
+        "firstNonzeroSample": 765001,
+        "onsetErrorSamples": 1,
+        "dryOnsetErrorSamples": 1,
+        "frames": 63360,
+        "gain": 0.2988,
+        "isolatedSourceSha256": "77722de686b76d9d407b676084c9e0cf247d710601956a234bc874b337a61bd1",
+        "monoSha256": "1e7537f3b71362da5622a3bf420e85d5d51c7407fef6db888d5fb9c301d7b07f",
+        "rmsDbFS": -38.443939,
+        "peakDbFS": -14.079633,
+        "musicRmsDbFS": -20.552331,
+        "sfxOverMusicDb": -17.891608,
+        "maxLocal60msOverMusicDb": -6.441331
+      },
+      {
+        "id": "air-cross",
+        "beat": 36,
+        "time": 16.875,
+        "kind": "slash",
+        "material": "two cloth edges / soft metal",
+        "synthesis": "cloth-cross",
+        "source": "timeline.EVENTS",
+        "scheduledSample": 810000,
+        "firstNonzeroSample": 810001,
+        "onsetErrorSamples": 1,
+        "dryOnsetErrorSamples": 1,
+        "frames": 61440,
+        "gain": 0.2464,
+        "isolatedSourceSha256": "1582424666e719ff6ef5a6ebe1ddb8d64b57936be98d6a670433a1bbf191e616",
+        "monoSha256": "0ebe42479498794e5ac85cccec1c024e97f7cc7a4f362d4818ce4eade8431766",
+        "rmsDbFS": -38.596044,
+        "peakDbFS": -14.832888,
+        "musicRmsDbFS": -20.213634,
+        "sfxOverMusicDb": -18.38241,
+        "maxLocal60msOverMusicDb": -11.891665
+      },
+      {
+        "id": "hero-landing",
+        "beat": 41,
+        "time": 19.21875,
+        "kind": "land",
+        "material": "soil / leather / hollow wood",
+        "synthesis": "earth-land",
+        "source": "timeline.EVENTS",
+        "scheduledSample": 922500,
+        "firstNonzeroSample": 922501,
+        "onsetErrorSamples": 1,
+        "dryOnsetErrorSamples": 1,
+        "frames": 69600,
+        "gain": 0.3024,
+        "isolatedSourceSha256": "4d22cbb3727f996e00c5225d96df7386899e3fe06f0aeacd38ad67626bba48dd",
+        "monoSha256": "9777a84d3660738a57720bf32f0968adf686b727f63574f6871499f9641d4301",
+        "rmsDbFS": -36.05442,
+        "peakDbFS": -13.929637,
+        "musicRmsDbFS": -20.80391,
+        "sfxOverMusicDb": -15.25051,
+        "maxLocal60msOverMusicDb": -2.459735
+      },
+      {
+        "id": "turning-cut",
+        "beat": 43,
+        "time": 20.15625,
+        "kind": "slash",
+        "material": "turning cloth / muted bronze",
+        "synthesis": "cloth-turn",
+        "source": "timeline.EVENTS",
+        "scheduledSample": 967500,
+        "firstNonzeroSample": 967501,
+        "onsetErrorSamples": 1,
+        "dryOnsetErrorSamples": 1,
+        "frames": 63360,
+        "gain": 0.21,
+        "isolatedSourceSha256": "33f7234b06aa036ea0a01c8aedc24ef52900ec89a76db742fa2da5a467dc6252",
+        "monoSha256": "aa1c3f0e91d7f4d7ce424889f6dffa57fd70d0b0cb8b23e12c47a1f19aca8b4e",
+        "rmsDbFS": -38.750088,
+        "peakDbFS": -17.673358,
+        "musicRmsDbFS": -21.124534,
+        "sfxOverMusicDb": -17.625554,
+        "maxLocal60msOverMusicDb": -9.292188
+      },
+      {
+        "id": "weapon-fall",
+        "beat": 46,
+        "time": 21.5625,
+        "kind": "metal",
+        "material": "three diminishing metal/wood contacts",
+        "synthesis": "metal-fall",
+        "source": "timeline.EVENTS",
+        "scheduledSample": 1035000,
+        "firstNonzeroSample": 1035001,
+        "onsetErrorSamples": 1,
+        "dryOnsetErrorSamples": 1,
+        "frames": 82560,
+        "gain": 0.116,
+        "isolatedSourceSha256": "babc2a281f82e94aa737f06f855916347cf677a9b8738caf814d82ad8a663b4c",
+        "monoSha256": "ae17998238f4189459f2b76c3e76d2c9e04ae02b3f20bed08a575b331ac679ba",
+        "rmsDbFS": -46.40971,
+        "peakDbFS": -21.130434,
+        "musicRmsDbFS": -25.729192,
+        "sfxOverMusicDb": -20.680518,
+        "maxLocal60msOverMusicDb": -10.84641
+      },
+      {
+        "id": "empty-string",
+        "beat": 54,
+        "time": 25.3125,
+        "kind": "release",
+        "material": "modeled bow string / bridge / sympathetic open strings / low pulse",
+        "synthesis": "string-release",
+        "source": "timeline.EVENTS",
+        "scheduledSample": 1215000,
+        "firstNonzeroSample": 1215001,
+        "onsetErrorSamples": 1,
+        "dryOnsetErrorSamples": 1,
+        "frames": 225000,
+        "gain": 0.100322,
+        "isolatedSourceSha256": "6bce4c828b3bf8f548d6e135387ec55352ed3f5e0041815a2bb0d6a941edf142",
+        "monoSha256": "0dc3525682c6db62438923072894411a55099e5fa3fb2e61ec51f9a23b5ea8d8",
+        "rmsDbFS": -43.248392,
+        "peakDbFS": -23.751111,
+        "musicRmsDbFS": -36.248392,
+        "sfxOverMusicDb": -7,
+        "maxLocal60msOverMusicDb": -5.153217
+      },
+      {
+        "id": "far-rings",
+        "beat": 56,
+        "time": 26.25,
+        "kind": "resonate",
+        "material": "far sympathetic string harmonics, no metal bell or laser",
+        "synthesis": "string-harmonics",
+        "source": "timeline.EVENTS",
+        "scheduledSample": 1260000,
+        "firstNonzeroSample": 1260001,
+        "onsetErrorSamples": 1,
+        "dryOnsetErrorSamples": 1,
+        "frames": 180000,
+        "gain": 0.036985,
+        "isolatedSourceSha256": "1aded59af5114bb12fd35823bcdef03f1ada8f21c5f61b11787bf11927eeda93",
+        "monoSha256": "d17392aa81f5c08412aaa01aea73bf9f1c7403482b0464789494e40bd7943177",
+        "rmsDbFS": -46.098842,
+        "peakDbFS": -29.845513,
+        "musicRmsDbFS": -39.098842,
+        "sfxOverMusicDb": -7,
+        "maxLocal60msOverMusicDb": -4.657071
+      }
+    ],
+    "sparseTrackSilenceIntentional": true,
+    "timingScope": "Dry and isolated causal source onsets measured sample-by-sample. MP3 matched-waveform lag separately measured against gapless lossless reference; pre-echo is not asserted to be zero.",
+    "balanceScope": "Static per-event gain against concurrent music; decoded aggregate SFX/music also checked in sliding 60ms windows (30ms steps) over first 600ms."
+  },
+  "processing": {
+    "fixedGainDb": 7.75,
+    "adaptiveLoudnessGain": false,
+    "externalSamples": false,
+    "measurement": "EBU R128 measurement only; no loudnorm",
+    "limiter": {
+      "oversampling": 4,
+      "sampleRate": 192000,
+      "stereoLinked": true,
+      "latency": true,
+      "level": false,
+      "attackMs": 3,
+      "releaseMs": 80,
+      "ceilingDbTP": -2.8,
+      "minGainDb": -4.188775,
+      "limitedFrameFraction": 0.072607,
+      "maxStereoLinkError": 0
+    },
+    "stemPolicy": "Same fixed gain and actual shared master-limiter gain envelope, never independent loudness normalization",
+    "signalChain": "Computed 48kHz float stereo -> causal HP24/LP11500 -> 4x resampling -> fixed gain -> stereo-linked alimiter -> common limiter gain to both stems -> 48kHz -> shared fade -> gapless MP3",
+    "sourceMeasure": {
+      "LUFS": -21.4,
+      "truePeakDbTP": -6.4,
+      "LRA": 12.1,
+      "method": "FFmpeg ebur128=peak=true (measurement only)"
+    },
+    "losslessStemSum": {
+      "rmsDbFS": -160.143489,
+      "relativeRmsDb": -144.71388,
+      "peakDbFS": -134.951973
+    }
+  },
+  "delivery": {
+    "default": "audio/master.mp3",
+    "musicOnly": "audio/demo.mp3",
+    "sfxOnly": "audio/sfx.mp3",
+    "replacement": "Main player may replace demo with authorized local user music and retain sfx. This audio-only task does not modify the player.",
+    "gapless": "Container duration includes MPEG frame padding. Decoded PCM must be exactly 1,440,000 frames, 30 seconds for every track.",
+    "references": "proof/*.wav are 48kHz float lossless QA references, not external inputs."
+  },
+  "provenance": {
+    "seed": 1280922177,
+    "externalSamples": false,
+    "networkUsed": false,
+    "apiUsed": false,
+    "tts": false,
+    "createdAt": "2026-10-06T13:12:16.476Z",
+    "synthesis": "Computed fractional-delay plucked strings, sympathetic additive modes, detuned bowed strings/brass, short anti-aliased pulse, skin/wood/metal/cloth/earth DSP.",
+    "engineering": "Basic oscillator, fractional-delay and fixed-gain engineering informed by read-only odyssey/score.mjs. No old module imported or executed; all musical notes and form newly authored."
+  },
+  "measurements": {
+    "tracks": {
+      "demo": {
+        "frames": 1440000,
+        "rmsDbFS": -15.515992,
+        "leftRmsDbFS": -14.910792,
+        "rightRmsDbFS": -16.219398,
+        "peakDbFS": -2.567749,
+        "correlation": 0.87288,
+        "sideRmsDbFS": -27.161206,
+        "clips": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 1440000,
+        "decodedFrames": 1440000,
+        "decodedDuration": 30,
+        "quietRuns": [
+          {
+            "start": 29.7,
+            "end": 30
+          }
+        ],
+        "stageEnergy": [
+          {
+            "id": "string",
+            "start": 0,
+            "end": 3.75,
+            "frames": 180000,
+            "rmsDbFS": -21.331674,
+            "leftRmsDbFS": -20.319756,
+            "rightRmsDbFS": -22.653376,
+            "peakDbFS": -5.911308,
+            "correlation": 0.972475,
+            "sideRmsDbFS": -36.44636,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          },
+          {
+            "id": "guard",
+            "start": 3.75,
+            "end": 7.5,
+            "frames": 180000,
+            "rmsDbFS": -14.516759,
+            "leftRmsDbFS": -13.860616,
+            "rightRmsDbFS": -15.289985,
+            "peakDbFS": -2.611724,
+            "correlation": 0.854408,
+            "sideRmsDbFS": -25.567168,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          },
+          {
+            "id": "counter",
+            "start": 7.5,
+            "end": 11.25,
+            "frames": 180000,
+            "rmsDbFS": -13.381115,
+            "leftRmsDbFS": -12.733156,
+            "rightRmsDbFS": -14.142993,
+            "peakDbFS": -2.632135,
+            "correlation": 0.873381,
+            "sideRmsDbFS": -24.992653,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          },
+          {
+            "id": "evade",
+            "start": 11.25,
+            "end": 15,
+            "frames": 180000,
+            "rmsDbFS": -13.633722,
+            "leftRmsDbFS": -13.037553,
+            "rightRmsDbFS": -14.32495,
+            "peakDbFS": -2.567749,
+            "correlation": 0.872199,
+            "sideRmsDbFS": -25.267504,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          },
+          {
+            "id": "rise",
+            "start": 15,
+            "end": 18.75,
+            "frames": 180000,
+            "rmsDbFS": -13.10858,
+            "leftRmsDbFS": -12.721259,
+            "rightRmsDbFS": -13.533856,
+            "peakDbFS": -2.743995,
+            "correlation": 0.888699,
+            "sideRmsDbFS": -25.505275,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          },
+          {
+            "id": "land",
+            "start": 18.75,
+            "end": 22.5,
+            "frames": 180000,
+            "rmsDbFS": -13.769558,
+            "leftRmsDbFS": -13.042144,
+            "rightRmsDbFS": -14.643815,
+            "peakDbFS": -2.772657,
+            "correlation": 0.866822,
+            "sideRmsDbFS": -25.085787,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          },
+          {
+            "id": "draw",
+            "start": 22.5,
+            "end": 26.25,
+            "frames": 180000,
+            "rmsDbFS": -29.494094,
+            "leftRmsDbFS": -29.624357,
+            "rightRmsDbFS": -29.367624,
+            "peakDbFS": -11.630599,
+            "correlation": 0.666957,
+            "sideRmsDbFS": -37.275601,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          },
+          {
+            "id": "release",
+            "start": 26.25,
+            "end": 30,
+            "frames": 180000,
+            "rmsDbFS": -31.360363,
+            "leftRmsDbFS": -31.642363,
+            "rightRmsDbFS": -31.095563,
+            "peakDbFS": -14.03405,
+            "correlation": 0.631855,
+            "sideRmsDbFS": -38.695749,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          }
+        ],
+        "fight": {
+          "frames": 715200,
+          "rmsDbFS": -13.444508,
+          "leftRmsDbFS": -12.858321,
+          "rightRmsDbFS": -14.122346,
+          "peakDbFS": -2.567749,
+          "correlation": 0.875517,
+          "sideRmsDbFS": -25.194365,
+          "clips": 0,
+          "nonfinite": 0,
+          "nonzeroFrames": 715200
+        },
+        "suspense": {
+          "frames": 122400,
+          "rmsDbFS": -39.032858,
+          "leftRmsDbFS": -39.509451,
+          "rightRmsDbFS": -38.603432,
+          "peakDbFS": -29.668286,
+          "correlation": 0.621513,
+          "sideRmsDbFS": -46.224197,
+          "clips": 0,
+          "nonfinite": 0,
+          "nonzeroFrames": 122400
+        },
+        "dynamicContrastDb": 25.58835,
+        "tail": {
+          "frames": 240,
+          "rmsDbFS": -224.481489,
+          "leftRmsDbFS": -237.119642,
+          "rightRmsDbFS": -221.591118,
+          "peakDbFS": -209.225397,
+          "correlation": 0.588578,
+          "sideRmsDbFS": -228.415572,
+          "clips": 0,
+          "nonfinite": 0,
+          "nonzeroFrames": 240
+        },
+        "LUFS": -13.9,
+        "truePeakDbTP": -2.6,
+        "LRA": 13.9,
+        "method": "FFmpeg ebur128=peak=true (measurement only)",
+        "sampleRate": 48000,
+        "channels": 2,
+        "bitrate": 256000,
+        "metadataDuration": 30.024,
+        "metadataPaddingSeconds": 0.024,
+        "reference": {
+          "frames": 1440000,
+          "rmsDbFS": -15.51535,
+          "leftRmsDbFS": -14.910034,
+          "rightRmsDbFS": -16.218912,
+          "peakDbFS": -2.550545,
+          "correlation": 0.87292,
+          "sideRmsDbFS": -27.161691,
+          "clips": 0,
+          "nonfinite": 0,
+          "nonzeroFrames": 1440000,
+          "decodedFrames": 1440000,
+          "decodedDuration": 30,
+          "quietRuns": [
+            {
+              "start": 29.7,
+              "end": 30
+            }
+          ],
+          "stageEnergy": [
+            {
+              "id": "string",
+              "start": 0,
+              "end": 3.75,
+              "frames": 180000,
+              "rmsDbFS": -21.33103,
+              "leftRmsDbFS": -20.320094,
+              "rightRmsDbFS": -22.651051,
+              "peakDbFS": -5.873124,
+              "correlation": 0.972586,
+              "sideRmsDbFS": -36.458573,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            },
+            {
+              "id": "guard",
+              "start": 3.75,
+              "end": 7.5,
+              "frames": 180000,
+              "rmsDbFS": -14.517003,
+              "leftRmsDbFS": -13.860167,
+              "rightRmsDbFS": -15.291192,
+              "peakDbFS": -2.596167,
+              "correlation": 0.854471,
+              "sideRmsDbFS": -25.56841,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            },
+            {
+              "id": "counter",
+              "start": 7.5,
+              "end": 11.25,
+              "frames": 180000,
+              "rmsDbFS": -13.379871,
+              "leftRmsDbFS": -12.731786,
+              "rightRmsDbFS": -14.141924,
+              "peakDbFS": -2.621765,
+              "correlation": 0.873479,
+              "sideRmsDbFS": -24.99431,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            },
+            {
+              "id": "evade",
+              "start": 11.25,
+              "end": 15,
+              "frames": 180000,
+              "rmsDbFS": -13.632763,
+              "leftRmsDbFS": -13.036185,
+              "rightRmsDbFS": -14.324541,
+              "peakDbFS": -2.550545,
+              "correlation": 0.872185,
+              "sideRmsDbFS": -25.265645,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            },
+            {
+              "id": "rise",
+              "start": 15,
+              "end": 18.75,
+              "frames": 180000,
+              "rmsDbFS": -13.108013,
+              "leftRmsDbFS": -12.720767,
+              "rightRmsDbFS": -13.533198,
+              "peakDbFS": -2.746407,
+              "correlation": 0.888686,
+              "sideRmsDbFS": -25.504265,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            },
+            {
+              "id": "land",
+              "start": 18.75,
+              "end": 22.5,
+              "frames": 180000,
+              "rmsDbFS": -13.76899,
+              "leftRmsDbFS": -13.041837,
+              "rightRmsDbFS": -14.64287,
+              "peakDbFS": -2.786816,
+              "correlation": 0.86688,
+              "sideRmsDbFS": -25.087232,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            },
+            {
+              "id": "draw",
+              "start": 22.5,
+              "end": 26.25,
+              "frames": 180000,
+              "rmsDbFS": -29.495755,
+              "leftRmsDbFS": -29.626073,
+              "rightRmsDbFS": -29.369233,
+              "peakDbFS": -11.521129,
+              "correlation": 0.666772,
+              "sideRmsDbFS": -37.274842,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            },
+            {
+              "id": "release",
+              "start": 26.25,
+              "end": 30,
+              "frames": 180000,
+              "rmsDbFS": -31.360555,
+              "leftRmsDbFS": -31.642592,
+              "rightRmsDbFS": -31.095722,
+              "peakDbFS": -14.034113,
+              "correlation": 0.631862,
+              "sideRmsDbFS": -38.696027,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            }
+          ],
+          "fight": {
+            "frames": 715200,
+            "rmsDbFS": -13.443683,
+            "leftRmsDbFS": -12.857452,
+            "rightRmsDbFS": -14.12158,
+            "peakDbFS": -2.550545,
+            "correlation": 0.875547,
+            "sideRmsDbFS": -25.19446,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 715200
+          },
+          "suspense": {
+            "frames": 122400,
+            "rmsDbFS": -39.033277,
+            "leftRmsDbFS": -39.511192,
+            "rightRmsDbFS": -38.602779,
+            "peakDbFS": -29.668475,
+            "correlation": 0.621583,
+            "sideRmsDbFS": -46.225209,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 122400
+          },
+          "dynamicContrastDb": 25.589594,
+          "tail": {
+            "frames": 240,
+            "rmsDbFS": -219.809978,
+            "leftRmsDbFS": -226.770948,
+            "rightRmsDbFS": -217.260457,
+            "peakDbFS": -204.662021,
+            "correlation": 0.857575,
+            "sideRmsDbFS": -225.972358,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 240
+          },
+          "LUFS": -13.9,
+          "truePeakDbTP": -2.5,
+          "LRA": 13.9,
+          "method": "FFmpeg ebur128=peak=true (measurement only)"
+        }
+      },
+      "sfx": {
+        "frames": 1440000,
+        "rmsDbFS": -32.873252,
+        "leftRmsDbFS": -32.309319,
+        "rightRmsDbFS": -33.521497,
+        "peakDbFS": -5.763565,
+        "correlation": 0.869346,
+        "sideRmsDbFS": -44.451804,
+        "clips": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 994916,
+        "decodedFrames": 1440000,
+        "decodedDuration": 30,
+        "quietRuns": [
+          {
+            "start": 0,
+            "end": 2.8
+          },
+          {
+            "start": 4.12,
+            "end": 5.62
+          },
+          {
+            "start": 6.1,
+            "end": 7.96
+          },
+          {
+            "start": 8.54,
+            "end": 8.9
+          },
+          {
+            "start": 9.5,
+            "end": 9.84
+          },
+          {
+            "start": 10.28,
+            "end": 12.64
+          },
+          {
+            "start": 13.16,
+            "end": 14.06
+          },
+          {
+            "start": 14.94,
+            "end": 15.92
+          },
+          {
+            "start": 16.56,
+            "end": 16.86
+          },
+          {
+            "start": 17.46,
+            "end": 19.2
+          },
+          {
+            "start": 19.72,
+            "end": 20.14
+          },
+          {
+            "start": 20.78,
+            "end": 21.56
+          },
+          {
+            "start": 22.08,
+            "end": 25.3
+          },
+          {
+            "start": 29.62,
+            "end": 30
+          }
+        ],
+        "stageEnergy": [
+          {
+            "id": "string",
+            "start": 0,
+            "end": 3.75,
+            "frames": 180000,
+            "rmsDbFS": -32.826234,
+            "leftRmsDbFS": -30.665491,
+            "rightRmsDbFS": -37.319706,
+            "peakDbFS": -10.737931,
+            "correlation": 0.986048,
+            "sideRmsDbFS": -41.923813,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 46319
+          },
+          {
+            "id": "guard",
+            "start": 3.75,
+            "end": 7.5,
+            "frames": 180000,
+            "rmsDbFS": -32.890592,
+            "leftRmsDbFS": -31.507826,
+            "rightRmsDbFS": -34.931218,
+            "peakDbFS": -7.079273,
+            "correlation": 0.984827,
+            "sideRmsDbFS": -46.505303,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 117257
+          },
+          {
+            "id": "counter",
+            "start": 7.5,
+            "end": 11.25,
+            "frames": 180000,
+            "rmsDbFS": -32.050878,
+            "leftRmsDbFS": -32.064498,
+            "rightRmsDbFS": -32.037302,
+            "peakDbFS": -8.629028,
+            "correlation": 0.872291,
+            "sideRmsDbFS": -43.998814,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 153212
+          },
+          {
+            "id": "evade",
+            "start": 11.25,
+            "end": 15,
+            "frames": 180000,
+            "rmsDbFS": -30.732691,
+            "leftRmsDbFS": -30.32036,
+            "rightRmsDbFS": -31.188316,
+            "peakDbFS": -5.763565,
+            "correlation": 0.946838,
+            "sideRmsDbFS": -46.118447,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 113231
+          },
+          {
+            "id": "rise",
+            "start": 15,
+            "end": 18.75,
+            "frames": 180000,
+            "rmsDbFS": -33.32523,
+            "leftRmsDbFS": -36.395552,
+            "rightRmsDbFS": -31.544492,
+            "peakDbFS": -7.175416,
+            "correlation": 0.96007,
+            "sideRmsDbFS": -43.97031,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 140201
+          },
+          {
+            "id": "land",
+            "start": 18.75,
+            "end": 22.5,
+            "frames": 180000,
+            "rmsDbFS": -31.270512,
+            "leftRmsDbFS": -30.558804,
+            "rightRmsDbFS": -32.122159,
+            "peakDbFS": -6.702779,
+            "correlation": 0.910077,
+            "sideRmsDbFS": -44.090971,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 158253
+          },
+          {
+            "id": "draw",
+            "start": 22.5,
+            "end": 26.25,
+            "frames": 180000,
+            "rmsDbFS": -35.756722,
+            "leftRmsDbFS": -34.463105,
+            "rightRmsDbFS": -37.607467,
+            "peakDbFS": -16.11998,
+            "correlation": 0.813025,
+            "sideRmsDbFS": -45.010629,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 86492
+          },
+          {
+            "id": "release",
+            "start": 26.25,
+            "end": 30,
+            "frames": 180000,
+            "rmsDbFS": -38.320739,
+            "leftRmsDbFS": -39.241587,
+            "rightRmsDbFS": -37.561396,
+            "peakDbFS": -23.052488,
+            "correlation": 0.664891,
+            "sideRmsDbFS": -45.923269,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 179951
+          }
+        ],
+        "fight": {
+          "frames": 715200,
+          "rmsDbFS": -31.710606,
+          "leftRmsDbFS": -31.744152,
+          "rightRmsDbFS": -31.677318,
+          "peakDbFS": -5.763565,
+          "correlation": 0.893051,
+          "sideRmsDbFS": -44.42806,
+          "clips": 0,
+          "nonfinite": 0,
+          "nonzeroFrames": 560097
+        },
+        "suspense": {
+          "frames": 122400,
+          "rmsDbFS": -151.3117,
+          "leftRmsDbFS": -157.005065,
+          "rightRmsDbFS": -148.930147,
+          "peakDbFS": -122.241865,
+          "correlation": 0.868261,
+          "sideRmsDbFS": -158.226132,
+          "clips": 0,
+          "nonfinite": 0,
+          "nonzeroFrames": 32973
+        },
+        "dynamicContrastDb": 119.601094,
+        "tail": {
+          "frames": 240,
+          "rmsDbFS": -231.649019,
+          "leftRmsDbFS": -231.638537,
+          "rightRmsDbFS": -231.659525,
+          "peakDbFS": -220.975422,
+          "correlation": -0.999996,
+          "sideRmsDbFS": -231.649034,
+          "clips": 0,
+          "nonfinite": 0,
+          "nonzeroFrames": 191
+        },
+        "LUFS": -25.8,
+        "truePeakDbTP": -5.7,
+        "LRA": 7.6,
+        "method": "FFmpeg ebur128=peak=true (measurement only)",
+        "sampleRate": 48000,
+        "channels": 2,
+        "bitrate": 256000,
+        "metadataDuration": 30.024,
+        "metadataPaddingSeconds": 0.024,
+        "reference": {
+          "frames": 1440000,
+          "rmsDbFS": -32.870251,
+          "leftRmsDbFS": -32.307304,
+          "rightRmsDbFS": -33.517191,
+          "peakDbFS": -5.747115,
+          "correlation": 0.870572,
+          "sideRmsDbFS": -44.487881,
+          "clips": 0,
+          "nonfinite": 0,
+          "nonzeroFrames": 1111652,
+          "decodedFrames": 1440000,
+          "decodedDuration": 30,
+          "quietRuns": [
+            {
+              "start": 0,
+              "end": 2.8
+            },
+            {
+              "start": 4.12,
+              "end": 5.62
+            },
+            {
+              "start": 6.1,
+              "end": 7.96
+            },
+            {
+              "start": 8.54,
+              "end": 8.9
+            },
+            {
+              "start": 9.5,
+              "end": 9.84
+            },
+            {
+              "start": 10.28,
+              "end": 12.64
+            },
+            {
+              "start": 13.16,
+              "end": 14.06
+            },
+            {
+              "start": 14.94,
+              "end": 15.92
+            },
+            {
+              "start": 16.56,
+              "end": 16.86
+            },
+            {
+              "start": 17.46,
+              "end": 19.2
+            },
+            {
+              "start": 19.72,
+              "end": 20.14
+            },
+            {
+              "start": 20.78,
+              "end": 21.56
+            },
+            {
+              "start": 22.08,
+              "end": 25.3
+            },
+            {
+              "start": 29.62,
+              "end": 30
+            }
+          ],
+          "stageEnergy": [
+            {
+              "id": "string",
+              "start": 0,
+              "end": 3.75,
+              "frames": 180000,
+              "rmsDbFS": -32.82513,
+              "leftRmsDbFS": -30.663936,
+              "rightRmsDbFS": -37.320694,
+              "peakDbFS": -10.635969,
+              "correlation": 0.986438,
+              "sideRmsDbFS": -41.925459,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 45031
+            },
+            {
+              "id": "guard",
+              "start": 3.75,
+              "end": 7.5,
+              "frames": 180000,
+              "rmsDbFS": -32.890381,
+              "leftRmsDbFS": -31.50766,
+              "rightRmsDbFS": -34.930909,
+              "peakDbFS": -7.08023,
+              "correlation": 0.984829,
+              "sideRmsDbFS": -46.50544,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 158479
+            },
+            {
+              "id": "counter",
+              "start": 7.5,
+              "end": 11.25,
+              "frames": 180000,
+              "rmsDbFS": -32.038897,
+              "leftRmsDbFS": -32.060008,
+              "rightRmsDbFS": -32.017888,
+              "peakDbFS": -8.627918,
+              "correlation": 0.87384,
+              "sideRmsDbFS": -44.039644,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 157531
+            },
+            {
+              "id": "evade",
+              "start": 11.25,
+              "end": 15,
+              "frames": 180000,
+              "rmsDbFS": -30.732637,
+              "leftRmsDbFS": -30.320948,
+              "rightRmsDbFS": -31.187478,
+              "peakDbFS": -5.747115,
+              "correlation": 0.947482,
+              "sideRmsDbFS": -46.167934,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 128499
+            },
+            {
+              "id": "rise",
+              "start": 15,
+              "end": 18.75,
+              "frames": 180000,
+              "rmsDbFS": -33.322129,
+              "leftRmsDbFS": -36.376452,
+              "rightRmsDbFS": -31.54664,
+              "peakDbFS": -7.29138,
+              "correlation": 0.967151,
+              "sideRmsDbFS": -44.150823,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 177713
+            },
+            {
+              "id": "land",
+              "start": 18.75,
+              "end": 22.5,
+              "frames": 180000,
+              "rmsDbFS": -31.266961,
+              "leftRmsDbFS": -30.557007,
+              "rightRmsDbFS": -32.116095,
+              "peakDbFS": -6.695819,
+              "correlation": 0.910181,
+              "sideRmsDbFS": -44.094927,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 157531
+            },
+            {
+              "id": "draw",
+              "start": 22.5,
+              "end": 26.25,
+              "frames": 180000,
+              "rmsDbFS": -35.756069,
+              "leftRmsDbFS": -34.463483,
+              "rightRmsDbFS": -37.604689,
+              "peakDbFS": -16.167894,
+              "correlation": 0.813186,
+              "sideRmsDbFS": -45.014501,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 106868
+            },
+            {
+              "id": "release",
+              "start": 26.25,
+              "end": 30,
+              "frames": 180000,
+              "rmsDbFS": -38.321315,
+              "leftRmsDbFS": -39.242108,
+              "rightRmsDbFS": -37.562008,
+              "peakDbFS": -23.05271,
+              "correlation": 0.664901,
+              "sideRmsDbFS": -45.923991,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            }
+          ],
+          "fight": {
+            "frames": 715200,
+            "rmsDbFS": -31.706272,
+            "leftRmsDbFS": -31.741063,
+            "rightRmsDbFS": -31.671757,
+            "peakDbFS": -5.747115,
+            "correlation": 0.894887,
+            "sideRmsDbFS": -44.498837,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 616474
+          },
+          "suspense": {
+            "frames": 122400,
+            "rmsDbFS": -151.25797,
+            "leftRmsDbFS": -157.117985,
+            "rightRmsDbFS": -148.851023,
+            "peakDbFS": -122.06846,
+            "correlation": 0.875561,
+            "sideRmsDbFS": -158.122948,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 54637
+          },
+          "dynamicContrastDb": 119.551698,
+          "tail": {
+            "frames": 240,
+            "rmsDbFS": -225.298532,
+            "leftRmsDbFS": -235.997002,
+            "rightRmsDbFS": -222.47717,
+            "peakDbFS": -210.267933,
+            "correlation": 0.758896,
+            "sideRmsDbFS": -229.897909,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 240
+          },
+          "LUFS": -25.8,
+          "truePeakDbTP": -5.7,
+          "LRA": 7.6,
+          "method": "FFmpeg ebur128=peak=true (measurement only)"
+        }
+      },
+      "master": {
+        "frames": 1440000,
+        "rmsDbFS": -15.429484,
+        "leftRmsDbFS": -14.826938,
+        "rightRmsDbFS": -16.129305,
+        "peakDbFS": -2.706653,
+        "correlation": 0.872952,
+        "sideRmsDbFS": -27.079889,
+        "clips": 0,
+        "nonfinite": 0,
+        "nonzeroFrames": 1440000,
+        "decodedFrames": 1440000,
+        "decodedDuration": 30,
+        "quietRuns": [
+          {
+            "start": 29.74,
+            "end": 30
+          }
+        ],
+        "stageEnergy": [
+          {
+            "id": "string",
+            "start": 0,
+            "end": 3.75,
+            "frames": 180000,
+            "rmsDbFS": -21.029151,
+            "leftRmsDbFS": -19.935383,
+            "rightRmsDbFS": -22.494616,
+            "peakDbFS": -5.911308,
+            "correlation": 0.96684,
+            "sideRmsDbFS": -35.36706,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          },
+          {
+            "id": "guard",
+            "start": 3.75,
+            "end": 7.5,
+            "frames": 180000,
+            "rmsDbFS": -14.452528,
+            "leftRmsDbFS": -13.784221,
+            "rightRmsDbFS": -15.242715,
+            "peakDbFS": -2.794831,
+            "correlation": 0.855729,
+            "sideRmsDbFS": -25.526153,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          },
+          {
+            "id": "counter",
+            "start": 7.5,
+            "end": 11.25,
+            "frames": 180000,
+            "rmsDbFS": -13.323362,
+            "leftRmsDbFS": -12.683151,
+            "rightRmsDbFS": -14.074543,
+            "peakDbFS": -2.768339,
+            "correlation": 0.873362,
+            "sideRmsDbFS": -24.943543,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          },
+          {
+            "id": "evade",
+            "start": 11.25,
+            "end": 15,
+            "frames": 180000,
+            "rmsDbFS": -13.562372,
+            "leftRmsDbFS": -12.972569,
+            "rightRmsDbFS": -14.245054,
+            "peakDbFS": -2.803393,
+            "correlation": 0.873879,
+            "sideRmsDbFS": -25.256,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          },
+          {
+            "id": "rise",
+            "start": 15,
+            "end": 18.75,
+            "frames": 180000,
+            "rmsDbFS": -13.064342,
+            "leftRmsDbFS": -12.701236,
+            "rightRmsDbFS": -13.460598,
+            "peakDbFS": -2.759305,
+            "correlation": 0.887508,
+            "sideRmsDbFS": -25.434824,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          },
+          {
+            "id": "land",
+            "start": 18.75,
+            "end": 22.5,
+            "frames": 180000,
+            "rmsDbFS": -13.723332,
+            "leftRmsDbFS": -13.004208,
+            "rightRmsDbFS": -14.58563,
+            "peakDbFS": -2.706653,
+            "correlation": 0.867113,
+            "sideRmsDbFS": -25.058602,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          },
+          {
+            "id": "draw",
+            "start": 22.5,
+            "end": 26.25,
+            "frames": 180000,
+            "rmsDbFS": -26.995925,
+            "leftRmsDbFS": -26.756943,
+            "rightRmsDbFS": -27.248827,
+            "peakDbFS": -8.916988,
+            "correlation": 0.747473,
+            "sideRmsDbFS": -35.962614,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          },
+          {
+            "id": "release",
+            "start": 26.25,
+            "end": 30,
+            "frames": 180000,
+            "rmsDbFS": -29.83879,
+            "leftRmsDbFS": -29.739151,
+            "rightRmsDbFS": -29.940768,
+            "peakDbFS": -12.356364,
+            "correlation": 0.691982,
+            "sideRmsDbFS": -37.960697,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 180000
+          }
+        ],
+        "fight": {
+          "frames": 715200,
+          "rmsDbFS": -13.389755,
+          "leftRmsDbFS": -12.81532,
+          "rightRmsDbFS": -14.051922,
+          "peakDbFS": -2.706653,
+          "correlation": 0.875598,
+          "sideRmsDbFS": -25.154981,
+          "clips": 0,
+          "nonfinite": 0,
+          "nonzeroFrames": 715200
+        },
+        "suspense": {
+          "frames": 122400,
+          "rmsDbFS": -39.032922,
+          "leftRmsDbFS": -39.50952,
+          "rightRmsDbFS": -38.603493,
+          "peakDbFS": -29.668286,
+          "correlation": 0.621527,
+          "sideRmsDbFS": -46.224422,
+          "clips": 0,
+          "nonfinite": 0,
+          "nonzeroFrames": 122400
+        },
+        "dynamicContrastDb": 25.643167,
+        "tail": {
+          "frames": 240,
+          "rmsDbFS": -226.9519,
+          "leftRmsDbFS": -231.266439,
+          "rightRmsDbFS": -224.830806,
+          "peakDbFS": -214.264908,
+          "correlation": 0.598678,
+          "sideRmsDbFS": -232.679256,
+          "clips": 0,
+          "nonfinite": 0,
+          "nonzeroFrames": 240
+        },
+        "LUFS": -13.8,
+        "truePeakDbTP": -2.7,
+        "LRA": 11.9,
+        "method": "FFmpeg ebur128=peak=true (measurement only)",
+        "sampleRate": 48000,
+        "channels": 2,
+        "bitrate": 256000,
+        "metadataDuration": 30.024,
+        "metadataPaddingSeconds": 0.024,
+        "reference": {
+          "frames": 1440000,
+          "rmsDbFS": -15.429609,
+          "leftRmsDbFS": -14.826885,
+          "rightRmsDbFS": -16.12967,
+          "peakDbFS": -2.778401,
+          "correlation": 0.873046,
+          "sideRmsDbFS": -27.082761,
+          "clips": 0,
+          "nonfinite": 0,
+          "nonzeroFrames": 1440000,
+          "decodedFrames": 1440000,
+          "decodedDuration": 30,
+          "quietRuns": [
+            {
+              "start": 29.74,
+              "end": 30
+            }
+          ],
+          "stageEnergy": [
+            {
+              "id": "string",
+              "start": 0,
+              "end": 3.75,
+              "frames": 180000,
+              "rmsDbFS": -21.028624,
+              "leftRmsDbFS": -19.935371,
+              "rightRmsDbFS": -22.49316,
+              "peakDbFS": -5.873124,
+              "correlation": 0.966973,
+              "sideRmsDbFS": -35.376636,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            },
+            {
+              "id": "guard",
+              "start": 3.75,
+              "end": 7.5,
+              "frames": 180000,
+              "rmsDbFS": -14.451894,
+              "leftRmsDbFS": -13.782576,
+              "rightRmsDbFS": -15.243498,
+              "peakDbFS": -2.798057,
+              "correlation": 0.855765,
+              "sideRmsDbFS": -25.525426,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            },
+            {
+              "id": "counter",
+              "start": 7.5,
+              "end": 11.25,
+              "frames": 180000,
+              "rmsDbFS": -13.323084,
+              "leftRmsDbFS": -12.683159,
+              "rightRmsDbFS": -14.073871,
+              "peakDbFS": -2.799523,
+              "correlation": 0.873476,
+              "sideRmsDbFS": -24.947135,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            },
+            {
+              "id": "evade",
+              "start": 11.25,
+              "end": 15,
+              "frames": 180000,
+              "rmsDbFS": -13.56207,
+              "leftRmsDbFS": -12.972164,
+              "rightRmsDbFS": -14.244888,
+              "peakDbFS": -2.799044,
+              "correlation": 0.873929,
+              "sideRmsDbFS": -25.257162,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            },
+            {
+              "id": "rise",
+              "start": 15,
+              "end": 18.75,
+              "frames": 180000,
+              "rmsDbFS": -13.065417,
+              "leftRmsDbFS": -12.701489,
+              "rightRmsDbFS": -13.462654,
+              "peakDbFS": -2.778401,
+              "correlation": 0.887656,
+              "sideRmsDbFS": -25.440825,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            },
+            {
+              "id": "land",
+              "start": 18.75,
+              "end": 22.5,
+              "frames": 180000,
+              "rmsDbFS": -13.72396,
+              "leftRmsDbFS": -13.005313,
+              "rightRmsDbFS": -14.585573,
+              "peakDbFS": -2.795678,
+              "correlation": 0.867183,
+              "sideRmsDbFS": -25.061859,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            },
+            {
+              "id": "draw",
+              "start": 22.5,
+              "end": 26.25,
+              "frames": 180000,
+              "rmsDbFS": -26.996788,
+              "leftRmsDbFS": -26.759738,
+              "rightRmsDbFS": -27.247528,
+              "peakDbFS": -9.065832,
+              "correlation": 0.747845,
+              "sideRmsDbFS": -35.970182,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            },
+            {
+              "id": "release",
+              "start": 26.25,
+              "end": 30,
+              "frames": 180000,
+              "rmsDbFS": -29.839102,
+              "leftRmsDbFS": -29.739486,
+              "rightRmsDbFS": -29.941057,
+              "peakDbFS": -12.356926,
+              "correlation": 0.691988,
+              "sideRmsDbFS": -37.961098,
+              "clips": 0,
+              "nonfinite": 0,
+              "nonzeroFrames": 180000
+            }
+          ],
+          "fight": {
+            "frames": 715200,
+            "rmsDbFS": -13.390035,
+            "leftRmsDbFS": -12.815543,
+            "rightRmsDbFS": -14.052276,
+            "peakDbFS": -2.778401,
+            "correlation": 0.8757,
+            "sideRmsDbFS": -25.158466,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 715200
+          },
+          "suspense": {
+            "frames": 122400,
+            "rmsDbFS": -39.033277,
+            "leftRmsDbFS": -39.511192,
+            "rightRmsDbFS": -38.602778,
+            "peakDbFS": -29.668475,
+            "correlation": 0.621583,
+            "sideRmsDbFS": -46.225208,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 122400
+          },
+          "dynamicContrastDb": 25.643242,
+          "tail": {
+            "frames": 240,
+            "rmsDbFS": -216.176596,
+            "leftRmsDbFS": -224.496121,
+            "rightRmsDbFS": -213.498422,
+            "peakDbFS": -200.999756,
+            "correlation": 0.859611,
+            "sideRmsDbFS": -221.775282,
+            "clips": 0,
+            "nonfinite": 0,
+            "nonzeroFrames": 240
+          },
+          "LUFS": -13.8,
+          "truePeakDbTP": -2.8,
+          "LRA": 11.9,
+          "method": "FFmpeg ebur128=peak=true (measurement only)"
+        }
+      }
+    },
+    "losslessStemSum": {
+      "rmsDbFS": -160.143489,
+      "relativeRmsDb": -144.71388,
+      "peakDbFS": -134.951973
+    },
+    "mp3StemSum": {
+      "rmsDbFS": -54.712833,
+      "relativeRmsDb": -39.283349,
+      "peakDbFS": -21.793613
+    },
+    "encodedAlignment": [
+      {
+        "id": "first-string",
+        "lagSamples": 0,
+        "correlation": 0.999539,
+        "windowStart": 135096,
+        "windowEnd": 141720
+      },
+      {
+        "id": "first-parry",
+        "lagSamples": 0,
+        "correlation": 1,
+        "windowStart": 270096,
+        "windowEnd": 276720
+      },
+      {
+        "id": "dash-launch",
+        "lagSamples": 0,
+        "correlation": 0.994027,
+        "windowStart": 382596,
+        "windowEnd": 389220
+      },
+      {
+        "id": "counter-cut",
+        "lagSamples": 0,
+        "correlation": 0.995965,
+        "windowStart": 427596,
+        "windowEnd": 434220
+      },
+      {
+        "id": "second-parry",
+        "lagSamples": 0,
+        "correlation": 1,
+        "windowStart": 472596,
+        "windowEnd": 479220
+      },
+      {
+        "id": "heavy-ground",
+        "lagSamples": 0,
+        "correlation": 0.999946,
+        "windowStart": 607596,
+        "windowEnd": 614220
+      },
+      {
+        "id": "slide-turn",
+        "lagSamples": 0,
+        "correlation": 0.994438,
+        "windowStart": 675096,
+        "windowEnd": 681720
+      },
+      {
+        "id": "rising-cut",
+        "lagSamples": 0,
+        "correlation": 0.993513,
+        "windowStart": 765096,
+        "windowEnd": 771720
+      },
+      {
+        "id": "air-cross",
+        "lagSamples": 0,
+        "correlation": 0.992164,
+        "windowStart": 810096,
+        "windowEnd": 816720
+      },
+      {
+        "id": "hero-landing",
+        "lagSamples": 0,
+        "correlation": 0.999905,
+        "windowStart": 922596,
+        "windowEnd": 929220
+      },
+      {
+        "id": "turning-cut",
+        "lagSamples": 0,
+        "correlation": 0.996452,
+        "windowStart": 967596,
+        "windowEnd": 974220
+      },
+      {
+        "id": "weapon-fall",
+        "lagSamples": 0,
+        "correlation": 0.999988,
+        "windowStart": 1035096,
+        "windowEnd": 1041720
+      },
+      {
+        "id": "empty-string",
+        "lagSamples": 0,
+        "correlation": 0.999884,
+        "windowStart": 1215096,
+        "windowEnd": 1221720
+      },
+      {
+        "id": "far-rings",
+        "lagSamples": 0,
+        "correlation": 1,
+        "windowStart": 1260096,
+        "windowEnd": 1266720
+      }
+    ],
+    "balances": [
+      {
+        "id": "first-string",
+        "maxLocal60msOverMusicDb": 1.828052,
+        "fullEventOverMusicDb": -9.56204
+      },
+      {
+        "id": "first-parry",
+        "maxLocal60msOverMusicDb": -4.370034,
+        "fullEventOverMusicDb": -11.304202
+      },
+      {
+        "id": "dash-launch",
+        "maxLocal60msOverMusicDb": -8.287156,
+        "fullEventOverMusicDb": -14.949663
+      },
+      {
+        "id": "counter-cut",
+        "maxLocal60msOverMusicDb": -7.752416,
+        "fullEventOverMusicDb": -12.583726
+      },
+      {
+        "id": "second-parry",
+        "maxLocal60msOverMusicDb": -6.442008,
+        "fullEventOverMusicDb": -14.706651
+      },
+      {
+        "id": "heavy-ground",
+        "maxLocal60msOverMusicDb": -3.03085,
+        "fullEventOverMusicDb": -12.477774
+      },
+      {
+        "id": "slide-turn",
+        "maxLocal60msOverMusicDb": -12.934115,
+        "fullEventOverMusicDb": -17.013204
+      },
+      {
+        "id": "rising-cut",
+        "maxLocal60msOverMusicDb": -6.752697,
+        "fullEventOverMusicDb": -14.81816
+      },
+      {
+        "id": "air-cross",
+        "maxLocal60msOverMusicDb": -11.615284,
+        "fullEventOverMusicDb": -16.109164
+      },
+      {
+        "id": "hero-landing",
+        "maxLocal60msOverMusicDb": -3.086822,
+        "fullEventOverMusicDb": -12.549923
+      },
+      {
+        "id": "turning-cut",
+        "maxLocal60msOverMusicDb": -9.368574,
+        "fullEventOverMusicDb": -17.025372
+      },
+      {
+        "id": "weapon-fall",
+        "maxLocal60msOverMusicDb": -10.883194,
+        "fullEventOverMusicDb": -20.703574
+      },
+      {
+        "id": "empty-string",
+        "maxLocal60msOverMusicDb": -5.302039,
+        "fullEventOverMusicDb": -6.30879
+      },
+      {
+        "id": "far-rings",
+        "maxLocal60msOverMusicDb": -5.886471,
+        "fullEventOverMusicDb": -6.960376
+      }
+    ],
+    "sourceHashes": {
+      "demo": "9c35ce2e641d51e6658568af42055d74c4327cb61a85e02635826e82bc8f1de0",
+      "sfx": "f80b9f022dc423a7e196c836c7190f57a936bf124e25e835bde95a65cb7b9fd0",
+      "master": "010371eaf1632056cad52e1e9148833294968d6b0f236b0783935eff673df39f"
+    },
+    "drumTail": {
+      "frames": 360000,
+      "rmsDbFS": -240,
+      "leftRmsDbFS": -240,
+      "rightRmsDbFS": -240,
+      "peakDbFS": -240,
+      "correlation": 0,
+      "sideRmsDbFS": -240,
+      "clips": 0,
+      "nonfinite": 0,
+      "nonzeroFrames": 0
+    }
+  },
+  "validation": {
+    "passed": true,
+    "checkedAt": "2026-10-06T13:12:25.232Z",
+    "checks": [
+      "timeline 30s/128BPM/64beats/16bars/8stages",
+      "14 exact event IDs and sample clock",
+      "deterministic re-synthesis source and generator/timeline SHA256",
+      "3 MP3 + 3 reference full decodes / exactly 1440000 stereo frames",
+      "R128 and true peak measured on every actual file",
+      "no clipping/nonfinite",
+      "master [-15,-12] LUFS / every track <= -1.5dBTP",
+      "master fight/suspense >=6dB; no unintended >=200ms silence",
+      "source SFX onset <=2 samples",
+      "decoded matched-waveform SFX lag <=2 samples",
+      "local SFX/music <=+3dB, whole event <=0dB",
+      "all percussion and percussion room zero after22.5s",
+      "lossless stem sum relative RMS <-100dB; lossy sum <-24dB"
+    ],
+    "scope": "Signal/provenance measurements, not a listening review or a claim that a film theme was reproduced."
+  }
+}

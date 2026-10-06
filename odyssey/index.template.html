@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#091623">
+  <title>奥德赛 · 无人之名</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23091623' d='M0 0h32v32H0z'/%3E%3Cpath fill='%23dbc18a' d='M5 22h22l-5 5H9zM15 5h2v15h-2zM18 7l7 12h-7zM13 10v9H7z'/%3E%3C/svg%3E">
+  <style>/*__STYLE__*/</style>
+</head>
+<body>
+<main id="cinema" class="cover-visible" tabindex="-1" aria-label="奥德赛·无人之名，三分钟像素史诗短片">
+  <div id="viewport"><div id="stage">
+    <canvas id="world" width="640" height="360" aria-label="原创像素世界：归乡的旅人、舰队、神话险境与家"></canvas>
+    <div class="vignette" aria-hidden="true"></div>
+    <section id="poster" aria-labelledby="film-title">
+      <header class="poster-meta"><span>FRAME / 05</span><span>A MYTHIC PIXEL EPIC</span></header>
+      <div class="poster-copy">
+        <p class="eyebrow"><i></i> THE ODYSSEY</p>
+        <p class="series-title">奥 德 赛</p>
+        <h1 id="film-title">无人<span>之名</span></h1>
+        <div class="ornament" aria-hidden="true"><i></i><b>✦</b><i></i></div>
+        <p class="tagline">所有人都听过他的名字。<br>谁还认得他？</p>
+        <div class="poster-actions">
+          <button id="start" disabled><span class="play-icon">▶</span><b id="start-label">准备启航</b></button>
+          <button id="start-fullscreen" class="secondary" disabled>全屏启航 <span>↗</span></button>
+        </div>
+        <div class="poster-stats"><span>03:00</span><i></i><span>15 幕</span><i></i><span>8-BIT EPIC</span><button id="poster-about" aria-label="开播前查看资料与观看设置">观看设置</button></div>
+      </div>
+      <span class="poster-side" aria-hidden="true">THE LONG WAY HOME — 144 BPM</span>
+      <p class="poster-note">基于 2026 电影公开题材与荷马史诗的原创压缩改编<br>非官方作品 · 非原片复刻 · 含原著归乡情节</p>
+      <p class="sound-note"><span>♪</span> 字幕 · 原创音乐<br><small>建议耳机观看 / 可开启柔和动效</small></p>
+    </section>
+    <header id="hud" hidden><span>THE ODYSSEY <b>无人之名</b></span><span id="chapter-tag"></span></header>
+    <div id="chapter-card" hidden><span id="chapter-number"></span><div><small id="chapter-roman"></small><b id="chapter-name"></b></div></div>
+    <div id="caption-box" hidden><span id="speaker"></span><p id="caption"></p></div>
+    <div id="end-title" hidden aria-hidden="true"><small>THE ODYSSEY</small><b>无人之名</b><span>AN ORIGINAL PIXEL RETELLING</span></div>
+  </div></div>
+  <nav id="controls" aria-label="播放控制">
+    <button id="toggle" aria-label="播放" disabled>▶</button>
+    <button id="replay" aria-label="从头重播" disabled>↺</button>
+    <span id="time">00:00 / 03:00</span>
+    <input id="timeline" type="range" min="0" max="180" step="0.01" value="0" aria-label="播放进度" disabled>
+    <button id="mute" aria-label="静音" aria-pressed="false">♪</button>
+    <input id="volume" type="range" min="0" max="1" step="0.05" value="0.7" aria-label="音量">
+    <button id="fullscreen" aria-label="全屏">⛶</button>
+    <button id="about" class="about-button" aria-label="资料与观看设置">资料</button>
+  </nav>
+  <p id="status" role="status" aria-live="polite">正在准备像素世界与原创配乐…</p>
+  <button id="end-replay" hidden>↺ 再次启航</button>
+  <audio id="music" src="audio/master.mp3" preload="auto"></audio>
+  <dialog id="about-dialog" aria-labelledby="about-title">
+    <div class="dialog-top"><span>BEHIND THE VOYAGE</span><button id="close-about" aria-label="关闭说明">×</button></div>
+    <h2 id="about-title">关于这次归航</h2>
+    <p>《奥德赛·无人之名》是一支 <strong>180 秒的非官方原创像素改编短片</strong>：15 幕、54 个镜头、字幕叙事与原创音乐，没有旁白。</p>
+    <p><a href="https://www.odysseymovie.com/synopsis/" target="_blank" rel="noopener">2026 年电影官网</a>确认 Christopher Nolan 执导、荷马史诗改编与神话动作史诗定位。本片从这一公开题材出发，以<a href="https://www.gutenberg.org/ebooks/1727" target="_blank" rel="noopener">荷马原著</a>的归乡故事重新编排；<strong>不是电影正片复刻或完整剧情解说</strong>，不声称呈现电影的具体结局。</p>
+    <p>对白、动作编排、人物和场景均为本片新写、新绘。没有使用电影台词、演员肖像、剧照、游戏精灵或影视录音。人物、影片相关权利归相应权利人，本片与官方无关联、无背书。</p>
+    <h3>音乐不是背景循环</h3>
+    <p>144 BPM，432 拍；“远征”与“归家”两个原创动机经历里拉琴感拨弦、脉冲波、铜管与弦乐感合成、战鼓、铃音及复调变化，30 个原创动作音效与画面同拍。<strong>未截取或转写电影原声。</strong>8-bit 是画面与音色语言，母带为 48kHz 立体声。</p>
+    <details id="story-notes"><summary>原著线索与压缩方式（含结尾）</summary>
+      <p>“无人”与独眼巨人取自<a href="https://www.gutenberg.org/cache/epub/1727/pg1727-images.html" target="_blank" rel="noopener">原著第九卷</a>；海妖和双险海峡来自第十二卷；弓与宫殿交锋来自第二十一、二十二卷；识认来自第二十三卷。开场倒叙、橄榄叶伏笔与具体动作是本片原创设计。</p>
+      <p>为三分钟结构，漫长漂泊、神罚与他人援助被压缩、重排。六首海兽并非被主角击杀，空桨位保留通行的代价；最后的识认靠共同生活的细节，不靠头衔和战绩。以上是原著与本片的联系，不是对电影具体镜头的事实声明。</p>
+    </details>
+    <div class="settings"><label><input id="gentle" type="checkbox"> 柔和动效</label><p>减少镜头冲击、雨雾和局部火花；保持故事、字幕与音乐时序。强音乐请按需调整音量。</p></div>
+    <p class="shortcuts"><kbd>空格</kbd> 暂停　<kbd>←</kbd> <kbd>→</kbd> 一小节　<kbd>R</kbd> 重播　<kbd>F</kbd> 全屏　<kbd>M</kbd> 静音</p>
+    <p class="offline-note">本地文件即可播放，无需联网。移动到其他电脑时，请带上同目录的 <code>audio</code> 文件夹。资料链接只在主动点击后访问。</p>
+  </dialog>
+</main>
+<script id="film-data" type="application/json">/*__DATA__*/</script>
+<script>/*__SCRIPT__*/</script>
+</body>
+</html>

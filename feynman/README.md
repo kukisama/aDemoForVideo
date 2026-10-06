@@ -2,7 +2,16 @@
 
 **57.6 秒 / 150 BPM / 144 拍 / 只有字幕，没有语音。**
 
-入口：根目录 `FEYNMAN.html`；方便复制给其他机器的集合：`知识之塔-观看包/开始观看.html` ＋ `audio/master.mp3`。直接双击，不需要服务器、联网或安装依赖。
+交付入口：`export/知识之塔/开始观看.html`（路径相对于仓库根目录）。交付目录完整组成：
+
+- `开始观看.html`
+- `audio/master.mp3`
+- `FONT-LICENSES.txt`
+- `说明.txt`
+
+复制到其他机器时请保留整个 `export/知识之塔/` 目录及其内部相对位置。直接双击 `开始观看.html`，不需要服务器、联网或安装依赖。
+
+项目内预览：`feynman/FEYNMAN.html`，引用同目录下的 `audio/master.mp3`（即 `feynman/audio/master.mp3`）；不能只复制预览 HTML 而遗漏音频。源码位于 `feynman/`。
 
 这是一个原创像素闯关故事：以为学会 → 无法解释 → 聚焦一个概念 → 讲给新手 → 查资料补缺口 → 化繁为简 → 接受追问 → 真正通关。方法基于[费曼学习法的常见实践](https://fs.blog/feynman-technique/)，不是费曼本人的经历或引语。
 
@@ -16,12 +25,15 @@
 
 ## 源码与验证
 
+以下命令均从仓库根目录执行。开发与验证共享 `web/node_modules` 中的依赖：先进入 `web/` 执行 `npm install`，再返回仓库根目录；不要在 `feynman/` 单独安装。观看交付文件或项目内预览不需要这些依赖。
+
 - `story.mjs`：故事、字幕与音乐切点。
 - `world.js`：所有原创像素艺术和二维场景。
 - `player.js`：本地音频绝对时钟、字幕、全屏与播放控制。
 - `score.mjs`：原创芯片交响生成器；`audio/report.json` 记录音乐结构、原始鼓点验证和响度。
-- `node feynman/build.mjs`：校验母带与台本哈希，生成 HTML 和观看包。
+- `node feynman/build.mjs`：校验母带与台本哈希，生成项目内预览和交付目录。
 - `node feynman/test.mjs --full`：断网、直接本地文件打开、完整57.6秒播放与节拍字幕验收。
 - 音频复验：`node feynman/score.mjs --verify`。重新制作需本机 Python `imageio-ffmpeg`；观看不需要。
+- QA 报告与截图：`feynman/output/feynman-qa/`。
 
 Canvas 内部为 480×270 的像素画布，按 16:9 等比例放大，这是画风选择，不是根据测试机性能降低效果。播放时间来自音乐；掉帧只减少呈现帧数，不拖慢故事或累积音画漂移。

@@ -1,5 +1,5 @@
 import { defineConfig, type Plugin } from 'vite'
-import { copyFileSync, readFileSync } from 'node:fs'
+import { copyFileSync, mkdirSync, readFileSync } from 'node:fs'
 
 // Only inline this build's exact bundle entries; no glob parser or extra dependency.
 function standaloneFilm(): Plugin {
@@ -26,7 +26,9 @@ function standaloneFilm(): Plugin {
       page.source = html
     },
     closeBundle() {
-      copyFileSync(new URL('./dist/index.html', import.meta.url), new URL('../GENESIS.html', import.meta.url))
+      const destination = new URL('../export/一念万物/', import.meta.url)
+      mkdirSync(destination, { recursive: true })
+      copyFileSync(new URL('./dist/index.html', import.meta.url), new URL('GENESIS.html', destination))
     },
   }
 }

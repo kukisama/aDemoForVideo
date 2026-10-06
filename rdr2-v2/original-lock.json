@@ -1,0 +1,269 @@
+{
+  "capturedAt": "2026-10-06T12:37:01.640Z",
+  "scope": [
+    "rdr2/",
+    "export/西部余烬/"
+  ],
+  "files": [
+    {
+      "path": "rdr2/art-characters.js",
+      "sha256": "f614cb480e012a111f15ef5c3268cc59096c1887b8c9f0639e4c7ef69e449bcc"
+    },
+    {
+      "path": "rdr2/audio-test.mjs",
+      "sha256": "ee169157d6a0aa85366ae487deb97cece79fcd2784f27510e71f7623704f7178"
+    },
+    {
+      "path": "rdr2/audio/master.mp3",
+      "sha256": "7cba5cf18dcd7e45389d34228d27dbe20c91d29d8ecaeaa0a4582c2ef4d312a5"
+    },
+    {
+      "path": "rdr2/audio/master.wav",
+      "sha256": "50043dc87c5bf5ff7bcf2bf18f09eefafead7716065cee4618a1f6a691c3c114"
+    },
+    {
+      "path": "rdr2/audio/report.json",
+      "sha256": "7c8b705a5d59d085e1eb072b367fea1f8b742d90223c5e09c68c123fa467bc73"
+    },
+    {
+      "path": "rdr2/build.mjs",
+      "sha256": "948955853b181f15ea13b5941b0e6c1945fb37d5367101ba63ed40c591d7b53e"
+    },
+    {
+      "path": "rdr2/facts.md",
+      "sha256": "f8c97bdbb0c87170645992403404cfac39a946b6a336c042783b17170802dc57"
+    },
+    {
+      "path": "rdr2/index.template.html",
+      "sha256": "be6e4fe41f1d1850e425185093168b8b78ba194a5a154c2ef4b9b3de83be7448"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-arthur.png",
+      "sha256": "8e9ac27875ce52ba2826699664a7e7dd6e0c7a791fc99efd625ffc7ef00a4f8f"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-camp.png",
+      "sha256": "0dc1d938c30b81350a0bbe5e416bce2d2f1e4207a2dbe30e78e202f8aa26473a"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-choice.png",
+      "sha256": "2175e9ca8b891a425c090c770baac790d957711613d15db926a2417f3867bed4"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-city.png",
+      "sha256": "aee499904be537bf0005c8682c3905fc7aa151a354a8eb2d17c80fd7dad06387"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-detail-answer.png",
+      "sha256": "e289a3e4466cc1aa0477ba9252f3c36bd4aee7497bd6e9cf3f9642a6dd2d592f"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-detail-dawn.png",
+      "sha256": "279b2fe691b5facf9bd2f8d44c1faf9bece29a9197f45e48c92d5f04b7ff2717"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-detail-journal.png",
+      "sha256": "9bee3b31c6ae26ae93a12b6f23a29006d469d656e853a8c544d891efa41b7882"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-detail-silence.png",
+      "sha256": "fe70bc60eecd8e07b75e7d93fc4bf51f1d53b48e230ebfa08053a8223375b208"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-detail-year.png",
+      "sha256": "9292369228245d1e3418ecb4bc727c7e140bb71e89c86fa5e280430f8121eec3"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-escape.png",
+      "sha256": "5f86475437b6f2a9596a43f668601dc42bd6f6e8345979544172712f5663f445"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-fracture.png",
+      "sha256": "e0bdd1beb97e982a013ed67ad5def784082f0a78cd798e6fdcd5f9f0ae8f3d06"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-frontier.png",
+      "sha256": "0a18c3a290a11b12a2e05f2d5eec31ff27da553fc71fd43931400be1835c0f66"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-full-report.json",
+      "sha256": "61c2d47cd857c6b12efaa9fefc7617c6a112c9baf4d57b55022d884fbec099ed"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-mobile.png",
+      "sha256": "30f0e99a887422aa7f3d121ed6a53e35b60afda67d4612e66efc764431f64184"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-plan.png",
+      "sha256": "58f9e223fddb2a5b608cbbd730008bb74415f67614bbf12c32156d3376124efe"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-poster.png",
+      "sha256": "96c1b1fa7d9564282ca5e27a0dfbcaf50bc72075accba1b044df33fea8bb63f8"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-promise.png",
+      "sha256": "818df6dce13c429f4943c5bfebe4023d4b98ddd158ed8b89afe5678298ed0505"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-pursuit.png",
+      "sha256": "c65210c00a59341e1d9c9c8a97e773058999f714dc5b87b95a9b7762208477e8"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-redemption.png",
+      "sha256": "f0c3cefb0c12fbc835c41cc7d9ce82342e74790d81b8815b125ee5d4f6afc7cc"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-report.json",
+      "sha256": "9590d43066621ba2138fc5a164388db1f40ed58d5fc55626d7f2e21449c2b0d1"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-rider.png",
+      "sha256": "8bf415b295e9a76ddb1e35cab6745cfbac5c8146671659244dd9eb26a2c8f7a6"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-snow.png",
+      "sha256": "ae4a36e0722b1a74a193b93f54944cfe7e5ea46268c2ad70d9fb044a7e41c414"
+    },
+    {
+      "path": "rdr2/output/qa/chrome-title.png",
+      "sha256": "930bd5633c29ea50482203d9fd447854b0650fd2d8db2368b00ddf6dc92daf14"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-arthur.png",
+      "sha256": "8e9ac27875ce52ba2826699664a7e7dd6e0c7a791fc99efd625ffc7ef00a4f8f"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-camp.png",
+      "sha256": "0dc1d938c30b81350a0bbe5e416bce2d2f1e4207a2dbe30e78e202f8aa26473a"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-choice.png",
+      "sha256": "2175e9ca8b891a425c090c770baac790d957711613d15db926a2417f3867bed4"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-city.png",
+      "sha256": "aee499904be537bf0005c8682c3905fc7aa151a354a8eb2d17c80fd7dad06387"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-detail-answer.png",
+      "sha256": "e289a3e4466cc1aa0477ba9252f3c36bd4aee7497bd6e9cf3f9642a6dd2d592f"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-detail-dawn.png",
+      "sha256": "279b2fe691b5facf9bd2f8d44c1faf9bece29a9197f45e48c92d5f04b7ff2717"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-detail-journal.png",
+      "sha256": "9bee3b31c6ae26ae93a12b6f23a29006d469d656e853a8c544d891efa41b7882"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-detail-silence.png",
+      "sha256": "fe70bc60eecd8e07b75e7d93fc4bf51f1d53b48e230ebfa08053a8223375b208"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-detail-year.png",
+      "sha256": "9292369228245d1e3418ecb4bc727c7e140bb71e89c86fa5e280430f8121eec3"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-escape.png",
+      "sha256": "5f86475437b6f2a9596a43f668601dc42bd6f6e8345979544172712f5663f445"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-fracture.png",
+      "sha256": "e0bdd1beb97e982a013ed67ad5def784082f0a78cd798e6fdcd5f9f0ae8f3d06"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-frontier.png",
+      "sha256": "0a18c3a290a11b12a2e05f2d5eec31ff27da553fc71fd43931400be1835c0f66"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-mobile.png",
+      "sha256": "30f0e99a887422aa7f3d121ed6a53e35b60afda67d4612e66efc764431f64184"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-plan.png",
+      "sha256": "58f9e223fddb2a5b608cbbd730008bb74415f67614bbf12c32156d3376124efe"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-poster.png",
+      "sha256": "96c1b1fa7d9564282ca5e27a0dfbcaf50bc72075accba1b044df33fea8bb63f8"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-promise.png",
+      "sha256": "818df6dce13c429f4943c5bfebe4023d4b98ddd158ed8b89afe5678298ed0505"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-pursuit.png",
+      "sha256": "c65210c00a59341e1d9c9c8a97e773058999f714dc5b87b95a9b7762208477e8"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-redemption.png",
+      "sha256": "f0c3cefb0c12fbc835c41cc7d9ce82342e74790d81b8815b125ee5d4f6afc7cc"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-report.json",
+      "sha256": "a43f5cb202c752c71871689d1108269f99a4fe10a83ee85cce923f774bdd1f62"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-rider.png",
+      "sha256": "8bf415b295e9a76ddb1e35cab6745cfbac5c8146671659244dd9eb26a2c8f7a6"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-snow.png",
+      "sha256": "ae4a36e0722b1a74a193b93f54944cfe7e5ea46268c2ad70d9fb044a7e41c414"
+    },
+    {
+      "path": "rdr2/output/qa/msedge-title.png",
+      "sha256": "930bd5633c29ea50482203d9fd447854b0650fd2d8db2368b00ddf6dc92daf14"
+    },
+    {
+      "path": "rdr2/player.js",
+      "sha256": "3032a925a9ce20fe8331c76b0519a9baf9b9064cf5577a601d333bde70d34633"
+    },
+    {
+      "path": "rdr2/README.md",
+      "sha256": "1f7c201c534f20ba3b206ce4b2880a16a96feff823aa7d754ee8b880a88388bf"
+    },
+    {
+      "path": "rdr2/score.mjs",
+      "sha256": "7c095b79bff612c712feebe3c89333a4c03d6f4a1fa54f998e858d129dee81cc"
+    },
+    {
+      "path": "rdr2/story.mjs",
+      "sha256": "cef6061c93be30e48bf6b5a3f765bf5120ee5a9b7b34819dd5a4684db039fddc"
+    },
+    {
+      "path": "rdr2/style.css",
+      "sha256": "40942027b11d6ac47f53bd6ca01cedc7e6d87688d6057ac15f9e737f4b880278"
+    },
+    {
+      "path": "rdr2/test.mjs",
+      "sha256": "4333fa4acf6f8002ea2661bbea78ea8e743840c9da8ff5d8b0ed9ded3912f75a"
+    },
+    {
+      "path": "rdr2/WESTERN.html",
+      "sha256": "ec4e6786dedfb84d2da42581ca4facb03998af7bd5f6f24d7eac64fa7e8fd38d"
+    },
+    {
+      "path": "rdr2/world.js",
+      "sha256": "444e81df84e1b826446e02d05829be5d0d70ca9a172553a428559e797f6b6a25"
+    },
+    {
+      "path": "export/西部余烬/开始观看.html",
+      "sha256": "ec4e6786dedfb84d2da42581ca4facb03998af7bd5f6f24d7eac64fa7e8fd38d"
+    },
+    {
+      "path": "export/西部余烬/说明.txt",
+      "sha256": "856446fbd7313e636f9b012ea29ae0d98774bebc3f074cb8820034aec2c08772"
+    },
+    {
+      "path": "export/西部余烬/audio/master.mp3",
+      "sha256": "7cba5cf18dcd7e45389d34228d27dbe20c91d29d8ecaeaa0a4582c2ef4d312a5"
+    },
+    {
+      "path": "export/西部余烬/FONT-LICENSES.txt",
+      "sha256": "ba0d84bce1eb6e2b2d4ce69e00182329b2309e6138445ce5958b71cbd9a11b49"
+    }
+  ]
+}

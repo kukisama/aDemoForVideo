@@ -29,12 +29,12 @@ assert.ok(!/speechSynthesis|SpeechSynthesisUtterance|rotate[XY]\(|perspective\(/
 const data={title:TITLE,subtitle:SUBTITLE,bpm:BPM,beat:BEAT,duration:DURATION,chapters:CHAPTERS,captions:CAPTIONS,cuts:CUTS,sources:SOURCES,notes:NOTES};
 const html=read('index.template.html').replace('/*__STYLE__*/',fonts+'\n/* Font licenses\n'+licenses.replaceAll('*/','* /')+'\n*/\n'+read('style.css')).replace('/*__DATA__*/',JSON.stringify(data).replaceAll('<','\\u003c')).replace('/*__SCRIPT__*/',script.replaceAll('</script','<\\/script'));
 assert.ok(!html.includes('/*__'));assert.ok(!/<(?:video|img)\b/i.test(html));
-const previous=['GENESIS.html','X500.html'].filter(name=>existsSync(resolve(root,name))).map(name=>[name,hash(resolve(root,name))]);
-writeFileSync(resolve(root,'FEYNMAN.html'),html);
-const collection=resolve(root,'知识之塔-观看包');mkdirSync(resolve(collection,'audio'),{recursive:true});
+const previous=['export/一念万物/GENESIS.html','export/X500/开始观看.html'].filter(name=>existsSync(resolve(root,name))).map(name=>[name,hash(resolve(root,name))]);
+writeFileSync(resolve(dir,'FEYNMAN.html'),html.replace('src="feynman/audio/master.mp3"','src="audio/master.mp3"'));
+const collection=resolve(root,'export/知识之塔');mkdirSync(resolve(collection,'audio'),{recursive:true});
 writeFileSync(resolve(collection,'开始观看.html'),html.replace('src="feynman/audio/master.mp3"','src="audio/master.mp3"'));
 copyFileSync(resolve(dir,'audio/master.mp3'),resolve(collection,'audio/master.mp3'));
 writeFileSync(resolve(collection,'FONT-LICENSES.txt'),licenses);
 writeFileSync(resolve(collection,'说明.txt'),'知识之塔 · 费曼学习法\n双击「开始观看.html」，点击「全屏出发」。请保留 audio 文件夹。\n57.6秒，150 BPM，原创史诗芯片音乐；只有字幕，没有语音。\n画面全部为原创二维像素代码绘制，闯关情节非费曼真实经历。\n空格暂停，左右键跳转，R重播，F全屏，M静音。\n音乐较强，请先调整音量；「说明」内可启用柔和动效。\n');
 for(const [name,expected] of previous)assert.equal(hash(resolve(root,name)),expected,'Previous film was modified');
-console.log(JSON.stringify({result:'PASS',title:TITLE,duration:DURATION,bpm:BPM,beats:TOTAL_BEATS,chapters:CHAPTERS.length,subtitles:CAPTIONS.length,noVoice:true,no3D:true,htmlBytes:Buffer.byteLength(html),entry:resolve(root,'FEYNMAN.html'),collection,audioSha256:audio.mastersha256},null,2));
+console.log(JSON.stringify({result:'PASS',title:TITLE,duration:DURATION,bpm:BPM,beats:TOTAL_BEATS,chapters:CHAPTERS.length,subtitles:CAPTIONS.length,noVoice:true,no3D:true,htmlBytes:Buffer.byteLength(html),entry:resolve(collection,'开始观看.html'),collection,audioSha256:audio.mastersha256},null,2));

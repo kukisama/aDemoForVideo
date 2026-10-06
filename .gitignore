@@ -6,7 +6,7 @@ coverage/
 .cache/
 .vite/
 *.tsbuildinfo
-/output/
+output/
 test-results/
 playwright-report/
 blob-report/
@@ -19,7 +19,7 @@ blob-report/
 /x500/audio/signal-report.json
 /x500/audio/playback-report.json
 # Keep masters, source audio/SRT, captions and build-required provenance reports.
-# Keep the standalone HTML films and portable viewing packages, including ZIPs.
+# Keep source audio, project previews and export/ viewing directories. No ZIP delivery.
 
 # Local configuration and secrets
 .env

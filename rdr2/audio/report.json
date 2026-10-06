@@ -1,0 +1,1960 @@
+{
+  "title": "One More Horizon / 西部余烬·再一个远方",
+  "film": "西部余烬",
+  "duration": 180,
+  "bpm": 128,
+  "beats": 384,
+  "bars": 96,
+  "noVoice": true,
+  "sampleRate": 48000,
+  "storysha256": "cef6061c93be30e48bf6b5a3f765bf5120ee5a9b7b34819dd5a4684db039fddc",
+  "generatorSha256": "7c095b79bff612c712feebe3c89333a4c03d6f4a1fa54f998e858d129dee81cc",
+  "mastersha256": "7cba5cf18dcd7e45389d34228d27dbe20c91d29d8ecaeaa0a4582c2ef4d312a5",
+  "archiveSha256": "50043dc87c5bf5ff7bcf2bf18f09eefafead7716065cee4618a1f6a691c3c114",
+  "music": {
+    "original": true,
+    "noVoice": true,
+    "seed": 1464161108,
+    "theme": {
+      "key": "D minor",
+      "lengthBars": 8,
+      "notes": [
+        [
+          [
+            0,
+            74,
+            1.25
+          ],
+          [
+            1.5,
+            77,
+            0.5
+          ],
+          [
+            2.5,
+            76,
+            0.5
+          ],
+          [
+            3.25,
+            69,
+            0.5
+          ]
+        ],
+        [
+          [
+            0,
+            72,
+            0.75
+          ],
+          [
+            1,
+            74,
+            1.5
+          ],
+          [
+            3,
+            69,
+            0.75
+          ]
+        ],
+        [
+          [
+            0,
+            77,
+            1
+          ],
+          [
+            1.5,
+            81,
+            0.75
+          ],
+          [
+            2.5,
+            79,
+            0.5
+          ],
+          [
+            3.25,
+            77,
+            0.5
+          ]
+        ],
+        [
+          [
+            0,
+            76,
+            1.5
+          ],
+          [
+            2,
+            72,
+            0.75
+          ],
+          [
+            3,
+            69,
+            0.75
+          ]
+        ],
+        [
+          [
+            0,
+            74,
+            0.75
+          ],
+          [
+            1,
+            77,
+            0.5
+          ],
+          [
+            2,
+            81,
+            1.5
+          ]
+        ],
+        [
+          [
+            0,
+            82,
+            0.75
+          ],
+          [
+            1,
+            81,
+            0.75
+          ],
+          [
+            2,
+            79,
+            0.5
+          ],
+          [
+            3,
+            77,
+            0.75
+          ]
+        ],
+        [
+          [
+            0,
+            76,
+            0.75
+          ],
+          [
+            1,
+            73,
+            0.5
+          ],
+          [
+            2,
+            69,
+            0.75
+          ],
+          [
+            3,
+            76,
+            0.75
+          ]
+        ],
+        [
+          [
+            0,
+            77,
+            0.75
+          ],
+          [
+            1,
+            76,
+            0.5
+          ],
+          [
+            2,
+            74,
+            1.75
+          ]
+        ]
+      ],
+      "lead": "37.5%-duty polyBLEP pulse + sinusoidal whistle, gentle pitch slides; no voice model"
+    },
+    "sections": [
+      {
+        "id": "promise",
+        "key": "D minor · tonic pedal / suspended dominant",
+        "instruments": [
+          "low FM reed",
+          "muted guitar",
+          "triangle drone",
+          "distant pulse whistle"
+        ],
+        "transformation": "Unanswered two-note fragments; no backbeat or dance kick.",
+        "intent": "安静、阴郁的承诺；先听见疑问，不急着亮出英雄。",
+        "start": 0,
+        "end": 7.5,
+        "bars": 4,
+        "startBeat": 0,
+        "startSample": 0,
+        "notes": 15,
+        "eventCounts": {
+          "bass": 4,
+          "reed": 4,
+          "guitar": 4,
+          "whistle": 3
+        },
+        "rhythmSignature": "9bbeda7e1604243c"
+      },
+      {
+        "id": "snow",
+        "key": "D minor · Aeolian",
+        "instruments": [
+          "breathy pulse whistle",
+          "slow wide strings",
+          "guitar harmonics",
+          "half-time floor tom",
+          "triangle bass"
+        ],
+        "transformation": "Theme opening stretched to twice its length; high register against broad low strings.",
+        "intent": "风雪里的慢半拍；宽阔、艰难，但远处仍有路。",
+        "start": 7.5,
+        "end": 22.5,
+        "bars": 8,
+        "startBeat": 16,
+        "startSample": 360000,
+        "notes": 75,
+        "eventCounts": {
+          "strings": 33,
+          "bass": 8,
+          "guitar": 8,
+          "tom": 4,
+          "whistle": 14,
+          "brush": 4,
+          "reed": 4
+        },
+        "rhythmSignature": "06ef7d8659fa301d"
+      },
+      {
+        "id": "camp",
+        "key": "F major",
+        "instruments": [
+          "Karplus guitar",
+          "bright banjo",
+          "FM harmonica",
+          "brushed snare",
+          "soft triangle bass"
+        ],
+        "transformation": "D-minor scale degrees remapped to F major; alternating plucked call and reed answer.",
+        "intent": "篝火与家的温度；拨弦和簧片像两个人接话。",
+        "start": 22.5,
+        "end": 37.5,
+        "bars": 8,
+        "startBeat": 48,
+        "startSample": 1080000,
+        "notes": 147,
+        "eventCounts": {
+          "bass": 16,
+          "guitar": 79,
+          "hoof": 8,
+          "banjo": 23,
+          "brush": 8,
+          "reed": 13
+        },
+        "rhythmSignature": "700ae5296f061f73"
+      },
+      {
+        "id": "arthur",
+        "key": "D minor · harmonic-minor dominant",
+        "instruments": [
+          "sliding pulse whistle",
+          "guitar",
+          "banjo",
+          "horns",
+          "strings",
+          "triangle bass",
+          "hoof blocks",
+          "snare and toms"
+        ],
+        "transformation": "First complete eight-bar theme, then a new two-bar horn answer; walking gallop, not four-on-the-floor.",
+        "intent": "坚定却有重量的英雄主题；他扛着人，而不只是冲锋。",
+        "start": 37.5,
+        "end": 56.25,
+        "bars": 10,
+        "startBeat": 80,
+        "startSample": 1800000,
+        "notes": 470,
+        "eventCounts": {
+          "bass": 30,
+          "strings": 40,
+          "guitar": 80,
+          "banjo": 80,
+          "kick": 20,
+          "hoof": 120,
+          "whistle": 28,
+          "hat": 40,
+          "snare": 10,
+          "horn": 11,
+          "reed": 5,
+          "tom": 6
+        },
+        "rhythmSignature": "71b0fa4865267611"
+      },
+      {
+        "id": "frontier",
+        "key": "F Lydian / D Dorian",
+        "instruments": [
+          "high whistle",
+          "flowing guitar",
+          "banjo harmonics",
+          "wide strings",
+          "horn countermelody",
+          "open ride"
+        ],
+        "transformation": "Independent six-bar flight phrase, Lydian B-natural, long arch over flowing plucks.",
+        "intent": "六小节开阔飞行；旋律越过山脊，节拍不催人逃跑。",
+        "start": 56.25,
+        "end": 67.5,
+        "bars": 6,
+        "startBeat": 120,
+        "startSample": 2700000,
+        "notes": 129,
+        "eventCounts": {
+          "whistle": 15,
+          "strings": 25,
+          "bass": 6,
+          "guitar": 48,
+          "tom": 6,
+          "horn": 6,
+          "banjo": 17,
+          "ride": 6
+        },
+        "rhythmSignature": "f9524bc744888bfe"
+      },
+      {
+        "id": "city",
+        "key": "D minor · chromatic descent D–C#–C–B–Bb–A",
+        "instruments": [
+          "damped guitar ostinato",
+          "metallic piano",
+          "short pulse",
+          "dry rim",
+          "mechanical hat",
+          "triangle bass"
+        ],
+        "transformation": "Shortened motif cells locked to chromatically descending harmony; asymmetrical iron pulse.",
+        "intent": "城市像齿轮咬合；和声收窄、半音下行，不靠提速变危险。",
+        "start": 67.5,
+        "end": 82.5,
+        "bars": 8,
+        "startBeat": 144,
+        "startSample": 3240000,
+        "notes": 217,
+        "eventCounts": {
+          "bass": 40,
+          "guitar": 40,
+          "rim": 40,
+          "hat": 32,
+          "piano": 32,
+          "whistle": 16,
+          "strings": 17
+        },
+        "rhythmSignature": "d9c3b91b409a9088"
+      },
+      {
+        "id": "pursuit",
+        "key": "D minor · dominant tension",
+        "instruments": [
+          "clipped whistle",
+          "low harmonica",
+          "banjo ostinato",
+          "tremolo strings",
+          "galloping hats",
+          "snare",
+          "tuned toms"
+        ],
+        "transformation": "Diminished motif fragments and a separate climbing ostinato; sixteenth gallop.",
+        "intent": "追踪收紧；高帽和马蹄交错，主旋律开始喘不过气。",
+        "start": 82.5,
+        "end": 97.5,
+        "bars": 8,
+        "startBeat": 176,
+        "startSample": 3960000,
+        "notes": 437,
+        "eventCounts": {
+          "kick": 24,
+          "hoof": 96,
+          "hat": 128,
+          "banjo": 64,
+          "bass": 40,
+          "strings": 33,
+          "whistle": 24,
+          "snare": 8,
+          "reed": 8,
+          "tom": 12
+        },
+        "rhythmSignature": "1f8a79afa3c139ee"
+      },
+      {
+        "id": "plan",
+        "key": "D minor · suspended / A7(b9)",
+        "instruments": [
+          "exposed FM harmonica",
+          "single guitar notes",
+          "thin pulse",
+          "low strings",
+          "late tom pickup"
+        ],
+        "transformation": "Opening promise returns altered; exact one-beat full hold at beat 220, then an unresolved pickup.",
+        "intent": "又一个明天：承诺断了一拍，没有答案；留白之后才重新吸气。",
+        "start": 97.5,
+        "end": 108.75,
+        "bars": 6,
+        "startBeat": 208,
+        "startSample": 4680000,
+        "notes": 33,
+        "eventCounts": {
+          "bass": 5,
+          "guitar": 6,
+          "reed": 5,
+          "whistle": 4,
+          "strings": 9,
+          "wind": 1,
+          "tom": 3
+        },
+        "rhythmSignature": "044b65fef8f37e72"
+      },
+      {
+        "id": "escape",
+        "key": "D minor · heroic",
+        "instruments": [
+          "octave whistle and reed",
+          "banjo runs",
+          "guitar",
+          "wide brass and strings",
+          "independent counterline",
+          "triangle sub",
+          "double-time snare",
+          "gallop hats",
+          "toms"
+        ],
+        "transformation": "Largest entrance: full theme plus independent brass answer, double-time backbeat at unchanged 128 BPM.",
+        "intent": "全片最大释放；马蹄、雷声与人的决心同时向前。",
+        "start": 108.75,
+        "end": 123.75,
+        "bars": 8,
+        "startBeat": 232,
+        "startSample": 5220000,
+        "notes": 628,
+        "eventCounts": {
+          "kick": 32,
+          "hoof": 96,
+          "hat": 128,
+          "guitar": 64,
+          "banjo": 64,
+          "bass": 48,
+          "strings": 32,
+          "horn": 56,
+          "whistle": 28,
+          "reed": 28,
+          "cymbal": 2,
+          "tom": 18,
+          "snare": 32
+        },
+        "rhythmSignature": "6a52aeb95a496375"
+      },
+      {
+        "id": "fracture",
+        "key": "D minor · exposed add9 / G minor",
+        "instruments": [
+          "left muted guitar",
+          "right cold FM harmonica",
+          "quiet triangle pedal"
+        ],
+        "transformation": "Cold antiphonal duet, low-register motif with missing answers; no drums, brass or pad.",
+        "intent": "冷色二重奏：同一主题，从左右两边说出不同的话。",
+        "start": 123.75,
+        "end": 138.75,
+        "bars": 8,
+        "startBeat": 264,
+        "startSample": 5940000,
+        "notes": 44,
+        "eventCounts": {
+          "bass": 8,
+          "guitar": 19,
+          "reed": 17
+        },
+        "rhythmSignature": "a5306510c89b2cb3"
+      },
+      {
+        "id": "choice",
+        "key": "D minor → A suspended dominant",
+        "instruments": [
+          "sparse synthesized piano",
+          "lonely pulse whistle",
+          "late string swell",
+          "late tom staircase",
+          "filtered wind riser"
+        ],
+        "transformation": "Single piano tones and long rests; second half adds harmonic suspensions and an eight-beat rise.",
+        "intent": "先听清选择的重量，再让弦乐缓缓把视线抬向黎明。",
+        "start": 138.75,
+        "end": 153.75,
+        "bars": 8,
+        "startBeat": 296,
+        "startSample": 6660000,
+        "notes": 51,
+        "eventCounts": {
+          "piano": 20,
+          "whistle": 4,
+          "strings": 16,
+          "bass": 4,
+          "tom": 6,
+          "wind": 1
+        },
+        "rhythmSignature": "f71f1a5f9982e0b0"
+      },
+      {
+        "id": "rider",
+        "key": "D major",
+        "instruments": [
+          "major whistle reprise",
+          "bright banjo",
+          "guitar",
+          "wide horns and strings",
+          "moving counterline",
+          "riding percussion"
+        ],
+        "transformation": "Six-bar major-mode reprise; F# and B-natural replace the minor-mode shadows.",
+        "intent": "明亮的再出发，不是宣布胜利；骑手终于把目光转向前方。",
+        "start": 153.75,
+        "end": 165,
+        "bars": 6,
+        "startBeat": 328,
+        "startSample": 7380000,
+        "notes": 305,
+        "eventCounts": {
+          "whistle": 21,
+          "strings": 25,
+          "horn": 18,
+          "kick": 12,
+          "hoof": 72,
+          "guitar": 48,
+          "banjo": 48,
+          "bass": 12,
+          "cymbal": 1,
+          "hat": 24,
+          "reed": 18,
+          "snare": 6
+        },
+        "rhythmSignature": "72d4ed056a1fa11e"
+      },
+      {
+        "id": "redemption",
+        "key": "D major / borrowed Bb and G minor → D5(add9)",
+        "instruments": [
+          "bittersweet whistle",
+          "wide strings",
+          "warm horns",
+          "guitar",
+          "FM reed answer",
+          "low toms",
+          "open fifth and ninth"
+        ],
+        "transformation": "Major light meets borrowed minor chords; last sonority D–A–E omits the third, lead ends on E.",
+        "intent": "宏大而苦甜；不替角色作答，最后把问题留在九音上。",
+        "start": 165,
+        "end": 180,
+        "bars": 8,
+        "startBeat": 352,
+        "startSample": 7920000,
+        "notes": 131,
+        "eventCounts": {
+          "strings": 34,
+          "horn": 24,
+          "bass": 8,
+          "guitar": 24,
+          "whistle": 24,
+          "tom": 6,
+          "cymbal": 1,
+          "reed": 6,
+          "brush": 3,
+          "piano": 1
+        },
+        "rhythmSignature": "682902e7f75917d7"
+      }
+    ],
+    "bars": [
+      {
+        "bar": 0,
+        "beat": 0,
+        "at": 0,
+        "sample": 0,
+        "section": "promise",
+        "chord": "Dm9",
+        "rootMidi": 38
+      },
+      {
+        "bar": 1,
+        "beat": 4,
+        "at": 1.875,
+        "sample": 90000,
+        "section": "promise",
+        "chord": "BbD",
+        "rootMidi": 38
+      },
+      {
+        "bar": 2,
+        "beat": 8,
+        "at": 3.75,
+        "sample": 180000,
+        "section": "promise",
+        "chord": "DmA",
+        "rootMidi": 33
+      },
+      {
+        "bar": 3,
+        "beat": 12,
+        "at": 5.625,
+        "sample": 270000,
+        "section": "promise",
+        "chord": "A7sus",
+        "rootMidi": 33
+      },
+      {
+        "bar": 4,
+        "beat": 16,
+        "at": 7.5,
+        "sample": 360000,
+        "section": "snow",
+        "chord": "Dm9",
+        "rootMidi": 38
+      },
+      {
+        "bar": 5,
+        "beat": 20,
+        "at": 9.375,
+        "sample": 450000,
+        "section": "snow",
+        "chord": "Bbmaj7",
+        "rootMidi": 34
+      },
+      {
+        "bar": 6,
+        "beat": 24,
+        "at": 11.25,
+        "sample": 540000,
+        "section": "snow",
+        "chord": "F9",
+        "rootMidi": 41
+      },
+      {
+        "bar": 7,
+        "beat": 28,
+        "at": 13.125,
+        "sample": 630000,
+        "section": "snow",
+        "chord": "Csus",
+        "rootMidi": 36
+      },
+      {
+        "bar": 8,
+        "beat": 32,
+        "at": 15,
+        "sample": 720000,
+        "section": "snow",
+        "chord": "Dm",
+        "rootMidi": 38
+      },
+      {
+        "bar": 9,
+        "beat": 36,
+        "at": 16.875,
+        "sample": 810000,
+        "section": "snow",
+        "chord": "Gm",
+        "rootMidi": 31
+      },
+      {
+        "bar": 10,
+        "beat": 40,
+        "at": 18.75,
+        "sample": 900000,
+        "section": "snow",
+        "chord": "Bbmaj7",
+        "rootMidi": 34
+      },
+      {
+        "bar": 11,
+        "beat": 44,
+        "at": 20.625,
+        "sample": 990000,
+        "section": "snow",
+        "chord": "A7sus",
+        "rootMidi": 33
+      },
+      {
+        "bar": 12,
+        "beat": 48,
+        "at": 22.5,
+        "sample": 1080000,
+        "section": "camp",
+        "chord": "F",
+        "rootMidi": 41
+      },
+      {
+        "bar": 13,
+        "beat": 52,
+        "at": 24.375,
+        "sample": 1170000,
+        "section": "camp",
+        "chord": "CE",
+        "rootMidi": 40
+      },
+      {
+        "bar": 14,
+        "beat": 56,
+        "at": 26.25,
+        "sample": 1260000,
+        "section": "camp",
+        "chord": "Dm",
+        "rootMidi": 38
+      },
+      {
+        "bar": 15,
+        "beat": 60,
+        "at": 28.125,
+        "sample": 1350000,
+        "section": "camp",
+        "chord": "Bbmaj7",
+        "rootMidi": 34
+      },
+      {
+        "bar": 16,
+        "beat": 64,
+        "at": 30,
+        "sample": 1440000,
+        "section": "camp",
+        "chord": "FA",
+        "rootMidi": 33
+      },
+      {
+        "bar": 17,
+        "beat": 68,
+        "at": 31.875,
+        "sample": 1530000,
+        "section": "camp",
+        "chord": "Gm",
+        "rootMidi": 31
+      },
+      {
+        "bar": 18,
+        "beat": 72,
+        "at": 33.75,
+        "sample": 1620000,
+        "section": "camp",
+        "chord": "C",
+        "rootMidi": 36
+      },
+      {
+        "bar": 19,
+        "beat": 76,
+        "at": 35.625,
+        "sample": 1710000,
+        "section": "camp",
+        "chord": "F6",
+        "rootMidi": 41
+      },
+      {
+        "bar": 20,
+        "beat": 80,
+        "at": 37.5,
+        "sample": 1800000,
+        "section": "arthur",
+        "chord": "Dm",
+        "rootMidi": 38
+      },
+      {
+        "bar": 21,
+        "beat": 84,
+        "at": 39.375,
+        "sample": 1890000,
+        "section": "arthur",
+        "chord": "Bbmaj7",
+        "rootMidi": 34
+      },
+      {
+        "bar": 22,
+        "beat": 88,
+        "at": 41.25,
+        "sample": 1980000,
+        "section": "arthur",
+        "chord": "F",
+        "rootMidi": 41
+      },
+      {
+        "bar": 23,
+        "beat": 92,
+        "at": 43.125,
+        "sample": 2070000,
+        "section": "arthur",
+        "chord": "C",
+        "rootMidi": 36
+      },
+      {
+        "bar": 24,
+        "beat": 96,
+        "at": 45,
+        "sample": 2160000,
+        "section": "arthur",
+        "chord": "Dm",
+        "rootMidi": 38
+      },
+      {
+        "bar": 25,
+        "beat": 100,
+        "at": 46.875,
+        "sample": 2250000,
+        "section": "arthur",
+        "chord": "Gm",
+        "rootMidi": 31
+      },
+      {
+        "bar": 26,
+        "beat": 104,
+        "at": 48.75,
+        "sample": 2340000,
+        "section": "arthur",
+        "chord": "A7",
+        "rootMidi": 33
+      },
+      {
+        "bar": 27,
+        "beat": 108,
+        "at": 50.625,
+        "sample": 2430000,
+        "section": "arthur",
+        "chord": "Dm",
+        "rootMidi": 38
+      },
+      {
+        "bar": 28,
+        "beat": 112,
+        "at": 52.5,
+        "sample": 2520000,
+        "section": "arthur",
+        "chord": "Bbmaj7",
+        "rootMidi": 34
+      },
+      {
+        "bar": 29,
+        "beat": 116,
+        "at": 54.375,
+        "sample": 2610000,
+        "section": "arthur",
+        "chord": "A7",
+        "rootMidi": 33
+      },
+      {
+        "bar": 30,
+        "beat": 120,
+        "at": 56.25,
+        "sample": 2700000,
+        "section": "frontier",
+        "chord": "F9",
+        "rootMidi": 41
+      },
+      {
+        "bar": 31,
+        "beat": 124,
+        "at": 58.125,
+        "sample": 2790000,
+        "section": "frontier",
+        "chord": "C",
+        "rootMidi": 36
+      },
+      {
+        "bar": 32,
+        "beat": 128,
+        "at": 60,
+        "sample": 2880000,
+        "section": "frontier",
+        "chord": "G9",
+        "rootMidi": 31
+      },
+      {
+        "bar": 33,
+        "beat": 132,
+        "at": 61.875,
+        "sample": 2970000,
+        "section": "frontier",
+        "chord": "Dm9",
+        "rootMidi": 38
+      },
+      {
+        "bar": 34,
+        "beat": 136,
+        "at": 63.75,
+        "sample": 3060000,
+        "section": "frontier",
+        "chord": "F9",
+        "rootMidi": 41
+      },
+      {
+        "bar": 35,
+        "beat": 140,
+        "at": 65.625,
+        "sample": 3150000,
+        "section": "frontier",
+        "chord": "G9",
+        "rootMidi": 31
+      },
+      {
+        "bar": 36,
+        "beat": 144,
+        "at": 67.5,
+        "sample": 3240000,
+        "section": "city",
+        "chord": "Dm",
+        "rootMidi": 38
+      },
+      {
+        "bar": 37,
+        "beat": 148,
+        "at": 69.375,
+        "sample": 3330000,
+        "section": "city",
+        "chord": "ACs",
+        "rootMidi": 37
+      },
+      {
+        "bar": 38,
+        "beat": 152,
+        "at": 71.25,
+        "sample": 3420000,
+        "section": "city",
+        "chord": "Cm",
+        "rootMidi": 36
+      },
+      {
+        "bar": 39,
+        "beat": 156,
+        "at": 73.125,
+        "sample": 3510000,
+        "section": "city",
+        "chord": "GB",
+        "rootMidi": 35
+      },
+      {
+        "bar": 40,
+        "beat": 160,
+        "at": 75,
+        "sample": 3600000,
+        "section": "city",
+        "chord": "Bbm",
+        "rootMidi": 34
+      },
+      {
+        "bar": 41,
+        "beat": 164,
+        "at": 76.875,
+        "sample": 3690000,
+        "section": "city",
+        "chord": "A7sus",
+        "rootMidi": 33
+      },
+      {
+        "bar": 42,
+        "beat": 168,
+        "at": 78.75,
+        "sample": 3780000,
+        "section": "city",
+        "chord": "Ebmaj7",
+        "rootMidi": 39
+      },
+      {
+        "bar": 43,
+        "beat": 172,
+        "at": 80.625,
+        "sample": 3870000,
+        "section": "city",
+        "chord": "A7b9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 44,
+        "beat": 176,
+        "at": 82.5,
+        "sample": 3960000,
+        "section": "pursuit",
+        "chord": "Dm",
+        "rootMidi": 38
+      },
+      {
+        "bar": 45,
+        "beat": 180,
+        "at": 84.375,
+        "sample": 4050000,
+        "section": "pursuit",
+        "chord": "DmA",
+        "rootMidi": 33
+      },
+      {
+        "bar": 46,
+        "beat": 184,
+        "at": 86.25,
+        "sample": 4140000,
+        "section": "pursuit",
+        "chord": "Bbmaj7",
+        "rootMidi": 34
+      },
+      {
+        "bar": 47,
+        "beat": 188,
+        "at": 88.125,
+        "sample": 4230000,
+        "section": "pursuit",
+        "chord": "A7",
+        "rootMidi": 33
+      },
+      {
+        "bar": 48,
+        "beat": 192,
+        "at": 90,
+        "sample": 4320000,
+        "section": "pursuit",
+        "chord": "Gm",
+        "rootMidi": 31
+      },
+      {
+        "bar": 49,
+        "beat": 196,
+        "at": 91.875,
+        "sample": 4410000,
+        "section": "pursuit",
+        "chord": "Em7b5",
+        "rootMidi": 40
+      },
+      {
+        "bar": 50,
+        "beat": 200,
+        "at": 93.75,
+        "sample": 4500000,
+        "section": "pursuit",
+        "chord": "A7b9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 51,
+        "beat": 204,
+        "at": 95.625,
+        "sample": 4590000,
+        "section": "pursuit",
+        "chord": "A7",
+        "rootMidi": 33
+      },
+      {
+        "bar": 52,
+        "beat": 208,
+        "at": 97.5,
+        "sample": 4680000,
+        "section": "plan",
+        "chord": "Dm9",
+        "rootMidi": 38
+      },
+      {
+        "bar": 53,
+        "beat": 212,
+        "at": 99.375,
+        "sample": 4770000,
+        "section": "plan",
+        "chord": "BbD",
+        "rootMidi": 38
+      },
+      {
+        "bar": 54,
+        "beat": 216,
+        "at": 101.25,
+        "sample": 4860000,
+        "section": "plan",
+        "chord": "DmA",
+        "rootMidi": 33
+      },
+      {
+        "bar": 55,
+        "beat": 220,
+        "at": 103.125,
+        "sample": 4950000,
+        "section": "plan",
+        "chord": "A7sus",
+        "rootMidi": 33
+      },
+      {
+        "bar": 56,
+        "beat": 224,
+        "at": 105,
+        "sample": 5040000,
+        "section": "plan",
+        "chord": "Em7b5",
+        "rootMidi": 40
+      },
+      {
+        "bar": 57,
+        "beat": 228,
+        "at": 106.875,
+        "sample": 5130000,
+        "section": "plan",
+        "chord": "A7b9",
+        "rootMidi": 33
+      },
+      {
+        "bar": 58,
+        "beat": 232,
+        "at": 108.75,
+        "sample": 5220000,
+        "section": "escape",
+        "chord": "Dm",
+        "rootMidi": 38
+      },
+      {
+        "bar": 59,
+        "beat": 236,
+        "at": 110.625,
+        "sample": 5310000,
+        "section": "escape",
+        "chord": "Bbmaj7",
+        "rootMidi": 34
+      },
+      {
+        "bar": 60,
+        "beat": 240,
+        "at": 112.5,
+        "sample": 5400000,
+        "section": "escape",
+        "chord": "F",
+        "rootMidi": 41
+      },
+      {
+        "bar": 61,
+        "beat": 244,
+        "at": 114.375,
+        "sample": 5490000,
+        "section": "escape",
+        "chord": "C",
+        "rootMidi": 36
+      },
+      {
+        "bar": 62,
+        "beat": 248,
+        "at": 116.25,
+        "sample": 5580000,
+        "section": "escape",
+        "chord": "Dm",
+        "rootMidi": 38
+      },
+      {
+        "bar": 63,
+        "beat": 252,
+        "at": 118.125,
+        "sample": 5670000,
+        "section": "escape",
+        "chord": "Gm",
+        "rootMidi": 31
+      },
+      {
+        "bar": 64,
+        "beat": 256,
+        "at": 120,
+        "sample": 5760000,
+        "section": "escape",
+        "chord": "A7",
+        "rootMidi": 33
+      },
+      {
+        "bar": 65,
+        "beat": 260,
+        "at": 121.875,
+        "sample": 5850000,
+        "section": "escape",
+        "chord": "Dm",
+        "rootMidi": 38
+      },
+      {
+        "bar": 66,
+        "beat": 264,
+        "at": 123.75,
+        "sample": 5940000,
+        "section": "fracture",
+        "chord": "Dm9",
+        "rootMidi": 38
+      },
+      {
+        "bar": 67,
+        "beat": 268,
+        "at": 125.625,
+        "sample": 6030000,
+        "section": "fracture",
+        "chord": "Bbmaj7",
+        "rootMidi": 34
+      },
+      {
+        "bar": 68,
+        "beat": 272,
+        "at": 127.5,
+        "sample": 6120000,
+        "section": "fracture",
+        "chord": "Gm",
+        "rootMidi": 31
+      },
+      {
+        "bar": 69,
+        "beat": 276,
+        "at": 129.375,
+        "sample": 6210000,
+        "section": "fracture",
+        "chord": "DmA",
+        "rootMidi": 33
+      },
+      {
+        "bar": 70,
+        "beat": 280,
+        "at": 131.25,
+        "sample": 6300000,
+        "section": "fracture",
+        "chord": "BbD",
+        "rootMidi": 38
+      },
+      {
+        "bar": 71,
+        "beat": 284,
+        "at": 133.125,
+        "sample": 6390000,
+        "section": "fracture",
+        "chord": "Gm",
+        "rootMidi": 31
+      },
+      {
+        "bar": 72,
+        "beat": 288,
+        "at": 135,
+        "sample": 6480000,
+        "section": "fracture",
+        "chord": "A7sus",
+        "rootMidi": 33
+      },
+      {
+        "bar": 73,
+        "beat": 292,
+        "at": 136.875,
+        "sample": 6570000,
+        "section": "fracture",
+        "chord": "Dm9",
+        "rootMidi": 38
+      },
+      {
+        "bar": 74,
+        "beat": 296,
+        "at": 138.75,
+        "sample": 6660000,
+        "section": "choice",
+        "chord": "Dm9",
+        "rootMidi": 38
+      },
+      {
+        "bar": 75,
+        "beat": 300,
+        "at": 140.625,
+        "sample": 6750000,
+        "section": "choice",
+        "chord": "BbD",
+        "rootMidi": 38
+      },
+      {
+        "bar": 76,
+        "beat": 304,
+        "at": 142.5,
+        "sample": 6840000,
+        "section": "choice",
+        "chord": "Gm",
+        "rootMidi": 31
+      },
+      {
+        "bar": 77,
+        "beat": 308,
+        "at": 144.375,
+        "sample": 6930000,
+        "section": "choice",
+        "chord": "DmA",
+        "rootMidi": 33
+      },
+      {
+        "bar": 78,
+        "beat": 312,
+        "at": 146.25,
+        "sample": 7020000,
+        "section": "choice",
+        "chord": "Bbmaj7",
+        "rootMidi": 34
+      },
+      {
+        "bar": 79,
+        "beat": 316,
+        "at": 148.125,
+        "sample": 7110000,
+        "section": "choice",
+        "chord": "Gm",
+        "rootMidi": 31
+      },
+      {
+        "bar": 80,
+        "beat": 320,
+        "at": 150,
+        "sample": 7200000,
+        "section": "choice",
+        "chord": "A7sus",
+        "rootMidi": 33
+      },
+      {
+        "bar": 81,
+        "beat": 324,
+        "at": 151.875,
+        "sample": 7290000,
+        "section": "choice",
+        "chord": "A7",
+        "rootMidi": 33
+      },
+      {
+        "bar": 82,
+        "beat": 328,
+        "at": 153.75,
+        "sample": 7380000,
+        "section": "rider",
+        "chord": "D9",
+        "rootMidi": 38
+      },
+      {
+        "bar": 83,
+        "beat": 332,
+        "at": 155.625,
+        "sample": 7470000,
+        "section": "rider",
+        "chord": "G",
+        "rootMidi": 31
+      },
+      {
+        "bar": 84,
+        "beat": 336,
+        "at": 157.5,
+        "sample": 7560000,
+        "section": "rider",
+        "chord": "Bm",
+        "rootMidi": 35
+      },
+      {
+        "bar": 85,
+        "beat": 340,
+        "at": 159.375,
+        "sample": 7650000,
+        "section": "rider",
+        "chord": "DFs",
+        "rootMidi": 42
+      },
+      {
+        "bar": 86,
+        "beat": 344,
+        "at": 161.25,
+        "sample": 7740000,
+        "section": "rider",
+        "chord": "G9",
+        "rootMidi": 31
+      },
+      {
+        "bar": 87,
+        "beat": 348,
+        "at": 163.125,
+        "sample": 7830000,
+        "section": "rider",
+        "chord": "Asus",
+        "rootMidi": 33
+      },
+      {
+        "bar": 88,
+        "beat": 352,
+        "at": 165,
+        "sample": 7920000,
+        "section": "redemption",
+        "chord": "D9",
+        "rootMidi": 38
+      },
+      {
+        "bar": 89,
+        "beat": 356,
+        "at": 166.875,
+        "sample": 8010000,
+        "section": "redemption",
+        "chord": "Bbmaj7",
+        "rootMidi": 34
+      },
+      {
+        "bar": 90,
+        "beat": 360,
+        "at": 168.75,
+        "sample": 8100000,
+        "section": "redemption",
+        "chord": "G",
+        "rootMidi": 31
+      },
+      {
+        "bar": 91,
+        "beat": 364,
+        "at": 170.625,
+        "sample": 8190000,
+        "section": "redemption",
+        "chord": "DFs",
+        "rootMidi": 42
+      },
+      {
+        "bar": 92,
+        "beat": 368,
+        "at": 172.5,
+        "sample": 8280000,
+        "section": "redemption",
+        "chord": "Gm",
+        "rootMidi": 31
+      },
+      {
+        "bar": 93,
+        "beat": 372,
+        "at": 174.375,
+        "sample": 8370000,
+        "section": "redemption",
+        "chord": "Dm9",
+        "rootMidi": 38
+      },
+      {
+        "bar": 94,
+        "beat": 376,
+        "at": 176.25,
+        "sample": 8460000,
+        "section": "redemption",
+        "chord": "Asus",
+        "rootMidi": 33
+      },
+      {
+        "bar": 95,
+        "beat": 380,
+        "at": 178.125,
+        "sample": 8550000,
+        "section": "redemption",
+        "chord": "Dopen9",
+        "rootMidi": 38
+      }
+    ],
+    "cues": [
+      {
+        "id": "instrumental-flight",
+        "start": 56.25,
+        "end": 67.5,
+        "beat": 120,
+        "bars": 6,
+        "instruction": "Six-bar panoramic musical flight; all audio remains instrumental."
+      },
+      {
+        "id": "broken-promise-hold",
+        "start": 103.125,
+        "end": 103.59375,
+        "beat": 220,
+        "durationBeats": 1,
+        "allBusesMuted": true,
+        "instruction": "Exactly one missing beat. Hold the image / let the promise hang; resume on beat 221, do not move the 128 BPM clock.",
+        "edgeRampMs": 8
+      },
+      {
+        "id": "largest-drop",
+        "start": 108.75,
+        "beat": 232,
+        "instruction": "Escape downbeat: full ensemble and double-time-like snare. Tempo remains 128 BPM.",
+        "preEntranceTaperMs": 12
+      },
+      {
+        "id": "cold-duet-cut",
+        "start": 123.75,
+        "beat": 264,
+        "instruction": "Cut drums/brass/reverb tails to the exposed guitar–reed duet."
+      },
+      {
+        "id": "choice-riser",
+        "start": 150,
+        "end": 153.75,
+        "beat": 320,
+        "durationBeats": 8,
+        "instruction": "Eight-beat orchestral rise, no tempo ramp."
+      },
+      {
+        "id": "major-reprise",
+        "start": 153.75,
+        "beat": 328,
+        "instruction": "First full D-major arrival: bright rider reprise."
+      },
+      {
+        "id": "unanswered-ending",
+        "start": 178.125,
+        "beat": 380,
+        "instruction": "D–A–E open final chord; whistle on E, no closed triumphant cadence."
+      },
+      {
+        "id": "terminal-fade",
+        "start": 178.8,
+        "end": 180,
+        "startSample": 8582400,
+        "endSample": 8640000,
+        "instruction": "Continuous 1.2-second smooth fade. This is an envelope, not a tempo change or extra cut."
+      }
+    ],
+    "eventSha256": "d367aa3bae1208163e8d9e96196577e70e98991646f50b2b299ebd72cc766c87",
+    "eventCount": 2682,
+    "render": {
+      "frames": 8640000,
+      "blockFrames": 90000,
+      "stereoBusCount": 3,
+      "pcmBlockBytes": 720000,
+      "peakVoices": 97,
+      "allocatedMixBufferBytes": 2880000,
+      "peakBeforeMastering": 1.696345,
+      "renderedEvents": 2682,
+      "maxFirstNonzeroOffsetSamples": 52,
+      "chapterOnsets": [
+        {
+          "id": "promise",
+          "scheduledSample": 0,
+          "firstDrySample": 1
+        },
+        {
+          "id": "snow",
+          "scheduledSample": 360000,
+          "firstDrySample": 360001
+        },
+        {
+          "id": "camp",
+          "scheduledSample": 1080000,
+          "firstDrySample": 1080001
+        },
+        {
+          "id": "arthur",
+          "scheduledSample": 1800000,
+          "firstDrySample": 1800001
+        },
+        {
+          "id": "frontier",
+          "scheduledSample": 2700000,
+          "firstDrySample": 2700001
+        },
+        {
+          "id": "city",
+          "scheduledSample": 3240000,
+          "firstDrySample": 3240001
+        },
+        {
+          "id": "pursuit",
+          "scheduledSample": 3960000,
+          "firstDrySample": 3960001
+        },
+        {
+          "id": "plan",
+          "scheduledSample": 4680000,
+          "firstDrySample": 4680001
+        },
+        {
+          "id": "escape",
+          "scheduledSample": 5220000,
+          "firstDrySample": 5220001
+        },
+        {
+          "id": "fracture",
+          "scheduledSample": 5940000,
+          "firstDrySample": 5940001
+        },
+        {
+          "id": "choice",
+          "scheduledSample": 6660000,
+          "firstDrySample": 6660001
+        },
+        {
+          "id": "rider",
+          "scheduledSample": 7380000,
+          "firstDrySample": 7380001
+        },
+        {
+          "id": "redemption",
+          "scheduledSample": 7920000,
+          "firstDrySample": 7920001
+        }
+      ],
+      "method": "Actual per-voice DSP first-nonzero detection before mix, plus delivered-MP3 chapter energy verification; not isolated onset recovery from the final mixed signal."
+    },
+    "synthesis": "Original deterministic per-note DSP: fractional-delay Karplus–Strong, additive piano/triangle bass, bandlimited pulse/saw, FM reed, filtered-noise acoustic percussion; never a recording or sampled instrument.",
+    "masterBitReduction": false,
+    "narrationDucking": false
+  },
+  "processing": {
+    "externalSamples": false,
+    "TTS": false,
+    "masterBitReduction": false,
+    "adaptiveLoudnessGain": false,
+    "drumSidechain": false,
+    "targetLUFS": -12.2,
+    "allowedLUFS": [
+      -13,
+      -11.5
+    ],
+    "encodedPeakLimitDbTP": -1.5,
+    "normalizationTarget": -11.15,
+    "preEncodeCeiling": -2.3,
+    "fixedGainDb": 2.86,
+    "sourceMeasure": {
+      "LUFS": -14.01,
+      "truePeakDbTP": 5.06,
+      "loudnessRangeLU": 16.5
+    },
+    "signalChain": "Float32 bar-streamed mix -> 27Hz highpass / 16.5kHz lowpass -> R128-measured fixed gain -> stereo-linked 192kHz lookahead limiter with compensated latency -> 48kHz 24-bit PCM -> gapless 256kbps MP3",
+    "limiter": {
+      "oversampling": 4,
+      "attackMs": 3,
+      "releaseMs": 80,
+      "latencyCompensated": true
+    },
+    "fade": {
+      "start": 178.8,
+      "end": 180
+    }
+  },
+  "delivery": {
+    "file": "master.mp3",
+    "relativeURL": "audio/master.mp3",
+    "playback": "Native HTMLAudioElement with file:// relative URL; no fetch, WebAudio or server required.",
+    "archive": "master.wav"
+  },
+  "provenance": {
+    "createdAt": "2026-10-06T10:01:24.561Z",
+    "noVoice": "All sound sources are whitelisted mathematical instrument generators. No speech synthesis, external audio, game soundtrack or melody transcription."
+  },
+  "master": {
+    "decodedFrames": 8640000,
+    "decodedDuration": 180,
+    "rmsDbFS": -14.385574,
+    "leftRmsDbFS": -14.196899,
+    "rightRmsDbFS": -14.58282,
+    "peakDbFS": -1.787792,
+    "clipping": 0,
+    "nonfinite": 0,
+    "correlation": 0.9594,
+    "sideRmsDbFS": -31.210549,
+    "sceneEnergy": [
+      {
+        "id": "promise",
+        "start": 0,
+        "end": 7.5,
+        "rmsDbFS": -26.037045,
+        "leftRmsDbFS": -26.263699,
+        "rightRmsDbFS": -25.821635,
+        "peakDbFS": -14.34851,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.988614,
+        "sideRmsDbFS": -48.021233,
+        "opening160msRmsDbFS": -26.450492
+      },
+      {
+        "id": "snow",
+        "start": 7.5,
+        "end": 22.5,
+        "rmsDbFS": -16.893416,
+        "leftRmsDbFS": -16.622135,
+        "rightRmsDbFS": -17.182777,
+        "peakDbFS": -5.410978,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.96664,
+        "sideRmsDbFS": -34.417357,
+        "opening160msRmsDbFS": -15.45786
+      },
+      {
+        "id": "camp",
+        "start": 22.5,
+        "end": 37.5,
+        "rmsDbFS": -18.463382,
+        "leftRmsDbFS": -18.802331,
+        "rightRmsDbFS": -18.148983,
+        "peakDbFS": -2.654991,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.948164,
+        "sideRmsDbFS": -34.10874,
+        "opening160msRmsDbFS": -17.300899
+      },
+      {
+        "id": "arthur",
+        "start": 37.5,
+        "end": 56.25,
+        "rmsDbFS": -12.21925,
+        "leftRmsDbFS": -11.869121,
+        "rightRmsDbFS": -12.600101,
+        "peakDbFS": -2.116796,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.968029,
+        "sideRmsDbFS": -29.740841,
+        "opening160msRmsDbFS": -10.352606
+      },
+      {
+        "id": "frontier",
+        "start": 56.25,
+        "end": 67.5,
+        "rmsDbFS": -12.943466,
+        "leftRmsDbFS": -12.640427,
+        "rightRmsDbFS": -13.269247,
+        "peakDbFS": -2.064827,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.968957,
+        "sideRmsDbFS": -30.693434,
+        "opening160msRmsDbFS": -11.19336
+      },
+      {
+        "id": "city",
+        "start": 67.5,
+        "end": 82.5,
+        "rmsDbFS": -17.94552,
+        "leftRmsDbFS": -17.748333,
+        "rightRmsDbFS": -18.152089,
+        "peakDbFS": -4.084909,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.973039,
+        "sideRmsDbFS": -36.482561,
+        "opening160msRmsDbFS": -15.829894
+      },
+      {
+        "id": "pursuit",
+        "start": 82.5,
+        "end": 97.5,
+        "rmsDbFS": -13.070834,
+        "leftRmsDbFS": -13.000047,
+        "rightRmsDbFS": -13.142795,
+        "peakDbFS": -2.000164,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.960019,
+        "sideRmsDbFS": -30.048541,
+        "opening160msRmsDbFS": -11.117002
+      },
+      {
+        "id": "plan",
+        "start": 97.5,
+        "end": 108.75,
+        "rmsDbFS": -22.228335,
+        "leftRmsDbFS": -23.098197,
+        "rightRmsDbFS": -21.503964,
+        "peakDbFS": -8.917125,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.954033,
+        "sideRmsDbFS": -37.327769,
+        "opening160msRmsDbFS": -20.539036
+      },
+      {
+        "id": "escape",
+        "start": 108.75,
+        "end": 123.75,
+        "rmsDbFS": -10.284057,
+        "leftRmsDbFS": -10.086659,
+        "rightRmsDbFS": -10.490856,
+        "peakDbFS": -1.787792,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.965636,
+        "sideRmsDbFS": -27.803286,
+        "opening160msRmsDbFS": -10.036504
+      },
+      {
+        "id": "fracture",
+        "start": 123.75,
+        "end": 138.75,
+        "rmsDbFS": -25.448123,
+        "leftRmsDbFS": -28.08545,
+        "rightRmsDbFS": -23.81901,
+        "peakDbFS": -9.246814,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.797802,
+        "sideRmsDbFS": -33.839982,
+        "opening160msRmsDbFS": -26.632227
+      },
+      {
+        "id": "choice",
+        "start": 138.75,
+        "end": 153.75,
+        "rmsDbFS": -21.868756,
+        "leftRmsDbFS": -21.961412,
+        "rightRmsDbFS": -21.778036,
+        "peakDbFS": -6.171575,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.919846,
+        "sideRmsDbFS": -35.828717,
+        "opening160msRmsDbFS": -19.466641
+      },
+      {
+        "id": "rider",
+        "start": 153.75,
+        "end": 165,
+        "rmsDbFS": -11.385201,
+        "leftRmsDbFS": -11.170186,
+        "rightRmsDbFS": -11.611419,
+        "peakDbFS": -1.943753,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.95401,
+        "sideRmsDbFS": -27.654314,
+        "opening160msRmsDbFS": -11.232086
+      },
+      {
+        "id": "redemption",
+        "start": 165,
+        "end": 180,
+        "rmsDbFS": -12.164726,
+        "leftRmsDbFS": -11.904679,
+        "rightRmsDbFS": -12.441343,
+        "peakDbFS": -2.078983,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.956236,
+        "sideRmsDbFS": -28.586646,
+        "opening160msRmsDbFS": -10.803918
+      }
+    ],
+    "windows": {
+      "holdCore": {
+        "rmsDbFS": -150.188468,
+        "leftRmsDbFS": -150.215831,
+        "rightRmsDbFS": -150.161276,
+        "peakDbFS": -137.346814,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.411325,
+        "sideRmsDbFS": -155.49995
+      },
+      "holdResume": {
+        "rmsDbFS": -23.518729,
+        "leftRmsDbFS": -22.445156,
+        "rightRmsDbFS": -24.948023,
+        "peakDbFS": -13.105837,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.981509,
+        "sideRmsDbFS": -38.904093
+      },
+      "dropBefore": {
+        "rmsDbFS": -36.793251,
+        "leftRmsDbFS": -41.606936,
+        "rightRmsDbFS": -34.566319,
+        "peakDbFS": -25.507416,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.667063,
+        "sideRmsDbFS": -42.772836
+      },
+      "dropAfter": {
+        "rmsDbFS": -10.036504,
+        "leftRmsDbFS": -9.348086,
+        "rightRmsDbFS": -10.854988,
+        "peakDbFS": -2.244631,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.969822,
+        "sideRmsDbFS": -26.554203
+      },
+      "opening": {
+        "rmsDbFS": -26.320268,
+        "leftRmsDbFS": -26.570849,
+        "rightRmsDbFS": -26.083359,
+        "peakDbFS": -20.164808,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.986458,
+        "sideRmsDbFS": -47.542503
+      },
+      "fadeStart": {
+        "rmsDbFS": -11.832923,
+        "leftRmsDbFS": -11.808243,
+        "rightRmsDbFS": -11.857745,
+        "peakDbFS": -2.3215,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.96794,
+        "sideRmsDbFS": -29.781467
+      },
+      "fadeTail": {
+        "rmsDbFS": -133.265657,
+        "leftRmsDbFS": -133.732081,
+        "rightRmsDbFS": -132.844503,
+        "peakDbFS": -122.533433,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.775942,
+        "sideRmsDbFS": -142.694864
+      }
+    },
+    "quietRuns": [
+      {
+        "start": 103.12,
+        "end": 103.59
+      }
+    ],
+    "LUFS": -12.26,
+    "truePeakDbTP": -1.65,
+    "loudnessRangeLU": 13.6,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitrate": 256000,
+    "metadataDuration": 180.024,
+    "metadataPaddingSeconds": 0.024,
+    "quietLoudContrastDb": 15.752988,
+    "escapeOverPlanDb": 11.944278,
+    "dropRiseDb": 26.756747,
+    "eventGrid": {
+      "samplesPerBeat": 22500,
+      "samplesPerBar": 90000,
+      "subdivision": "sixteenth",
+      "samplesPerSixteenth": 5625,
+      "totalEvents": 2682,
+      "bars": 96,
+      "offGridEvents": 0,
+      "chapterMarkers": 13
+    },
+    "silenceThresholdDbFS": -58,
+    "minimumReportedSilenceSeconds": 0.1
+  },
+  "validation": {
+    "passed": true,
+    "checkedAt": "2026-10-06T10:01:31.102Z",
+    "stagedBeforePublication": true,
+    "checks": [
+      "full gapless PCM decode",
+      "exact 8,640,000 stereo frames",
+      "EBU R128 integrated LUFS",
+      "oversampled true peak",
+      "codec/rate/channels/bitrate/padding",
+      "clipping and nonfinite scan",
+      "stereo energy and correlation",
+      "13 nonempty acts",
+      "13 different event/rhythm identities",
+      "fixed beat/bar grid",
+      "quiet/loud contrast >=5dB",
+      "escape largest act",
+      "one-beat silence and resume",
+      "no unintended silent stretches",
+      "terminal fade",
+      "story/generator/MP3 hashes"
+    ],
+    "scope": "Local DSP/decoded-signal verification; no claim of human listening or browser playback testing."
+  }
+}

@@ -1,12 +1,15 @@
 import assert from 'node:assert/strict'
 import { chromium } from 'playwright'
-import { mkdir, writeFile } from 'node:fs/promises'
+import { copyFile, mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { join } from 'node:path'
+import { tmpdir } from 'node:os'
 
-const output = fileURLToPath(new URL('../../output/web-qa/', import.meta.url))
+const output = fileURLToPath(new URL('../output/web-qa/', import.meta.url))
 const standalone = process.argv.includes('--standalone')
-const url = standalone ? pathToFileURL(fileURLToPath(new URL('../dist/index.html', import.meta.url))).href : 'http://127.0.0.1:5173/'
+const exported = fileURLToPath(new URL('../../export/一念万物/GENESIS.html', import.meta.url))
+const url = standalone ? pathToFileURL(exported).href : 'http://127.0.0.1:5173/'
+let isolatedDirectory
 await mkdir(output, { recursive: true })
 const browser = await chromium.launch({ channel: 'chrome', headless: false })
 const context = await browser.newContext({ viewport: { width: 1440, height: 1000 }, reducedMotion: 'no-preference' })
@@ -45,7 +48,7 @@ try {
   await page.evaluate(() => window.__GENESIS__.resetMetrics())
   await page.locator('#fullscreen-play').click()
   await page.waitForFunction(() => document.fullscreenElement?.id === 'player')
-  await page.waitForFunction(() => window.__GENESIS__.state.time >= 2 && document.querySelector('#player').classList.contains('controls-hidden'))
+  await page.waitForFunction(() => window.__GENESIS__.state.time >= 2 && getComputedStyle(document.querySelector('.transport')).visibility === 'hidden')
   const fullscreen = await page.evaluate(() => {
     const bounds = document.querySelector('#screen').getBoundingClientRect()
     return { width: bounds.width, height: bounds.height, ratio: bounds.width / bounds.height, controls: getComputedStyle(document.querySelector('.transport')).visibility }
@@ -69,7 +72,8 @@ try {
   await page.evaluate(() => document.exitFullscreen())
   await page.locator('#replay').click()
   await page.waitForFunction(() => window.__GENESIS__.state.playing && window.__GENESIS__.state.time > .25 && window.__GENESIS__.state.time < 4)
-  await page.locator('#play').click()
+  // Pause is already checked above; do not wait for an auto-hidden control here.
+  await page.evaluate(() => window.__GENESIS__.pause())
   await page.locator('#about').click()
   assert.ok(await page.locator('#credits').isVisible())
   await page.locator('#close-credits').click()
@@ -90,9 +94,23 @@ try {
     await writeFile(join(output, `webgl-${time}.png`), Buffer.from(png.split(',')[1], 'base64'))
     assert.equal(await page.evaluate(() => window.__GENESIS__.state.time), time)
   }
+  if (standalone) {
+    isolatedDirectory = await mkdtemp(join(tmpdir(), 'genesis-standalone-'))
+    const isolatedEntry = join(isolatedDirectory, 'GENESIS.html')
+    await copyFile(exported, isolatedEntry)
+    await page.goto(pathToFileURL(isolatedEntry).href, { waitUntil: 'networkidle' })
+    await page.waitForFunction(() => window.__GENESIS__?.ready, null, { timeout: 60000 })
+    assert.equal(await page.evaluate(() => window.__GENESIS__.state.audioDuration), 30)
+    await page.locator('#start').click()
+    await page.waitForFunction(() => window.__GENESIS__.state.time > .5)
+    await page.locator('#play').click()
+  }
   assert.equal(externalRequests.length, 0)
   assert.deepEqual(errors, [])
-  const report = { result: 'PASS', standalone, browser: await browser.version(), initial, fullscreen, playback, webgl, checks: ['30-second complete playback', 'chapters follow audio clock', 'no recorded video element', 'no export button', 'pause clock freezes', 'chapter seek', 'mute toggle', 'range keyboard end/home', 'native fullscreen', '16:9 composition', 'controls auto-hide', 'replay after exact end', 'credits dialog', 'mobile no overflow', 'cinema window', 'all-local assets', 'full WebGL scene shaders'], errors, externalRequests }
+  const report = { result: 'PASS', standalone, entry: url, isolatedHtmlPlayback: standalone, browser: await browser.version(), initial, fullscreen, playback, webgl, checks: ['30-second complete playback', 'chapters follow audio clock', 'no recorded video element', 'no export button', 'pause clock freezes', 'chapter seek', 'mute toggle', 'range keyboard end/home', 'native fullscreen', '16:9 composition', 'controls auto-hide', 'replay after exact end', 'credits dialog', 'mobile no overflow', 'cinema window', 'all-local assets', 'full WebGL scene shaders', ...(standalone ? ['isolated single HTML offline playback'] : [])], errors, externalRequests }
   await writeFile(join(output, standalone ? 'standalone-report.json' : 'report.json'), JSON.stringify(report, null, 2))
   console.log('PASS', JSON.stringify({ fps: playback.fps, frames: playback.frames, fullscreen, checks: report.checks.length }))
-} finally { await browser.close() }
+} finally {
+  await browser.close()
+  if (isolatedDirectory) await rm(isolatedDirectory, { recursive: true, force: true })
+}

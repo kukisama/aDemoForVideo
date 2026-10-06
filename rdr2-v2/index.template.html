@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#121919">
+  <title>西部2 · 明天以西</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23151d22' d='M0 0h32v32H0z'/%3E%3Ccircle cx='21' cy='12' r='7' fill='%23c79463'/%3E%3Cpath fill='%2344504b' d='m0 24 10-13 12 15 10-8v14H0'/%3E%3C/svg%3E">
+  <style>/*__STYLE__*/</style>
+</head>
+<body>
+  <main id="cinema" class="cover-visible" tabindex="-1" aria-label="西部2：明天以西，三分钟原创 HD-2D 网页短片">
+    <div id="viewport"><div id="stage">
+      <canvas id="world" width="1280" height="720" aria-label="原创像素人物与三维西部场景"></canvas>
+      <div class="cinema-shade" aria-hidden="true"></div>
+      <section id="poster">
+        <header class="cover-header"><span>WESTERN / II</span><span>AN ORIGINAL PIXEL WESTERN</span></header>
+        <div class="cover-copy">
+          <p class="eyebrow">WEST OF TOMORROW</p>
+          <h1>明天<span>以西</span></h1>
+          <p class="tagline">他说他有个计划。<br>亚瑟看向身边的人。</p>
+          <div class="cover-rule"></div>
+          <p class="cover-description">一段承诺，三次回答。<br>关于亚瑟·摩根与达奇的原创演绎。</p>
+          <div class="start-actions"><button id="start" disabled><span aria-hidden="true">▶</span><b id="start-label">准备启程…</b></button><button id="start-fullscreen" class="outline" disabled>全屏观看 ↗</button></div>
+          <div class="cover-spec"><span>03:00</span><i></i><span>HD-2D</span><i></i><span>ORIGINAL 8-BIT SCORE</span></div>
+        </div>
+        <div class="cover-bottom"><span>像素人物 · 空间光影 · 口哨与风</span><button id="cover-about">创作说明 ＋</button></div>
+      </section>
+      <header id="film-header" hidden><span>WEST OF TOMORROW</span><span id="chapter-marker"></span></header>
+      <div id="chapter-card" hidden><small id="chapter-index"></small><span id="chapter-name"></span></div>
+      <div id="caption-box" hidden><div class="speaker-line"><span id="speaker"></span><small id="adapted" hidden>原创演绎</small></div><p id="caption"></p></div>
+      <div id="end-title" hidden><p>一段承诺，三次回答。</p><h2>荒野大镖客 <span>2</span></h2><span>RED DEAD REDEMPTION II</span><i></i><small>明天以西 · 非官方原创演绎</small></div>
+      <footer id="film-footer" hidden><span>ORIGINAL INTERPRETATION · NOT GAME FOOTAGE</span><span id="time-code">00:00 / 03:00</span></footer>
+      <div id="film-progress" aria-hidden="true"><i></i></div>
+    </div></div>
+    <nav id="controls" aria-label="影片播放控制">
+      <button id="toggle" aria-label="播放" disabled>▶</button><button id="replay" aria-label="从头播放" disabled>↺</button><span id="time">00:00 / 03:00</span>
+      <input id="timeline" type="range" min="0" max="180" step="0.01" value="0" aria-label="播放进度" disabled>
+      <button id="mute" aria-label="静音" aria-pressed="false">♪</button><input id="volume" type="range" min="0" max="1" step="0.05" value="0.9" aria-label="音乐音量">
+      <button id="fullscreen" aria-label="全屏">⛶</button><button id="about" aria-label="创作说明">说明</button>
+    </nav>
+    <p id="status" role="status">正在绘制像素人物、建立空间光影与载入音乐…</p>
+    <button id="end-replay" hidden>↺ 再听一次，风里的承诺</button>
+    <button id="retry" hidden>重新载入</button>
+    <audio id="music" src="audio/master.mp3" preload="auto"></audio>
+    <dialog id="about-dialog"><div class="dialog-header"><span>ABOUT THIS INTERPRETATION</span><button id="close-about" aria-label="关闭说明">×</button></div>
+      <h2>明天以西</h2><p class="dialog-lead">西部2 · 独立新作 / 03:00</p>
+      <p>这是一支围绕亚瑟·摩根与达奇关系创作的非官方短片。时代背景与帮派关系依据<a href="https://www.playstation.com/en-us/games/red-dead-redemption-2/" target="_blank" rel="noopener">官方公开故事简介</a>；<strong>对白、三次计划、递图、推车与渡口场面均为原创压缩演绎</strong>，不是游戏原台词、任务实录或正史结局。</p>
+      <h3>HD-2D，而不是给平面加一层模糊</h3>
+      <p>像素人物与贴图由代码绘制，放入有实际纵深的三维场景。光照、阴影、雾、水面与景深实时渲染；角色中近景独立绘制。没有使用《八方旅人》或《荒野大镖客》的美术素材。实际游戏画面可参阅<a href="https://blog.playstation.com/2018/08/09/watch-the-red-dead-redemption-2-official-gameplay-video/" target="_blank" rel="noopener">官方演示出处</a>。</p>
+      <h3>让旋律之间有风</h3>
+      <p>80 BPM 原创芯片配乐：口哨主旋律、稀疏数字拨弦、三角低音与轻环境声。不采样或转写游戏原声，无语音旁白。部分段落有意只留下风与动作声，不是声音丢失。</p>
+      <label class="gentle"><input id="gentle" type="checkbox"> 柔和动效：减少环境运动与镜头漂移，保留人物剧情动作</label>
+      <p class="requirements">需要支持 WebGL2 的 Chrome / Edge。建议横屏、全屏、开启浏览器硬件加速。空格暂停；← → 跳转三秒；R 重播；F 全屏；M 静音。</p>
+      <p class="rights">游戏及角色权利归相应权利人所有。本片非官方、无官方关联或背书。原《西部余烬》工程和成片独立保留。</p>
+    </dialog>
+  </main>
+  <script id="film-data" type="application/json">/*__DATA__*/</script>
+  <script>/*__SCRIPT__*/</script>
+</body>
+</html>
