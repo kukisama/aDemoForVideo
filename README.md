@@ -6,7 +6,7 @@
 
 | 项目 | 本地播放入口 | 复制到其他机器时带什么 |
 |---|---|---|
-| 门外·秦始皇（180 秒） | [export/秦始皇/开始观看.html](export/秦始皇/开始观看.html) | **只需这个 HTML**；二维8-bit动画、旁白版/纯配乐版音轨与中文字体全部内嵌 |
+| 门外·秦始皇（180 秒） | [export/秦始皇/开始观看.html](export/秦始皇/开始观看.html) | 整个 `export/秦始皇/`，保留 `audio/`；旁白版与纯配乐版音轨独立，HTML不内嵌音频 |
 | 一念万物（GENESIS，30 秒） | [export/一念万物/GENESIS.html](export/一念万物/GENESIS.html) | 只需这个 HTML；脚本、样式、字体、音乐和旁白全部内嵌 |
 | 知识之塔（57.6 秒） | [export/知识之塔/开始观看.html](export/知识之塔/开始观看.html) | 整个 `export/知识之塔/`，保留 `audio/` |
 | X500（60 秒） | [export/X500/开始观看.html](export/X500/开始观看.html) | 整个 `export/X500/`，保留 `audio/` |
@@ -112,13 +112,13 @@
 - `player.js`、`style.css`、`index.template.html`：原生音频时钟、全屏、字幕、双轨切换和离线播放器。
 - `score.mjs`、`audio/`：原创8-bit主题、泛用中文男声和纯配乐两版180秒音轨。
 - `fonts.mjs`、`assets/`：可内嵌中文字体子集与许可；播放无需联网。
-- `build.mjs`、`test.mjs`、`audio-test.mjs`：单文件构建、浏览器实播、音频解码与文件哈希校验。
+- `build.mjs`、`test.mjs`、`audio-test.mjs`：可读HTML与外置音轨构建、浏览器实播、音频解码与文件哈希校验。
 - `protect.mjs`、`previous-films.json`：243个旧作品文件的保护基线；`output/`为制作与验收材料。
 - `QIN.html`：项目内预览；最终入口为`export/秦始皇/开始观看.html`。
 
 ### `export/` · 无需打包的交付物
 
-- `秦始皇/开始观看.html`：完整离线单文件；另附`说明.txt`及`FONT-LICENSES.txt`便于查阅。
+- `秦始皇/开始观看.html`、`audio/master.mp3`、`audio/music.mp3`：离线观看目录，音频不写入HTML；另附`说明.txt`及`FONT-LICENSES.txt`。
 - `一念万物/GENESIS.html`：完整离线单文件。
 - `知识之塔/开始观看.html`、`audio/master.mp3`、`FONT-LICENSES.txt`、`说明.txt`：离线观看目录，许可和使用说明随片交付。
 - `X500/开始观看.html`、`audio/master.mp3`、`使用说明.txt`：离线观看目录。
@@ -141,7 +141,7 @@
 6. 奥德赛·无人之名：在仓库根目录执行 `node odyssey/build.mjs`，更新项目内预览和 `export/奥德赛/`。
 7. 西部2·明天以西：在仓库根目录执行 `node rdr2-v2/build.mjs`，更新新项目预览和 `export/西部2/`，并核对原 `rdr2/` 与 `export/西部余烬/` 的完整哈希。
 8. 赶路的人：在仓库根目录执行 `node shortcut/build.mjs`，更新本片预览和 `export/赶路的人/`，构建前后复核既有作品哈希。
-9. 门外·秦始皇：在仓库根目录执行 `node qin/build.mjs`；单HTML内嵌两条音轨，构建前后复核243个旧片文件。
+9. 门外·秦始皇：在仓库根目录执行 `node qin/build.mjs`；HTML以相对路径引用`audio/`中的两条独立MP3，构建前后复核243个旧片文件。
 
 构建不会生成压缩包，也不会覆盖其他项目的交付目录。知识之塔、X500、西部余烬、奥德赛与西部2构建前会核对台本及母带哈希；未改音轨时无需重新合成声音。
 
@@ -156,3 +156,5 @@
 赶路的人验收：`node --test shortcut/model-test.mjs`、`node --test shortcut/audio-test.mjs`、`node shortcut/test.mjs --full`；`node shortcut/test.mjs --edge` 做 Edge 兼容检查。测试默认不占桌面，不以本机帧率作为交付门槛。
 
 门外·秦始皇验收：`node --test qin/audio-test.mjs`、`node qin/test.mjs --full --headed`及`node qin/test.mjs --edge`。最后一项为Edge功能兼容检查，不是另一次全片实播；后台可见性观测与合成事件回归在报告中分开记录，不以测试浏览器行为替代用户目标机器。
+
+仅验证音频交付调整：`node qin/test.mjs --delivery`及`node qin/test.mjs --delivery --edge`，短时检查外置音轨和整目录离线移机，不重复全片或逐镜截图。

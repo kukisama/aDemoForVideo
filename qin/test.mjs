@@ -12,6 +12,8 @@ const root=fileURLToPath(new URL('../',import.meta.url));
 const require=createRequire(new URL('../web/package.json',import.meta.url)),{chromium}=require('playwright');
 const qa=resolve(root,'qin/output/qa'),entry=resolve(root,'export/秦始皇/开始观看.html');
 const full=process.argv.includes('--full'),captureOnly=process.argv.includes('--shots'),headed=process.argv.includes('--headed');
+const deliveryOnly=process.argv.includes('--delivery'),audioPaths=['audio/master.mp3','audio/music.mp3'];
+assert.ok(!deliveryOnly||(!full&&!captureOnly),'Use --delivery without --full or --shots');
 const channel=process.argv.includes('--edge')?'msedge':'chrome',hash=b=>createHash('sha256').update(b).digest('hex');
 await mkdir(qa,{recursive:true});const protectedFiles=verifyPrevious();validateStory();
 const browser=await chromium.launch({channel,headless:!headed});
@@ -28,14 +30,18 @@ async function capture(name,t=null){if(t!==null)await render(t);const file=resol
 try{
   const html=await readFile(entry,'utf8'),data=JSON.parse(html.match(/<script id="film-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
   check(!/<(?:video|img|iframe)\b/i.test(html),'Original canvas animation; no video or photo slideshow');
-  check((html.match(/data:audio\/mpeg;base64,/g)||[]).length===3,'Two embedded tracks plus player source check');
+  check(!/data:audio\//i.test(html),'No embedded audio or audio Base64 in HTML');
+  check(JSON.stringify([...html.matchAll(/<audio\b[^>]*\bsrc="([^"]+)"/g)].map(m=>m[1]))===JSON.stringify(audioPaths),'Two plain relative audio references');
+  for(const path of audioPaths)check(hash(await readFile(resolve(root,'export/秦始皇',path)))===hash(await readFile(resolve(root,'qin',path))),`Unmodified external audio copy: ${path}`);
   check(data.duration===180&&SHOTS.length===30,'Three-minute / thirty-shot contract');
   await page.goto(pathToFileURL(entry).href,{waitUntil:'load'});await ready();
   check(await page.locator('#poster').isVisible(),'Cover starts without autoplay');check(!(await state()).playing,'No audio before user gesture');
-  check((await state()).embedded,'Both audio sources are embedded');
+  check(!(await state()).embedded,'Neither audio source is embedded');
+  check(JSON.stringify((await state()).audioSources)===JSON.stringify(audioPaths.map(p=>new URL(p,page.url()).href)),'Both native audio sources resolve to delivery files');
   check(await page.evaluate(()=>[...document.querySelectorAll('audio')].every(a=>Math.abs(a.duration-180)<.065)),'Both native audio elements decode to 180 seconds');
   check(await page.evaluate(()=>document.fonts.check('700 155px "Qin Serif"','门外秦始皇')),'Embedded Chinese font available');
   check(await page.evaluate(()=>document.fonts.size===3&&[...document.fonts].every(f=>f.status==='loaded')),'All three font weights loaded offline');
+  if(!deliveryOnly){
   await capture('poster');
   const coverText=await page.locator('#poster').textContent();
   check(!coverText.includes('时间')&&!coverText.includes('不朽'),'Cover does not disclose the final answer');
@@ -160,18 +166,35 @@ try{
       const b=await page.locator('#stage').boundingBox();check(b.width<=viewport.width+1&&b.height<=viewport.height+1,'Stage fits '+viewport.width);
       await page.screenshot({path:resolve(qa,`${channel}-viewport-${viewport.width}.png`)});
     }
-    // Only one file is copied: font/audio fetches are impossible in this offline context.
-    copied=await mkdtemp(resolve(tmpdir(),'qin-single-html-'));await copyFile(entry,resolve(copied,'门外.html'));
+  }
+  }
+  if(!captureOnly){
+    // A portable folder has the readable HTML plus its two independent audio files.
+    copied=await mkdtemp(resolve(tmpdir(),'qin-external-audio-'));await copyFile(entry,resolve(copied,'门外.html'));
+    await mkdir(resolve(copied,'audio'));
+    for(const path of audioPaths)await copyFile(resolve(root,'export/秦始皇',path),resolve(copied,path));
     await page.goto(pathToFileURL(resolve(copied,'门外.html')).href,{waitUntil:'load'});await ready();
-    await page.locator('#start').click();await page.waitForFunction(()=>window.__QIN__.state.time>.6);
-    check((await state()).embedded&&(await state()).playing,'Single copied HTML plays outside repository while offline');
-    await page.keyboard.press('KeyV');await page.waitForFunction(()=>window.__QIN__.state.playing&&window.__QIN__.state.track==='music');
-    check((await state()).audibleTrackCount===1,'Copied HTML includes functional instrumental mode');await page.keyboard.press('Space');
+    check(JSON.stringify((await state()).audioSources)===JSON.stringify(audioPaths.map(p=>new URL(p,page.url()).href)),'Copied folder loads its own relative audio, not repository files');
+    await page.locator('#start-fullscreen').click();await page.waitForFunction(()=>window.__QIN__.state.time>.6&&document.fullscreenElement?.id==='cinema');
+    check(!(await state()).embedded&&(await state()).playing,'Copied folder plays and enters fullscreen offline');
+    await page.keyboard.press('Space');const paused=(await state()).time;
+    await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));
+    check(!(await state()).playing&&(await state()).time===paused,'External audio pauses without clock drift');
+    await page.keyboard.press('KeyV');
+    check((await state()).track==='music'&&Math.abs((await state()).time-paused)<.00001,'External track switch preserves paused time');
+    await page.keyboard.press('Space');await page.waitForFunction(t=>window.__QIN__.state.playing&&window.__QIN__.state.track==='music'&&window.__QIN__.state.time>t+.2,paused);
+    check((await state()).audibleTrackCount===1,'Copied folder includes functional instrumental mode');await page.keyboard.press('Space');
+    if(deliveryOnly){
+      await page.keyboard.press('KeyV');await page.evaluate(()=>window.__QIN__.seek(179.4));await page.locator('#cinema').focus();await page.keyboard.press('Space');
+      await page.waitForFunction(()=>window.__QIN__.state.ended,null,{timeout:10000});check((await state()).time===180,'External track stops at the existing ending');
+      await page.locator('#end-replay').click();await page.waitForFunction(()=>window.__QIN__.state.time>.2&&window.__QIN__.state.time<3&&window.__QIN__.state.playing);
+      check((await state()).audibleTrackCount===1,'External audio replays after ending');await page.keyboard.press('Space');
+    }
   }
   check(network.length===0,'No runtime network requests');check(errors.length===0,`No browser errors: ${errors.join(' | ')}`);
   check(verifyPrevious()===protectedFiles,'243 prior-film files unchanged');
-  const report={result:'PASS',channel,browser:await browser.version(),full,captureOnly,headed,checks,captures,playback,nativeVisibility,network,errors,protectedFiles,entry,entrySha256:hash(Buffer.from(html)),hardwarePerformance:'SKIPPED_BY_USER: no FPS threshold and no claim about target hardware',humanListeningPerformed:false};
-  await writeFile(resolve(qa,`${channel}${full?'-full':''}${captureOnly?'-shots':''}${headed?'-headed':''}-report.json`),JSON.stringify(report,null,2));
-  console.log(JSON.stringify({result:'PASS',checks:checks.length,channel,full,captureOnly,headed,playback,protectedFiles,contactSheet:resolve(qa,`${channel}-contact-sheet.png`)},null,2));
+  const report={result:'PASS',channel,browser:await browser.version(),full,captureOnly,deliveryOnly,headed,checks,captures,playback,nativeVisibility,network,errors,protectedFiles,entry,entrySha256:hash(Buffer.from(html)),externalAudio:audioPaths,hardwarePerformance:'SKIPPED_BY_USER: no FPS threshold and no claim about target hardware',humanListeningPerformed:false};
+  await writeFile(resolve(qa,`${channel}${full?'-full':''}${captureOnly?'-shots':''}${deliveryOnly?'-delivery':''}${headed?'-headed':''}-report.json`),JSON.stringify(report,null,2));
+  console.log(JSON.stringify({result:'PASS',checks:checks.length,channel,full,captureOnly,deliveryOnly,headed,playback,protectedFiles,...(deliveryOnly?{}:{contactSheet:resolve(qa,`${channel}-contact-sheet.png`)})},null,2));
 }catch(error){await writeFile(resolve(qa,`${channel}-failure.json`),JSON.stringify({error:error.message,stack:error.stack,checks,errors,network},null,2));throw error;}
 finally{await browser.close();if(copied)await rm(copied,{recursive:true,force:true});}

@@ -126,14 +126,14 @@
   for(const media of tracks){
     media.addEventListener('ended',()=>{if(media===active&&media.ended&&media.currentTime>=duration-.04)finish();});
     media.addEventListener('seeking',()=>{if(media===active&&ready&&started)render(canonical(media.currentTime));});
-    media.addEventListener('error',()=>{pause();failed=true;status('内嵌音轨解码失败，请使用完整的 Chrome 或 Edge 浏览器打开。',true);});
+    media.addEventListener('error',()=>{pause();failed=true;status('音轨无法读取，请保留 HTML 同级 audio 文件夹，并使用 Chrome 或 Edge 打开。',true);});
   }
   function mediaReady(media){return new Promise((resolve,reject)=>{
-    if(media.error){reject(new Error('内嵌音轨无法解码'));return;}if(media.readyState>=3){resolve();return;}
+    if(media.error){reject(new Error('音轨无法读取，请保留 HTML 同级 audio 文件夹'));return;}if(media.readyState>=3){resolve();return;}
     const abort=new AbortController(),timer=setTimeout(()=>{abort.abort();reject(new Error('音轨载入超时'));},45000);
     const done=fn=>{clearTimeout(timer);abort.abort();fn();};
     media.addEventListener('canplay',()=>done(resolve),{signal:abort.signal});
-    media.addEventListener('error',()=>done(()=>reject(new Error('内嵌音轨无法解码'))),{signal:abort.signal});
+    media.addEventListener('error',()=>done(()=>reject(new Error('音轨无法读取，请保留 HTML 同级 audio 文件夹'))),{signal:abort.signal});
     // preload is declared once in HTML; do not restart it with audio.load().
   });}
   async function init(){
@@ -145,10 +145,10 @@
       if(tracks.some(a=>Math.abs(a.duration-duration)>.065))throw new Error('音轨长度与台本不符');
       tracks.forEach(a=>{a.volume=.8;});ready=true;
       for(const id of ['start','start-fullscreen','toggle','replay','timeline'])$(id).disabled=false;
-      status('画面与声音已就绪 · 单文件离线播放');world.draw(0,{poster:true});
+      status('画面与声音已就绪 · 离线播放');world.draw(0,{poster:true});
     }catch(error){failed=true;$('start').disabled=false;$('start').textContent='重新加载';status(error.message,true);}
   }
-  window.__QIN__={get ready(){return ready;},get state(){return {ready,started,playing,pending:!!pending,ended,failed,time:current(),renderedTime,duration,audioDuration:active.duration,track:active===tracks[0]?'narration':'music',muted:active.muted,volume:active.volume,reduced,showSubtitles,chapter:stage.dataset.chapter,shot:stage.dataset.shot,caption:$('caption').textContent,frames,elapsedMs:playStart?(playEnd||performance.now())-playStart:0,maxFrameGap,embedded:tracks.every(a=>a.currentSrc.startsWith('data:audio/mpeg;base64,')),audibleTrackCount:tracks.filter(a=>!a.paused&&!a.muted&&a.volume>0).length,world:world.state};},
+  window.__QIN__={get ready(){return ready;},get state(){return {ready,started,playing,pending:!!pending,ended,failed,time:current(),renderedTime,duration,audioDuration:active.duration,track:active===tracks[0]?'narration':'music',muted:active.muted,volume:active.volume,reduced,showSubtitles,chapter:stage.dataset.chapter,shot:stage.dataset.shot,caption:$('caption').textContent,frames,elapsedMs:playStart?(playEnd||performance.now())-playStart:0,maxFrameGap,embedded:tracks.every(a=>a.currentSrc.startsWith('data:')),audioSources:tracks.map(a=>a.currentSrc),audibleTrackCount:tracks.filter(a=>!a.paused&&!a.muted&&a.volume>0).length,world:world.state};},
     get shots(){return data.shots;},get captions(){return data.captions;},get chapters(){return data.chapters;},
     play,pause,seek,replay,switchVoice,render(t){pause();seek(t);return world.snapshot();}};
   void init();

@@ -37,8 +37,8 @@
       <input id="timeline" aria-label="播放进度" type="range" min="0" max="180" value="0" step="0.01" disabled>
       <div class="options"><button id="voice" aria-label="切换为纯配乐" aria-pressed="true">人声 开</button><button id="mute" aria-label="静音" aria-pressed="false">声音</button><input id="volume" type="range" aria-label="音量" min="0" max="1" value="0.8" step="0.01"><button id="about" aria-label="关于、史实与设置">说明</button><button id="fullscreen" aria-label="全屏">⛶</button></div>
     </nav>
-    <audio id="music" preload="auto" src="/*__MASTER__*/"></audio>
-    <audio id="instrumental" preload="auto" src="/*__MUSIC__*/"></audio>
+    <audio id="music" preload="auto" src="audio/master.mp3"></audio>
+    <audio id="instrumental" preload="auto" src="audio/music.mp3"></audio>
   </main>
   <dialog id="about-dialog" aria-labelledby="about-heading">
     <button id="close-about" class="dialog-close" aria-label="关闭说明">×</button>
@@ -52,7 +52,7 @@
     <label class="setting"><input id="gentle" type="checkbox">柔和动效 <span>关闭镜头震动，保留叙事动作</span></label>
     <label class="setting"><input id="subtitles" type="checkbox" checked>显示字幕</label>
     <p class="keys"><kbd>空格</kbd> 暂停　<kbd>← →</kbd> 前后 5 秒　<kbd>R</kbd> 重播　<kbd>M</kbd> 静音　<kbd>V</kbd> 切换人声　<kbd>F</kbd> 全屏</p>
-    <p class="offline-note">画面、字体与音轨全部内嵌。复制这一个 HTML 即可离线观看，无需服务器。页面不会自动向外发起网络请求；只有主动点击资料链接才打开网站。</p>
+    <p class="offline-note">音轨独立保存在同级 audio 文件夹，HTML 中保留画面代码与字体。复制整个观看文件夹即可离线观看，请保留 audio 文件夹，无需服务器。页面不会自动向外发起网络请求；只有主动点击资料链接才打开网站。</p>
   </dialog>
   <script id="film-data" type="application/json">/*__DATA__*/</script>
   <script>/*__SCRIPT__*/</script>
