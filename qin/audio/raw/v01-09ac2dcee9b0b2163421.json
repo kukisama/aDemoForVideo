@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "把门关上。再关紧一点。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "473b5042a42307000c14592ff1e3daeba8cef89a01a6823ff800939133a4790b",
+  "srtSha256": "ed5a0c2d6896c32060bb306c05068590d0f545306c18c47ad5d646c75e4b5e7e",
+  "generic": true,
+  "voiceCloning": false
+}

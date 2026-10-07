@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "不是刺客，也不是叛军。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "3d45449e3ffaf548ca649aad76102108993a0d1beab5e6cead5074e5ac78202a",
+  "srtSha256": "ec6385b5dc7b566e2dd3d7478b2c5cbc9fa1a574a70b7afd606cb2663cc283bf",
+  "generic": true,
+  "voiceCloning": false
+}

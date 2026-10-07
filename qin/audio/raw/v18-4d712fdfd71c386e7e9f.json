@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "而骊山之下，另一个天下早已在成形。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "1e6655a96c19c2b7e99b92717e84b29048b5c2bd11e7a0bd8c9b537974e496a5",
+  "srtSha256": "6a601fc9cfd92187910357559783843412b3a1a2aae110241008cec328b96ed8",
+  "generic": true,
+  "voiceCloning": false
+}

@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "我要这个名字，传到万世。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "793415361d5ebede576cfcf28b171a68fd6406089d2962c32fc5d72609404495",
+  "srtSha256": "00500dd16d7e170743f50ac26775b454ed512c08fab8a349f7fa43aa058c6ac0",
+  "generic": true,
+  "voiceCloning": false
+}

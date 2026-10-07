@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "船进了雾。雾，没有回答。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "cd543614ec5f1b61207d3dd0f5741e8c2070d0b6f4418b40a1c215eb5432e368",
+  "srtSha256": "09e239037577f24a2d79b2ed519b549c71f484f92d73ce62c488fac0cbade804",
+  "generic": true,
+  "voiceCloning": false
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#132d39">
+  <title>赶路的人 · 改变走法，不是放弃抵达</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%231b3d47' d='M0 0h32v32H0z'/%3E%3Cpath fill='%23f1c35f' d='M5 5h6v10h10V5h6v22h-6V21H11v6H5z'/%3E%3C/svg%3E">
+  <style>/*__STYLE__*/</style>
+</head>
+<body>
+<main id="cinema" tabindex="-1" aria-label="赶路的人，一分钟二维科普故事">
+  <div id="viewport"><div id="stage">
+    <canvas id="world" width="768" height="432" aria-label="原创二维像素故事：快递员与城市路网"></canvas>
+    <div class="vignette" aria-hidden="true"></div>
+    <section id="poster">
+      <header class="poster-meta"><span>AN ORIGINAL PIXEL STORY</span><button id="poster-about">创作说明 ↗</button></header>
+      <div class="poster-copy"><p class="eyebrow">THE SHORT WAY</p><h1>赶路<span>的人</span><i></i></h1><p class="tagline">改变走法，不是放弃抵达。</p><div class="short-line"></div><p class="poster-intro">他找到一条近路。<br>却发现，所有人都来晚了。</p>
+        <div class="poster-actions"><button id="start" disabled><span>▶</span><b id="start-label">准备出发…</b></button><button id="start-fullscreen" class="secondary" disabled>全屏出发 ↗</button></div>
+        <p class="poster-stats"><span>01:00</span><i></i><span>2D PIXEL</span><i></i><span>ORIGINAL 8-BIT SCORE</span></p>
+      </div>
+      <p class="poster-footnote">原创科普寓言 · 字幕与音乐 · 无旁白</p><p class="poster-sound">建议戴上耳机 / 横屏观看</p>
+    </section>
+    <header id="hud" hidden><span>THE SHORT WAY</span><span id="chapter-name"></span><span id="chapter-count"></span></header>
+    <section id="captions" hidden aria-label="当前字幕"><span id="speaker"></span><p id="caption"></p></section>
+    <footer id="film-footer" hidden><span id="context-label">ORIGINAL ALLEGORY</span><span id="film-time">00:00 / 01:00</span></footer>
+  </div></div>
+  <nav id="controls" aria-label="播放控制"><button id="toggle" aria-label="播放" disabled>▶</button><button id="replay" aria-label="从头播放" disabled>↺</button><span id="time">00:00 / 01:00</span><input id="timeline" type="range" min="0" max="60" step="0.01" value="0" aria-label="播放进度" disabled><button id="mute" aria-label="静音" aria-pressed="false">♪</button><button id="fullscreen" aria-label="全屏">⛶</button><button id="about" class="about" aria-label="查看科普依据与创作说明">说明</button></nav>
+  <p id="status" role="status">正在准备一分钟故事…</p><button id="end-replay" hidden>↺ 再走一遍</button>
+  <audio id="music" src="audio/master.mp3" preload="auto"></audio>
+  <dialog id="about-dialog"><header class="dialog-top"><span>THE STORY / THE SCIENCE</span><button id="close-about" aria-label="关闭说明">×</button></header>
+    <h2>关于《赶路的人》</h2><p>60秒原创二维像素科普寓言。人物阿禾与城市均为虚构；全片只有字幕与原创8-bit音乐，无旁白、无预录视频。</p>
+    <h3>路网为什么会这样？</h3><p>采用 <a href="https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch08.pdf" target="_blank" rel="noopener">Easley 与 Kleinberg《Networks, Crowds, and Markets》第8章</a>的布雷斯悖论模型：同一批4000辆车，从A去B。两段窄路耗时为使用该段的车数÷100分钟，两段外路各固定45分钟，新增C→D连接理想化为0分钟。</p>
+    <div class="model-equations"><p>原来：各2000辆 → 20 + 45 = <b>65分钟</b></p><p>近路开放后的均衡：全走连接 → 40 + 0 + 40 = <b>80分钟</b></p><p>此时独自走外路：约40 + 45 = <b>85分钟</b></p><p>关闭连接并重新分流：回到 <b>65分钟</b></p></div>
+    <p>图中的40个车形光点各代表100辆车，迁移过程是示意，不是逐车交通仿真；影片秒数不对应行程分钟数。这个现象依赖特定路网、拥堵函数和自主择路条件，<strong>不是修路必然变慢，也不是封路总能解决拥堵</strong>。</p>
+    <h3>从路网想到人生</h3><p>结尾谈学习、专业与方法，是明确标注的人生类比，不是交通定理对人生的证明。它只邀请我们在努力之外检查方向，不保证换专业成功，不否定热门领域，也不把短期困难等同于必须放弃。</p>
+    <h3>画面与声音</h3><p>画面由二维代码实时绘制，无HD-2D或3D。音乐为本片独立创作，128 BPM、128拍、32小节；通过同一旋律的变化表现赶路、拥挤、停顿与重新出发，不使用游戏或电影音乐。</p>
+    <label class="motion-setting"><input id="gentle" type="checkbox"> 柔和转场（减少切换闪暗与画面颗粒）</label><p class="keys">空格暂停／继续，← → 跳转一小节，R 重播，F 全屏，M 静音。鼠标静止会隐藏控制条，切到后台会暂停。</p>
+  </dialog>
+</main>
+<script id="film-data" type="application/json">/*__DATA__*/</script>
+<script>/*__SCRIPT__*/</script>
+</body></html>

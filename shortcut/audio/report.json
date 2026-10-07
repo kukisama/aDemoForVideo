@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "title": "赶路的人",
+  "duration": 60,
+  "bpm": 128,
+  "beats": 128,
+  "bars": 32,
+  "sampleRate": 48000,
+  "channels": 2,
+  "noVoice": true,
+  "storysha256": "c71578b1bf95bf7e8854df8e8d81504c946889118022f4accfa0e791fd46196e",
+  "generatorSha256": "168c8b42e9fc855d6190602964f8c3fd3c128f51d48102dcb173171f44903706",
+  "mastersha256": "b5055a34d3436396ef392ede710868e077b0b4f4edd23e1caad38fe491554308",
+  "archiveSha256": "f19c0a1cc673b44787dd06977e251275d2526d4ddef3d1c6266dbc9656cd8a91",
+  "composition": {
+    "seed": 1380930900,
+    "eventSha256": "5a633e84910f5a0fd0b9cb12a5e5ed6e6423054662550aac40b694e14049f28f",
+    "eventCount": 1291,
+    "premastersha256": "df04bc40af6a0e32cf5d137a5bcdbaede49a31012778c30dc1408a264f013919",
+    "themeBars": 4,
+    "theme": [
+      [
+        [
+          0,
+          79,
+          0.28
+        ],
+        [
+          0.5,
+          82,
+          0.28
+        ],
+        [
+          1,
+          81,
+          0.65
+        ],
+        [
+          2,
+          86,
+          0.58
+        ],
+        [
+          2.75,
+          84,
+          0.18
+        ],
+        [
+          3,
+          82,
+          0.28
+        ],
+        [
+          3.5,
+          79,
+          0.32
+        ]
+      ],
+      [
+        [
+          0,
+          77,
+          0.28
+        ],
+        [
+          0.5,
+          81,
+          0.28
+        ],
+        [
+          1,
+          79,
+          0.68
+        ],
+        [
+          2,
+          82,
+          0.6
+        ],
+        [
+          2.75,
+          81,
+          0.18
+        ],
+        [
+          3,
+          77,
+          0.28
+        ],
+        [
+          3.5,
+          74,
+          0.32
+        ]
+      ],
+      [
+        [
+          0,
+          79,
+          0.28
+        ],
+        [
+          0.5,
+          82,
+          0.28
+        ],
+        [
+          1,
+          81,
+          0.68
+        ],
+        [
+          2,
+          86,
+          0.3
+        ],
+        [
+          2.5,
+          89,
+          0.32
+        ],
+        [
+          3,
+          86,
+          0.68
+        ]
+      ],
+      [
+        [
+          0,
+          84,
+          0.6
+        ],
+        [
+          0.75,
+          82,
+          0.18
+        ],
+        [
+          1,
+          81,
+          0.6
+        ],
+        [
+          2,
+          78,
+          0.65
+        ],
+        [
+          3,
+          81,
+          0.25
+        ],
+        [
+          3.5,
+          79,
+          0.32
+        ]
+      ]
+    ],
+    "themeIdentity": "G–Bb–A–D–C–Bb–G; short-short-held / reach / falling answer; four-bar question-and-answer.",
+    "reprise": "45s: same rhythmic identity; pitch classes Bb→B, F→F#, Eb→E. 52.5s: lower octave and augmented note lengths.",
+    "chapters": [
+      {
+        "id": "wish",
+        "start": 0,
+        "end": 7.5,
+        "bars": 4,
+        "intent": "愿望：首秒以两次短音、悬停的A、向D跃进提出四小节主题；留出想象，不用音效抢开场。",
+        "chords": [
+          "Gm",
+          "F",
+          "Eb",
+          "D"
+        ],
+        "noteOnsets": 152
+      },
+      {
+        "id": "balance",
+        "start": 7.5,
+        "end": 15,
+        "bars": 4,
+        "intent": "均衡：主题低八度在左右声部轮答，八分音符低音维持两条路的稳定流动。",
+        "chords": [
+          "Gm",
+          "Bb",
+          "Cm",
+          "D"
+        ],
+        "noteOnsets": 154
+      },
+      {
+        "id": "shortcut",
+        "start": 15,
+        "end": 22.5,
+        "bars": 4,
+        "intent": "近路：转向Bb大调色彩，高音区回答与较轻的分解和弦制造诱惑；还不是结尾的G大调。",
+        "chords": [
+          "Bb",
+          "F",
+          "Eb",
+          "D"
+        ],
+        "noteOnsets": 168
+      },
+      {
+        "id": "rush",
+        "start": 22.5,
+        "end": 30,
+        "bars": 4,
+        "intent": "蜂拥：主题缩短、同一碎片轮流加入，十六分音符不断挤占间隙，速度始终128BPM。",
+        "chords": [
+          "Gm",
+          "Gm",
+          "Cm",
+          "Dtense"
+        ],
+        "noteOnsets": 257
+      },
+      {
+        "id": "gridlock",
+        "start": 30,
+        "end": 37.5,
+        "bars": 4,
+        "intent": "堵塞：30秒强拍、低鼓与收窄的G–Ab摩擦；主题被挤成重复短音，强度与密度达到峰值。",
+        "chords": [
+          "Gclog",
+          "Gclog",
+          "Dtense",
+          "Dtense"
+        ],
+        "noteOnsets": 282
+      },
+      {
+        "id": "rethink",
+        "start": 37.5,
+        "end": 45,
+        "bars": 4,
+        "intent": "重想：37.5–38.4375秒两拍全静音，随后稀疏的主题音回归；重新连接而非继续加速。",
+        "chords": [
+          "Gsus",
+          "Cm",
+          "D",
+          "D"
+        ],
+        "noteOnsets": 37
+      },
+      {
+        "id": "release",
+        "start": 45,
+        "end": 48.75,
+        "bars": 2,
+        "intent": "分流：45秒主题原节奏再现，Bb→B、F→F#、Eb→E真正改音，G大调打开空间。",
+        "chords": [
+          "G",
+          "D"
+        ],
+        "noteOnsets": 78
+      },
+      {
+        "id": "meaning",
+        "start": 48.75,
+        "end": 56.25,
+        "bars": 4,
+        "intent": "意义：48.75秒延续大调回答，52.5秒旋律降八度、时值舒展、鼓点减半，加入六度和弦。",
+        "chords": [
+          "C",
+          "D",
+          "G6",
+          "C"
+        ],
+        "noteOnsets": 122
+      },
+      {
+        "id": "horizon",
+        "start": 56.25,
+        "end": 60,
+        "bars": 2,
+        "intent": "远方：E小调九度色彩回到温暖G6；D–B–G收束，保留向前的脉搏，59.15秒起平滑淡出。",
+        "chords": [
+          "Em",
+          "G6"
+        ],
+        "noteOnsets": 41
+      }
+    ]
+  },
+  "processing": {
+    "targetLUFS": -12,
+    "allowedLUFS": [
+      -13,
+      -10.5
+    ],
+    "truePeakLimitDbTP": -1.5,
+    "preEncodeCeilingDb": -2.6,
+    "measuredPremasterLUFS": -17.3,
+    "fixedGainDb": 5.7,
+    "adaptiveNormalization": false,
+    "limiter": {
+      "oversampling": 4,
+      "attackMs": 3,
+      "releaseMs": 65,
+      "stereoLinked": true,
+      "latencyCompensated": true,
+      "autoLevel": false
+    },
+    "archive": "pcm_s24le",
+    "delivery": "libmp3lame 256kbps CBR with Xing gapless metadata",
+    "stereo": "Equal-power instrument panning and low-level filtered room/echo; mono bass; no master polarity/Haas widening.",
+    "silenceFadesMs": 15,
+    "finalFade": {
+      "start": 59.15,
+      "end": 59.96
+    },
+    "sampleRate": 48000
+  },
+  "provenance": {
+    "originalLocalDSP": true,
+    "externalSamples": false,
+    "networkUsed": false,
+    "TTS": false,
+    "borrowedMelody": false,
+    "method": "Locally authored note score; polyBLEP pulse, additive sine/triangle, deterministic filtered noise. No media inputs.",
+    "techniqueReferenceOnly": "feynman/score.mjs: offline synthesis, safe encoding and measured fixed-gain mastering; no melody/audio reused.",
+    "limits": "Local provenance and reproducibility checks, not a global copyright-similarity search or a listening judgement."
+  },
+  "measurements": {
+    "mp3": {
+      "decodedFrames": 2880000,
+      "decodedDuration": 60,
+      "peakDbFS": -2.293206,
+      "rmsDbFS": -14.6034,
+      "clipping": 0,
+      "nonfinite": 0,
+      "correlation": 0.917099,
+      "sideRmsDbFS": -28.40466,
+      "monoFoldLossDb": -0.184871,
+      "dcOffset": -0.000085,
+      "LUFS": -12.08,
+      "truePeakDbTP": -2.23,
+      "loudnessRangeLU": 4.5
+    },
+    "wav": {
+      "decodedFrames": 2880000,
+      "decodedDuration": 60,
+      "peakDbFS": -2.520159,
+      "rmsDbFS": -14.602063,
+      "clipping": 0,
+      "nonfinite": 0,
+      "correlation": 0.917212,
+      "sideRmsDbFS": -28.409071,
+      "monoFoldLossDb": -0.184621,
+      "dcOffset": -0.000083,
+      "LUFS": -12.08,
+      "truePeakDbTP": -2.47,
+      "loudnessRangeLU": 4.5
+    },
+    "gapless": {
+      "packetCount": 2501,
+      "encodedFrames": 2881152,
+      "skipSamples": 1105,
+      "discardPadding": 47,
+      "decodedFrames": 2880000,
+      "decoderRemovesPadding": true,
+      "decodedTimelineOriginSeconds": 0
+    },
+    "metadataDuration": 60.024,
+    "chapters": [
+      {
+        "id": "wish",
+        "start": 0,
+        "end": 7.5,
+        "peakDbFS": -2.522928,
+        "rmsDbFS": -15.162817,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.935214,
+        "sideRmsDbFS": -30.019571,
+        "monoFoldLossDb": -0.144313,
+        "dcOffset": -0.000006
+      },
+      {
+        "id": "balance",
+        "start": 7.5,
+        "end": 15,
+        "peakDbFS": -2.473585,
+        "rmsDbFS": -14.667543,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.879908,
+        "sideRmsDbFS": -26.882698,
+        "monoFoldLossDb": -0.268934,
+        "dcOffset": -0.000011
+      },
+      {
+        "id": "shortcut",
+        "start": 15,
+        "end": 22.5,
+        "peakDbFS": -2.56451,
+        "rmsDbFS": -14.13666,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.935079,
+        "sideRmsDbFS": -28.991003,
+        "monoFoldLossDb": -0.144394,
+        "dcOffset": -0.000027
+      },
+      {
+        "id": "rush",
+        "start": 22.5,
+        "end": 30,
+        "peakDbFS": -2.293206,
+        "rmsDbFS": -14.206623,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.909659,
+        "sideRmsDbFS": -27.633635,
+        "monoFoldLossDb": -0.201901,
+        "dcOffset": -0.00005
+      },
+      {
+        "id": "gridlock",
+        "start": 30,
+        "end": 37.5,
+        "peakDbFS": -2.328861,
+        "rmsDbFS": -12.575381,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.90462,
+        "sideRmsDbFS": -25.767187,
+        "monoFoldLossDb": -0.213418,
+        "dcOffset": -0.000534
+      },
+      {
+        "id": "rethink",
+        "start": 37.5,
+        "end": 45,
+        "peakDbFS": -8.585973,
+        "rmsDbFS": -23.224359,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.916449,
+        "sideRmsDbFS": -36.986722,
+        "monoFoldLossDb": -0.186571,
+        "dcOffset": -0.000001
+      },
+      {
+        "id": "release",
+        "start": 45,
+        "end": 48.75,
+        "peakDbFS": -2.471168,
+        "rmsDbFS": -13.433894,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.927567,
+        "sideRmsDbFS": -27.819461,
+        "monoFoldLossDb": -0.161161,
+        "dcOffset": -0.000079
+      },
+      {
+        "id": "meaning",
+        "start": 48.75,
+        "end": 56.25,
+        "peakDbFS": -2.46413,
+        "rmsDbFS": -13.971773,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.931012,
+        "sideRmsDbFS": -28.543294,
+        "monoFoldLossDb": -0.154285,
+        "dcOffset": -0.000019
+      },
+      {
+        "id": "horizon",
+        "start": 56.25,
+        "end": 60,
+        "peakDbFS": -2.697193,
+        "rmsDbFS": -15.763277,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0.934106,
+        "sideRmsDbFS": -30.507734,
+        "monoFoldLossDb": -0.148158,
+        "dcOffset": 0.000009
+      }
+    ],
+    "contrast": {
+      "climaxVsRethinkDb": 10.648978,
+      "climaxVsRushDb": 1.631242,
+      "climaxOnsetRiseDb": 34.413187,
+      "climaxBefore20msRmsDbFS": -45.169095,
+      "climaxAfter160msRmsDbFS": -10.755908
+    },
+    "silence": {
+      "requested": {
+        "start": 37.5,
+        "end": 38.4375,
+        "beats": 2,
+        "frames": 45000
+      },
+      "wavExactZero": {
+        "startSample": 1800000,
+        "endSampleExclusive": 1845000,
+        "frames": 45000,
+        "start": 37.5,
+        "end": 38.4375,
+        "duration": 0.9375,
+        "threshold": 0
+      },
+      "mp3ExactZero": {
+        "startSample": 1801103,
+        "endSampleExclusive": 1843824,
+        "frames": 42721,
+        "start": 37.522979,
+        "end": 38.413,
+        "duration": 0.890021,
+        "threshold": 0
+      },
+      "measuredInterior": {
+        "start": 37.56,
+        "end": 38.375,
+        "peakDbFS": -240,
+        "rmsDbFS": -240,
+        "clipping": 0,
+        "nonfinite": 0,
+        "correlation": 0,
+        "sideRmsDbFS": -240,
+        "monoFoldLossDb": 0,
+        "dcOffset": 0
+      },
+      "encodedTimelineZeroStartSample": 1802208,
+      "encodedTimelineZeroEndSampleExclusive": 1844929,
+      "explanation": "All reported seconds use gapless decoded PCM; encoded positions add measured encoder skip samples, not container duration padding."
+    },
+    "tonalChanges": [
+      {
+        "minorMidi": 82,
+        "majorMidi": 83,
+        "firstWindowStart": 0.259375,
+        "repriseWindowStart": 45.259375,
+        "windowSeconds": 0.08,
+        "minorDominanceDb": 54.021148,
+        "majorDominanceDb": 54.412876
+      },
+      {
+        "minorMidi": 77,
+        "majorMidi": 78,
+        "firstWindowStart": 1.9,
+        "repriseWindowStart": 46.9,
+        "windowSeconds": 0.08,
+        "minorDominanceDb": 43.640722,
+        "majorDominanceDb": 42.561426
+      }
+    ],
+    "opening": {
+      "peakDbFS": -2.671412,
+      "rmsDbFS": -14.918752,
+      "clipping": 0,
+      "nonfinite": 0,
+      "correlation": 0.929133,
+      "sideRmsDbFS": -29.344856,
+      "monoFoldLossDb": -0.159636,
+      "dcOffset": -0.000526
+    },
+    "resume": {
+      "peakDbFS": -10.956867,
+      "rmsDbFS": -19.673469,
+      "clipping": 0,
+      "nonfinite": 0,
+      "correlation": 0.945069,
+      "sideRmsDbFS": -34.161855,
+      "monoFoldLossDb": -0.157321,
+      "dcOffset": 0.000301
+    },
+    "ending": {
+      "peakDbFS": -233.671831,
+      "rmsDbFS": -240,
+      "clipping": 0,
+      "nonfinite": 0,
+      "correlation": 0.832983,
+      "sideRmsDbFS": -240,
+      "monoFoldLossDb": 0,
+      "dcOffset": 0
+    },
+    "quietRuns": [
+      {
+        "start": 37.5,
+        "end": 38.43
+      },
+      {
+        "start": 59.88,
+        "end": 60
+      }
+    ]
+  },
+  "LUFS": -12.08,
+  "truePeakDbTP": -2.23,
+  "clipping": 0,
+  "decodedFrames": 2880000,
+  "validation": {
+    "passed": true,
+    "fullDecode": true,
+    "stagedBeforePublication": true,
+    "listeningTestPerformed": false,
+    "browserTestPerformed": false,
+    "scope": "Both complete decodes, R128, true peak, phase/stereo, gapless accounting, exact PCM rest, narrative contrast, spectral Bb/B and F/F# evidence, hashes and embedded provenance."
+  }
+}

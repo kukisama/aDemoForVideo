@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "我从少年时，就坐在这高处。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "4b5a12fd80481aaedcee7141ea3ac2241a154a1e6657be7337ad98d23acd1833",
+  "srtSha256": "5ba2b96f9b42b57332469d7c8de35df3f99772280fd13a0ff7915760dbf5d602",
+  "generic": true,
+  "voiceCloning": false
+}

@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "他们说，海的尽头，有不死之药。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "45ad87a1a4d0736099abbb951fb549a54c07e0fedf8292f3c933aa4b51e04a5f",
+  "srtSha256": "cf23ef22add0e28d68a7c1d4a694495c091e1bb9764c2d6bf415837a906a625a",
+  "generic": true,
+  "voiceCloning": false
+}

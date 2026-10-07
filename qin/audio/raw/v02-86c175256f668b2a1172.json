@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "可门外的脚步，为什么还在？",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "58297d42129079161df47ad4bf2d23d253c6fa25965a78e36ea0a1e4f15142e4",
+  "srtSha256": "d07529a17c077fd586c39b632942d4bbdb2aa178052e19cb3a55628c871b6b8a",
+  "generic": true,
+  "voiceCloning": false
+}

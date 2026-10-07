@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "我容不下，反对我的声音。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "a790034ecca23bf5cb1026bb5f6d1b8c988efcf4b02adf8b9eca786105c1b9c4",
+  "srtSha256": "ca00a1efa5a1f4f0bbe7ece9b1c5571b54794ed1a25a4007f9e4891bb3733dec",
+  "generic": true,
+  "voiceCloning": false
+}

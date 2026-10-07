@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "后来，他们叫我，始皇帝。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "6808ec34ac284a8e6f81df53946a0399f1d1b7ff350b4f7b52e5d35933a4126d",
+  "srtSha256": "37b9ec51d34ec9df292a0a18e66649fc94e00926734953952b394b6221c91d8e",
+  "generic": true,
+  "voiceCloning": false
+}

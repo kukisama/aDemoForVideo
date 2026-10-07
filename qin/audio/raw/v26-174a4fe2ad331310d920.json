@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "天下，不必永远属于我。它要有自己的明天。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "4eb8fd2a3e6f8759e79ea80efe2c19bf1cf9dfe095ba05d7948912600e105e79",
+  "srtSha256": "26e209a942ad49519c1dd3a34bc10173a5ba0a6fb50e5e047becb7af4553344a",
+  "generic": true,
+  "voiceCloning": false
+}

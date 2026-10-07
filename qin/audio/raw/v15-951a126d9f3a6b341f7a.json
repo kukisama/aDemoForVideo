@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "天下越安静，那脚步，越清楚。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "0b269e83ed541df902ddf5ebe22591b6fe59d7ebd50d03cc853b5aab56083af5",
+  "srtSha256": "9cd7814b514517a0b44738b6393a3392fcce04c821b07d37bf65090061bc1d5a",
+  "generic": true,
+  "voiceCloning": false
+}

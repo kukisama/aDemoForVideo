@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "我想要万世。我的王朝，却没能走多远。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "096605c0d745ddbc8ad0e54911179a20cd3e6fe05fe5e66af1d681d00306b610",
+  "srtSha256": "4b80c1c58a258e0246c39f0fe57a6d9a034ad0aaa03bca6c404108f7febf7336",
+  "generic": true,
+  "voiceCloning": false
+}

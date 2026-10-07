@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "可陶土的兵，守得住什么？",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "27c3b0c4b7af3c26461975eada079528188971f1bec2ea20eafc3324ce7bf243",
+  "srtSha256": "46af7e4e1dc7f433a58a15d8c15e32605c56f2c49302fc0833ed5187fd6b39d1",
+  "generic": true,
+  "voiceCloning": false
+}

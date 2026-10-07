@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "脚下，是我还不懂的天下。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "e5a40951a351ff6be3d7216ca969d0db6561d75d622e3d9555f83d7eebfabd89",
+  "srtSha256": "5c675c965fd5ca26ffdb44d7f21f027ebba38bf04665da7e4913b8ce25336ae7",
+  "generic": true,
+  "voiceCloning": false
+}

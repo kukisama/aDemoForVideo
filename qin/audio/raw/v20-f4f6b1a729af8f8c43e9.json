@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "最后一次巡行，我没能回到咸阳。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "2f8fbe6c9adf1e760dd16b45d55236e149afa5281809d0e91a507b41bad2214d",
+  "srtSha256": "0189a5dfbbd2a614264af3f40ba2f0525c8264e0e7561b6f9006106703c97af4",
+  "generic": true,
+  "voiceCloning": false
+}

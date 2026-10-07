@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "我以为，只要推开它们，就再没有什么能挡住我。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "6e50b3fcce19c8e0a2183a22cdd652791c97ca00c4318d926c049729b0d1841d",
+  "srtSha256": "84d2bd02479934f680e26d3f32cad2e288d89a60e116f131936ea36c5ea52836",
+  "generic": true,
+  "voiceCloning": false
+}

@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "可诏书上的一笔，落到人间，就是一生。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "d3acadd13c87090d69e06ffcd2e783024d652b53a24384253a1f68d9e962e14a",
+  "srtSha256": "a94d0bde5eeb2b75b54e6ee241084a54a9dc608c05d0e7a658c9f97c1593da81",
+  "generic": true,
+  "voiceCloning": false
+}

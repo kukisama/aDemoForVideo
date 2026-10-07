@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0a0d12">
+  <meta name="description" content="门外：秦始皇第一人称，三分钟原创8-bit像素史诗。离线HTML短片。">
+  <title>门外 · 秦始皇</title>
+  <style>/*__STYLE__*/</style>
+</head>
+<body>
+  <main id="cinema" class="cover-visible" tabindex="-1" aria-label="门外，秦始皇第一人称动画播放器">
+    <div id="stage">
+      <canvas id="world" width="768" height="432" aria-label="原创二维像素动画：以秦始皇的视角，回望山河与人生"></canvas>
+      <div class="frame-top" aria-hidden="true"></div><div class="frame-bottom" aria-hidden="true"></div>
+      <div id="chapter" hidden aria-hidden="true"><span id="chapter-number"></span><span id="chapter-name"></span></div>
+      <div id="fiction-note" hidden>身后回望 · 文学想象</div>
+      <div id="captions" hidden><span class="caption-rule" aria-hidden="true"></span><p id="caption"></p></div>
+      <section id="poster" aria-labelledby="film-title">
+        <div class="poster-content">
+          <div class="eyebrow"><span class="seal-mark" aria-hidden="true">秦</span><span>第一人称 · 像素史诗</span></div>
+          <h1 id="film-title">门<span>外</span></h1>
+          <p class="poster-line">天下已定。<br>门外，为什么还有脚步？</p>
+          <div class="poster-meta"><span>03:00</span><i></i><span>8-BIT ANIMATION</span><i></i><span>原创配乐</span></div>
+          <div class="poster-actions"><button id="start-fullscreen" class="primary" disabled><span class="play-icon" aria-hidden="true">▶</span>全屏入场</button><button id="start" class="secondary" disabled>窗口播放</button></div>
+          <p class="poster-notice">建议戴上耳机 · 男声独白与字幕 · 可切换纯配乐</p>
+          <button id="poster-about" class="text-button">关于这部短片 <span aria-hidden="true">↗</span></button>
+        </div>
+        <span class="poster-side" aria-hidden="true">一人之眼 · 山河之间</span>
+        <span class="poster-foot">历史题材的原创文学独白 · 非史料原话</span>
+      </section>
+      <button id="end-replay" hidden>再看一次 <span aria-hidden="true">↻</span></button>
+    </div>
+    <div id="status" role="status">正在准备本地画面与声音…</div>
+    <nav id="controls" aria-label="播放控制">
+      <div class="transport"><button id="toggle" disabled aria-label="播放">▶</button><button id="replay" disabled aria-label="从头重播">↻</button><span id="time">00:00 / 03:00</span></div>
+      <input id="timeline" aria-label="播放进度" type="range" min="0" max="180" value="0" step="0.01" disabled>
+      <div class="options"><button id="voice" aria-label="切换为纯配乐" aria-pressed="true">人声 开</button><button id="mute" aria-label="静音" aria-pressed="false">声音</button><input id="volume" type="range" aria-label="音量" min="0" max="1" value="0.8" step="0.01"><button id="about" aria-label="关于、史实与设置">说明</button><button id="fullscreen" aria-label="全屏">⛶</button></div>
+    </nav>
+    <audio id="music" preload="auto" src="/*__MASTER__*/"></audio>
+    <audio id="instrumental" preload="auto" src="/*__MUSIC__*/"></audio>
+  </main>
+  <dialog id="about-dialog" aria-labelledby="about-heading">
+    <button id="close-about" class="dialog-close" aria-label="关闭说明">×</button>
+    <span class="dialog-eyebrow">ABOUT THIS FILM</span><h2 id="about-heading">门外</h2>
+    <p class="about-intro">秦始皇的第一人称视角。三分钟，三百六十拍。<br>一扇门，一段未能留住的岁月。</p>
+    <h3>史实与创作</h3><p>本片是历史题材的原创文学独白，不是秦始皇的真实录音、原话或自传。心理活动、宫门意象和结尾的身后回望为创作，不意味着他真实作过这样的反省。</p>
+    <p>统一六国、统一文字与度量衡、求仙、陵墓陶俑，以及秦朝的短促，构成历史骨架。陵墓工程早已开始，片中并未把它写成求仙失败后才开工。人物和建筑是像素艺术，不宣称考古复原；不把明代砖石长城当成秦代边墙。</p>
+    <p>统一所留下的影响，与徭役、思想控制的代价，都在故事之内；结尾的希望不是为代价开脱。</p>
+    <details><summary>资料与制作来源</summary><ul id="sources"></ul><p>资料用于核对事实，未使用网页照片、影视台词、现成游戏素材或他人旋律。所有场景为原创二维像素绘制；音乐为原创芯片合成。中文人声是通用合成男声，不是历史人物音色复原或声音克隆。</p><p id="source-note"></p><p id="font-credit"></p></details>
+    <h3>观看设置</h3>
+    <label class="setting"><input id="gentle" type="checkbox">柔和动效 <span>关闭镜头震动，保留叙事动作</span></label>
+    <label class="setting"><input id="subtitles" type="checkbox" checked>显示字幕</label>
+    <p class="keys"><kbd>空格</kbd> 暂停　<kbd>← →</kbd> 前后 5 秒　<kbd>R</kbd> 重播　<kbd>M</kbd> 静音　<kbd>V</kbd> 切换人声　<kbd>F</kbd> 全屏</p>
+    <p class="offline-note">画面、字体与音轨全部内嵌。复制这一个 HTML 即可离线观看，无需服务器。页面不会自动向外发起网络请求；只有主动点击资料链接才打开网站。</p>
+  </dialog>
+  <script id="film-data" type="application/json">/*__DATA__*/</script>
+  <script>/*__SCRIPT__*/</script>
+</body>
+</html>

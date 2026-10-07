@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "功与过，都不能替我活下去。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "4976e3755c5c31a2768f0b71223faa6af4e7ec40714e51fb0527718bcca866b2",
+  "srtSha256": "73441667b308cca71f327d73230cd03c26e01d3e2fc64bc6b0a45479d80b47d2",
+  "generic": true,
+  "voiceCloning": false
+}

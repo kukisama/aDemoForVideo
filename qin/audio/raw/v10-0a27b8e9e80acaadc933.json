@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "让一尺有一尺的准，一斤有一斤的重。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "35765affe07e3c3aa2128689de666a05e5d2b7eaed7960fd0d08cd443dd36301",
+  "srtSha256": "232eaa1880e997eaa10f05770dea019a26ac2490dd168466fc3660305bbb45a9",
+  "generic": true,
+  "voiceCloning": false
+}

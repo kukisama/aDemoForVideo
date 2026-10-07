@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "让车辙越过旧日的关口，连向远方。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "a2fc3ac69b0cef11292473760cb78b70d09269d13cd33e42af1b3a7d57fe0bc2",
+  "srtSha256": "4e0e044422ec5d1c4e41cc2ca7f8d1a10b27c945b2e59822e2610853be81f27b",
+  "generic": true,
+  "voiceCloning": false
+}

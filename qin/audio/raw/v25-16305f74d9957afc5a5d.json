@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "可同一个字，仍能让陌生的人，读懂彼此。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "5a2fdc449e674182578caab28519265094da513bbaf8fa66169da443e6a929e0",
+  "srtSha256": "9fd54f79d32e27ee63e9ec5e05e3db29e72112b2185b406a52d69641d6d659dd",
+  "generic": true,
+  "voiceCloning": false
+}

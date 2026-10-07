@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "我让不同的文字，写成同一种模样。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "3f9c477f813511827d776908633a3f1826175ae90adb2f1888e99a146a99ec7d",
+  "srtSha256": "933d651b2663fbbc71b4188b96123542fbc453725460f16c7e19f754c146be9a",
+  "generic": true,
+  "voiceCloning": false
+}

@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "是时间。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "40c52625d3dae24abdeb413e8793d00e0bdbc337264cba3f83deb5189388bead",
+  "srtSha256": "4832dc85510bc8da79751868d7779aa7cbd275c978df948cbe631afb5a39fd45",
+  "generic": true,
+  "voiceCloning": false
+}

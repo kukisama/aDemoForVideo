@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "那时，山河被一道道关门，隔成了六国。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "bc40c3a3f85f540ea1bd95fd00e973005c6b4796df8db83fcdb3c04918e5367d",
+  "srtSha256": "f307b51d91a56646b9db68630de063873a276f7eb670c994c4269666b1df67cf",
+  "generic": true,
+  "voiceCloning": false
+}

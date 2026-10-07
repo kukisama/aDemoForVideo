@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "墙在长高。有人，再没回家。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "cb8b1924d1eec0a99a5687df70e2d7dd81be29b049f65e332bd89a66f88baebb",
+  "srtSha256": "e42f4a484fd0dd8b28576611e3ec4f6880e891d3e8794ea033e87588bf109338",
+  "generic": true,
+  "voiceCloning": false
+}

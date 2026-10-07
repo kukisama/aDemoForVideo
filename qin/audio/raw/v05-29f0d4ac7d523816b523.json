@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "text": "那时，我的国门之外，还有六国的高墙。",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-6%",
+    "pitch": "-3Hz",
+    "boundary": "WordBoundary",
+    "provider": "edge-tts"
+  },
+  "sha256": "ad382dbdbb18eaedb83d977215537d28b91ae38dcb740fd9400fa63ea238773a",
+  "srtSha256": "8d2b6f876bd3867e88e742f651b7943c3dcfa23a30b8df13c43be3f7e88969c3",
+  "generic": true,
+  "voiceCloning": false
+}
